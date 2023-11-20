@@ -1,0 +1,3919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Deutscher Parlaments-Almanach</title>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1222198746">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="https://orcid.org/0000-0003-4615-4753">
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/105315190X">
+                  <surname>Nolda</surname>
+                  <forename>Andreas</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="https://orcid.org/0000-0002-1096-3957">
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+               <orgName>Bayerische Staatsbibliothek</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Texttranskription
+                                durch OCR.</note>
+                  <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle
+                                Transkription (und Textauszeichnung) mittlerweile nicht mehr dem
+                                Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen
+                                muss.</note>
+                  <date type="importDTA">2021-09-29T20:16:21Z</date>
+               </resp>
+            </respStmt>
+            <respStmt corresp="#availability-textsource-1">
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                            Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Langfristige Bereitstellung der
+                                DTA-Ausgabe</note>
+                  <ref target="https://www.bbaw.de"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy
+                            of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische
+                            Akademie der Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-09-29T20:16:21Z</date>
+            <availability xml:id="availability-textsource-1">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0
+                                License.</p>
+               </licence>
+            </availability>
+            
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="M">Deutscher Parlaments-Almanach. Leipzig, 1874.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Deutscher Parlaments-Almanach</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name>Duncker</name>
+                  </publisher>
+                  <pubPlace>Leipzig</pubPlace>
+                  <date type="publication">1874</date>
+                  
+               </publicationStmt>
+            </biblFull>
+            <recordingStmt>
+               <p>Protokollierte Verhandlungen des Deutschen Reichstags und seiner
+                            Vorläufer, die von Stenografinnen und Stenografen während der Sitzungen
+                            angefertigt und in der Folge der Öffentlichkeit als gedruckte
+                            Publikation zur Verfügung gestellt wurden.</p>
+            </recordingStmt>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bayerische Staatsbibliothek</repository>
+                  <idno>
+                     <idno type="shelfmark">J.publ.g. 341 r-10,a</idno>
+                     <idno type="URLCatalogue">https://opacplus.bsb-muenchen.de/title/9408312</idno>
+                     <idno type="URN">urn:nbn:de:bvb:12-bsb00003444-3</idno>
+                     <idno type="URLIIIF">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00003444/manifest</idno>
+                     <idno type="URL" subtype="IIIFviewer">https://www.digitale-sammlungen.de/de/view/bsb00003444</idno>
+                     <idno type="URL" subtype="DFGviewer">https://daten.digitale-sammlungen.de/~db/bsb00003444/images/</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <typeDesc>
+                     <p>Fraktur</p>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Bogensignaturen: nicht übernommen; Druckfehler: ignoriert;
+                            fremdsprachliches Material: nicht gekennzeichnet;
+                            Geminations-/Abkürzungsstriche: wie Vorlage; Hervorhebungen (Antiqua,
+                            Sperrschrift, Kursive etc.): nicht ausgezeichnet; I/J in Fraktur: wie
+                            Vorlage; i/j in Fraktur: wie Vorlage; Kolumnentitel: nicht übernommen;
+                            Kustoden: nicht übernommen; langes s (ſ): als s transkribiert;
+                            Normalisierungen: keine; rundes r (&amp;#xa75b;): als r/et
+                            transkribiert; Seitenumbrüche markiert: ja; Silbentrennung: keine
+                            Angabe; u/v bzw. U/V: wie Vorlage; Vokale mit übergest. e: als ä/ö/ü
+                            transkribiert; Vollständigkeit: vollständig erfasst; Zeichensetzung: wie
+                            Vorlage; Zeilenumbrüche markiert: ja;</p>
+         </editorialDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">Neuhochdeutsch</language>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Politik</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Rede</classCode>
+            <classCode scheme="#zdl_dwds">gesprochen</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">reichstag</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n="1" xml:id="img_0001"/>
+            <p>
+               <lb/>Nachtrag</p>
+            <p>
+               <lb/>zu</p>
+            <p>
+               <lb/>Hirlh's Parlaments-Alinanach.</p>
+            <p>
+               <lb/>10. Ausgabe. - Februar 1874.</p>
+            <p>
+               <lb/>Inhalt:</p>
+            <p>
+               <lb/>Berichtigte Uebersicht der Wahlkreise. (S. 135.)
+            <lb/>Nachträge und Berichtigungen Zu den biographischen
+            <lb/>Notizen. (S. 149.)</p>
+            <p>
+               <lb/>Borstand und Bureau des Deutschen Reichstags.</p>
+            <p>
+               <lb/>Die Abtheilungen des Reichstags.</p>
+            <p>
+               <lb/>Die Commissionen des Reichstags.</p>
+            <p>
+               <lb/>Die Fractionen des Reichstags.</p>
+            <p>
+               <lb/>Uebersicht der Mitglieder nach dem Lebensalter.</p>
+            <p>
+               <lb/>Die Bevollmächtigten zum Bundesrathe.</p>
+            <p>
+               <lb/>Die Ausschüsse im Bundesrathe.</p>
+            <p>
+               <lb/>Tie Centralbehorden des Deutschen Reichs.</p>
+            <p>
+               <lb/>Leipzig.</p>
+            <p>
+               <lb/>Verl a g vo n^.CN^H irth.</p>
+            <p>
+               <lb/>1874.</p>
+            <pb n="2" xml:id="img_0002"/>
+            <pb n="3" xml:id="img_0003"/>
+            <p>
+               <lb/>Uebersicht</p>
+            <p>
+               <lb/>der</p>
+            <p>
+               <lb/>Wahlkreise für den Deutschen Reichstag</p>
+            <p>
+               <lb/>und ihrer Abgeordneten.</p>
+            <p>
+               <lb/>(6. März 1874.)</p>
+            <p>
+               <lb/>Vorbemerkung. Für jeden Wahlkreis steht nur der
+            <lb/>rts-, resp. Bezirksname angegeben, welcher in der Regel
+            <lb/>ur Bezeichnung ves ganzen Wahlkreises dient.</p>
+            <p>
+               <lb/>Zur Parteibezeichnung sind neben den Namen
+            <lb/>er Abgeordneten folgende Abkürzungen angewandt: (v. —
+            <lb/>onservativ, k. — Deutsche Reichspartei, 1^. — Liberal,
+            <lb/>I,. ^ Nationalliberal, L'. — Fortschrittspartei, 8. n
+            <lb/>Socialdemokrat, 0. — Centrum, k. — Pole,1Fran-</p>
+            <p>
+               <lb/>ösische Protestpartei, n unbestimmt (Wilder).</p>
+            <p>
+               <lb/>Königreich Preußen.</p>
+            <p>
+               <lb/>1I.Provinz Preußen.</p>
+            <p>
+               <lb/>Reg.-Dez. Königsberg.</p>
+            <p>
+               <lb/>1.1Memel, Gr. Moltke, 6v.</p>
+            <p>
+               <lb/>2.1Labiau, Feutow</p>
+            <p>
+               <lb/>3.1Königsberg, Dickert, k.</p>
+            <p>
+               <lb/>4.1Fischhausen, Siegfried U.</p>
+            <p>
+               <lb/>5.1^lciligenbeck, Löbach ^0.</p>
+            <p>
+               <lb/>6.1Braunsberg,Pohlmann6.</p>
+            <p>
+               <lb/>7.1Pr. Holland, v. Minni-
+            <lb/>gerooe 6v.</p>
+            <p>
+               <lb/>8.1Osterode, Dolrath</p>
+            <p>
+               <lb/>9.1Allenstein, Borowski, 0.</p>
+            <p>
+               <lb/>110.Rastenburg,Reumanns</p>
+            <p>
+               <lb/>Neg.-Bez. Gumbinnen.</p>
+            <p>
+               <lb/>1.1Tilsit, Bernhardt k.</p>
+            <p>
+               <lb/>2.1Ragnit, Francke k.</p>
+            <p>
+               <lb/>3.1Gumbinnen, Saucken-
+            <lb/>Jul. k.</p>
+            <p>
+               <lb/>4.1Stallupönen, Parisius</p>
+            <p>
+               <lb/>5.1Lötzen, Saucken-Tarp. k.</p>
+            <p>
+               <lb/>6.1Lyck, v. Puttkamer 0v.</p>
+            <p>
+               <lb/>7.1Sensburg,v.Hoverbeckk.</p>
+            <p>
+               <lb/>Reg.-Bez. Danzig.</p>
+            <p>
+               <lb/>1.1Elbing, v. Brauchitsch 0v.</p>
+            <p>
+               <lb/>2.1Danzig,Kreis, AlbrecMll</p>
+            <p>
+               <lb/>3.1Danzig Stadt- Rickert^I,.</p>
+            <p>
+               <lb/>4.1Neustadt, v. Rybinski k.</p>
+            <p>
+               <lb/>5.1Pr.Stargard, Kalkstein k.</p>
+            <p>
+               <lb/>1*</p>
+            <pb n="4" xml:id="img_0004"/>
+            <p>
+               <lb/>4</p>
+            <p>
+               <lb/>Uebersicht der Wahlkreise</p>
+            <p>
+               <lb/>Reg.-Bez. Marienwcrder.</p>
+            <p>
+               <lb/>1.1Marienwerder, v. Win¬
+            <lb/>ter AI-.</p>
+            <p>
+               <lb/>2.1Löbau, Graf Dohna</p>
+            <p>
+               <lb/>3.1Graudenz, Vieler AI-.</p>
+            <p>
+               <lb/>4.1Thorn, Meyer AI-.</p>
+            <p>
+               <lb/>5.1Schwetz, Parczewski, k.</p>
+            <p>
+               <lb/>6.1Conitz, Donimirski k.</p>
+            <p>
+               <lb/>7.1Schlochau, Gr. zuEulen-
+            <lb/>burg</p>
+            <p>
+               <lb/>8.1Deutsch-Crone, Lehr AI-.</p>
+            <p>
+               <lb/>1II.Provinz Brandenburg.
+            <lb/>Stadt Berlin.</p>
+            <p>
+               <lb/>1.1— Hagen k. '</p>
+            <p>
+               <lb/>2.1— Klotz k.</p>
+            <p>
+               <lb/>3.1— Herz k.</p>
+            <p>
+               <lb/>4.1— Eberty k,</p>
+            <p>
+               <lb/>5.1— Duncker k.</p>
+            <p>
+               <lb/>6.1— Banks k.</p>
+            <p>
+               <lb/>Reg.-Bez. Potsdam.</p>
+            <p>
+               <lb/>1.1West-Priegnitz,Jagow6v.</p>
+            <p>
+               <lb/>2.1Ost-Priegnitz, Rasches.</p>
+            <p>
+               <lb/>3.1Ruppin, GrafArnimk.</p>
+            <p>
+               <lb/>4.1Angermünde, v. Arnim-
+            <lb/>Kr. k.</p>
+            <p>
+               <lb/>5.1Ober - Barnim, Graf
+            <lb/>Hacke RI,.</p>
+            <p>
+               <lb/>6.1Nieder-Barnim, v. St.
+            <lb/>Paul k.</p>
+            <p>
+               <lb/>7.1Potsdam, Wulsshein 81,.</p>
+            <p>
+               <lb/>8.1West-Havelland, Haus¬
+            <lb/>mann k.</p>
+            <p>
+               <lb/>9.1Jüterbogk,DiederichsAI-..</p>
+            <p>
+               <lb/>110.Teltow, Kiepert AI-.</p>
+            <p>
+               <lb/>Reg.-Bez. Frankfurt.</p>
+            <p>
+               <lb/>1.1Arnswalde, Dann AI-.</p>
+            <p>
+               <lb/>2.1Landsberg, Jacobs AI-.</p>
+            <p>
+               <lb/>3.1Königsberg i. N., Schrö¬
+            <lb/>der ÄI-.</p>
+            <p>
+               <lb/>4.1Frankf.a.O.,SimsonAI-.</p>
+            <p>
+               <lb/>5.1Sternberg,v.Waldaw6v.</p>
+            <p>
+               <lb/>6.1Züllichau, Uhden 0v.</p>
+            <p>
+               <lb/>7.1Guben, Schulz AI-.</p>
+            <p>
+               <lb/>8.1Sorau, v. Puttkamer AI-.</p>
+            <p>
+               <lb/>9.1Cottbus, Schacht AI-.</p>
+            <p>
+               <lb/>110.Calau, Zimmermann k.</p>
+            <p>
+               <lb/>1III.Provinz Pommern.
+            <lb/>Reg.-Bez. Stettin.</p>
+            <p>
+               <lb/>1.1Anclam, v. Maltzahn</p>
+            <p>
+               <lb/>2.1Ueckermünde, Dohrn AI-.</p>
+            <p>
+               <lb/>3.1Randow, Kolbe AI,.</p>
+            <p>
+               <lb/>4.1Stettin, Schmidt k.</p>
+            <p>
+               <lb/>15.- Pyritz, v. Schöning</p>
+            <p>
+               <lb/>6.1Naugard, Flügge 0v.</p>
+            <p>
+               <lb/>7.1Greissenb., v. Woedtke 0v.
+            <lb/>Reg.-Bez. Cöslin.</p>
+            <p>
+               <lb/>1.1Stolp, v. Denzin 0v.</p>
+            <p>
+               <lb/>2.1Bütow, v. Puttkamer 0v.</p>
+            <p>
+               <lb/>3.1Fürstenth., v. Gerlach 0v.</p>
+            <p>
+               <lb/>4.1Belgard, Gr. v. Kleist 0v.</p>
+            <p>
+               <lb/>5.1Neustettin, v. Arnim-
+            <lb/>Heinr. 0v.</p>
+            <p>
+               <lb/>Neg.-Bez. Stralsund.</p>
+            <p>
+               <lb/>1.1Rügen, v. Behr k.</p>
+            <p>
+               <lb/>2.1Greifswald, v. Vahl AI-.</p>
+            <p>
+               <lb/>1IV.Provinz Posen.
+            <lb/>Reg.-Bez. Posen.</p>
+            <p>
+               <lb/>1.1Posen, v. Niegolewski k.</p>
+            <p>
+               <lb/>2.1Birnbaum, Ziotkiewiczk.</p>
+            <p>
+               <lb/>3.1Meseritz, v/ Unruhe-
+            <lb/>Bomst k.</p>
+            <p>
+               <lb/>4.1Kosten, v. Zoltowski k.</p>
+            <p>
+               <lb/>5.1Kröben,Pz.Czartoryskik.</p>
+            <p>
+               <lb/>6.1Fraust., v.Puttkamer AI-.</p>
+            <p>
+               <lb/>7.1Schrimm,v.Rogalinskik</p>
+            <p>
+               <lb/>8.1Wreschen, v. Tacza-
+            <lb/>nowski k.</p>
+            <p>
+               <lb/>9.1Krotoschin, Kegel k.</p>
+            <p>
+               <lb/>10.1Adelnau, Fst.RadziwillVf</p>
+            <pb n="5" xml:id="img_0005"/>
+            <p>
+               <lb/>und ihrer Abgeordneten.</p>
+            <p>
+               <lb/>Neg.-Bez. Brvmberg.</p>
+            <p>
+               <lb/>1.1Czarnikau, v. Klitzing 0v.</p>
+            <p>
+               <lb/>2.1Wirsitz,v.Bethmann^.</p>
+            <p>
+               <lb/>3.1Bromberg, Wehr ^1&gt;.</p>
+            <p>
+               <lb/>4.1Jnowraclaw,Koz1owskik</p>
+            <p>
+               <lb/>5.1Gnesen, v. Chostowski?.
+            <lb/>V. Provinz Schlesien.
+            <lb/>Neg.-Bez. BreÄlau.</p>
+            <p>
+               <lb/>1.1Guhrau, Schulze</p>
+            <p>
+               <lb/>2.1Militsch, Gr. Maltzan k.</p>
+            <p>
+               <lb/>3.1Oels, v. Kardorff k.</p>
+            <p>
+               <lb/>4.1Brieg, Allnoch k.</p>
+            <p>
+               <lb/>5.1Ohlau,Gf.FrankenbergL.</p>
+            <p>
+               <lb/>6.1Breslau östl., v. Kirch-
+            <lb/>mann k.</p>
+            <p>
+               <lb/>7.1Breslau westl., Ziegler k.</p>
+            <p>
+               <lb/>8.1Neumarkt, Herzog von
+            <lb/>Ratibor k.</p>
+            <p>
+               <lb/>9.1Schweidnitz,Gs.Pückler0v</p>
+            <p>
+               <lb/>10.1Waldenb., Frst. v.Pleß k.</p>
+            <p>
+               <lb/>11.1Reichenbach, Websky</p>
+            <p>
+               <lb/>12.1Habelschwerdt,v.Ludwig6</p>
+            <p>
+               <lb/>13.1Franken st., Gr.ChamareO
+            <lb/>Neg.-Bez. Oppeln.</p>
+            <p>
+               <lb/>1.1Creuzburg,Gr.Bethusy K</p>
+            <p>
+               <lb/>2.1Oppeln,Gr.Balleftrem 6.</p>
+            <p>
+               <lb/>3.1Gr. Strehlitz, Herzog
+            <lb/>von Ujest L.</p>
+            <p>
+               <lb/>4.1Lublinitz,PrzHohenlohek</p>
+            <p>
+               <lb/>5.1Beuchen nördl., Prinz
+            <lb/>Radziwill 0.</p>
+            <p>
+               <lb/>6.1Beuchen südl., Edler 0.</p>
+            <p>
+               <lb/>7.1Pleß, Müller 6.</p>
+            <p>
+               <lb/>8.1Ratibor,FrstLichnowsW</p>
+            <p>
+               <lb/>9.1Leobschütz,Gr.Nayhauß0</p>
+            <p>
+               <lb/>10.1Neustadt, Gr. Stolberg 0.</p>
+            <p>
+               <lb/>11.1Falkenb.,Gr.Praschma6.</p>
+            <p>
+               <lb/>12.1Neiße, Horn 0.</p>
+            <p>
+               <lb/>Neg.-Bez. Liegnitz.</p>
+            <p>
+               <lb/>1.1G rünberg, Fst. Carolathk</p>
+            <p>
+               <lb/>2.1Sagan, v. Rönne</p>
+            <p>
+               <lb/>3.1Glogau, Braun Xll.</p>
+            <p>
+               <lb/>4.1Bunzlau, Falk IV.</p>
+            <p>
+               <lb/>5.1Löwenberg, Michaelis</p>
+            <p>
+               <lb/>6.1Liegnitz, Jacobi</p>
+            <p>
+               <lb/>7.1Landshut, Gneist</p>
+            <p>
+               <lb/>8.1Hirschberg, Tellkampf</p>
+            <p>
+               <lb/>9.1Görlitz, Müller k.</p>
+            <p>
+               <lb/>110.Hoyerswerda, v. Seyde-
+            <lb/>witz</p>
+            <p>
+               <lb/>VI. Provinz Sachsen.
+            <lb/>Neg.-Bez. Magdeburg.</p>
+            <p>
+               <lb/>1.1Salzwedel, Kapp Rü.</p>
+            <p>
+               <lb/>2.1Stendal, Thiel</p>
+            <p>
+               <lb/>3.1Jerichow, v. Bonin 1^.</p>
+            <p>
+               <lb/>4.1Magdeburg,v.Unruhe.</p>
+            <p>
+               <lb/>5.1Wolmirstedt, v. Forcken-
+            <lb/>beck</p>
+            <p>
+               <lb/>6.1Wanzleben, v. Benda</p>
+            <p>
+               <lb/>7.1Calbe, Dietze k.</p>
+            <p>
+               <lb/>8.1Halberstadt, v.Bernuth 1^.
+            <lb/>Neg.-Bez. Merseburg.</p>
+            <p>
+               <lb/>1.1Torgau, Grobe</p>
+            <p>
+               <lb/>2.1Wittenberg, Siemens</p>
+            <p>
+               <lb/>3.1Bitterfeld, Thilo k.</p>
+            <p>
+               <lb/>4.1Halle, Spielberg k.</p>
+            <p>
+               <lb/>5.1Mansselder Kreise, Som-
+            <lb/>bart Nü.</p>
+            <p>
+               <lb/>6.1Sangerhaus., Jüngken^</p>
+            <p>
+               <lb/>7.1Merseburg, Wölfel</p>
+            <p>
+               <lb/>8.1Naumburg, Rohland k.</p>
+            <p>
+               <lb/>Neg.-Bez. Erfurt.</p>
+            <p>
+               <lb/>1.1Nordhausen, Jäger X4.</p>
+            <p>
+               <lb/>2.1Heiligenstadt, Strecker 0.</p>
+            <p>
+               <lb/>3.1Mühlhausen, Frieden-
+            <lb/>thal L.</p>
+            <p>
+               <lb/>4.1Erfurt, Lucius L.
+            <lb/>VII-Prov. Schleswig-Holstern.</p>
+            <p>
+               <lb/>1.1Hadersleben, Krüger IV.</p>
+            <p>
+               <lb/>2.1Flensburg, Hinschius^.</p>
+            <pb n="6" xml:id="img_0006"/>
+            <p>
+               <lb/>6</p>
+            <p>
+               <lb/>Uebersicht der Wahlkreise</p>
+            <p>
+               <lb/>3.1Schleswig, Wallichs AK.</p>
+            <p>
+               <lb/>4.1Tendern, Wachs AK.</p>
+            <p>
+               <lb/>5.1Itzehoe, Lorentzen k.</p>
+            <p>
+               <lb/>6.1Gtückstadt, Beseler AK.</p>
+            <p>
+               <lb/>7.1Kiel, Hänel k.</p>
+            <p>
+               <lb/>8.1Altona, Hasenclever 8.</p>
+            <p>
+               <lb/>9.1Stormarn, Reimer 8.</p>
+            <p>
+               <lb/>VIII.1Provinz Hannover.</p>
+            <p>
+               <lb/>1.1Emden, v. Freeden AK.</p>
+            <p>
+               <lb/>2.1Aurich, Petersen AK.</p>
+            <p>
+               <lb/>3.1Meppen, Windthorst 0.</p>
+            <p>
+               <lb/>4.1Osnabr., StruckmannAK.</p>
+            <p>
+               <lb/>5.1Diepholz,StruckmannAK.</p>
+            <p>
+               <lb/>6.1Verden, Precht AK.</p>
+            <p>
+               <lb/>7.1Nienburg, Nieper 6.</p>
+            <p>
+               <lb/>8.1Hannover, Ewald U.</p>
+            <p>
+               <lb/>9.1Hameln, Brande AK.</p>
+            <p>
+               <lb/>10.1Hildesheim, Römer AK.</p>
+            <p>
+               <lb/>11.1Osterode, Albrecht AK.</p>
+            <p>
+               <lb/>12.1Göttingen,v. Adelebsen 0.</p>
+            <p>
+               <lb/>13.1Goslar, Gr. Stolberg k.</p>
+            <p>
+               <lb/>14.1Celle, Haarmann AK.</p>
+            <p>
+               <lb/>15.1Uelzen, Frh. v. Grote, 0.</p>
+            <p>
+               <lb/>16.1Lüneburg, v. Reden AK.</p>
+            <p>
+               <lb/>17.1Harburg, GrumbrechtAK.</p>
+            <p>
+               <lb/>18.1Stade, Laporte AK.</p>
+            <p>
+               <lb/>19.1Neuhaus,v.BenmgsenAK.</p>
+            <p>
+               <lb/>IX.1Provinz Westphalen.
+            <lb/>Neg.-Bez. Münster.</p>
+            <p>
+               <lb/>1.1Tecklenburg, v. Mallin¬
+            <lb/>ckrodt 6.</p>
+            <p>
+               <lb/>2.1Münster, Frhr. v. Heere-
+            <lb/>man 6.</p>
+            <p>
+               <lb/>3.1Recklinghausen, Frhr. v.
+            <lb/>Landsberg 0.</p>
+            <p>
+               <lb/>4.1Lüdinghausen, Frhr. v.
+            <lb/>Landsberg 6.</p>
+            <p>
+               <lb/>Neg.-Bez. Minden.</p>
+            <p>
+               <lb/>1.1Minden, v. Etzel AK.</p>
+            <p>
+               <lb/>2.1Herford, v. Borries, AK.</p>
+            <p>
+               <lb/>3.1Bielefeld, Kisker k.</p>
+            <p>
+               <lb/>4.1Paderborn, v. Brenken 6.</p>
+            <p>
+               <lb/>5.1Marburg, Frh. v. WendtO
+            <lb/>Reg.-Bez. Arnsberg.</p>
+            <p>
+               <lb/>1.1Siegen, Achenbach AK</p>
+            <p>
+               <lb/>2.1Arnsb., Reichensperger 0.</p>
+            <p>
+               <lb/>3.1Iserlohn, Kreutz</p>
+            <p>
+               <lb/>4.1Hagen, Richter</p>
+            <p>
+               <lb/>5.1Bochum, Löwe-Calbe k.</p>
+            <p>
+               <lb/>6.1Dortmund, Berger k.</p>
+            <p>
+               <lb/>7.1Hamm,v.Bockum-DolffsK</p>
+            <p>
+               <lb/>8.1Lippstadt, Schröder 6.</p>
+            <p>
+               <lb/>1X.Provinz Hessen-Nassau.
+            <lb/>Reg.-Bez. Wiesbaden.</p>
+            <p>
+               <lb/>1.1Homburg, Brüning AK.</p>
+            <p>
+               <lb/>2.1Wiesbaden,Schulze-Del.k</p>
+            <p>
+               <lb/>3.1Braubach, Lieber 0.</p>
+            <p>
+               <lb/>4.1Diez, Knapp l'.</p>
+            <p>
+               <lb/>5.1Dillenburg,ThileniusAK.</p>
+            <p>
+               <lb/>6.1Frankfurt a. M., Sonne¬
+            <lb/>mann U.</p>
+            <p>
+               <lb/>Reg.-Bez. Cassel.</p>
+            <p>
+               <lb/>1.1Rinteln, Oetker AK.</p>
+            <p>
+               <lb/>2.1Cassel, Bähr AK.</p>
+            <p>
+               <lb/>3.1Fritzlar, Wehrenpfennig
+            <lb/>AK.</p>
+            <p>
+               <lb/>4.1Eschwege, Harnier AK.</p>
+            <p>
+               <lb/>5.1Marburg, Fenner AK.</p>
+            <p>
+               <lb/>6.1Hersfeld, Gleim AK.</p>
+            <p>
+               <lb/>7.1Fulda, Herrlein 0.</p>
+            <p>
+               <lb/>8.1Hanau, Weigel AK.</p>
+            <p>
+               <lb/>1XI.Rheinprovinz.
+            <lb/>Neg.-Bez. Cöln.</p>
+            <p>
+               <lb/>1.1Stadt Cöln, Grosman 6.</p>
+            <p>
+               <lb/>2.1Kreis Cöln, Grosman 6.</p>
+            <p>
+               <lb/>3.1Bergheim, Rudolphi 0.</p>
+            <p>
+               <lb/>4.1Bonn, v. Kesseler 0.</p>
+            <p>
+               <lb/>5.1Sieg, Lingens 6.</p>
+            <p>
+               <lb/>6.1Wipperfürth, Hamm 6.</p>
+            <pb n="7" xml:id="img_0007"/>
+            <p>
+               <lb/>und ihrer Abgeordmlen.</p>
+            <p>
+               <lb/>7</p>
+            <p>
+               <lb/>Neg.-Bez. Düsseldorf.</p>
+            <p>
+               <lb/>14.Lennep, Techow AU.</p>
+            <p>
+               <lb/>2.1Elberfeld, Hasselmann 8.</p>
+            <p>
+               <lb/>3.1Solingen, Klöppel k.</p>
+            <p>
+               <lb/>4.1Düsseldorf, Bernards 0.</p>
+            <p>
+               <lb/>5.1Essen, Forcade de Biaix</p>
+            <p>
+               <lb/>6.1Duisburg, v. Schulte AU.</p>
+            <p>
+               <lb/>7.1Mors, Grütering 0.</p>
+            <p>
+               <lb/>8.1Geldern, Ulrich 0.</p>
+            <p>
+               <lb/>9.1Kempen, Pfafferott 0.</p>
+            <p>
+               <lb/>10.1Gladbach, v. Kehler 0.</p>
+            <p>
+               <lb/>11.1Crefeld,AReichenspergerd</p>
+            <p>
+               <lb/>12.1Neuß, Frhr. v. Thimus 6.
+            <lb/>Reg.-Bez. Koblenz.</p>
+            <p>
+               <lb/>1.1Wetzlar, v. Beughem AU.</p>
+            <p>
+               <lb/>2.1Neuwied, Gr. Stolberg 6.</p>
+            <p>
+               <lb/>3.1Coblenz, v. Savigny 6.</p>
+            <p>
+               <lb/>4.1Creuznach,v.TreitschkeAU.</p>
+            <p>
+               <lb/>5.1Mayen, Kochann 0.</p>
+            <p>
+               <lb/>6.1Adenau, v. Grand-Ry 0</p>
+            <p>
+               <lb/>Reg.-Bez. Trier.</p>
+            <p>
+               <lb/>1.1Daun,Gr.Eas.Stolberg0.</p>
+            <p>
+               <lb/>2.1Wittlich, Dieden 0.</p>
+            <p>
+               <lb/>3.1Trier, Majunke 6.</p>
+            <p>
+               <lb/>4.1Saarlouis, Haanen 6.</p>
+            <p>
+               <lb/>5.1Saarbrücken,Bluhme AU</p>
+            <p>
+               <lb/>7.1Ottweiler, Stumm k.</p>
+            <p>
+               <lb/>Neg.-Bez. Aachen.</p>
+            <p>
+               <lb/>1.1Schleiden, Franßen 0.</p>
+            <p>
+               <lb/>2.1Kreis . Aachen, Bock 0.</p>
+            <p>
+               <lb/>3.1Stadt Aachen, Baudri 0.</p>
+            <p>
+               <lb/>4.1Jülich, v. Leykam 6.</p>
+            <p>
+               <lb/>5.1Geilenkirchen, Lucius 0.</p>
+            <p>
+               <lb/>HU Hohenzollern.</p>
+            <p>
+               <lb/>11.Sigmaringen, v. Klein¬
+            <lb/>sorgen 0.</p>
+            <p>
+               <lb/>Lauenburg.</p>
+            <p>
+               <lb/>Lauenburg, Krieger AU.</p>
+            <p>
+               <lb/>Königreich Bayern.</p>
+            <p>
+               <lb/>I.1Bberbayern.</p>
+            <p>
+               <lb/>1.1München U, Frhr. von
+            <lb/>Stauffenberg AU.</p>
+            <p>
+               <lb/>2.1München II., Wester-
+            <lb/>- mayer 0.</p>
+            <p>
+               <lb/>3.1Aichach, Schmid 0.</p>
+            <p>
+               <lb/>4.1Jngolst., Frhr. v.Aretin 0.</p>
+            <p>
+               <lb/>5.1Wasserburg, v. Soden 0.</p>
+            <p>
+               <lb/>6.1Weilheim, v. Miller 0.</p>
+            <p>
+               <lb/>7.1Rosenheim, Köllerer 6.</p>
+            <p>
+               <lb/>8.1Traunstein, Senestrey 6.</p>
+            <p>
+               <lb/>II.1Niederbayern.</p>
+            <p>
+               <lb/>1.1Landshut, Frhr. v. Ow 6.</p>
+            <p>
+               <lb/>2.1Straubing, Graf von
+            <lb/>Preysing 0.</p>
+            <p>
+               <lb/>3.1Passau, Krätzer 0.</p>
+            <p>
+               <lb/>4.1Pfarrkirchen, Winklhoferd</p>
+            <p>
+               <lb/>5.1Deggendorf, Frh.v.Hafen-
+            <lb/>brädl 0.</p>
+            <p>
+               <lb/>6.1Kelheim, Lang 6.</p>
+            <p>
+               <lb/>III.1Rheinpsal).</p>
+            <p>
+               <lb/>1.1Speyer, Groß k.</p>
+            <p>
+               <lb/>2.1Landau, Jordan AU.</p>
+            <p>
+               <lb/>3.1Germersheim, Späth AU.</p>
+            <p>
+               <lb/>4.1Zweibrücken,Schmidt AU.</p>
+            <p>
+               <lb/>5.1Homburg, Buht AU.</p>
+            <p>
+               <lb/>6.1Kaiserslautern, Zinn k'.</p>
+            <p>
+               <lb/>IV.1Merpfal;.</p>
+            <p>
+               <lb/>1.1Regensburg, Brückl 6.</p>
+            <p>
+               <lb/>2.1Amberg, Rußwurm 0.</p>
+            <p>
+               <lb/>3.1Neumarkt, Triller 0.</p>
+            <p>
+               <lb/>4.1Neunburg, Datzl 0.</p>
+            <p>
+               <lb/>5.1Neustadt a.W.-N.,Huberd</p>
+            <p>
+               <lb/>1V.Db erkranken.</p>
+            <p>
+               <lb/>1.1Hos, v. Schauß AU.</p>
+            <p>
+               <lb/>2.1Bayreuth, Stenglein AU.</p>
+            <pb n="8" xml:id="img_0008"/>
+            <p>
+               <lb/>8</p>
+            <p>
+               <lb/>Uebersicht der Wahlkreise</p>
+            <p>
+               <lb/>3.1ForchheimFst.Hohenlohek</p>
+            <p>
+               <lb/>4.1Kronach, Kirchner 0.</p>
+            <p>
+               <lb/>5.1Bamberg, Schüttinger 0.</p>
+            <p>
+               <lb/>VI.1Mittelfranken.</p>
+            <p>
+               <lb/>1.1Nürnb.,Frankenburger</p>
+            <p>
+               <lb/>2.1Erlang.,Marquard-sen AK</p>
+            <p>
+               <lb/>3.1Ansbach, Foeckerer k.</p>
+            <p>
+               <lb/>4.1Eichstätt, Graf Quadt 6.</p>
+            <p>
+               <lb/>5.1Dinkelsbühl, Erhard k.</p>
+            <p>
+               <lb/>6.1Rothenburg a.T.,PabstAK</p>
+            <p>
+               <lb/>VII.1Unterfranken.</p>
+            <p>
+               <lb/>1.1Aschafsenburg, Hauck 0.</p>
+            <p>
+               <lb/>2.1Kitzingen,GrSchönbornO</p>
+            <p>
+               <lb/>3.1Lohr, Frh.Franckenstein 6.</p>
+            <p>
+               <lb/>4.1Kissingen, Frhr. v. Haber¬
+            <lb/>mann 6.</p>
+            <p>
+               <lb/>5.1Schweinfurt, Bauch 6.</p>
+            <p>
+               <lb/>6.1Würzburg, Frhr. von
+            <lb/>Zu-Rhein 6.</p>
+            <p>
+               <lb/>1VIII.Schwaben.</p>
+            <p>
+               <lb/>1.1Augsburg, Jörg 0.</p>
+            <p>
+               <lb/>2.1Donauwörth, Mayer 6.</p>
+            <p>
+               <lb/>3.1Dillingen, Weiß 6.</p>
+            <p>
+               <lb/>4.1Jllertisten,Frh.v.AretinO.</p>
+            <p>
+               <lb/>5.1Kaufbeuren, Merkte 6.</p>
+            <p>
+               <lb/>6.1Jmmenstadt, Volk AK.</p>
+            <p>
+               <lb/>Königreich Sachsen.</p>
+            <p>
+               <lb/>1.1Zittau, Pfeiffer AK.</p>
+            <p>
+               <lb/>2.1Löbau, Frühauf AK.</p>
+            <p>
+               <lb/>3.1Bautzen, v. Nostiz k.</p>
+            <p>
+               <lb/>4.1Dresden r.d.E,SchwarM</p>
+            <p>
+               <lb/>5.1Dresden l.d.E.Minkwitzk</p>
+            <p>
+               <lb/>6.1Tharandt, Ackermann K.</p>
+            <p>
+               <lb/>7.1Meißen, Richter K.</p>
+            <p>
+               <lb/>8.1Pirna, Eysoldt k.</p>
+            <p>
+               <lb/>9.1Freiberg, Geib 8,</p>
+            <p>
+               <lb/>10.1Döbeln, Oehmichen k.</p>
+            <p>
+               <lb/>11.1Oschatz, Günther K.</p>
+            <p>
+               <lb/>12.1St. Leipzig, Stephani AK.</p>
+            <p>
+               <lb/>13.1Amt Leipzig. Heine k.</p>
+            <p>
+               <lb/>14.1Borna, v. Könneritz, k.</p>
+            <p>
+               <lb/>15.1Mittweida, Vahlteich 8.</p>
+            <p>
+               <lb/>16.1Ehemnitz, Most 8.</p>
+            <p>
+               <lb/>17.1Glauchau, Bebel 8.</p>
+            <p>
+               <lb/>18.1Zwickau, Motteler 8.</p>
+            <p>
+               <lb/>19.1Schneeberg, Liebknecht 8.</p>
+            <p>
+               <lb/>20.1Zschopau, Brockhaus AK.</p>
+            <p>
+               <lb/>21.1Annaberg, Koch AK.</p>
+            <p>
+               <lb/>22.1Reichenbach, Georgi AK.</p>
+            <p>
+               <lb/>23.1Plauen, Krause AK.</p>
+            <p>
+               <lb/>Königr. Württemberg.</p>
+            <p>
+               <lb/>1.1Stuttgart, Müller AK.</p>
+            <p>
+               <lb/>2.1Cannstatt, v. Varnbülerk.</p>
+            <p>
+               <lb/>3.1Heilbronn, Mayer AK.</p>
+            <p>
+               <lb/>4.1Böblingen, Elben AK.</p>
+            <p>
+               <lb/>5.1Eßlingen, Lenz AK.</p>
+            <p>
+               <lb/>6.1Reutlingen, Gaupp AK.</p>
+            <p>
+               <lb/>7.1Calw, Chevalier AK.</p>
+            <p>
+               <lb/>- 8. Freudenstadt, v. Frisch AK.</p>
+            <p>
+               <lb/>19.Balingen, Schwarz k.</p>
+            <p>
+               <lb/>10.1Gmünd, Sarwey k.</p>
+            <p>
+               <lb/>11.1Hall, v. Weber AK.</p>
+            <p>
+               <lb/>12.1Gerabronn , Fürst v.
+            <lb/>Hoyenlohe k.</p>
+            <p>
+               <lb/>13.1Aalen, Bayerhammer 0.</p>
+            <p>
+               <lb/>14.1Ulm, Römer K.</p>
+            <p>
+               <lb/>15.1Blaubeuren, Schmid k.</p>
+            <p>
+               <lb/>16.1Biberach, Gr. Bissingen 0.</p>
+            <p>
+               <lb/>17.1Ravensburg, Graf Wald¬
+            <lb/>burg 0^</p>
+            <p>
+               <lb/>Großherzogth. Baden.</p>
+            <p>
+               <lb/>1.1Constanz, Roder AK.</p>
+            <p>
+               <lb/>2.1Donaueschng.,v.MohlAK.</p>
+            <p>
+               <lb/>3.1Waldshut, Faller AK.</p>
+            <p>
+               <lb/>4.1Lörrach, Pflüger AK.</p>
+            <p>
+               <lb/>5.1Freiburg, Tritscheller AK.</p>
+            <p>
+               <lb/>6.1Kenzingen, Mörstadt AK.</p>
+            <pb n="9" xml:id="img_0009"/>
+            <p>
+               <lb/>und ihrer Abgeordneten.</p>
+            <p>
+               <lb/>9</p>
+            <p>
+               <lb/>7.1Ofsenburg, Baer RI^.</p>
+            <p>
+               <lb/>8.1Baden, Lender 6.</p>
+            <p>
+               <lb/>9.1Pforzheim, Friderich RI^.</p>
+            <p>
+               <lb/>10.1Karlsruhe, Pr. v.Badenk</p>
+            <p>
+               <lb/>11.1Mannheim, Scipio RI^.</p>
+            <p>
+               <lb/>12.1Heidelberg, Blum RI,.</p>
+            <p>
+               <lb/>13.1Sinsheim, Grimm NI«.</p>
+            <p>
+               <lb/>14.1Tauberbischofsheim, v.
+            <lb/>Buß 6.</p>
+            <p>
+               <lb/>Großhcrzogth. Heffcn.</p>
+            <p>
+               <lb/>1.1Gießen, zur Rabenau I,.</p>
+            <p>
+               <lb/>2.1Friedberg, Schröder RI,.</p>
+            <p>
+               <lb/>3.1Alsfeld, Oncken Rl,.</p>
+            <p>
+               <lb/>4.1Darmstadt, Welcker RI,.</p>
+            <p>
+               <lb/>5.1Ofsenburg, Dernburg RI,.</p>
+            <p>
+               <lb/>6.1Bensheim, Martin RI,.</p>
+            <p>
+               <lb/>7.1Worms, Heyl RI,.</p>
+            <p>
+               <lb/>8.1Bingen, Bamberger RI,.</p>
+            <p>
+               <lb/>9.1Mainz, Moufang 0.</p>
+            <p>
+               <lb/>Mecklenburg- Schwerin.</p>
+            <p>
+               <lb/>1.1Hagenow, Prosch RI,.</p>
+            <p>
+               <lb/>2.1Schwerin, Haupt RI,.</p>
+            <p>
+               <lb/>3.1Parchim, Wiggers k'.</p>
+            <p>
+               <lb/>4.1Malchrn, Pogge, RI,.</p>
+            <p>
+               <lb/>5.1Rostock, Baumgarten k.</p>
+            <p>
+               <lb/>6.1Güstrow, Büsing RI,.</p>
+            <p>
+               <lb/>S-Weimar-Eisenach.</p>
+            <p>
+               <lb/>1.1Weimar, Bojanowski RI,.</p>
+            <p>
+               <lb/>2.1Eisenach, Sommer RI,.</p>
+            <p>
+               <lb/>3.1Jena, Schmidt RI,.</p>
+            <p>
+               <lb/>Mecklrnburg-Strelitz.</p>
+            <p>
+               <lb/>I.Strelitz, Pogge RI,.</p>
+            <p>
+               <lb/>Oldenburg.</p>
+            <p>
+               <lb/>1.1Oldenburg,HullmannRI,.</p>
+            <p>
+               <lb/>2.1Varel, Becker RI,.</p>
+            <p>
+               <lb/>3.1Delmenhorst, Gr. GalenO.</p>
+            <p>
+               <lb/>Braunschweig.</p>
+            <p>
+               <lb/>1.1Braunschw., Schöttler RI,.</p>
+            <p>
+               <lb/>2.1Wolfenbüttel, Abeken RI,</p>
+            <p>
+               <lb/>3.1Holzminden, Koch RR.</p>
+            <p>
+               <lb/>Sachsen-Meiningen.</p>
+            <p>
+               <lb/>1.1Meiningen, Kircher RR.</p>
+            <p>
+               <lb/>2.1Sonneberg, Laster RI,.</p>
+            <p>
+               <lb/>Sachsen-Altenburg.</p>
+            <p>
+               <lb/>1. Altenburg, Wagner RR.</p>
+            <p>
+               <lb/>Coburg-Gotha.</p>
+            <p>
+               <lb/>1.1Coburg, Weber RR.</p>
+            <p>
+               <lb/>2.1Gotha, Ausfeld k.</p>
+            <p>
+               <lb/>Anhalt.</p>
+            <p>
+               <lb/>1.1Dessau, v. Cuny RI,.</p>
+            <p>
+               <lb/>2.1Bernburg, Kraaz RR.</p>
+            <p>
+               <lb/>Schwarzb. - Rudolstadt.</p>
+            <p>
+               <lb/>1. Rudolstadt, Hosfmann k.</p>
+            <p>
+               <lb/>Schwarzb.-Sonderßh.</p>
+            <p>
+               <lb/>1. Sondersh., Valentin RR.</p>
+            <p>
+               <lb/>Waldeck.</p>
+            <p>
+               <lb/>1. Pyrmont, Miguel RR.</p>
+            <p>
+               <lb/>Reuß ältere Linie.</p>
+            <p>
+               <lb/>1. Greiz, Oppenheim RI,.</p>
+            <p>
+               <lb/>Reuß jüngere Linie.</p>
+            <p>
+               <lb/>1. Gera, Traeger k.</p>
+            <p>
+               <lb/>Schaumburg-Lippe</p>
+            <p>
+               <lb/>1. Bückeburg, v. Ducker RR.</p>
+            <p>
+               <lb/>Fürstenthum Lippe.</p>
+            <p>
+               <lb/>1. Detmold, Hausmann k.</p>
+            <pb n="10" xml:id="img_0010"/>
+            <p>
+               <lb/>10</p>
+            <p>
+               <lb/>Die Mitglieder des Deutschen Reichstags.</p>
+            <p>
+               <lb/>Lübeck.</p>
+            <p>
+               <lb/>11.Lübeck, Klügmann RV.-</p>
+            <p>
+               <lb/>Bremen.</p>
+            <p>
+               <lb/>11.Bremen, Mosle RV.</p>
+            <p>
+               <lb/>Hamburg.</p>
+            <p>
+               <lb/>1.1— Möhring Av.</p>
+            <p>
+               <lb/>2.1— Schmidt NV.</p>
+            <p>
+               <lb/>13.— Wolffson M..</p>
+            <p>
+               <lb/>Elsaß-Lothringe«.</p>
+            <p>
+               <lb/>1.1Thann, Minierer.</p>
+            <p>
+               <lb/>2.1Mülhausen, Hässely.</p>
+            <p>
+               <lb/>3.1Colmar, Söhnlin.</p>
+            <p>
+               <lb/>4.1Gebweiler, Gerber.</p>
+            <p>
+               <lb/>5.1Rappoltsweil., Simonis.</p>
+            <p>
+               <lb/>6.1Schlettstadt, Raeß.</p>
+            <p>
+               <lb/>7.1Molsheim, Philippi.</p>
+            <p>
+               <lb/>8.1Straßburg St., Lauth.</p>
+            <p>
+               <lb/>9.1Straßburg Land, von
+            <lb/>Schauenburg.</p>
+            <p>
+               <lb/>10.1Hagenau, Hartmann.</p>
+            <p>
+               <lb/>11.1Zabern, Teutsch.</p>
+            <p>
+               <lb/>12.1Saargemünd, Pougnet.</p>
+            <p>
+               <lb/>13.1Diedenhofen, Abel.</p>
+            <p>
+               <lb/>14.1Metz, Du Pont des Loges.</p>
+            <p>
+               <lb/>15.1Saarburg, Germain.</p>
+            <p>
+               <lb/>Nachtrage und Berichtigungen</p>
+            <p>
+               <lb/>zu den</p>
+            <p>
+               <lb/>biographischen Wotizerr.</p>
+            <p>
+               <lb/>BaukS, Edward Bartels, Vr. jur. utr., Advocat in
+            <lb/>Hamburg. Geb. 1. Jan. 1833 in Hamburg, Sohn des
+            <lb/>früheren Syndikus und Vundestagsgesandten für Hamburg,
+            <lb/>vr. Banks (lutherisch). Besuchte die gelehrten Schulen zu
+            <lb/>Hamburg und Lübeck. Universität in Tübingen, 1^ Jahr
+            <lb/>als Seemann Reisen gemacht, hierauf Universität Göttingen.
+            <lb/>Seit 1860 Advocat in Hamburg und der demokratischen
+            <lb/>Partei thätig angehörend. Seit 1866 Mitglied der Bürger¬
+            <lb/>schaft. Während des Feldzugs gegen Frankreich Mitgl. und
+            <lb/>später Führer der ersten Abtheilung der Hamburgischen frei¬
+            <lb/>willigen Krankenträger. Inhaber des eisernen Kreuzes
+            <lb/>zweiter Klasse. Mitgl. des I. Deutschen Reichstags für den
+            <lb/>2. Hamburger Wahlkreis, seit 24. Febr. 1874 in Folge
+            <lb/>Nachwahl an Stelle Schulze-Delitzsch's Vertreter für den
+            <lb/>6. Berliner Wahlkr. lFortschrittspartei.)</p>
+            <p>
+               <lb/>Baumgarteu, Michael, vr. tüevl. und Professor in
+            <lb/>Rostock. Geb. 25. März 1812 zu Haseldorf (Holstein. Elb-</p>
+            <pb n="11" xml:id="img_0011"/>
+            <p>
+               <lb/>, Biographiscke Notizen.</p>
+            <p>
+               <lb/>11</p>
+            <p>
+               <lb/>marsch). Wurde als Sohn eines Bauern vom Ortsgeist¬
+            <lb/>lichen für das Gymnasium Altona vorbereitet, studirte (von
+            <lb/>1832 ab) in Kiel und Berlin. 1839 Privatdocent in Kiel,
+            <lb/>Ostern 1846 Pastor an der Michaelskirche in Schleswig,
+            <lb/>wirkte seit 1848 für Einführung der deutschen Sprache.
+            <lb/>1850 ord. Professor der Theologie in Rostock, wurde, obschon
+            <lb/>auf dem Boden des positiven Lutherthums stehend, wegen
+            <lb/>angeblich abweichender Lehrmeinungen am 5. Nov. 1856
+            <lb/>ohne Motivirung aus der theol. Prüfungscommission ent¬
+            <lb/>lassen und am 6. Januar 1858 seiner Professur enthoben,
+            <lb/>weil er in seinen Schriften und Lehrvorträgen „in den
+            <lb/>wichtigsten Punkten von den Lehren und Grundsätzen der
+            <lb/>symbolischen Bücher der evangelisch-lutherischen Landeskirche
+            <lb/>abweiche/ Zahllose Schritte, sich von dem Vorwurf der
+            <lb/>Häresie zu reinigen und seine wider alles Recht erfolgte
+            <lb/>Amtsentsetzung rückgängig zu machen, blieben nicht nur er¬
+            <lb/>folglos, sondern zogen ihm mehrfach Preßprocesse, Gefäng¬
+            <lb/>niß- und Geldstrafen zu (so 1861 6 Wochen und 50 Lhlr.,
+            <lb/>1862 15 Wochen und 150 Tblr.). Eine Anzahl seiner
+            <lb/>Schriften bezieht sich auf die Mißstände des Mecklenburgischen
+            <lb/>Kirchenregiments, andere auf Schleswig-Holstein und die
+            <lb/>dortigen kirchlichen Kämpfe, außerdem veröffentlichte er
+            <lb/>mehrere größere theologische, zum Theil kirchengeschichtliche
+            <lb/>Werke. Seit 1865 thätige Theilnahme am Deutschen
+            <lb/>Protestantenverein, Vertreter der conservativen Richtung
+            <lb/>unter vollkommenster Anerkennung der kirchlichen Lehrfrei¬
+            <lb/>heit und der Unabhängigkeit der Kirche vom Staat; Mitgl.
+            <lb/>des engeren Ausschusses des Vereins, trat er auf den Ver¬
+            <lb/>sammlungen desselben mehrfach als Referent und Redner-
+            <lb/>auf. Auf den Verein beziehen sich folgende neuere Schriften
+            <lb/>von ihm: „Zwölf kirchengeschichtl. Vorträge rc." (Bremen
+            <lb/>1869); „Herr Generalsuperintendent Dr. Hojfmann vor den
+            <lb/>Richterstuhl der deutschen Christenheit gestellt" (Berlin 1869)
+            <lb/>— aus Anlaß des oberkirchenräthliehen Verbots, die Vereins¬
+            <lb/>versammlung in einer Kirche abzuhalten; „An Se. Mas.
+            <lb/>den König von Preußen, ein nothgedrungenes Wort zum
+            <lb/>Schutze des Protestantenvereins" (Berlin 1870). Neueste
+            <lb/>Schrift: „Kirchliche Zeitfragen in Vorträgen," (Rostock, Ernst
+            <lb/>Kuhn's Verlag.) — Wahlkr.: 5. Mecklenburg-Schwerin,
+            <lb/>Rostock-Doberan. (Fortschrittspartei.)</p>
+            <p>
+               <lb/>Beseler, Georg, Geh. Justizrath und ordentl. Professor
+            <lb/>der Rechte an der Universität Berlin. Geb. 2. Nov. 1809</p>
+            <pb n="12" xml:id="img_0012"/>
+            <p>
+               <lb/>12</p>
+            <p>
+               <lb/>Die Mitglieder des deutschen Reichstags.</p>
+            <p>
+               <lb/>zu Rödemiß bei Husum in Schleswig (evangelisch). Besuchte
+            <lb/>die Lateinschule in Husum, die Domschule in Schleswig,
+            <lb/>studirte von 1827 ab in Kiel (Dahlmann), von 1829 ab
+            <lb/>in München. 1831 jurist. Staatsexamen in Schleswig,
+            <lb/>erhielt wegen Verweigerung des Homagialeides weder das
+            <lb/>Advocatenpatent, noch das Recht, sich in Kiel als Privat-
+            <lb/>docent zu habitiliren. Seit Herbst 1833 in Göttingen
+            <lb/>(„Lehre von den Erbvertragen"). Ostern 1835 Privatdocent
+            <lb/>in Heidelberg, gleich darauf Professor in Basel (Studien
+            <lb/>über Schweizer Gemeinderecht). Herbst 1837 Professor
+            <lb/>und Appellrichter in Rostock (1838 eine Schrift über die
+            <lb/>7 Göttinger Professoren, 1841 über die Unionsverfassung
+            <lb/>Dänemarts und Schleswig-Holsteins, Polemik mit Kamptz rc.)
+            <lb/>Ostern 1842 Professor in Greifswald („Volksrecht und
+            <lb/>Juristenrecht", 1843, Streit mit der histor. Schule). 1846
+            <lb/>und 1847 auf den Germanistenversammlungen. 1848 für
+            <lb/>Greifswald in die Deutsche Nationalversammlung gewählt,
+            <lb/>Mitgl. des rechten Centrums, Verfasser des Coalitionspro-
+            <lb/>gramms, Referent des Verfassungsausschusses rc. Mitgl. der
+            <lb/>Kaiserdeputation, trat zwar der Zurückberufung durch die
+            <lb/>Preuß. Regierung entgegen, drang aber gleichwohl auf den
+            <lb/>Austritt seiner Partei. An der Parteiversammlung in Gotha
+            <lb/>betheiligi. 1849 Mitgl. der Preuß. II. Kammer, an der
+            <lb/>Verfaffungsrevision betheiligt. Seit Ostern 1859 Professor
+            <lb/>in Berlin (deutsches Recht u. Staatsrecht); 1861—62 Mitgl.
+            <lb/>des Abg.-H. (vermittelnd bei der Militärorganisation). Er
+            <lb/>schrieb namentlich: „System des gemeinen Deutschen Privat¬
+            <lb/>rechts", 3 Bde., Leipzig 1847—55. — Wahlkr.: 6. Schles¬
+            <lb/>wig-Holstein, Glückstadt-Elmshorn, (nat.-lib.)</p>
+            <p>
+               <lb/>Dann, Alexander, Partikulier in Berlin. Geb. 22. Mai
+            <lb/>1817 (evangelisch). Besuchte das Gymnasium zum grauen
+            <lb/>Kloster zu Berlin, studirte Jura in Berlin, Bonn und
+            <lb/>Heidelberg in den Jahren 1838— 1841. Auscultator beim
+            <lb/>Stadtgericht zu Berlin und nachher Referendarius bei der
+            <lb/>Regierung in Frankfurt a/O.; nahm 1847 seinen Abschied
+            <lb/>und war Landwirth bis zum Jahre 1867. — Wahlkr.: 1.
+            <lb/>Frankfurt a/O.^ Arnswalde, Friedeberg. (nat.-lib.)</p>
+            <p>
+               <lb/>Du Pont des LogeS, Paul Georges Marie, Bischof
+            <lb/>von Metz. Geb. 11. Nov. 1804 zu Rennes (röm.-katholisch).
+            <lb/>Wurde Generalvicar des Bisthums Orleans; seit 1843
+            <lb/>Bischof von Metz. — Wahlkr.: 14. Elsaß-Lothringen, Metz
+            <lb/>Stadt- und Landkreis).</p>
+            <pb n="13" xml:id="img_0013"/>
+            <p>
+               <lb/>Biographische Notizen.</p>
+            <p>
+               <lb/>13</p>
+            <p>
+               <lb/>Fenner, Gottfried, Rechtsanwalt beim OberLribunal in
+            <lb/>Berlin. Geb. 2. Dec. 1829 (reformirt). Bes. Gymnasien
+            <lb/>zu Hanau und Marburg, Universitäten zu Marburg und
+            <lb/>Berlin. Früher in Kurhessischem Justizdienst, zuletzt als
+            <lb/>Obergerichts-Assessor in Cassel, seit 1867 Rechtsanwalt beim
+            <lb/>Oberappellationsgericht, dann beim Obertribunal in Berlin.
+            <lb/>— Wahlkr.: 5. Hessischer, Marburg, Frankenberg, (nat.-lib.)</p>
+            <p>
+               <lb/>Graf von Frankenberg, Friedrich, Freiherr v. Schellen¬
+            <lb/>dorf, Prem.-Lieutn. im 6. Landwehr-Husaren-Regiment, auf
+            <lb/>Schloß Tillowitz (Ober-Schlesien). Geb. am 5. Febr. 1835 zu
+            <lb/>Breslau (katholisch). Besuchte das Matthias-Gymnasium in
+            <lb/>Breslau u. stud. Jura u. Cameralia in Bonn u. Breslau.
+            <lb/>Seit März 1867 Mitgl. des Reichstags und 1867 bis 1870
+            <lb/>des Preuh. Abg.-H. für Grottkau-Falkenberg. 1870—1871
+            <lb/>Armeedelegirter der freiwill. Krankenpflege im Hauptquartier
+            <lb/>der III. Armee. Wahlkr.: 5. Reg.-Bez. Breslau, Ohlau,
+            <lb/>Nimptsch, Strehlen. (Reichspartei.)</p>
+            <p>
+               <lb/>Hamm, Constantin, Kaufmann und Tuchfabrikbesitzer
+            <lb/>in Wipperfürth. Geb. 28. Mai 1807 (römisch-katholisch.)
+            <lb/>Bes. Elementar- und Privatschulen. Reisen in Frankreich,
+            <lb/>Belgien, Schweiz, Deutschland.— Wahlkr.: 6. Cöln, Mül¬
+            <lb/>heim, Wipperfürth, Gummersbach. (Centrum.)</p>
+            <p>
+               <lb/>Harlmann, Ludwig, Gutsbesitzer in Hagenau. Geb.
+            <lb/>29. Mai 1836 (katholisch). Besuchte das Gymnasium zu
+            <lb/>Thann, machte seine Studien als Techniker und Ingenieur
+            <lb/>an mehreren großen Maschinenbauanstalten, dann in Baum¬
+            <lb/>wollspinnereien und Webereien. Wurde Director einer solchen
+            <lb/>Fabrik in Hagenau. Seit einigen Jahren ins Privatleben
+            <lb/>zurückgezogen, Stadtrath in Hagenau. — Wahlkr.: 10. Elsaß-
+            <lb/>Lothringen, Hagenau-Weißenburg. (Elsäßische Fraction.)</p>
+            <p>
+               <lb/>Heine, Ernst Carl Erdmann, Dr. , Gutsbesitzer in
+            <lb/>Plagwitz bei Leipzig. Geb. 10. Januar 1819 (lutherisch).
+            <lb/>Besuchte die Thomasschule (Gymnasium) und die Universität
+            <lb/>zu Leipzig und wurde Advocat, ohne sich der Advocatur
+            <lb/>praktisch zu widmen. Seit 30 Jahren in Leipzig und Um¬
+            <lb/>gegend mit vielen Bauunternehmungen, Fabrik-, Straßen-
+            <lb/>und landwirtschaftlichen Anlagen, Canalisirungen rc. beschäf¬
+            <lb/>tigt, welche indessen untereinander in einem gewissen Zu¬
+            <lb/>sammenhang stehen. Gutsbesitzer in Plagwitz und Lindenau,
+            <lb/>Theilhaber der Firma Heine L Co. in Leipzig. Lange Zeit
+            <lb/>Stadtverordneter in Leipzig, nach Aufgabe seines Wohnsitzes</p>
+            <pb n="14" xml:id="img_0014"/>
+            <p>
+               <lb/>'141Die Mitglieder des Deutschen Reichstags.</p>
+            <p>
+               <lb/>daselbst Gemeinderath in Plagwitz. Zur Zeit noch Abgeord¬
+            <lb/>neter zur 2. Sachs. Kammer für den 12. Wahlbezirk. —
+            <lb/>Wahlkr.: 13. Kgr. Sachsen, Landkreis Leipzig. (Deutsche
+            <lb/>Fortschrittspartei.)</p>
+            <p>
+               <lb/>Hehl, Cornelius, Fabrikbesitzer in Worms. (Die auf
+            <lb/>S. 194 der 10. Ausgabe enthaltenen interessanten Angaben
+            <lb/>über die Leistungen der Fabrik des Herrn Heyl waren
+            <lb/>Druckschriften von der Wiener Ausstellung entnommen und
+            <lb/>von mir aus eigenem Antriebe mitgetheilt; ich hebe das
+            <lb/>ausdrücklich hervor, weil der Herr Abgeordnete Mißdeutungen
+            <lb/>ausgesetzt zu sein glaubte. Der Herausgeber.)</p>
+            <p>
+               <lb/>Jaroby, Johann, Dr., (Seite 198) hat die auf ihn ge¬
+            <lb/>fallene Wahl abgelehnt; statt seiner wurde im 13. Sachs.
+            <lb/>Wahlkreis !)r. Heine (s. oben) gewählt.</p>
+            <p>
+               <lb/>Graf von Kleist, Conrad, Rittergutsbesitzer aufSchmenzin
+            <lb/>in Hinterpommern. Geb. 4. April 1839 (evangelisch). Er¬
+            <lb/>zogen im elterlichen Hause. Maturitätsprüfung am Joa¬
+            <lb/>chimsthaler Gymnasium zu Berlin, studirte Jurisprudenz
+            <lb/>zu Berlin, lebte eine Reihe von Jahren auf seinen Besitz¬
+            <lb/>ungen in Curland, verkaufte dieselben und kaufte das Ritter¬
+            <lb/>gut Schmenzin. — Wahlkr.: 4. Cöslin, Belgard, Schievel-
+            <lb/>bein, Dramburg. (cons.)</p>
+            <p>
+               <lb/>Kolbe, Victor, Kreisgerichtsrath a. D. und Ritterguts-
+            <lb/>Besitzer von Pritzlow eum pork. bei Stettin. Geb. 1809
+            <lb/>(evangelisch). Progymnasium Anclam, Gymnasium Stettin,
+            <lb/>studirte Jura in Heidelberg und Berlin, Reisen in Mittel-
+            <lb/>Europa. Practische juristische Ausbildung bei dem Appell.-
+            <lb/>Gericbte in Stettin; als Assessor bei demselben Gerichtshöfe
+            <lb/>beschäftigt bis 1849, daun Kreisrichter bei dem Kreisgerichte
+            <lb/>in Stettin bis ultimo 1856. Ausgeschieden aus dem Justiz¬
+            <lb/>dienste , um den ererbten Grundbesitz zur Verwaltung zu
+            <lb/>übernehmen; gegenwärtig Mitgl. des Kreistages und Kreis-
+            <lb/>AuSschusses des Kreises Randow, stellvertretendes Mitgl. des
+            <lb/>Berwaltuugsgerichtshofes des Reg.-Bez. Stettin; 1850/51
+            <lb/>Mitgl. der damaligen ersten Kammer Preußens, von oer
+            <lb/>Stadt Stettin gewählt. — Wahlkr.: 3. Stettin, Randow,
+            <lb/>GreifenHagen. (nat.-lib.)</p>
+            <p>
+               <lb/>Laporte, Wilhelm, Obergerichtsanwalt in Hannover.
+            <lb/>Geb. 24. Oet. 1833 in Emden in Oftfriesland (evangelisch).
+            <lb/>Besuchte das Gymnasium zu Emden, studirte in Heidelberg
+            <lb/>und Göttingen. Seit 1861 Advocat in Hannover. Seit</p>
+            <pb n="15" xml:id="img_0015"/>
+            <p>
+               <lb/>Biographische Notizen.</p>
+            <p>
+               <lb/>15</p>
+            <p>
+               <lb/>1873 Mitgl. des Abg.-H. für den Stadtkreis Hannover;
+            <lb/>unterlag bei der Reichstagswahl am 10. Januar 1874 in
+            <lb/>Hannover dem Abg. Ewald. In Folge Nachwahl Mitgl.
+            <lb/>für den — Wahlkr.: 18. Hannover, Otterndorf-Neuhaus.
+            <lb/>(nat.-lib.)</p>
+            <p>
+               <lb/>Lasker. Die Angabe, daß der Herr Abgeordnete Syn-
+            <lb/>dicus einer „Deutschen Boden-Credit-Bank" sei, beruht auf
+            <lb/>Irrthum.</p>
+            <p>
+               <lb/>Lender, Ignaz Xaver, erzbischöflicher Dekan und Pro-
+            <lb/>synodal-Examinator in Sasbach bei Achern (Großh. Baden).
+            <lb/>Geb. 20. November 1830 (katholisch). Lyceum in Constanz,
+            <lb/>Universitäten Zürich, München, Freiburg. Wurde Kaplan
+            <lb/>zu Gengenbach, dann Osfenburg, Pfarrer in Schwarzach.
+            <lb/>jetzt Sasbach (ordinirt 1853). Seit 1864 Mitgl. der Kreis¬
+            <lb/>versammlung Baden, seit 1868 Mitgl. der II. Badischen
+            <lb/>Kammer. Mitgl. des I. Deutschen Reichstags. — Wahlkr.:
+            <lb/>8. Großherzogth. Baden, Achern-Baden-Rastatt. (Centrum.)</p>
+            <p>
+               <lb/>Baron von Minnigerode. Er schrieb (1874): „Ar¬
+            <lb/>tikel 20 der Reichsversassung, eine Studie über das all¬
+            <lb/>gemeine, gleiche Stimmrecht" (Berlin, F. Schneider K Co.).</p>
+            <p>
+               <lb/>Graf Von Moltke ist Generalfeldmarschall.</p>
+            <p>
+               <lb/>Most, Johann, Schriftsteller, z. Z. Redakteur der „Südd.
+            <lb/>Volköstimme" in Mainz. Geb. 5. Febr. 1846 (Atheist).
+            <lb/>Besuchte die Volks- und Realschule. Reisen in Deutschland,
+            <lb/>Oesterreich, Oberitalien und der Schweiz; größtentheils Fuß¬
+            <lb/>reisen. Vom 17. bis 23. Jahre Buchbindergehilfe, seitdem
+            <lb/>Schriftsteller. Seit 1866 nimmt er activ Antheil an der
+            <lb/>Arbeiterbewegung, besonders als Agitator. In Wien wurde
+            <lb/>er 1870 wegen angebt. Hochverrats zu 5 Jahren Kerker
+            <lb/>verurtheilt, später aber ohne seinen Willen amnestirt; in
+            <lb/>Sachsen hatte er sogenannter politischer Vergehen halber
+            <lb/>IV4 jährige Gefangenschaft erlitten; ausgewiesen wurde er
+            <lb/>aus ganz Oesterreich und aus dem Stadt- und Land¬
+            <lb/>distrikte Chemnitz rc. rc. — Wahlkr.: 16. Kgr. Sachsen,
+            <lb/>Chemnitz. (Socialdemocrat, Eisenacher Richtung.)</p>
+            <p>
+               <lb/>Oncken. Schriften: Jsokrates und Athen, 1863;
+            <lb/>Athen und Hellas, I. und II. Theil, 1864/65; Häussers
+            <lb/>Vorlesungen über die Franz. Revolution, 1867; Ueber das
+            <lb/>Reformationszeitalter, 1868; Aristoteles' Staatslehre, I. Theil
+            <lb/>1870; ferner die Jahresskizzen in Schultheß' Geschichts¬
+            <lb/>kalender von 1870 und 1871; mit F. v. Holtzendorf seit 1872</p>
+            <pb n="16" xml:id="img_0016"/>
+            <p>
+               <lb/>16</p>
+            <p>
+               <lb/>Die Mitgieder des Deutschen Reichstags.</p>
+            <p>
+               <lb/>Herausgeber der „Deutschen Zeit- und Streitfragen" (Ver¬
+            <lb/>fasser des Heftes: Das Deutsche Reich im Jahre 1872).</p>
+            <p>
+               <lb/>Pougnel, Eugene, Civil-Jngenieur, Besitzer bedeutender
+            <lb/>Steinbrüche in Lothringen und Frankreich, Gründer von
+            <lb/>Eisenwerken in Mi2itzr68-l68-Utzt2 (in Lothringen), Firma:
+            <lb/>»1^68 üi8 ätz Mximilitzn kouFNtzt«, in Landroff, Post Falken¬
+            <lb/>berg in Lothringen. Geb. 7. April 1847 (katholisch). Be¬
+            <lb/>suchte die Leoltz kol^ttzekmqntz zu Paris und die Looltz ätz8
+            <lb/>Mn68 daselbst. Reisen durch ganz Norddeutschland, Belgien,
+            <lb/>nach London, die ganze Schweiz und Savoien. Widmete
+            <lb/>sich dem Bau der Eisenwerke von Nai2itzr68 1tz8 Utztr. —
+            <lb/>Wahlkr.: 12. Elsaß-Lothringen, Saargemünd - Forbach.
+            <lb/>(Französische Partei.)</p>
+            <p>
+               <lb/>Von Puttkamer-Kolziglow, Waldemar, Hauptmann
+            <lb/>a. D. und Rittergutsbesitzer auf Neu-Kolziglow bei Barnow
+            <lb/>in Pommern. Geb. 2. April 1835 (evangelisch». War von
+            <lb/>1846—53 Zögling des Culmer und Berliner Cadettenhauses,
+            <lb/>trat 1853 in das Preußische 2. Garde-Regiment zu Fuß,
+            <lb/>verließ 1856 den Dienst und übernahm von seinem Vater
+            <lb/>das Gut Neu-Kolziglow, welches er noch heute selbstständig
+            <lb/>bewirthschaftet. Vorsitzender des Hauptdirektoriums der
+            <lb/>Stolper Mobiliar-Brand-Versicherungsgesellschaft. — Wahlkr.:
+            <lb/>2. Eöslin, Schlawe-Rummelsberg-Bütow. (conservativ.»</p>
+            <p>
+               <lb/>Graf von QuaVt-Wykradt-Jsny, Friedrich, Capi-
+            <lb/>tular-Comthur des Kgl. Bayer. St. Georgs-Ordens, Kgl.
+            <lb/>Bayer. Legationsrath und Gesandter a. D. in Müncken.
+            <lb/>Geb. 23. Dez. 1818 in Jsny in Württemberg (katholisch).
+            <lb/>Besuchte das Gymnasium Ln Kempten und die Universität
+            <lb/>in München. Interimistischer Geschäftsträger von 1848 ab
+            <lb/>in St. Petersburg, Hannover und Paris; 1860 Gesandter
+            <lb/>in Hannover, 1867 in Brüssel, 1868—70 in Paris. 1871
+            <lb/>als Bayerischer Gesandter bei den Friedensverhandlungen in
+            <lb/>Brüssel, unterzeichnete in Berlin das Protocoll zum
+            <lb/>Friedensvertrag mit Frankreich. — Wahlkr.: 4. Mittelfranken,
+            <lb/>Eichstätt, Weißenburg. (Centrum.)</p>
+            <p>
+               <lb/>Raeß, Andreas, Bischof von Straßburg. Geb. 17. April
+            <lb/>1794 zu Sigolsheim im Elsaß. Wurde Geistlicher und
+            <lb/>Professor am Seminar in Mainz, begann 1821 mit Nie.
+            <lb/>Weiß den „Katholik" und redigirte diese Zeitschrift bis 1842.
+            <lb/>Im Jahre 1840 wurde er Bischof von Rhodiopolis und
+            <lb/>Coadjutor des Bischofs von Straßburg, folgte seinem Vor-</p>
+            <pb n="17" xml:id="img_0017"/>
+            <p>
+               <lb/>Biographische Notizen.</p>
+            <p>
+               <lb/>17</p>
+            <p>
+               <lb/>ganger Lepappe von Troyern 1842. Er gründete als Bischof
+            <lb/>freie Gymnasien zu Straßburg und Kolmar, wie er über¬
+            <lb/>haupt vielseitige Wirksamkeit entfaltete. Sein mit Nie. Weiß
+            <lb/>herausgegebenes Hauptwerk ist betitelt: „Die Eonverliten seit
+            <lb/>der Reformation nach ihrem Leben und aus ihren Schriften
+            <lb/>dargestellt" (davon bis jetzt bei Herder zu Freiburg im Br.
+            <lb/>11 Bände erschienen). Die von ihm am 18. Febr. 1874
+            <lb/>im Reichstag bei Berathung des Antrags Teutsch abgegebene
+            <lb/>Erklärung lautet wörtlich: „Um einer mißliebigen Deutung
+            <lb/>vorzubeugen, die uns, mich und meine Glaubensgenossen,
+            <lb/>berühren könnte, finde ich mich im Gewissen gedrungen,
+            <lb/>eine einfache Erklärung abzugeben. Die Elsaß-Lothringer
+            <lb/>meiner Confession sind keineswegs gemeint, den Vertrag
+            <lb/>von Frankfurt, der zwischen zwei großen Mächten abge¬
+            <lb/>schlossen worden ist, in Frage zu stellen. Das wollte ich
+            <lb/>von vornherein erklären." — Wahlkr.: 6. Elsaß-Lothringen,
+            <lb/>Schlettstadt.</p>
+            <p>
+               <lb/>Von Rönne, Ludwig, Dr. xkil., Appellations-Gerichts-
+            <lb/>Vicepräsident a. D. in Berlin. Geb. 18. Oct. 1804 in
+            <lb/>Glückstadt in Holstein (evang.). Bes. die Gelehrtenschule seiner
+            <lb/>Vaterstadt bis 1822, studirte in Bonn und Berlin (Ostern
+            <lb/>1822 bis Ostern 1825), Auscultator, Referendar bei dem
+            <lb/>Kammergerichte , bez. dem Oberlandes-Gerichte in Breslau,
+            <lb/>Kammergerichts - Assessor 1828, Land- und Stadtrichter in
+            <lb/>Münsterberg in Schlesien (Oktober 1828 bis April 1832),
+            <lb/>Land- und Stadtgerichts-Director in Hirschberg und Kreis-
+            <lb/>justizrarh des .Hirschberger Kreises (April 1832 bis April
+            <lb/>1837), Oberlandesgerichtsrath in Breslau (April 1836 bis
+            <lb/>April 1842), Kammergerichtsrath in Berlin (April 1842
+            <lb/>bis Juli 1859), Appellations - Gerichts - Vicepräsident in
+            <lb/>Glogau vom 1. Juli 1859 bis 1. Nov. 1868, mit welchem
+            <lb/>Tage er pensionirt wurde. Mitgl. der I. Kammer 1849 ff.
+            <lb/>für die Kreise Hirschberg-Schönau, resp. für Glatz-Franken-
+            <lb/>stein, Mitgl. des Abg.-H. 1858—60 für Westhavelland,
+            <lb/>1861 ff. für Glogau-Lüben, 1868 und 1869 für Sieg-
+            <lb/>Mühlheim-Wipperfürth, seit 1870 für die Stadt Eöln.
+            <lb/>Mehrfach Vorsitzender der Commissionen für Justiz (zur
+            <lb/>Zeit noch), Subhastations - Ordnung, Gesetzgebung über
+            <lb/>Grundeigenthum und Hypothekenrecht, Ober - Rechnungs¬
+            <lb/>kammergesetz u. s. w. Mitgl. des I. Deutschen Reichstags
+            <lb/>für den 2. Wahlkr. Posen (Samter-Birnbaum-Obornik),</p>
+            <pb n="18" xml:id="img_0018"/>
+            <p>
+               <lb/>18</p>
+            <p>
+               <lb/>Die Mitglieder des Deutschen Reichstags.</p>
+            <p>
+               <lb/>unterlag hier 1874 dem Polnischen Candioaten. Haupt¬
+            <lb/>sächlichste Schriften: a) „Staatsrecht der Preuß. Monarchie,
+            <lb/>3. Anst. 1869—71", b) Lehrbuch des Preuß. Rechtes von
+            <lb/>Klein, neue Bearbeitung", e) „Ergänzungen und Erläuter¬
+            <lb/>ungen der Preuß. Rechtsbücher" (6 Auflagen), ä) „Die
+            <lb/>Verfassung und Verwaltung des Preuß. Staates" (in
+            <lb/>8 Theilen), v) „Eommentar über die Preuß. Verfassungs¬
+            <lb/>Urkunde vom 31. Jan. 1850", kt „Commentar über das
+            <lb/>Preuß. Gesetz vom 15. Mai 1851", §) „Eommentar über
+            <lb/>das Mühlen-Ablösungsgesetz vom 11. März 1851", ü)
+            <lb/>„Commentar über die Preuß. Landes-Cultur-Gesetzgebung"
+            <lb/>(mit Dr. Lette), 4) Eommentar über die Gemeinde-, Kreis-
+            <lb/>und Bezirks-Ordnung vom 11. März 1850", k) „Das
+            <lb/>Verfassungsrecht des Deutschen Reiches" in Hirth's „Annalen",
+            <lb/>Jahrg. 1871, neue Auflage bei Brockhaus in Leipzig 1872.
+            <lb/>Viele Abhandlungen und Aufsätze in wissenschaftlichen Zeit¬
+            <lb/>schriften. — Wahlkr.: 2. Reg.-Bez. Lieguitz, Sprottau-
+            <lb/>Sagan. (nat.-lib.) .1-</p>
+            <p>
+               <lb/>Freiherr von Schauenburg, Alexis, Gutsbesitzer, aueien
+            <lb/>Magistrat in Geudertheim, Niederrhein. Geb. 21. Juni
+            <lb/>1828 (katholisch). — Wahlkr.: 9. Elsaß-Lothringen, Land¬
+            <lb/>kreis Straßburg. (Centrum.)</p>
+            <p>
+               <lb/>Schulze (-Delitzsch). (Durch eine Irrung bei der Druck-
+            <lb/>revision wurde als Parteistellung „nat.-lib." angegeben; der
+            <lb/>Herausgeber hat keine Schuld an diesem Versehen).</p>
+            <p>
+               <lb/>Schulze, Benno, Kgl. Kreisrichter in Guhrau in
+            <lb/>Schlesien. — Geb. 2. August 1836 (evangelisch). Besuchte
+            <lb/>1850—56 das Joachimöthal'sche Gymnasium zu Berlin,
+            <lb/>dann bis 1859 die Universitäten Heidelberg, Breslau und
+            <lb/>Berlin; bestand im Mai 1859 das erste, im December
+            <lb/>1864 das dritte juristische Examen; seit 1. Januar 1869
+            <lb/>Richter beim Krelsgericht zu Guhrau; nahm Theil an den
+            <lb/>Feldzügen 1866 und 1970—71, als Landwehrofsizier. —
+            <lb/>Wahlkr.: 1. Reg.-Bez. Breslau, Guhrau, Steinau, Wohtau.
+            <lb/>(nat.-lib.)</p>
+            <p>
+               <lb/>Simonis, Abbe, Superior des Fraueuklosters zu
+            <lb/>Niederbronn. In den letzten Zeiten des Franz. Kaiserreichs
+            <lb/>gab er mit dem Pfarrer Winterer (siehe diesen) ein katholisch-
+            <lb/>socialistisches Blatt „Der Volksbote" heraus (in der Richtung
+            <lb/>des Bischofs Ketteler). — Wahlkr.: 5. Elsaß-Lothringen,
+            <lb/>Rappoltsweiler.</p>
+            <pb n="19" xml:id="img_0019"/>
+            <p>
+               <lb/>Biographische Notizen.</p>
+            <p>
+               <lb/>19</p>
+            <p>
+               <lb/>Struckmann, Gustav, Obergerichtsanwalt in Osnabrück.
+            <lb/>Geb. 21. Jan. 1837 (evangelisch-lutherisch). Besuchte das
+            <lb/>Rathsgymnasium in Osnabrück; 1856 Universität Heidel¬
+            <lb/>berg; 1857 Berlin; 1858 Göttingen bis Michaelis 1859;
+            <lb/>während der Universitätszeit verschiedene größere Reisen,
+            <lb/>1862 als Auditor 5monatlichen Urlaub zu einer Reise durch
+            <lb/>ganz Italien und das südliche Frankreich. 1859 zwei
+            <lb/>Staatsexamen in Hannover; Auditor in Lehr, Blumenthal,
+            <lb/>Lauen stein und Hameln. 1864 zweites Staatsexamen und
+            <lb/>dann Anstellung als Advocat in Osnabrück; seit 1870
+            <lb/>Obergerichtsanwalt beim Obergerichte Osnabrück. Seit 1871
+            <lb/>Mitgl. des Bürgervorsteher - Collegs und Wortführer des¬
+            <lb/>selben in Osnabrück; seit 1868 Kirchenvorsteher am St.
+            <lb/>Catharineum daselbst. 1869 Mitgl. der Landessynode zu
+            <lb/>Hannover. — Wahlkr.: 4. Hannover, Osnabrück, Iburg,
+            <lb/>(nat.-lib.)</p>
+            <p>
+               <lb/>Winterer, Landelin, Pfarrer und Canonicus in Mül¬
+            <lb/>hausen im Elsaß. Geb. 28. Febr. 1832 (katholisch). War
+            <lb/>Eaplan in Bischweiler und Colmar, Pfarrer in Gebweiler,
+            <lb/>jetzt SLadtpfarrer in Mülhausen. — Wahlkr.: 2. Elsaß-
+            <lb/>Lothringen, Altkirch-Thann. (Elsäßer.)</p>
+            <p>
+               <lb/>Zimmermann, Eduard, vr. jur., Obergerichtsassessor
+            <lb/>a. D., Englischer Rechtsanwgjt in Berlin und London. Geb.
+            <lb/>4. Setzt. 1811 in Berlin (Evangelisch). Besuchte das Fried-.
+            <lb/>richs-Werdersche Gymnasium (unter dem Directorat seines
+            <lb/>Vaters), demnächst das graue Kloster zu Berlin, studirte
+            <lb/>Jura und Cameralia und promovirte 1835 in Berlin, be¬
+            <lb/>stand die 3. juristische Prüfung 1841, 1839 am Gericht zu
+            <lb/>Spandau, trat mit Vorbehalt des Rücktritts und der An-
+            <lb/>ciennität zur Verwaltung über. Don 1839 ab Bürgermeister
+            <lb/>Ln Spandau, Mitgl. des osthavelländ. Kreistags, des Com-
+            <lb/>munallandtags, des Brandenburg. Provinziallandtags. 1847
+            <lb/>im vereinigten Landtag und in dem Ausschuß zur Berathung
+            <lb/>eines Strafgesetzbuches, 1848 von dem Luckauer Wahlbezirk
+            <lb/>in das erste deutsche Parlament nach Frankfurt gewählt,
+            <lb/>wo er der Linken angehörte und nach dieser Richtung ent¬
+            <lb/>schiedene Anträge stellte; er erkannte die Zurückberufungs¬
+            <lb/>ordre nicht an und ging bei der Uebersiedelung mit nach
+            <lb/>Stuttgart. Nachdem das erste Parlament am 18. Juni 1849
+            <lb/>durch Cavalerie gesprengt worden, kehrte er nach Preußen
+            <lb/>zurück, stellte sich freiwillig den Gerichten und auch wegen</p>
+            <pb n="20" xml:id="img_0020"/>
+            <p>
+               <lb/>201Die Mitglieder de- Deutschen Reichstags.</p>
+            <p>
+               <lb/>seiner parlamentarischen Thätigkeit in Frankfurt, unter An¬
+            <lb/>klage vor die Geschworenen gestellt, vertheidigte er die Rechte
+            <lb/>des Volksvertreters, wurde aber nach zweitägiger Verhand¬
+            <lb/>lung zu langjähriger Festungshaft verurtheilt. Sein Antrag
+            <lb/>auf Bestellung eines Vertheidigers in zweiter Instanz blieb
+            <lb/>ohne Bescheid. Das Geheime Obertribunal zu Berlin ver¬
+            <lb/>handelte in zweiter Instanz ohne Vertheidiger, und obwohl
+            <lb/>der Oberstaatsanwalt darauf angetragen hatte, das Erkenntniß
+            <lb/>erster Instanz wegen mehrfacher wesentlicher materieller und
+            <lb/>formeller Mängel zu vernichten, so bestätigte dieser Gerichtshof
+            <lb/>doch purs das erste Erkenntniß. Er entzog sich der ferneren
+            <lb/>Untersuchungshaft, die über Jahr und Tag gewährt hatte,
+            <lb/>ging nach England, wo er sich in der gesetzlichen fünfjährigen
+            <lb/>Borbereitungscarriere dem Studium der Theorie und Praxis
+            <lb/>des Englischen Rechts und der Verwaltung widmete, die
+            <lb/>vorschriftsmäßigen Prüfungen bestand und demgemäß zur
+            <lb/>Praxis bei allen Englischen Unter- und Obergerichten zu¬
+            <lb/>gelassen wurde, und kehrte dann als wirkliches spoeimon der
+            <lb/>freien Advocatur in sein Vaterland zurück, weil es dem
+            <lb/>Englischen Anwalt vollständig frei steht, sich da niederzu¬
+            <lb/>lassen, wo er sich und andern nützlich werden zu können
+            <lb/>hofft. Mitgl. verschiedener Gesellschaften in England, auch
+            <lb/>als Mitgl. der Ineorporateä Loeiet^ ok ttw llmteä Lin^äom
+            <lb/>aufgenommen. Er gründete in Spandau das erste Wochen¬
+            <lb/>blatt, publicirte mehrere kleinere Schriften, z. B. über das
+            <lb/>Rayongesetz, die Städteordnung, über Versicherungswesen,
+            <lb/>war gelegentlich publicistisch thätig in Deutschen und Eng¬
+            <lb/>lischen Blättern, schrieb in Englischer Sprache über den all¬
+            <lb/>gemeinen Theil des Deutschen Strafgesetzbuches u. s. w.
+            <lb/>Zur Zeit Stadtverordneter in Berlin. — Wahlkr.: 10. Frank¬
+            <lb/>furt a./O., Calau, Luckau. (Fortschritt.)</p>
+            <pb n="21" xml:id="img_0021"/>
+            <p>
+               <lb/>Uorstan- u. Bureau des Deutschen Reichstags.</p>
+            <p>
+               <lb/>Hesammtvorstand.</p>
+            <p>
+               <lb/>Präsidium.</p>
+            <p>
+               <lb/>Präsident: v. Forckenbeck.</p>
+            <p>
+               <lb/>1.1Vice-Präsident: Fürst v. Hohenlohe-Schillingsfürst.</p>
+            <p>
+               <lb/>2.1Vice-Präsident: vr. Hänel.</p>
+            <p>
+               <lb/>Schriftführer.</p>
+            <p>
+               <lb/>vr. Weigel.1vr. Lieber.</p>
+            <p>
+               <lb/>Freiherr». Unruhe-Bomst. Wölfel.</p>
+            <p>
+               <lb/>vr. Herz.1vr. Dernburg.</p>
+            <p>
+               <lb/>Baron v. Minnigerode. Freiherr v. Soden.</p>
+            <p>
+               <lb/>Quästoren.</p>
+            <p>
+               <lb/>v: Puttkamer (Fraustadt). — Strecker.</p>
+            <p>
+               <lb/>ö. Vorsitzende der Abtheilungen.</p>
+            <p>
+               <lb/>1.1Abtheilung: Freiherr Schenk von Stauffenberg.</p>
+            <p>
+               <lb/>2,1„1vr.1Löwe.</p>
+            <p>
+               <lb/>Z.1^1vr.1Bamberg er.</p>
+            <p>
+               <lb/>4.1„1vr.1Volk.</p>
+            <p>
+               <lb/>5.1„1Vr.1Marquardsen.</p>
+            <p>
+               <lb/>6.1„1vr.1Frieden thal.</p>
+            <p>
+               <lb/>7.1„ Fürst v. Hohenlohe-Schillingsfürst.</p>
+            <p>
+               <lb/>v. ZZeamte des Deutschen Aeichstags.</p>
+            <p>
+               <lb/>Happel, Geheimer Kanzlei-Rath, Büreau-Director.
+            <lb/>Knack, Rechnungsrath, erster Registrator.</p>
+            <p>
+               <lb/>Rother mund, zweiter Registrator.</p>
+            <p>
+               <lb/>Schlüter, dritter Registrator.</p>
+            <p>
+               <lb/>Vr. Lindner, Bibliothekar.</p>
+            <p>
+               <lb/>Schalopp, Vorsteher des Stenographischen Bureaus.
+            <lb/>Huth, Kanzlei-Secretair.</p>
+            <p>
+               <lb/>Ristow, Botemneister.</p>
+            <p>
+               <lb/>Krug, Haus-Jnspector</p>
+            <pb n="22" xml:id="img_0022"/>
+            <p>
+               <lb/>Verzeichniß</p>
+            <p>
+               <lb/>der</p>
+            <p>
+               <lb/>Mitglieder der Abtheilungen.</p>
+            <p>
+               <lb/>(Nach dem Bestände am 25. Februar 1874.)</p>
+            <p>
+               <lb/>I.1Abtheilung.</p>
+            <p>
+               <lb/>Freiherr Schenk v. Staustenberg, Vorsitzender, v. Kar-
+            <lb/>dorsf, Stellvertreter des Vorsitzenden. Rohland, Schriftführer.
+            <lb/>Mayer (Donauwörth), Stellvertreter des Schriftführers.
+            <lb/>Albrecht (Osterode), v. Arnim - Kröchlendorf. Ausfeld.
+            <lb/>Bayrhammer. Vieler. Graf Bißingen. v. Bockuw-Doljss.
+            <lb/>Borowski. Braun. Prinz Czatoryski. Datzl. Donath.
+            <lb/>Fenner. Francke. Fransten. Gaupp. Gerber. Gleim.
+            <lb/>Grimm (Sinsheim). Günther. Haanen. Graf v. Hacke.
+            <lb/>Haupt. Frhr. v. Hoverbeck. Huber, v. Kleinsorgeu. Kolbe.
+            <lb/>Kraaz. Kraetzer. Krüger (Hadersleben). Lehr. Fürst v.
+            <lb/>Lichnowsky. Lucius (Erfurt). Graf v. Nayhauß-Eormons.
+            <lb/>Petersen. Fürst v. Pleß. v. Puttkamer (Schlawe.) Reichen-
+            <lb/>sperger (Olpe). Schmidt (Stettin). Schulz - Booßen.
+            <lb/>Schwarze. Söhnlin. Stumm. Techow. Teutsch. Frhr.
+            <lb/>v. Unruhe-Bomst. v. Waldaw-Reitzenftein. Wehrenpfennig.
+            <lb/>Westermayer. Wolffson.</p>
+            <p>
+               <lb/>II.1Abtheilung.</p>
+            <p>
+               <lb/>Löwe, Vorsitzender. Stephani, Stellvertreter des Vor¬
+            <lb/>sitzenden. Buhl, Schriftführer. Dohrn, Stellvertreter des
+            <lb/>Schriftführers. Albrecht (Danzig). Graf Balleftrem. Blum,
+            <lb/>v. Bojanowski. v. Borries. Dann. v. Donimirski. Falk.
+            <lb/>Frühauf. Grosmann (Kreis Cöln). Groß. v. Habermann.
+            <lb/>Hänel. Hagen. Hasselmann. Fürst zu Hohenlohe, Herzog
+            <lb/>von Ujest. Iacobi (Liegnitz). Kegel. Kisker. Kochann.
+            <lb/>Graf v. Moltke. Neumann. v. Nostiz-Wallwitz. Oncken.
+            <lb/>Pabst. Parisius. Pflüger. Pougnet. v. Puttkamer (Lyck).</p>
+            <pb n="23" xml:id="img_0023"/>
+            <p>
+               <lb/>23</p>
+            <p>
+               <lb/>Verzeichnis der Mitglieder der Abtheilungen.</p>
+            <p>
+               <lb/>Reicbensperger (Crefeld). Prinz Radziwill (Beuchend. Ru-
+            <lb/>dolphi. v. Rybmski. v. Savigny. v. Schöning. Schulze-
+            <lb/>Delitzsch. Schulze (Gnhrau). Simonis. Sombart.
+            <lb/>^onnemann. Späth. Graf zu Stolberg-Stolberg (Neu¬
+            <lb/>stadt). Tellkampf. Thilo. Traeger. v. Treitschke.
+            <lb/>Tritscheller. Weigel. Weiß. Zietkiewicz. v. Zoltowski.</p>
+            <p>
+               <lb/>III.1AöLyeitung.</p>
+            <p>
+               <lb/>Bamberger, Vorsitzender, v. Saucken-Tarputschen, Stell
+            <lb/>Vertreter des Vorsitzenden. Koch (Holzminden), Schriftführer
+            <lb/>Frhr. v. Landsberg-Gemen, Stellvertreter des Schriftführers.
+            <lb/>A beten. Frhr. v. Aretin (Ingolstadt), v. Benda. Büsing.
+            <lb/>Brande. Graf v. Chamaro. Chevalier, v. Euny. Flügge.
+            <lb/>Friderich. Grobe. H.rrtmann. Hasenclever. Herz. Hoff-
+            <lb/>mann. Horn. Jordan, v. Kirchmann. Knapp. Koch
+            <lb/>(Annaberg). Krause. Lauth. Lobach. Majunke. Möring.
+            <lb/>v. 9tiegolewski. Nieper. Oppenheim, v. Parczewski. v. Putt-
+            <lb/>kamer (Fraustadt). v. Puttkamer (Sorau). Frhr. zur Rabenau.
+            <lb/>Herzog v. Ratibor. Richter (Hagen). Richter (Meißen).
+            <lb/>Römer (Württemberg), v. Rogalinski. Schacht. Graf v.
+            <lb/>Schönborn-Wiesentheid. Scipio. Siemens. Sommer. Gras
+            <lb/>Stolberg (Daun). Thiel. Frhr. v. Thimus. Triller.
+            <lb/>Vahlteich. Wallichs. Welcker. Ziegler. Aimmermann.</p>
+            <p>
+               <lb/>IV.1AöLheikung.</p>
+            <p>
+               <lb/>Völk, Vorsitzender, v. Bernuth, Stellvertreter des Vor¬
+            <lb/>sitzenden. Freiherr v. Maltzahn-Gültz, Schriftführer. Eysoldt,
+            <lb/>Stellvertreter des Schriftführers. Achenbach. Allnoch. Frei¬
+            <lb/>herr v. Aretin (Jllertissen). v. Bennigsen. Berger. Brückl.
+            <lb/>Brüning. Fürst v. Carolath. v. Ehoslowski. v. Diederichs.
+            <lb/>Graf zu Dohna-Finckenstein. Edler. Fockerer. v. Forckenbeck.
+            <lb/>Freih. zu Franckenstein. Graf Frankenberg. Germain. Gneist,
+            <lb/>v. Grand-Ry. Häfsety. Harnier. Heyt. Jüngken. Kapp.
+            <lb/>Kircher (Meiningen). Klügmann. Kreutz. Krieger (Lauen¬
+            <lb/>burg). Freih. v. Landsberg-Steinfurt. Lucius (Geilenkirchen).
+            <lb/>Miguel, v. Mohl. Mosle. Moufang. Müller (Württemberg).
+            <lb/>Pfeiffer. Precht. Fürst Radziwill (Avelnau). v. Reden.
+            <lb/>Reimer. Rickert. Rllßwurm. v. Schauß. Schmid (Aichach).
+            <lb/>Schmidt (Zweibrücken). Schöttler. Strecker. Thilenius.
+            <lb/>Uhden. Winkel Hofer. Winterer.</p>
+            <pb n="24" xml:id="img_0024"/>
+            <p>
+               <lb/>24</p>
+            <p>
+               <lb/>Ber;eichniß der Mitglieder der Abtheilungen.</p>
+            <p>
+               <lb/>V.1Abtheilung.</p>
+            <p>
+               <lb/>Marauardsen, Vorsitzender. Fürst v. Hohenlohe-Langen-
+            <lb/>bürg, Stellvertreter des Vorsitzenden. Brockhaus, Schrift¬
+            <lb/>führer. Bernards, Stellvertreter des Schriftführers, v. Beth-
+            <lb/>mann-Holliveg. Graf v. Arnim-Boytzenburg. Baudri. Bähr
+            <lb/>(Cassel 1. Beseler. Dieben. Freiherr v. Dückex. Duncker.
+            <lb/>Du Pont des Loges. Elben. Erhard. Ewald. Faller,
+            <lb/>v. Forcaoe de Biaix. v. Frisch, v. Gerlach. Grosman
+            <lb/>(St. Eöln). Freiherr v. Grote. Grundrecht. Herrlein.
+            <lb/>HinschiuS. Jacobs, v. Kalkstein, v. Kesseler. Kiepert.
+            <lb/>Klotz. Laporte. Laster. Lorentzen. v. Lttdwig. Baron
+            <lb/>v. Minnigerode. Most. Müller (Pleß). Freiherr v. Ow.
+            <lb/>Philippi. Graf v. Praschma. Rasche, v. Rönne. Schmidt
+            <lb/>(Hamburg). Schroeder (Lippstadt). Scküttinger. Senestrey.
+            <lb/>v. Seydewitz. Stenglein. Graf zu Stolberg-Wernigerode.
+            <lb/>Struckmann (Osnabrück). Ulrich, v. Vahl. v. Weber
+            <lb/>(Württemberg). Wulfshein.</p>
+            <p>
+               <lb/>VI.1Abtheilung.</p>
+            <p>
+               <lb/>Friedenthal, Vorsitzender. Dickert, Stellvertreter des Vor¬
+            <lb/>sitzenden. Valentin, Schriftführer. Frankenburger, Stell¬
+            <lb/>vertreter des Schriftführers. Abel. v. Arnim-Heinrichsdorf.
+            <lb/>Baer (Ossenburg). Baumgarten, v. Behr-Schmoldow. Graf
+            <lb/>Bethusy-Huc Freiherr von und zu Brenken. Dietze. Eberty.
+            <lb/>Gras zu Eulenburg. Georgi. Grütering. Hamm. Freiherr
+            <lb/>v. Heereman. HuÜmann. Jaeger. v.Jagow. Jörg. v. Kehler.
+            <lb/>Kirchner (Kronach). v. Klitzing. Klöppel, v. Könneritz.
+            <lb/>Lender. Lenz. Graf v. Maltzan-Militsch. Martin. Michaelis,
+            <lb/>v. Miller (Weilheim). Minckwitz. Müller (Görlitz).
+            <lb/>Oehmichen. Pfafserott. Pogge (Strelitz). Graf v. Pückler.
+            <lb/>Römer (Hiloesheim). Freiherr v. Sckauenburg. Schmidt
+            <lb/>(Jena). Schröder (Königsberg N -M.). Schwarz. Freiherr
+            <lb/>v. Soden, v. Taczanowski. Wachs. Wagner (Württem¬
+            <lb/>berg). Graf v. Waloburg-Zeil. Weber (Eoburg). Freiherr
+            <lb/>v. Wenot. v. Woedtke. Zinn. Freiherr v. Zu-Rhein.</p>
+            <p>
+               <lb/>VII.1Abtheilung.</p>
+            <p>
+               <lb/>Fürst v- Hohenlohe-Schillingssürst, Vorsitzender, v. Schulte,
+            <lb/>Stellvertreter des Vorsitzenden, v. Saucken - Julienselde,</p>
+            <pb n="25" xml:id="img_0025"/>
+            <p>
+               <lb/>Verzeichnis der Mitglieder der Abtheilungen.</p>
+            <p>
+               <lb/>25</p>
+            <p>
+               <lb/>Schriftführer. Lieber, Stellvertreter des Schriftführers.
+            <lb/>Ackermann, v. Adelebsen. Becker. Bernhardt, v. Beughem.
+            <lb/>Bluhme. Bock. v. Bonin. v. Brauchitsch. v. Deuzin.
+            <lb/>Dernburg. v. Etzel. Fernow. v. Freeden. Graf v. Galen.
+            <lb/>Geib. Haarmann. Freiherr v. Hafenbrädl. Hauck. Haus¬
+            <lb/>mann Westhavelland). Graf v. Kleist. Köllerer. v.Kozkowski.
+            <lb/>Lang. Lingens. v. Mallinckrodt. Mayer (Heilbronn).
+            <lb/>Merkte. Meyer (Thorn). Mörstadt. Motteler. v. Sailit-
+            <lb/>Paul-Jllaire. Pogge (Schwerin). Pohlmann. Grafv.Quadt-
+            <lb/>Wykradt-Jsny. Raeß. Roder, v. Sarwey. Schröder (Fried-
+            <lb/>berg). Spielberg. Graf Zu Stolberg-Stolberg (Neuwied).
+            <lb/>Struckmann (Diepholz), v. Unruh (Magdeburgs. Websky.
+            <lb/>Wehr. Wiggers. Windthorst. v. Winter. Wölfel.</p>
+            <pb n="26" xml:id="img_0026"/>
+            <p>
+               <lb/>Die Commissionen im Reichstag.</p>
+            <p>
+               <lb/>(Ende Februar 1874.)</p>
+            <p>
+               <lb/>Zlö. Die Ziffern neben den Namen der Mitglieder geben die Abtheilung
+            <lb/>an, von welcher das betreffende Mitglied in die Commission gewählt
+            <lb/>worden ist.</p>
+            <p>
+               <lb/>1I.Commission für die Geschäftsordnung.</p>
+            <p>
+               <lb/>v. Bernuth, Vorsitzender sl.ft Dr. v. Frisch, Stellvertreter
+            <lb/>des Vorsitzenden (2.ft Valentin, Schriftführer sl.ft Bernards,
+            <lb/>Stellvertreter des Schriftführers s6.ft vr. Harnier (2?
+            <lb/>Klotzt. vr.Minckwitzs3.ft Vr. Nieper f4.'^ vr. Jörg s4.
+            <lb/>v. Behr-Schmoldow s5.ft v. Denzin so.ft Freiherr v. Ow s6.
+            <lb/>vr. Wolfsson f7.ft Freiherr Schenk von Staufsenberg s7.</p>
+            <p>
+               <lb/>1II.Commission für Petitionen</p>
+            <p>
+               <lb/>Albrecht (Osterode), Vorsitzender sl.ft Rohland, Stell¬
+            <lb/>vertreter des Vorsitzenden s7.ft Thilo, Schriftführer
+            <lb/>Pfasserott, Stellvertreter des Schriftführers s6.ft vr.Bnhl
+            <lb/>Jacobi fl.ft v. Vahl sl.ft Schmidt (Hamburg)</p>
+            <p>
+               <lb/>Vr. Klügmann s2.ft Vr. v. Schulte s2.ft vr Grimm
+            <lb/>vr. Lenz s3.ft Haupt s3.ft Krause s3.ft vr. zur. Schröder
+            <lb/>(Friedberg) s3.ft Bayrhammer s4.ft vr. zur. Freiherr v.
+            <lb/>Landsberg-Gemen s4.ft vr. Moufang s4.ft Senestrey s4.ft
+            <lb/>Fürst v. Hohenlohe-Langenburg s5.) Flügge so.ft v. Putt-
+            <lb/>kamer (Lyck) s5.ft Ruhwurm s6.ft Freiherr v. Zu-Rhein s,6.ft
+            <lb/>Freiherr v. Grote s6.ft Spielberg s7.ft Traeger s7.ft
+            <lb/>Hossmann s7.ft</p>
+            <p>
+               <lb/>1III.Commission zur Vorberathung des Entwurfs einer
+            <lb/>Strandungs-Ordnung.</p>
+            <p>
+               <lb/>v. Denzin, Vorsitzender s4.ft Becker, Stellvertreter des
+            <lb/>Vorsitzenden so.ft vr. Dohrn, Schriftführer fl.ft Grütering</p>
+            <p>
+               <lb/>Stellvertreter des Schriftführers s3.ft vr. Wolfsson
+            <lb/>Möring sl.ft Schmidt (Stettin) s2.ft vr. Baumgarten</p>
+            <p>
+               <lb/>Hoffmann s2.ft vr. Krätzer s3.^ Grosman (Stadt Cöln) f3</p>
+            <pb n="27" xml:id="img_0027"/>
+            <p>
+               <lb/>Commissionen des Deutschen Reichstages.</p>
+            <p>
+               <lb/>27</p>
+            <p>
+               <lb/>v. Saint - Paul - Jllaire f4.P v. Behr - Schmoldow f4.P
+            <lb/>v. Winter f5.P Büsing f5.P Haarmann f6.P Mosle f6.P
+            <lb/>v. Freeden f6.P vr. Nieper f7.P Edler f7.P v. Miller
+            <lb/>(Weilheim) f7.P</p>
+            <p>
+               <lb/>IV.1Commission zur Vorberathung des Gesetz-Entwurfs,
+            <lb/>betr. einige Abänderungen und Ergänzungen des Gesetzes
+            <lb/>vom 27. Juni 1871 über die Pensionirung und Versorgung</p>
+            <p>
+               <lb/>-er Mititairpersonen.</p>
+            <p>
+               <lb/>v. Etzel, Vorsitzender f5.P vr. Lucius (Erfurt), Stell¬
+            <lb/>vertreter des Vorsitzenden f4.P Frankenburger, Schrift¬
+            <lb/>führer f2.P Graf Ballestrem, Stellvertreter des Schrift¬
+            <lb/>führers f3.P vr. Buhl fl.P vr. Blum sl.P Dickert f2.P
+            <lb/>Schröder (Lippstadt) f3.P Graf v. Kleist f4.P vr. Georgi fo.P
+            <lb/>vr. Wagner f6.P Wulfshein stz.P Freiherr v. Aretin (Ingol¬
+            <lb/>stadt) f7.P Graf v. Nayhauß-Eormons f7.P</p>
+            <p>
+               <lb/>V.1Commission zur Vorberathnng des EnLivurfs eines Reichs-</p>
+            <p>
+               <lb/>MUitair-Gesetzes.</p>
+            <p>
+               <lb/>v. Bennigsen, Vorsitzender f4.P Freiherr v. Hoverbeck,
+            <lb/>Stellvertreter des Vorsitzenden fl. j. Baron v. Minnigerode,
+            <lb/>Schriftführer f6.P Bernards, Schriftführer f6.P v. Putt-
+            <lb/>kamer (Fraustadt), Schriftführer fo.P vr. Friedenthal 1.P
+            <lb/>Graf v. Bethusy-Huc fl.P Richter (Hagen) fl.P Herz f2.P
+            <lb/>vr. Minckwitz f2.f. Freiherr v. Ow s2.) Hauck 2. .
+            <lb/>vr. Wehrenpfennig f3.P Freiherr Schenk v. Stauffen-
+            <lb/>berg f3.P v. Unruh (Magdeburg) f3.P Friderich f3.j.
+            <lb/>vr. Laster f4.P vr. Gneist f4.f. Miqnel f4.P v. Benda s5. &gt;.
+            <lb/>vr. Meyer (Thorn) f5.P vr. Stephani f5.P Freiherr
+            <lb/>v. Wendt f6.P Freiherr v. Maltzahn-Gültz f6.P Freiherr
+            <lb/>zu Franckenstein f7.P Graf zu Stolberg-Stolberg Gteu-
+            <lb/>wied) f7.P v. Mallinckrodt f7.P v. Adelebsen f7.P</p>
+            <p>
+               <lb/>VI.1Commission zur Vorberattzung des Gesetz-Entwurfs,</p>
+            <p>
+               <lb/>betreffend die Abänderung einiger Bestimmungen der</p>
+            <p>
+               <lb/>Gewerbe-Brdnung.</p>
+            <p>
+               <lb/>vr. Bamberger, Vorsitzender f6.P Vr. Schulze-Delitzsch,
+            <lb/>Stellvertreter des Vorsitzenden f2.j. Vr. Mayer (Donau-
+            <lb/>wörrh), Schriftführer f3.j. Bluhme, Stellvertreter des
+            <lb/>Schriftführers f6P vr. v. Sarwey fl.P Stumm fl.P</p>
+            <pb n="28" xml:id="img_0028"/>
+            <p>
+               <lb/>28</p>
+            <p>
+               <lb/>Commissionen de- Deutschen Reichstages</p>
+            <p>
+               <lb/>v. Waldaw-Reitzenstein sl.). Duncker (2.). Dr. Eberty (2.).
+            <lb/>v. Ludwig s3.). Dr. Moufang (3.). Schmidt (Ham¬
+            <lb/>burg) (4.). Dr. Oppenheim (4.). Heyl (4.). v. Miller
+            <lb/>(Weilheim) (5.). Dr. Lingens (5.). Müller (Pleß) (5.).
+            <lb/>Rickert (6.). Struckmann (Osnabrück) (7.). Motteler (7.).
+            <lb/>Gallpp (7.).</p>
+            <p>
+               <lb/>VII.1Commission zur Vorberathung des Gesetz-Entwurfs</p>
+            <p>
+               <lb/>über die Presse.</p>
+            <p>
+               <lb/>Dr. Volk, Vorsitzender s6.). Dr. Schwarze, Stellvertreter
+            <lb/>des Vorsitzenden sl.). Hullmann, Schriftführer (7.). Dr. Jörg,
+            <lb/>Stellvertreter des Schriftführers (3.). Graf zu Eulenburg (1.).
+            <lb/>Dr. Erhard (2.). Wiggers s2.). Sonnemann (3.). Dr.
+            <lb/>Elben (4.). Dr. Brockhaus (4.). v. Forcade de Biaix (5.).
+            <lb/>Majunke (5.). Dr. Marquardsen (6.). Dr. Kapp (7.).</p>
+            <p>
+               <lb/>VIII.1Commission zur Vorberathung der Gesetz-Entwürfe
+            <lb/>re) über die Vermattung der Einnahmen und Ausgaben</p>
+            <p>
+               <lb/>des Reiches; b) betreffend die Einrichtung und dir
+            <lb/>Befugnisse des Rechnungshofes.</p>
+            <p>
+               <lb/>Migutzl, Vorsitzender (3.). vr. Hanel, Stellvertreter
+            <lb/>des Vorsitzenden sl. s. Frhr. v. Heereman, Schriftführer (5.).
+            <lb/>vr. Stenglein, Stellvertreter des Schriftführers s4.). Richter
+            <lb/>(Hagen) j l.s. vr. Laster s2. j. Jacobs (2.). Krieger
+            <lb/>(Larienburg j 3.). Dernburg (4j.. Vr. Nieper (5.). Frhr.
+            <lb/>v. Hafenbrädl (6.). Graf v. Waldbrirg-Zeil (6.). v. Putt-
+            <lb/>kamer (Lyck) s7.). v. Kardorss (7.).</p>
+            <p>
+               <lb/>IX.1Commission zur Vorberathung -er allgemeinen Rech¬
+            <lb/>nungen über den Haushalt des Norddeutschen Bundes für</p>
+            <p>
+               <lb/>das II. Semester 1867 und für die Jahre 1868, 1869
+            <lb/>und 1870.</p>
+            <p>
+               <lb/>Richter (Hagen), Vorsitzender (1.). v. Reden, Schrift¬
+            <lb/>führer (3.). vr. v. Schauß (2). vr. Websky (4.).
+            <lb/>Weiß fV.). Strecker (6-). v. Gerlach (7.).</p>
+            <pb n="29" xml:id="img_0029"/>
+            <p>
+               <lb/>Die Kractionen des Deutschen Reichstags.</p>
+            <p>
+               <lb/>H. Legislaturperiode, I. Session; 6. März 1874.</p>
+            <p>
+               <lb/>a) National-Liberale Fraktion.</p>
+            <p>
+               <lb/>Abeten.</p>
+            <p>
+               <lb/>Albrecht (Hannover)
+            <lb/>Albrecht (Danzig).
+            <lb/>Baehr
+            <lb/>Baer.</p>
+            <p>
+               <lb/>Bamberger.</p>
+            <p>
+               <lb/>Becker (Oldenb.)
+            <lb/>v. Benda.
+            <lb/>v. Bennigsen.
+            <lb/>Beseler.</p>
+            <p>
+               <lb/>v Bethmann-Hollw.
+            <lb/>v. Beughem.</p>
+            <p>
+               <lb/>Bieter.</p>
+            <p>
+               <lb/>Bluhme.</p>
+            <p>
+               <lb/>Blum.</p>
+            <p>
+               <lb/>v. Bojanowöki.
+            <lb/>v. Borries.</p>
+            <p>
+               <lb/>Brande.</p>
+            <p>
+               <lb/>Braun.</p>
+            <p>
+               <lb/>Brockhaus.</p>
+            <p>
+               <lb/>Brüning.</p>
+            <p>
+               <lb/>Büsing.</p>
+            <p>
+               <lb/>Buhl.</p>
+            <p>
+               <lb/>Chevalier,
+            <lb/>v. Cuny.</p>
+            <p>
+               <lb/>Dann.</p>
+            <p>
+               <lb/>Dernburg.
+            <lb/>v. Diederichs.
+            <lb/>Dohrn.</p>
+            <p>
+               <lb/>Frhr. v. Dücker.</p>
+            <p>
+               <lb/>150 Mitglieder.</p>
+            <p>
+               <lb/>Elben,
+            <lb/>v. Etzel.</p>
+            <p>
+               <lb/>Faller.</p>
+            <p>
+               <lb/>Fenner.</p>
+            <p>
+               <lb/>Fernow.
+            <lb/>v. Freeden.
+            <lb/>Friderich.</p>
+            <p>
+               <lb/>Frisch.</p>
+            <p>
+               <lb/>Frühauf.</p>
+            <p>
+               <lb/>Gaupp.</p>
+            <p>
+               <lb/>Georgi.</p>
+            <p>
+               <lb/>Gleim.</p>
+            <p>
+               <lb/>Gneist.</p>
+            <p>
+               <lb/>Grimm.</p>
+            <p>
+               <lb/>Grobe.</p>
+            <p>
+               <lb/>Grundrecht.</p>
+            <p>
+               <lb/>Haarmann.</p>
+            <p>
+               <lb/>Graf v. Hacke.
+            <lb/>Harnier.</p>
+            <p>
+               <lb/>Haupt.</p>
+            <p>
+               <lb/>Heyl.</p>
+            <p>
+               <lb/>Hinschius.</p>
+            <p>
+               <lb/>Hullmann.</p>
+            <p>
+               <lb/>Jacobi.</p>
+            <p>
+               <lb/>Jacobs.</p>
+            <p>
+               <lb/>Jäger.</p>
+            <p>
+               <lb/>Jordan.</p>
+            <p>
+               <lb/>Jungten.</p>
+            <p>
+               <lb/>Kapp.</p>
+            <p>
+               <lb/>Kiepert.</p>
+            <p>
+               <lb/>Kircher.</p>
+            <p>
+               <lb/>Klügmann.</p>
+            <p>
+               <lb/>Koch (Annaberg).
+            <lb/>Koch (Holzminden).
+            <lb/>Kolbe.</p>
+            <p>
+               <lb/>Kraaz.</p>
+            <p>
+               <lb/>Krause.</p>
+            <p>
+               <lb/>Krieger.</p>
+            <p>
+               <lb/>Laporte.</p>
+            <p>
+               <lb/>Laster.</p>
+            <p>
+               <lb/>Lehr.</p>
+            <p>
+               <lb/>Lenz.</p>
+            <p>
+               <lb/>Lobach.</p>
+            <p>
+               <lb/>Marquardsen.</p>
+            <p>
+               <lb/>Martin.</p>
+            <p>
+               <lb/>Mayer (Heilbronn).
+            <lb/>Meyer (Lhorn).
+            <lb/>Michaelis.</p>
+            <p>
+               <lb/>Miquvl.</p>
+            <p>
+               <lb/>Möring.
+            <lb/>v. Mohl.</p>
+            <p>
+               <lb/>Mörstadt.</p>
+            <p>
+               <lb/>Moste.</p>
+            <p>
+               <lb/>Müller (Stuttgart).
+            <lb/>Neumann.</p>
+            <p>
+               <lb/>Oetter.</p>
+            <p>
+               <lb/>Oncken.</p>
+            <p>
+               <lb/>Oppenheim.</p>
+            <p>
+               <lb/>Pabst.</p>
+            <p>
+               <lb/>Petersen.</p>
+            <pb n="30" xml:id="img_0030"/>
+            <p>
+               <lb/>30</p>
+            <p>
+               <lb/>Die Mitglieder des Deutschen Reichstags.</p>
+            <p>
+               <lb/>b) Kraction -es Sentrums.</p>
+            <p>
+               <lb/>91 Mitglieder und 3 Hospitanten.</p>
+            <p>
+               <lb/>Frhr. von Aretin
+            <lb/>' (Ingolstadt).
+            <lb/>Frhr. von Aretin
+            <lb/>(Jllertissen).
+            <lb/>Gras Ballestrem.
+            <lb/>Bauch.</p>
+            <p>
+               <lb/>Baudri.</p>
+            <p>
+               <lb/>Bayrhammer.</p>
+            <p>
+               <lb/>Vernards.</p>
+            <p>
+               <lb/>' Graf Bissingen.
+            <lb/>Bock.</p>
+            <p>
+               <lb/>Borowski.</p>
+            <p>
+               <lb/>Frhr. v. Brenken.
+            <lb/>Brückl,
+            <lb/>v. Buß.</p>
+            <p>
+               <lb/>Graf Ehamarö.
+            <lb/>Datzl.</p>
+            <p>
+               <lb/>Dieden.</p>
+            <p>
+               <lb/>Edler.</p>
+            <p>
+               <lb/>v. Forcade de Biaix.
+            <lb/>Frh. z.Frallckenstein
+            <lb/>Fransten.</p>
+            <p>
+               <lb/>Graf Galen,
+            <lb/>v. Grand-Ry.
+            <lb/>Grosman I.
+            <lb/>Grosman II.
+            <lb/>Grütering.</p>
+            <p>
+               <lb/>Haanen.</p>
+            <p>
+               <lb/>Frh. v. Habermann.
+            <lb/>Frh. v. Hafeubrädl.</p>
+            <p>
+               <lb/>Hamm.</p>
+            <p>
+               <lb/>Hauck.</p>
+            <p>
+               <lb/>Frhr. v. Heereman.
+            <lb/>Herrtein.</p>
+            <p>
+               <lb/>Horn.</p>
+            <p>
+               <lb/>Huber.</p>
+            <p>
+               <lb/>Jörg,
+            <lb/>v. Kehler,
+            <lb/>v. Kesseler.
+            <lb/>Kirchner,
+            <lb/>o. Kleinsorgen.
+            <lb/>Kochann.</p>
+            <p>
+               <lb/>Köllerer.</p>
+            <p>
+               <lb/>Krätzer.</p>
+            <p>
+               <lb/>Frhr.v.Landsberg I.</p>
+            <pb n="31" xml:id="img_0031"/>
+            <p>
+               <lb/>Die Mitglieder des Deutschen Reichstags.1ol</p>
+            <p>
+               <lb/>Frh.v.Landsbergll.</p>
+            <p>
+               <lb/>Lang.</p>
+            <p>
+               <lb/>Lender.</p>
+            <p>
+               <lb/>Frhr. v- Leykam.
+            <lb/>Lieber.</p>
+            <p>
+               <lb/>Lingens.</p>
+            <p>
+               <lb/>Lucius (Geilenk.),
+            <lb/>v. Ludwig.
+            <lb/>Majunke.
+            <lb/>v. Mallinckrodt.
+            <lb/>Mayer (Donauw).
+            <lb/>Merkle.</p>
+            <p>
+               <lb/>-v. Miller.
+            <lb/>Moufang.</p>
+            <p>
+               <lb/>Müller (Pleß).
+            <lb/>Graf v. Nayhauß.
+            <lb/>Frhr. v. Ow.
+            <lb/>Pfafferott.
+            <lb/>Pohlmann.</p>
+            <p>
+               <lb/>Graf Praschrna.
+            <lb/>Graf Preysing.
+            <lb/>Graf v. Ouadt. .
+            <lb/>Prinz Radziwill.
+            <lb/>Reichensperger I.
+            <lb/>Reichensperger II.
+            <lb/>Rudolphi.
+            <lb/>Rußwurm,
+            <lb/>v. Savigny.
+            <lb/>Schmid (Aichach).
+            <lb/>Graf Schönborn.
+            <lb/>Schröder (Lippst.).
+            <lb/>Schüttinger.
+            <lb/>Senestrey.</p>
+            <p>
+               <lb/>Frhr. v. Soden.
+            <lb/>Graf Stolberg
+            <lb/>(Daun).</p>
+            <p>
+               <lb/>Gr. Stolberg (Neu¬
+            <lb/>wied).</p>
+            <p>
+               <lb/>Gr. Stolberg (Neu¬
+            <lb/>stadt i. S.).
+            <lb/>Strecker,
+            <lb/>v. Thimus.</p>
+            <p>
+               <lb/>Triller.</p>
+            <p>
+               <lb/>Ulrich.</p>
+            <p>
+               <lb/>Gr. v. Waldburg.
+            <lb/>Weiß.</p>
+            <p>
+               <lb/>Frhr. v. Wendt.
+            <lb/>Westermayer.
+            <lb/>Windthorst.
+            <lb/>Winkelhofer.</p>
+            <p>
+               <lb/>Frhr. v. Zu-Rhein.</p>
+            <p>
+               <lb/>Hospita nten:</p>
+            <p>
+               <lb/>v. Adelebsen.</p>
+            <p>
+               <lb/>Frhr. v. Grote.
+            <lb/>Niepcr.</p>
+            <p>
+               <lb/>e) Zractiorr der deutschen Uortschrittsparter.</p>
+            <p>
+               <lb/>49 Mitglieder.</p>
+            <p>
+               <lb/>Allnoch.</p>
+            <p>
+               <lb/>Ausfeld.</p>
+            <p>
+               <lb/>Banks.</p>
+            <p>
+               <lb/>Baumgarten.</p>
+            <p>
+               <lb/>Berger.</p>
+            <p>
+               <lb/>Bernhardi.</p>
+            <p>
+               <lb/>Dickert.</p>
+            <p>
+               <lb/>Donath.</p>
+            <p>
+               <lb/>Duucker.</p>
+            <p>
+               <lb/>Eberty.</p>
+            <p>
+               <lb/>Erhard.</p>
+            <p>
+               <lb/>Eysolo t.</p>
+            <p>
+               <lb/>Föckerer.</p>
+            <p>
+               <lb/>Fraircke.</p>
+            <p>
+               <lb/>Frankenburger.</p>
+            <p>
+               <lb/>Groß.</p>
+            <p>
+               <lb/>Hänel.</p>
+            <p>
+               <lb/>Hagen.</p>
+            <p>
+               <lb/>Hausmann(Potsd)
+            <lb/>Hailsmann (Lippe)
+            <lb/>Heine.</p>
+            <p>
+               <lb/>Herz- '</p>
+            <p>
+               <lb/>Hoffmann.</p>
+            <p>
+               <lb/>Frh. v. Hoverbeck.
+            <lb/>v. Kirchmann.
+            <lb/>Kisker.</p>
+            <p>
+               <lb/>Klöppel.</p>
+            <p>
+               <lb/>Klotz.</p>
+            <p>
+               <lb/>Knapp.1'</p>
+            <p>
+               <lb/>Kreutz.</p>
+            <p>
+               <lb/>Löwe-Calbe.</p>
+            <p>
+               <lb/>Lorentzen.</p>
+            <p>
+               <lb/>Minckwitz.</p>
+            <p>
+               <lb/>Müller (Görlitz).</p>
+            <p>
+               <lb/>Oehmichen.</p>
+            <p>
+               <lb/>Parisius.</p>
+            <p>
+               <lb/>Richter (Hagen).
+            <lb/>Rohland.
+            <lb/>v. Saucken-Jul.
+            <lb/>v. Saucken-Tarp.
+            <lb/>Schmidt (Stettin).
+            <lb/>Schulze-Delitzsch.
+            <lb/>Schwarz (Baling.).
+            <lb/>Spielberg.</p>
+            <p>
+               <lb/>Traeger.</p>
+            <p>
+               <lb/>Wiggers.</p>
+            <p>
+               <lb/>Ziegler.</p>
+            <p>
+               <lb/>Zimmermann.</p>
+            <p>
+               <lb/>Zinn.</p>
+            <pb n="32" xml:id="img_0032"/>
+            <p>
+               <lb/>32</p>
+            <p>
+               <lb/>Die Mitglieder des Deutschen Reichstags.</p>
+            <p>
+               <lb/>ä) Traktion der deutschen Keichspartei.</p>
+            <p>
+               <lb/>29 Mitglieder und 2 Hospitanten.</p>
+            <p>
+               <lb/>Ackermann,
+            <lb/>v. Arnim-Kröchldf.
+            <lb/>Prinz v. Baden,
+            <lb/>v. Behr.</p>
+            <p>
+               <lb/>Graf v. Bethusy.
+            <lb/>Fürst v. Carolath.
+            <lb/>Dietze.</p>
+            <p>
+               <lb/>Graf Franken berg.</p>
+            <p>
+               <lb/>Friedenthal.</p>
+            <p>
+               <lb/>Günther.</p>
+            <p>
+               <lb/>Pz.Hohenlohe-Jng.
+            <lb/>Fiirst Hohenlohe-
+            <lb/>Langenburg.</p>
+            <p>
+               <lb/>Fürst Hohenlohe-
+            <lb/>Oehringen.</p>
+            <p>
+               <lb/>' (Herzog v. Ujest).
+            <lb/>v. Kardorf.
+            <lb/>v. Könneritz.</p>
+            <p>
+               <lb/>Fürst v. Lichnowsky.
+            <lb/>Lucius (Erfurt).
+            <lb/>Graf v. Maltzan.
+            <lb/>v. Nostiz-Wallwitz.
+            <lb/>Fürst v. Pteß.
+            <lb/>Herzog v. Ratibor.
+            <lb/>v. Saint-Paul.
+            <lb/>Sarwey.</p>
+            <p>
+               <lb/>Schwarze(Dresden)
+            <lb/>Grf. Stolberg-Wer-
+            <lb/>nigerode.
+            <lb/>Stumm.</p>
+            <p>
+               <lb/>Thilo.</p>
+            <p>
+               <lb/>Frhr. v. Unruhe-
+            <lb/>Bomst.</p>
+            <p>
+               <lb/>Frh. v Varnbüler.
+            <lb/>Hospitanten:</p>
+            <p>
+               <lb/>Graf v. Arnim.
+            <lb/>Schmid (Württem¬
+            <lb/>berg).</p>
+            <p>
+               <lb/>v) Traktion der Conftrvativen.</p>
+            <p>
+               <lb/>v. Arnim (Heinr).
+            <lb/>v. Brauchitsch.
+            <lb/>v. Denzin.</p>
+            <p>
+               <lb/>Graf. v. Dohna.
+            <lb/>Graf Eulenburg.
+            <lb/>Flügge,
+            <lb/>v. Gerlach.
+            <lb/>v- Jagow.</p>
+            <p>
+               <lb/>21 Mitglieder.</p>
+            <p>
+               <lb/>Graf v. Kleist,
+            <lb/>v. Klitzing.</p>
+            <p>
+               <lb/>Frhr. v. Maltzahn.
+            <lb/>v. Minnigerode.
+            <lb/>Graf v. Moltke.
+            <lb/>Graf v- Pückler.
+            <lb/>von Puttkamer
+            <lb/>(Lyck.)</p>
+            <p>
+               <lb/>von Puttkamer
+            <lb/>(Schlawe).
+            <lb/>v. Schöning,
+            <lb/>v. Seydewitz.
+            <lb/>Uhden.
+            <lb/>v. Waldaw.
+            <lb/>v. Wödtke.</p>
+            <p>
+               <lb/>1) Traktion der Polen.</p>
+            <p>
+               <lb/>v. Ehoslowski.
+            <lb/>Prinz Czartoryski.
+            <lb/>v. Donimirski.
+            <lb/>v. Kalkstein.</p>
+            <p>
+               <lb/>Kegel.</p>
+            <p>
+               <lb/>13 Mitglieder.</p>
+            <p>
+               <lb/>v. Kozlowski.
+            <lb/>v. ^Itiegolewski.
+            <lb/>v. Parczewski.</p>
+            <p>
+               <lb/>V. Rogaliüöki.</p>
+            <p>
+               <lb/>v. Rybinski.
+            <lb/>v. Taczanowski.
+            <lb/>Ziotkiewicz.
+            <lb/>v. Zoltowski.</p>
+            <p>
+               <lb/>8) Traktion der Socialdemokraten.</p>
+            <p>
+               <lb/>9 Mitglieder.</p>
+            <p>
+               <lb/>Bebet.</p>
+            <p>
+               <lb/>Geib.</p>
+            <p>
+               <lb/>Hasenclever.</p>
+            <p>
+               <lb/>Hasselmann.</p>
+            <p>
+               <lb/>Liebknecht.</p>
+            <p>
+               <lb/>Most.</p>
+            <p>
+               <lb/>Motteler.</p>
+            <p>
+               <lb/>Reimer.</p>
+            <p>
+               <lb/>Bahlteich.</p>
+            <pb n="33" xml:id="img_0033"/>
+            <p>
+               <lb/>33</p>
+            <p>
+               <lb/>Die Mitglieder des Deutschen Reichstags.</p>
+            <p>
+               <lb/>d) Kei keiner Uraction.</p>
+            <p>
+               <lb/>Abel.</p>
+            <p>
+               <lb/>Achenbach,
+            <lb/>v. Bernuth.
+            <lb/>v. Bockum-Dolsfs.
+            <lb/>v. Bonin.</p>
+            <p>
+               <lb/>Du Pont des Loges.
+            <lb/>Ewald.</p>
+            <p>
+               <lb/>Falk.</p>
+            <p>
+               <lb/>v. Forckenbeck.
+            <lb/>Gerber.</p>
+            <p>
+               <lb/>Germain.</p>
+            <p>
+               <lb/>31 Mitglieder.</p>
+            <p>
+               <lb/>Hartmann.</p>
+            <p>
+               <lb/>Häfsely.</p>
+            <p>
+               <lb/>Fürst Hohenlohe-
+            <lb/>Schillingsfürst.
+            <lb/>Krüger-Beftoft.
+            <lb/>Lauth.</p>
+            <p>
+               <lb/>Philippi.</p>
+            <p>
+               <lb/>Pougnet.</p>
+            <p>
+               <lb/>Frhr. zur Rabenau.
+            <lb/>Fürst Radziwill.</p>
+            <p>
+               <lb/>Raeß.</p>
+            <p>
+               <lb/>Richter (Meißen).
+            <lb/>Römer (Würltb.)
+            <lb/>Frh.vSchauenburg.
+            <lb/>Siegfried.</p>
+            <p>
+               <lb/>Simonis.</p>
+            <p>
+               <lb/>Söhnlin.</p>
+            <p>
+               <lb/>Sonnemann.</p>
+            <p>
+               <lb/>Teutsch.</p>
+            <p>
+               <lb/>Winterer.</p>
+            <p>
+               <lb/>Vergleichende Zusammevstellung.</p>
+            <p>
+               <lb/>Nordd. Reichstag Deutscher Reichstag</p>
+            <p>
+               <lb/>s-) Nationallib. Fraction.</p>
+            <p>
+               <lb/>k)1Deutsche Fortschrittsp.
+            <lb/>e) Freie (lib.) Vereinigung
+            <lb/>ä) Fraction des (linken)</p>
+            <p>
+               <lb/>Centrums . . . ,</p>
+            <p>
+               <lb/>0)1Liberale Reichspartei .</p>
+            <p>
+               <lb/>l)1Bundesstaatlich-constit.</p>
+            <p>
+               <lb/>Verein1.....</p>
+            <p>
+               <lb/>x) Freie conserv. Vereinig,
+            <lb/>ü) Deutsche Reichspartei .
+            <lb/>L) Fract. d. Conservativen
+            <lb/>k) Fract. d. (kath.) Centr.</p>
+            <p>
+               <lb/>1)1Polen 1.1.....</p>
+            <p>
+               <lb/>^Socialdemokraten . .</p>
+            <p>
+               <lb/>n)1Keiner Fraction Ange¬
+            <lb/>hörige 1.....1.</p>
+            <p>
+               <lb/>o)1Erledigte Mandate.</p>
+            <p>
+               <lb/>3</p>
+            <pb n="34" xml:id="img_0034"/>
+            <p>
+               <lb/>Lebeasakter</p>
+            <p>
+               <lb/>der Mitglieder des Zollparlaments (1868—69)</p>
+            <p>
+               <lb/>und des</p>
+            <p>
+               <lb/>Deutschen Reichstags 1874.</p>
+            <p>
+               <lb/>Nach den vorliegenden Altersangaben waren von den
+            <lb/>Mitgliedern des Zollparlaments und des II. Deutschen
+            <lb/>Reichstags geboren:</p>
+            <p>
+               <lb/>Zollparlament.1II. Deutscher Reichstag,</p>
+            <p>
+               <lb/>im Jahre:</p>
+            <p>
+               <lb/>1785. v. Franckenberg-Lud-
+            <lb/>wigsdorf.</p>
+            <p>
+               <lb/>1793. Harkort. Eichmann.</p>
+            <p>
+               <lb/>1796.1v. Seeckt. v. Waldaw.
+            <lb/>v. Steinmetz. Stavenhagen.</p>
+            <p>
+               <lb/>1797.1v. Falckenstein.</p>
+            <p>
+               <lb/>1798.1Meder.</p>
+            <p>
+               <lb/>1799.1Bernhardi. Gr. Jtzen-
+            <lb/>plitz. Graf Solms-Laubach.
+            <lb/>Lette. Engel (Leobschütz).</p>
+            <p>
+               <lb/>1800.1v. Bodelschwingh.
+            <lb/>v.Denzin. Holzer, v. Moltke.
+            <lb/>Oesterreich. Graf Oppers¬
+            <lb/>dorfs. v. Vincke (Oldendorf).</p>
+            <p>
+               <lb/>1801.1v.d. Heydt, v. Arnim
+            <lb/>(Heinrichsd.).v.Below.Tafel</p>
+            <p>
+               <lb/>1802.1v.Bockum-Dolffs. Gr.
+            <lb/>Keyserling, v. Kirchmann.
+            <lb/>Lucke. Prosch. Waldeck.
+            <lb/>v. Zu-Rhein I. Mohl.</p>
+            <p>
+               <lb/>1794. Naeß.</p>
+            <p>
+               <lb/>v. Bonin. Gf. Casus Stolberg.
+            <lb/>v. Mohl.</p>
+            <p>
+               <lb/>v.Denzin. Dieden. Gf. Moltke.</p>
+            <p>
+               <lb/>v. Arnim-Heinr.</p>
+            <p>
+               <lb/>v. Böckum - Dolfss. Haus¬
+            <lb/>mann (Potsdam), v. Kirch¬
+            <lb/>mann. Prosch.</p>
+            <pb n="35" xml:id="img_0035"/>
+            <p>
+               <lb/>Lebensalter der Mitgl. d. Zollparlaments u. d. Deutschen Reichst 3ö</p>
+            <p>
+               <lb/>Zollparlament.1II. Deutscher Reichstag,</p>
+            <p>
+               <lb/>im Jahre:</p>
+            <p>
+               <lb/>1803. v. Bismarck-Briest.
+            <lb/>L. Camphausen. Kester.
+            <lb/>v. Roon. Wachter. Ziegler.
+            <lb/>1804-Gr.Eulenburg. Riedel.
+            <lb/>Graf Schwerin. .Dissens,
+            <lb/>v. Patow.</p>
+            <p>
+               <lb/>1805.1Vayhinger. Dennig.
+            <lb/>Francke.Thüngen.Fst.Solms.</p>
+            <p>
+               <lb/>1806.1Gr.Arco-Valley.Edel.
+            <lb/>Hantelmann. Nebelthau. v.
+            <lb/>Schrenck. Techow. v. Unruh.</p>
+            <p>
+               <lb/>1807.1Knapp, v. Neilrath.
+            <lb/>Roß. v. Schröder. Wigard.
+            <lb/>Blömer.</p>
+            <p>
+               <lb/>1808.1v.Bernuth.Bluntschli.
+            <lb/>Jordan. Kreutz. Oehmichen.
+            <lb/>v. Saltzwedell. Schulze (De¬
+            <lb/>litzsch). v. Sperber, von
+            <lb/>Thünen.v.NeumayrPfanne-
+            <lb/>becker. Kolb. v. Hammerstein.</p>
+            <p>
+               <lb/>1800. Graf Arco-Stepperg.
+            <lb/>Ammermüller. M. Barth.
+            <lb/>Prinz Albrecht. Gr Dohna-
+            <lb/>Kotzenau. Kratz. Meier(Bre-
+            <lb/>men). Oetker, v. Varnbüler.
+            <lb/>Wagner.1*</p>
+            <p>
+               <lb/>1810.1Deutz. Heubner. von
+            <lb/>Hilgers. Hosfinann.Kirsner.
+            <lb/>Pfretzschner. Reichensperger.
+            <lb/>v-Saenger-Simsonv Soyer
+            <lb/>Gras Stolberg.</p>
+            <p>
+               <lb/>1811.1Bnddenberg. K.Barth.
+            <lb/>Gebert. Gitzler. Gürster.
+            <lb/>Grundrecht. Jordan, von
+            <lb/>Karstedt. Zur Megede. Wig¬
+            <lb/>gers I. Adickes. Gg. v. Vincke.</p>
+            <p>
+               <lb/>1812.1O.Camphausen Goed-
+            <lb/>dertz. Heyt. v. Kalckstein.
+            <lb/>Krätzer. Roben- Redeker.</p>
+            <p>
+               <lb/>v. Buß. Ewald. Ziegler.</p>
+            <p>
+               <lb/>du Pont des Loges. Graf
+            <lb/>Eulenburg. v. Rönne.</p>
+            <p>
+               <lb/>v. Diederichs.</p>
+            <p>
+               <lb/>Allnoch. v. Beughem. Graf
+            <lb/>Bissingen. Eberty. v. Unruh.</p>
+            <p>
+               <lb/>Frisch. Hamm. Knapp. Te¬
+            <lb/>chow. Wulfs Hein.</p>
+            <p>
+               <lb/>Baudri. Bernhardt, v. Ber-
+            <lb/>nuth. v. Etzel. Kreutz.
+            <lb/>Oehmichen. Philippi. Ä.
+            <lb/>Reichensperger. Schulze-
+            <lb/>Delitzsch. Tellkampf.</p>
+            <p>
+               <lb/>Beseler. Kolbe. Mayer (Heil¬
+            <lb/>bronn). Oetker. Rasche.
+            <lb/>Freiherr von Varnbüler.
+            <lb/>Wagner.</p>
+            <p>
+               <lb/>Chevalier. Dieden. P^ Rei¬
+            <lb/>chensperger. Graf Lchön-
+            <lb/>born. Simson.</p>
+            <p>
+               <lb/>Grumbrecht. Jordan. Precht.
+            <lb/>Zimmermaun.</p>
+            <p>
+               <lb/>Baumgarten. Borowski.
+            <lb/>Brückl. Francke. Krätzer.
+            <lb/>Nieper. Schmidt (Jena).</p>
+            <pb n="36" xml:id="img_0036"/>
+            <p>
+               <lb/>86</p>
+            <p>
+               <lb/>Lebensalter der Mitglieder des Zollparlaments</p>
+            <p>
+               <lb/>Zollparlament.1II. Deutscher Reichstag,</p>
+            <p>
+               <lb/>im Jahre:</p>
+            <p>
+               <lb/>v. Schwendler. Windthorst.
+            <lb/>v. Zehmen. Schnuse.</p>
+            <p>
+               <lb/>1813.1v. Arnim - Kröchlen-
+            <lb/>dorf. v. Eichthal. Fromme.
+            <lb/>Jansen, v. Iagow. Müller
+            <lb/>(Görlitz), v. Mühler. Neu-
+            <lb/>bronner. v. Münchhausen.</p>
+            <p>
+               <lb/>1814.1v. Aretin. Graf Basse¬
+            <lb/>witz. Blum. Conrad. Löwe
+            <lb/>(Calbe). v. Savigny. von
+            <lb/>Meirner. Schassrath.</p>
+            <p>
+               <lb/>1815.1v. Blanckenburg. Gr.
+            <lb/>Blumenthat. Gommels-
+            <lb/>hausen Grf.Dohna-Fincken-
+            <lb/>stein. Schleiden. Wagener.
+            <lb/>Schwinn. Henneberg. Bür¬
+            <lb/>gers. Len Doornkaat</p>
+            <p>
+               <lb/>1816.1Becker (Oldenburg).
+            <lb/>Böckel. v. Guttenberg. Jüng-
+            <lb/>ken. Krüger, v. Proff-Zrnich.
+            <lb/>Römmich. Römer. Sepp,
+            <lb/>v. Schaper. Schwarze. Som-
+            <lb/>bartHerz.v.Ujest.Wiggersll.
+            <lb/>v. Benda. v. Oertzen.</p>
+            <p>
+               <lb/>1817.1Baehr. Defsner. Prinz
+            <lb/>Biron. v. d- Goltz v. Hafen-
+            <lb/>brädl. Lorentzen.v.Luck. Graf
+            <lb/>Pückler.Probft. zurRabenau
+            <lb/>Richter. Runge. Stephani.
+            <lb/>Ulrich. Grv.d.Schulenburg.
+            <lb/>Köppe. Sachfie. Schreck.
+            <lb/>Wendel.</p>
+            <p>
+               <lb/>1818.1v Auerswald. v-Bren-
+            <lb/>ken.C rämer. v. Davier. Fries.
+            <lb/>Hausmann, v. Heinemann.
+            <lb/>Köster. Krans. Metz. v. Ow.</p>
+            <p>
+               <lb/>Valentin, v. Weber (Würt¬
+            <lb/>temberg). Windthorst.
+            <lb/>v. Arnim-Kröchl. Haanen.
+            <lb/>v. Iagow. Klotz, v. Miller.
+            <lb/>Müller (Görlitz).</p>
+            <p>
+               <lb/>Frhr. v. Aretin I. Ausfeld.
+            <lb/>Föckerer. Frhr. v. Leykam.
+            <lb/>Löwe. v. Savigny. Welcker.</p>
+            <p>
+               <lb/>Gf. Dohna. Kochann. Lang.
+            <lb/>Lehr.</p>
+            <p>
+               <lb/>Becker (Varel), v. Benda.
+            <lb/>Dickert. Friderich. Gneist.
+            <lb/>Grosman I. Herzog v.
+            <lb/>Ujest. Jacobi. Kriiger. Mar¬
+            <lb/>tin. Merkte. Römer (Hil¬
+            <lb/>desheim). Schüttinger.
+            <lb/>Schwarze. Sombart. Wester¬
+            <lb/>mayer. Wiggers.</p>
+            <p>
+               <lb/>Bahr (Cassel). Tann. Gros¬
+            <lb/>man II. Frhr. v. Hafen-
+            <lb/>brädl. Lorentzen. Mayer
+            <lb/>(Donauw.) Mousang. Neu¬
+            <lb/>mann. Graf Pückler. Frhr.
+            <lb/>v. Rabenau, v. Rybinski.
+            <lb/>Schmidt (Stettin). Schmidt
+            <lb/>(Zweibrücken). Stephani.
+            <lb/>Wolssson.</p>
+            <p>
+               <lb/>Fernow. v. Habermann.
+            <lb/>Hausmann (Lippe). Herr¬
+            <lb/>lein. Kisker. Krieger. Lin-
+            <lb/>gens. Müller (Pleß). Frhr.</p>
+            <pb n="37" xml:id="img_0037"/>
+            <p>
+               <lb/>und des Deutschen Reichstags.1o?</p>
+            <p>
+               <lb/>Zollparlament.1II. Deutscher Reichstag</p>
+            <p>
+               <lb/>im Jahre:</p>
+            <p>
+               <lb/>Herzog v. Raübor. v. Seyde-
+            <lb/>witz l. Freytag. Krieger.
+            <lb/>Kurz.</p>
+            <p>
+               <lb/>1819. Benzino. v. Graeve.
+            <lb/>Fürst Hohenlohe-Schillings¬
+            <lb/>sürst. Jensen. Jörg. Künzer.
+            <lb/>Oesterlen.v. S chwartzkoppen.
+            <lb/>Fauler.vTreskow.Freisleben
+            <lb/>Volk. v. Wedemeyer. Fürst
+            <lb/>Lichnowsky. Weber.</p>
+            <p>
+               <lb/>182V. Baldamus. Becker.
+            <lb/>(Dortmund). v.Brauchitsch.
+            <lb/>Katz. Braun (Hersfeld).
+            <lb/>Diepolder. Erath. Günther
+            <lb/>(D.-Erone).Hagen.Harnier.
+            <lb/>Herth. Kanngietzer. Keyser.
+            <lb/>Knosp. Mosig v. Aehrenfeld.
+            <lb/>Müller. Graf Münster, von
+            <lb/>Rothschild.Roßhirt.v.Schlör
+            <lb/>Schläger. v. Simpson.
+            <lb/>Twesten. v. Wedemeyer.
+            <lb/>Ackermann. Wachenhusen.</p>
+            <p>
+               <lb/>1821.1von Bethmann. Engel
+            <lb/>(Berlin), von Forckenbeck.
+            <lb/>Lienau.v Mallinckrodt.Salz-
+            <lb/>mann. Grf. Solms-Baruth.
+            <lb/>v. Weitzel. Steltzer.</p>
+            <p>
+               <lb/>1822.1Braun, v. Einsiedel,
+            <lb/>v Chlapowski. Ahmann.
+            <lb/>Duncker. Dörtenbach.Forkel.
+            <lb/>Genast, v. Graevenitz I.
+            <lb/>Bruch, v. Hennig. Hebting.
+            <lb/>Hosius. v. Hoverbeck. Miller.
+            <lb/>Ramm. v. Stotzingen. von
+            <lb/>Elsner. v. Hagke. v. Melle.</p>
+            <p>
+               <lb/>1823.1Bail. Graf Baudissin.
+            <lb/>Bamberger. v. Cranach.
+            <lb/>Günther(Saalhausen). Grf.</p>
+            <p>
+               <lb/>v. Ow- Graf Quadt. Her¬
+            <lb/>zog v. Ratibor. v. Seyde-
+            <lb/>witz. v. Waldaw.</p>
+            <p>
+               <lb/>Donath. Grobe. Fst. Hohen-
+            <lb/>lohe-Schillingsf. Jörg. Fst.
+            <lb/>Lichnowsky. Minckwitz. v.
+            <lb/>Niegolewski. Oppenheim.
+            <lb/>Schwarz. Völk.' Heine.</p>
+            <p>
+               <lb/>Ackermann. Brande. v.
+            <lb/>Brauchitsch. v. Brenken.
+            <lb/>Faller. Hagen. Harnier.
+            <lb/>Fst. Hohenlohe-Jngelf. v.
+            <lb/>Kehler. Kiepert. Schacht.
+            <lb/>Senestrey. Siegfried. Win¬
+            <lb/>kelhofer.</p>
+            <p>
+               <lb/>Albrecht (Danzig), v. Behr.
+            <lb/>v. Bethmann. Datzl. v.
+            <lb/>Forcade. v. Forckenbeck. Gf.
+            <lb/>Hacke. Kegel, v. Ludwig, v.
+            <lb/>Mallinckrodt. Gf. Nayhauß-
+            <lb/>Cormons.</p>
+            <p>
+               <lb/>Braun. Duncker. v. Freeden.
+            <lb/>Frhr. v. Hoverbeck. v.
+            <lb/>Klitzing. Koch (Annaberg).
+            <lb/>Kraaz. Michaelis. Strecker.
+            <lb/>Tritscheller. Wachs.</p>
+            <p>
+               <lb/>Bamberger. Elben. Haar¬
+            <lb/>mann. Günther. Hauck.
+            <lb/>Gf. Maltzan. Müll&lt;n(Stutt-</p>
+            <pb n="38" xml:id="img_0038"/>
+            <p>
+               <lb/>38</p>
+            <p>
+               <lb/>Lebensalter der Mitglieder des Zollparlaments</p>
+            <p>
+               <lb/>Zollparlament.1Ik. Deutscher Reichstag,</p>
+            <p>
+               <lb/>im Jahre:</p>
+            <p>
+               <lb/>Maltzan. v.Saucken.Schnei-
+            <lb/>der. Strousberg.</p>
+            <p>
+               <lb/>1824.1v. Bennigsen, v. Bim¬
+            <lb/>sen. Eornely. v. Dörnberg,
+            <lb/>v. Eckardstein. Feustel. Fink.
+            <lb/>Kantak. Kugler. Planck.
+            <lb/>Reeder, v. Romberg. Russell,
+            <lb/>v. Schöning. Weißich.</p>
+            <p>
+               <lb/>1825.1Graf Bredow. Diehe.
+            <lb/>Endemann. Fabricius. von
+            <lb/>Franckenstein. Fühling. Grf.
+            <lb/>Kleist, v. Loe. Mittnacht,
+            <lb/>v. Roggenbach. v. Unruhe-
+            <lb/>Bomst. Buss. Fritzsche.
+            <lb/>Aegidi.</p>
+            <p>
+               <lb/>1826.1Albrecht. Dahmen.
+            <lb/>v. Diest. Goetz. v. Grävenitz
+            <lb/>(Grünberg). Gr. Hompesch.
+            <lb/>Gr. Lehndorff. Leistner. Lieb¬
+            <lb/>knecht. Marquardsen. Meyer
+            <lb/>(Thorn).OHm. v.Puttkamer
+            <lb/>(Sorau). v. Seydewitz II.
+            <lb/>Meulenbergh.</p>
+            <p>
+               <lb/>1827.1Försterling. Frieden¬
+            <lb/>thal. v. Hagemeister. Lesse.
+            <lb/>Pogge.</p>
+            <p>
+               <lb/>1828.1Evelt. v. Levetzow.
+            <lb/>Rohland. Weigel. Zur¬
+            <lb/>mühlen. v. Kardorfs. v.
+            <lb/>Eicke. Graf Grote.</p>
+            <p>
+               <lb/>1829.1GrafBethusy. Erhard.
+            <lb/>Hinrichsen. Jäger, v. Klein¬
+            <lb/>sorgen. Laster. Pohlmann.
+            <lb/>Graf Renard. v. Salza.
+            <lb/>Graf v. d. Schulenburg, von
+            <lb/>Thadden. Wehrenpfennig.</p>
+            <p>
+               <lb/>gart). Römer (Württemb.).
+            <lb/>Schöttler. Weiß. v. Winter.
+            <lb/>Abel. v. Bennigsen. Gerber.
+            <lb/>Gleim. Jacobs. Kapp.
+            <lb/>Pfeiffer. Pflüger, v. Schö¬
+            <lb/>ning. Sommer^ v. Woedtke.</p>
+            <p>
+               <lb/>Dietze. Flügge, v. Francken¬
+            <lb/>stein. Groß. Lobach. Ru-
+            <lb/>dolphi.Sarwey. v.Saucken-
+            <lb/>Tarp. Söhnlin. Stenglein.
+            <lb/>v. Taczanowski. Triller.
+            <lb/>Frhr. v. Unruhe-Bomst.
+            <lb/>Zinn.</p>
+            <p>
+               <lb/>Abeken. v. Adelebsen. Al¬
+            <lb/>brecht (Hannover). Haupt.
+            <lb/>Hullmann. Kirchner. Lieb¬
+            <lb/>knecht. Marquardsen. Meyer
+            <lb/>(Thorn). v. Nostitz-Wall-
+            <lb/>witz. von Puttkamer
+            <lb/>(Sorau). v. Saucken-Jul.
+            <lb/>Spielberg. v. Vahl.
+            <lb/>v. Dücker. Falk. Franken¬
+            <lb/>burger. Friedenthal. Mosle.
+            <lb/>Pabst. Parisius. Petersen.
+            <lb/>Pogge-Blankenh. Schmid
+            <lb/>(Aichach). v. Schulte.
+            <lb/>Schulz. Uhden. Websky.
+            <lb/>Bayrhammer. v. Kardorfs,
+            <lb/>v. Puttkamer (Lyck). Roh¬
+            <lb/>land. Baron v. Schauen¬
+            <lb/>burg. Weigel.</p>
+            <p>
+               <lb/>Achenbach. Prinz v. Baden.
+            <lb/>Berger. Graf Bethusy-Huc.
+            <lb/>Brockhaus. Edler. Erhard.
+            <lb/>Fenner. Frühauf. Lasker.
+            <lb/>Miguel. Mörstadt. Pohl¬
+            <lb/>mann. Schröder (Lippstadt).</p>
+            <pb n="39" xml:id="img_0039"/>
+            <p>
+               <lb/>und des Deutschen Reichstags.</p>
+            <p>
+               <lb/>39</p>
+            <p>
+               <lb/>Zollparlament.1II. Deutscher Reichstag,</p>
+            <p>
+               <lb/>im Jahre:</p>
+            <p>
+               <lb/>Miquol. Graf Luxburg,
+            <lb/>v. Watzdorf.</p>
+            <p>
+               <lb/>1830. Hänel. Graf Henckel.
+            <lb/>Hüffer. Lautz. Wild.</p>
+            <p>
+               <lb/>1831. v. Brauchitsch-Genthin.
+            <lb/>v. Bülow. Devons, v. Hül¬
+            <lb/>lessem. v. Puttkamer. (Frau¬
+            <lb/>stadt). Rang. Stavenhagen.
+            <lb/>Graf Schafsgotsch. Schaffte.</p>
+            <p>
+               <lb/>1832. Graf Arnim. Bissing.
+            <lb/>Bock. v. Helldorf. Lindau.
+            <lb/>Eysoldt. Koch. Pauli.</p>
+            <p>
+               <lb/>1833. Fürst Pleß. Schraps..
+            <lb/>Grf.Kwilecki. Grf. Bocholtz.
+            <lb/>v.Czarlinski. v. Zu-Rhein II.</p>
+            <p>
+               <lb/>1834. Lukas.v.Stauffenberg.
+            <lb/>Schweitzer.</p>
+            <p>
+               <lb/>1835. Grf.Frankenberg. Grs.
+            <lb/>Plessen.</p>
+            <p>
+               <lb/>Schröder (Königsberg i. N ).
+            <lb/>Struckmann (Diepholz).
+            <lb/>Thilo. Wehrenpfennig.
+            <lb/>Bluhme. Fransten. v.Gerlach.
+            <lb/>Grimm. Hänel. v. Kalkstein.
+            <lb/>Frhr. v. Landsberg-Velen.
+            <lb/>Schmidt (Hamburg). Thile-
+            <lb/>nius. Traeger. Wölfel.
+            <lb/>Bernards. Blum (Baden).
+            <lb/>Graf Galen. Georgi. Ger¬
+            <lb/>main. Herz. Kircher. Mö-
+            <lb/>ring. Pogge-Roggow. v.
+            <lb/>Puttkamer (Fraustadt).
+            <lb/>Rußwurm. Sonnemann.
+            <lb/>Wallichs. Zißlkiewicz.</p>
+            <p>
+               <lb/>Graf Arnim-Boytzenb. Bock.
+            <lb/>Eysoldt. Gaupp. Frhr. v.
+            <lb/>Heereman. Fst. Hohenlohe-
+            <lb/>Langend, v. Kesseler. Koch
+            <lb/>(Holzminden). Pfafferott,
+            <lb/>v. Schauß. Schmidt (Würt¬
+            <lb/>temberg). Schröder (Fried¬
+            <lb/>berg). Frhr. v. Wendt.
+            <lb/>Winterer.</p>
+            <p>
+               <lb/>Baer (Baden), v. Cuny.
+            <lb/>Dernburg. Laporte. Lucius
+            <lb/>(Geilenk.). Fürst Pleß. Gf.
+            <lb/>Praschma. Richter(Meißen).
+            <lb/>Rickert. v. Saint-Paul.
+            <lb/>Späth. Frhr. v. Zu-Rhein.
+            <lb/>Graf Ballestrem, v. Boja-
+            <lb/>nowski. Graf Chamar6.
+            <lb/>Grütering. Jäger, v. Klein¬
+            <lb/>sorgen. Lenz. Fürst Radzi-.
+            <lb/>will. Fhr. v. Stausfenberg.
+            <lb/>v. Treitschke.</p>
+            <p>
+               <lb/>Büsing. Frhr. Graf Franken¬
+            <lb/>berg. Frhr. v. Grote. Hin-
+            <lb/>schius. Hofsmann. Klüg-</p>
+            <pb n="40" xml:id="img_0040"/>
+            <p>
+               <lb/>40 Lebensalter d. Mitgl. d. Zollparlaments u. d. Deutschen Reichst.</p>
+            <p>
+               <lb/>Zollparlament.1II. Deutscher Reichstag,</p>
+            <p>
+               <lb/>im Jahre:</p>
+            <p>
+               <lb/>1836. Stumm.</p>
+            <p>
+               <lb/>1837. v. Göler. Tobias.
+            <lb/>Hasenclever.</p>
+            <p>
+               <lb/>1838.1Bücher.</p>
+            <p>
+               <lb/>1839.1v. Watzdorf.</p>
+            <p>
+               <lb/>1840. Bebel.</p>
+            <p>
+               <lb/>1841. Blum (Sachsen). Graf
+            <lb/>Kanitz.</p>
+            <p>
+               <lb/>mann. v. Könneritz. Lucius
+            <lb/>(Erfurt), v. Puttkamer-
+            <lb/>Kolziglow. Graf Stolberg
+            <lb/>(Neuwied).</p>
+            <p>
+               <lb/>Banks. Graf Stolberg-Bru-
+            <lb/>stawe. Stumm. Weber
+            <lb/>(Coburg).</p>
+            <p>
+               <lb/>Brüning. Buhl. v. Grand-
+            <lb/>Ry. Hasenclever. Scipio.
+            <lb/>Graf Stolberg-Wernigerode.
+            <lb/>Struckmann (Osnabrück).
+            <lb/>Dohrn. Lieber. Motteler.
+            <lb/>Oncken. Richter (Hagen).
+            <lb/>Prinz Czartoryski. Graf
+            <lb/>Kleist. Kollerer. v. Koz-
+            <lb/>lowski. Siemens. Thiel.
+            <lb/>Vahlteich. Graf v. Wald-
+            <lb/>burg-Zeil.</p>
+            <p>
+               <lb/>Bebel. Horn. Klöppel. Frhr.
+            <lb/>von Maltzahn. Bar. Min-
+            <lb/>nigerode. v. Reden.</p>
+            <p>
+               <lb/>Huber. Reimer.</p>
+            <p>
+               <lb/>1842.1Geib. Majunke. Prinz
+            <lb/>Radziwill.</p>
+            <p>
+               <lb/>1843.1Vieler, v. Borries.
+            <lb/>Heyl. Graf Preysing.</p>
+            <p>
+               <lb/>1844.1Hasselmann. v.Soden.</p>
+            <p>
+               <lb/>1845.1Frhr. v. Aretin (Jl-
+            <lb/>lertissen). Fürst Carolath.</p>
+            <p>
+               <lb/>1846.1v. Donimirski. Most.</p>
+            <p>
+               <lb/>1847.1Freiherr v.Landsberg.
+            <lb/>Pougnet. v. Zoltowski.</p>
+            <pb n="41" xml:id="img_0041"/>
+            <p>
+               <lb/>Bevollmächtigte zum Bundesrathe.</p>
+            <p>
+               <lb/>(Februar 1874.)</p>
+            <p>
+               <lb/>Königreich I^reußerr: Reichskanzler Fürst von Bis¬
+            <lb/>marck, Staats- und Justiz-Minister Dr. Leonhardt,
+            <lb/>Staats- und Finanz-Minister Camphausen, Staats-
+            <lb/>Minister, Präsident des Reichskanzler-Amts Delbrück,
+            <lb/>Staats-Minister, Chef der Kaiserlichen Admiralität von
+            <lb/>Stosch, Staats- und Kriegs-Minister von Kameke,
+            <lb/>in dessen Verhinderung: General-Major von Voigts-
+            <lb/>Rhetz, Wirklicher Geheimer Rath und Director im Aus¬
+            <lb/>wärtigen Amt von Philipsborn, General-Director der
+            <lb/>indirecten Steuern Hasselbach, in dessen Verhinderung:
+            <lb/>Geheimer Ober-Finanz-Rath Burghart, Ministerial-
+            <lb/>Director im Handels-Ministerium Moser, in dessen Ver¬
+            <lb/>hinderung:1Wirklicher Geheimer Ober-Regierungs-Rath</p>
+            <p>
+               <lb/>vr. Iacobi, Ministerial-Director im Handels-Ministerium
+            <lb/>Weishaupt, Geheimer Ober-Regierungs-Rath Dr. von
+            <lb/>Nathusius, General-Post-Director Stephan, Präsident
+            <lb/>der Seehandlung Bitter, Unter-Staats-Secretär im Justiz-
+            <lb/>Ministerium Dr. Friedberg, Ministerial-Director im
+            <lb/>Finanz-Ministerium Meinecke.</p>
+            <p>
+               <lb/>Königreich Mayern: Staats-Minister des Königlichen
+            <lb/>Hauses und des Aeußern von Pfretzschner, Staats-
+            <lb/>Minister der Justiz Dr. von Fäustle, Staats-Minister
+            <lb/>der Finanzen Berr, Außerordentlicher Gesandter und be¬
+            <lb/>vollmächtigter Minister, Staats-Rath Frhr. Pergler von
+            <lb/>Perglas, Ministerial-Rath Riedel, Oberst des General-
+            <lb/>Quartiermeister - Stabes Fries, in deren Abwesenheit:
+            <lb/>Ober-Rechnungs-Rath Landgraf, Ober-Zollrath Felser,
+            <lb/>Ober-Zollrath Schmidtkonz.</p>
+            <p>
+               <lb/>Königreich Sachsen: Staats-Minister Frhr. von Frie¬
+            <lb/>sen, Staats-Minister Abeken, Außerordentlicher Gesandter</p>
+            <pb n="42" xml:id="img_0042"/>
+            <p>
+               <lb/>42</p>
+            <p>
+               <lb/>Bevollmächtigte zum Bundesrathe.</p>
+            <p>
+               <lb/>und bevollmächtigter Minister von Nostitz-Wallwitz,
+            <lb/>General-Major z. D. von Brandenstein, in deren
+            <lb/>Abwesenheit: Geheimer Justiz-Rath Held, Geheimer Finanz-
+            <lb/>Rath Wahl. Edler v. der Planitz, Kgl. Sachs. Major.</p>
+            <p>
+               <lb/>Königreich Württemberg: Justiz-Minister vonMitt-
+            <lb/>nacht, außerordentlicher Gesandter und bevollmächtigter
+            <lb/>Minister, Staats-Rath Frhr. von Spitzemberg, Oberst
+            <lb/>von Faber du Faur, Ober-Steuerrath Wintt erlin,
+            <lb/>in deren Abwesenheit: Ministerial-Rath Heß.</p>
+            <p>
+               <lb/>Großherzogthum Maden: Präsident des Staats-Mini¬
+            <lb/>steriums, Staats-Minister des Innern Dr. Jolly, Mini-
+            <lb/>sterial-Präsident, Wirklicher Geheimer Rath von Frey¬
+            <lb/>dorf, Ministerial - Präsident, Staatsrath Ellstätter, in
+            <lb/>deren Abwesenheit: Außerordentlicher Gesandter und bevoll¬
+            <lb/>mächtigter Minister, Geheimer Legations-Rath Frhr. von
+            <lb/>Türckheim, Ministerial-Rath Eisenlohr, Geheimer
+            <lb/>Finanz-Rath Lepique.</p>
+            <p>
+               <lb/>Großherzogthum Kessen: Präsident des Gesammt-Mini-
+            <lb/>steriums und Minister des Großherzoglichen Hauses und des
+            <lb/>Aeußern Hofmann, Ministerial-Rath Dr. Neid Hardt,
+            <lb/>Ministerial-Rath Göring.</p>
+            <p>
+               <lb/>Großherzogthum Mecklenburg - Schwerin: Ober-Zoll-
+            <lb/>Director Oldenburg.</p>
+            <p>
+               <lb/>Großherzogthum Sachsen - Weimar: Geheimer Staats-
+            <lb/>Rath vr. Stichling, in dessen Abwesenheit: Geheimer
+            <lb/>Finanz-Rath vr. Heerwart.</p>
+            <p>
+               <lb/>Großherzogthum Mecklenburg - Strelitz: Ober-Zoll-
+            <lb/>Director Oldenburg.</p>
+            <p>
+               <lb/>Großherzogthum Htdenburg: Staats-Minister von
+            <lb/>Rössing, in dessen Abwesenheit: Geheimer Ministerial-
+            <lb/>Rath Selkmann.</p>
+            <p>
+               <lb/>Herzogthum Mraunschweig-Aüneöurg: Staats-Minister
+            <lb/>von Campe, Wirklicher Geheimer Rath von Liebe.</p>
+            <p>
+               <lb/>Herzogthum Sachsen - Weiningen:1Staats - Minister</p>
+            <p>
+               <lb/>Giseke.</p>
+            <p>
+               <lb/>Herzogthum Sachsen-Altenöurg: Staats-Minister von
+            <lb/>Gerstenberg-Zech.</p>
+            <p>
+               <lb/>Herzogthum Sachsen-tzoöurg-Hotha: Staats-Minister
+            <lb/>Frhr. von Seebach.</p>
+            <p>
+               <lb/>Herzogthum Anhalt: Staats-Minister von Larisch.</p>
+            <pb n="43" xml:id="img_0043"/>
+            <p>
+               <lb/>ff e im Bundesrathe.</p>
+            <p>
+               <lb/>D!</p>
+            <p>
+               <lb/>43</p>
+            <p>
+               <lb/>Fürstenthum Schwarzöurg-Sondershausen; Staats-
+            <lb/>Rath und Kammerherr von Wolffersdorff.</p>
+            <p>
+               <lb/>Fürstenthum Schrvarzöurg-Zludol'stadt; Staats-Mini¬
+            <lb/>ster von Bertrab.</p>
+            <p>
+               <lb/>Fürstenthum Wakdeck und Ayrmont; Landesdirector
+            <lb/>von Sommerfeld.</p>
+            <p>
+               <lb/>Fürstenthum Neuß ä. &lt;L.r Regierungs-Präs. Meusel.</p>
+            <p>
+               <lb/>Fürstenthum Aeuß z. ; Staats-Minister vonHarbou.</p>
+            <p>
+               <lb/>Fürstenthum Schaumvurg - &lt;Lippe: Geh. Regierungs¬
+            <lb/>Rath Höcker.</p>
+            <p>
+               <lb/>Fürstenthum (Lippe: Kabinets-Minister vonFlottwell.</p>
+            <p>
+               <lb/>Freie und Hansestadt &lt;Lüöeck: Minister-Resident Dr.
+            <lb/>Krüger.</p>
+            <p>
+               <lb/>Freie Hansestadt ZLremen: Bürgermeister Gildemeister.</p>
+            <p>
+               <lb/>Freie und Hansestadt Kamöurg: Bürgermeister vr. Kir-
+            <lb/>chenpauer, in dessen Abwesenheit: Minister-Resident
+            <lb/>Vr. Krüger.</p>
+            <p>
+               <lb/>Die Ausschüsse im Bundesrathe.</p>
+            <p>
+               <lb/>I. Ausschuß für das Laudheer und die Kestungen.</p>
+            <p>
+               <lb/>Preußen: v- Kamele, in dessen Behinderung: v. Voigts-
+            <lb/>Rhetz. — Bayern: Fries. -- Sachsen: v. Brandenstein. —
+            <lb/>Württemberg: v. Faber du Faur. — Baden: Vaeat. —
+            <lb/>Mecklenburg-Schwerin: v. Bütow. — Sachsen-Coburg-
+            <lb/>Gotha: Frhr. v. Seebach. —</p>
+            <p>
+               <lb/>H. Ausschuß für das Seewesen.</p>
+            <p>
+               <lb/>Preußen: v. Stosch. — Mecklenburg-Schwerin: v. Bülow.</p>
+            <p>
+               <lb/>—1Oldenburg: v. Rössing, in dessen Behinderung: Selkmann.</p>
+            <p>
+               <lb/>—1Lübeck: vr. Krüger. — Hamburg: vr. Kirchenpauer. —</p>
+            <p>
+               <lb/>III. Ausschuß für ZoL. und Steuerwefen.</p>
+            <p>
+               <lb/>Preußen: Camphausen, in dessen Behinderung: Hasselbach.</p>
+            <p>
+               <lb/>—1Bayern: Berr, in dessen Behinderung: Schmidtkonz. —
+            <lb/>Sachsen: v. Nostitz-Wallwitz, in dessen Behinderung: Wahl.</p>
+            <pb n="44" xml:id="img_0044"/>
+            <p>
+               <lb/>44</p>
+            <p>
+               <lb/>Die Ausschüsse im DuuLesrathe</p>
+            <p>
+               <lb/>Württemberg: v. Wintterlin. — Kaden: Ellstätter, in dessen
+            <lb/>Behinderung: Eisenlohr; Lepique. — Mecklenburg-Schwerin:
+            <lb/>Oldenburg. — Braunschweig: v. Liebe. — Stellvertreter:
+            <lb/>Hessen: Göring. — Grotzherzogthum Lachsen: vr. Stichling,
+            <lb/>in dessen Behinderung: vr. Heerwart. —</p>
+            <p>
+               <lb/>1IV.Ausschuß für Kandel und JerKehr.</p>
+            <p>
+               <lb/>Preußen: Delbrück, in dessen Behinderung: v. Philipsborn.
+            <lb/>Moser. Vr. v. Nathusius. Bitter, vr. Jacobi. — Bayern:
+            <lb/>v. Riedel. — Sachsen: Abeken, in dessen Behinderung: Held.
+            <lb/>— Württemberg: Frhr. v. Spitzemberg. — Hessen: Vr.
+            <lb/>Neidhardt. — Mecklenburg-Schwerin: Oldenburg. — Ham¬
+            <lb/>burg : vr. Kirchenpauer, in dessen Behinderung: Vr. Schröder,
+            <lb/>vr. Krüger. — Stellvertreter: Lübeck: vr. Krüger. —</p>
+            <p>
+               <lb/>1V.Ausschuß für HLsenöahnen, H^ost und Helegraphen.</p>
+            <p>
+               <lb/>Preußen: Für Post- und Telegraphensachen: Stephan.
+            <lb/>Für Eisenbahnsachen: Weishaupt. — Baden: Ellstätter, in
+            <lb/>dessen Behinderung: Eisenlohr. — Hessen: Hofmann, in
+            <lb/>dessen Behinderung: vr. Neidhardt. — Großherzogthum
+            <lb/>Sachsen: vr. Stichling, in dessen Behinderung: vr. Heer¬
+            <lb/>wart. — Oldenburg: v. Rössing, in dessen Behinderung:
+            <lb/>Weltmann. — Sachsen-Altenburg: v. Gerstenberg-Zech. —
+            <lb/>Lübeck: vr. Krüger.</p>
+            <p>
+               <lb/>1VI.Ausschuß für Justizwesen.</p>
+            <p>
+               <lb/>Preußen: vr. Leonhardt, in dessen Behinderung: vr.
+            <lb/>Friedberg. — Bayern: vr. v. Fäustle, in dessen Behinder¬
+            <lb/>ung: v. Riedel. — Sachsen: Abeken, in dessen Behinder¬
+            <lb/>ung: Held. — Württemberg: v. Mittnacht, in dessen Be¬
+            <lb/>hinderung: Heß. — Hessen: vr. Neidhardt. — Braun¬
+            <lb/>schweig: v. Liebe. — Lübeck: Vr. Krüger. — Stellvertreter:
+            <lb/>Kaden: v. Freydorf, in dessen Behinderung: Frhr. v.
+            <lb/>Türckheim. — Lchwarjburg-Pudolstadl: v. Bertrab.</p>
+            <p>
+               <lb/>1VII.Ausschuß für Rechnungswesen.</p>
+            <p>
+               <lb/>Preußen: Meinecke. Hasselbach (für Zölle und indirecte
+            <lb/>Steuern). — Bayern: Berr, in dessen Behinderung: Land¬
+            <lb/>graf. — Sachsen: v. Nostitz-Wallwitz, in dessen Behinder¬
+            <lb/>ung: Wahl. — Württemberg: v. Wintterlin. — Kaden:
+            <lb/>Ellstätter, in dessen Behinderung: Eisenlohr. — Hessen:</p>
+            <pb n="45" xml:id="img_0045"/>
+            <p>
+               <lb/>Die Ausschüsse im Pundesrathe.</p>
+            <p>
+               <lb/>45</p>
+            <p>
+               <lb/>Hofmann, in dessen Behinderung: Dr. Neidhardt. — Kraun-
+            <lb/>schweig: v. Liebe. —Stellvertreter: Mecklenburg-Schwerin:
+            <lb/>v. Bülow.</p>
+            <p>
+               <lb/>VIII. Ausschuß für die auswärtigen Angelegenheiten.</p>
+            <p>
+               <lb/>Bayern: v. Pfretzschner, in dessen Behinderung: Frhr.'
+            <lb/>Pergler v. Perglas. — Sachsen: Frhr. v. Friesen, in dessen
+            <lb/>Behinderung: v. Nostitz-Wallwitz. — Württemberg: Frhr. v.
+            <lb/>Spitzemberg. — Kaden: v. Freydorf, in dessen Behinderung:
+            <lb/>Frhr. v. Türckheim. — Mecklenburg-Schwerin: v. Bülow.</p>
+            <p>
+               <lb/>IX. Ausschuß für Hksaß-Lothringen.</p>
+            <p>
+               <lb/>Preußen: Delbrück. — Payern: v. Pfretzschner, in dessen
+            <lb/>Behinderung: Frhr. Pergler v. Perglas. — Sachsen: v.
+            <lb/>Nostitz-WaÜwitz, in dessen Behinderung: Held. — Württem¬
+            <lb/>berg: Frhr. v. Spitzemberg. — Baden: v. Freydorf, in
+            <lb/>dessen Behinderung: Frhr. v. Türckheim. — Mecklenburg-
+            <lb/>Schwerin: v. Bülow. — Braunschweig: v. Liebe. — Stellver¬
+            <lb/>treter: Hessen: Dr. Neidyardt. — Lübeck: Dr. Krüger.</p>
+            <p>
+               <lb/>Ausschuß für die Verfassung.</p>
+            <p>
+               <lb/>Preußen: Delbrück. — Bayern: v. Pfretzschner, in dessen
+            <lb/>Behinderung: Dr. v. Fäustle. — Sachsen: Frhr. v. Friesen,
+            <lb/>in dessen Behinderung: v. Nostitz-Wallwitz. — Württemberg:
+            <lb/>v. Mittnacht, in dessen Behinderung: Heß. — Baden:
+            <lb/>v. Freyoorf, in dessen Behinderung: Frhr. v. Türckheim. —
+            <lb/>Oldenburg: v. Rössing, in dessen Behinderung: Selkmann.
+            <lb/>-Sachsen-Meiningen: Giseke.</p>
+            <p>
+               <lb/>Ausschuß für die Oeschäfts-Hrdnurig.</p>
+            <p>
+               <lb/>Preußen: Delbrück. — Bayern: Dr. v. Fäustle, in dessen
+            <lb/>Behinderung: Frhr. Pergler v. Perglas. — Württemberg:
+            <lb/>v. Mitmacht, in dessen Behinderung: Heß. — Hessen: Hof¬
+            <lb/>mann. — Großherzogth. Sachsen: vr. Stichling, in dessen
+            <lb/>Behinderung: Dr. Heerwart. — Sachsen-Attenbürg: v. Ger-
+            <lb/>stenberg-Zech. — Schwar;burg-Kudolftadt: v. Bertrab.</p>
+            <pb n="46" xml:id="img_0046"/>
+            <p>
+               <lb/>Die Centraibehörden des Deutschen Reichs.</p>
+            <p>
+               <lb/>Reichskanzler.</p>
+            <p>
+               <lb/>Fürst von Bismarck-Schönhausen.</p>
+            <p>
+               <lb/>Reichskanzler-Amt.</p>
+            <p>
+               <lb/>Präsident:</p>
+            <p>
+               <lb/>Dr. Delbrück, Staatsminister.</p>
+            <p>
+               <lb/>Central-Abtheilung.</p>
+            <p>
+               <lb/>Director:</p>
+            <p>
+               <lb/>Eck, Wirkt. Geh. Ober-Regierungs-Rath.</p>
+            <p>
+               <lb/>' Vortragende Räthe:</p>
+            <p>
+               <lb/>vr. Michaelis, Geh. Ober-Regierungs-Rath.</p>
+            <p>
+               <lb/>Dr. von Möller, Geh. Ober-Regierungs-Rath.
+            <lb/>Starke, Geh. Regierungs-Rath.</p>
+            <p>
+               <lb/>Huber, Geh. Regierungs-Rath.</p>
+            <p>
+               <lb/>H ülfsarbeiter:</p>
+            <p>
+               <lb/>von Kusserow, Legations-Rath.</p>
+            <p>
+               <lb/>Aschenborn, Regierungs-Rath.</p>
+            <p>
+               <lb/>Nieberding, Regierungs-Rath.</p>
+            <p>
+               <lb/>Meitzen, Regierungs-Rath.</p>
+            <p>
+               <lb/>Lieber, Regierungs-Rath.</p>
+            <p>
+               <lb/>Neumann, Regierungs-Rath,
+            <lb/>von Zedlitz, Landrath.</p>
+            <p>
+               <lb/>Weymann, Stadtgerichtsrath.</p>
+            <p>
+               <lb/>Kurtzwig, Navigationslehrer.</p>
+            <p>
+               <lb/>III. Abtheilung (für Elsaß-Lothringen)-</p>
+            <p>
+               <lb/>Director:</p>
+            <p>
+               <lb/>Herzog, Wirkl. Geh. Ober-Regierungs-Rath.</p>
+            <pb n="47" xml:id="img_0047"/>
+            <p>
+               <lb/>Die Centralbehörden de- Deutschen Reiches.</p>
+            <p>
+               <lb/>47</p>
+            <p>
+               <lb/>Vortragende Räthe:</p>
+            <p>
+               <lb/>Kinel, Geh Ober-Regierungs-Rath. -
+            <lb/>Brau Weiler, Geh. Regierungs-Rath,
+            <lb/>von Pommer-Esche, Geh. Regierungs-Rath.
+            <lb/>Fleck, Geh. Regierungsrath.</p>
+            <p>
+               <lb/>Hülfsarbeiter:</p>
+            <p>
+               <lb/>4&gt;i-. Haller, Regierungsrath.</p>
+            <p>
+               <lb/>Gimbel, Eisenbahn-Baumeister.</p>
+            <p>
+               <lb/>Bureau der Central- und III. Abtheilung.</p>
+            <p>
+               <lb/>Vorsteher:</p>
+            <p>
+               <lb/>Radtke, Geh. Rechnungs-Rath.</p>
+            <p>
+               <lb/>Geheime Calculatur:
+            <lb/>Biester, Rechnungsrath.</p>
+            <p>
+               <lb/>Geheime Registratur:</p>
+            <p>
+               <lb/>Abth. L. Hesse, Kanzleirath.</p>
+            <p>
+               <lb/>Abth. 6. Kirschner, Geh. Registrator.</p>
+            <p>
+               <lb/>Abth III. Pfafferoty, Geh. Registrator.</p>
+            <p>
+               <lb/>Geheime Kanzlei:
+            <lb/>Meißner, Geh. Kanzlei-Jnspector.</p>
+            <p>
+               <lb/>I. Abtheilung (General-Postamt).</p>
+            <p>
+               <lb/>Dr. Stephan, General-Post-Director.</p>
+            <p>
+               <lb/>Abtheilungs-Dirigenten:</p>
+            <p>
+               <lb/>Wiebe, Geh. Ober-Post-Rath.</p>
+            <p>
+               <lb/>Wolfs, Geh. Ober-Post-Rath.</p>
+            <p>
+               <lb/>Vortragende Rathe:</p>
+            <p>
+               <lb/>Kramm, Geh. Ober-Post-Rath.</p>
+            <p>
+               <lb/>Dr. Dambach, Geh. Ober-Post-Rath.</p>
+            <p>
+               <lb/>Dunkel, Geh. Ober-Post-Rath.</p>
+            <p>
+               <lb/>Budde, Geh. Ober-Post-Rath.</p>
+            <p>
+               <lb/>Dr. Fischer, Geh. Post-Rath.</p>
+            <p>
+               <lb/>Günther, Geh. Post-Rath.</p>
+            <p>
+               <lb/>Sachse, Geh. Post-Rath.</p>
+            <p>
+               <lb/>Heß, Geh. Post-Rath.</p>
+            <pb n="48" xml:id="img_0048"/>
+            <p>
+               <lb/>481Die Centralbehörden des Deutschen Reiches.</p>
+            <p>
+               <lb/>Hilfsarbeiter:</p>
+            <p>
+               <lb/>Dolkmann, Post-Rath.</p>
+            <p>
+               <lb/>Baurath:</p>
+            <p>
+               <lb/>Schwatlo, Regierungs- und Bau-Rath.</p>
+            <p>
+               <lb/>Directorial-Büreau:</p>
+            <p>
+               <lb/>Schultze, Rechnungs-Rath.</p>
+            <p>
+               <lb/>Rechnungs-B üreau:</p>
+            <p>
+               <lb/>Kurtz mann, Geh. Rechnungs-Rath.</p>
+            <p>
+               <lb/>Personal-Büreau:</p>
+            <p>
+               <lb/>Herms, Geh. Rechnungs-Rath.</p>
+            <p>
+               <lb/>Cours-Bureau:</p>
+            <p>
+               <lb/>Wölker, Geh. Kanzlei-Rath.</p>
+            <p>
+               <lb/>P ost-Ab rechn un gs-B üreau:
+            <lb/>Gottbrecht, Geh. Rechnungs-Rath.</p>
+            <p>
+               <lb/>Control-Büreau:</p>
+            <p>
+               <lb/>Seidel, Post-Director.</p>
+            <p>
+               <lb/>Geheime Registratur:</p>
+            <p>
+               <lb/>Hufnagel, Geh. Kanzlei-Rath.</p>
+            <p>
+               <lb/>Geheime Kanzlei:</p>
+            <p>
+               <lb/>Schulz, Geh. Kanzlei-Director.</p>
+            <p>
+               <lb/>II. Abtheilung (General Direktion der Telegraphen).</p>
+            <p>
+               <lb/>Meydam, General-Telegraphen-Director, Oberst a la suits.
+            <lb/>Vortragende Rathe:</p>
+            <p>
+               <lb/>Elsässer, Geh. Ober-Regierungs-Rath.</p>
+            <p>
+               <lb/>Blindow, Geh. Ober-Regierungs-Rath.</p>
+            <p>
+               <lb/>Maron, Geh. Regierungs-Rath.</p>
+            <p>
+               <lb/>Hucke, Geh. Regierungs-Rath.</p>
+            <p>
+               <lb/>von Obernitz, Geh. Regierungs-Rath.</p>
+            <p>
+               <lb/>Geheimes Secretaria
+            <lb/>Br ade, Rechnungs-Rath.</p>
+            <pb n="49" xml:id="img_0049"/>
+            <p>
+               <lb/>Die Centralbehkrden de- Deutschen Reiche-.</p>
+            <p>
+               <lb/>49</p>
+            <p>
+               <lb/>Abrechnungsbureau:</p>
+            <p>
+               <lb/>Wölffer, Geh. exped. Secretair und Calculator.</p>
+            <p>
+               <lb/>Geheime Registratur:</p>
+            <p>
+               <lb/>Balke, Kanzlei-Rath.</p>
+            <p>
+               <lb/>Geheime Kanzlei:
+            <lb/>Marsmann, Geh. Kanzlei-Jnspector.</p>
+            <p>
+               <lb/>Auswärtiges Amt.</p>
+            <p>
+               <lb/>v. Bülow, Staats-Secretair.</p>
+            <p>
+               <lb/>v. Philips born, Wirkt. Geh. Rath und Director.</p>
+            <p>
+               <lb/>v. Bülow I, Geh. Legationsrath.</p>
+            <p>
+               <lb/>Dr. Hepke, Geh. Legationsrath.</p>
+            <p>
+               <lb/>Jordan, Geh. Legationsrath.</p>
+            <p>
+               <lb/>Bücher, Geh. Legationsrath.
+            <lb/>v. Bülow II, Geh. Legationsrath.</p>
+            <p>
+               <lb/>Wilke, Geh. Legationsrath.</p>
+            <p>
+               <lb/>Graf v. Hatzfeld, Geh. Legationsrath.</p>
+            <p>
+               <lb/>Gbring, Wirklicher Legationsrath.</p>
+            <p>
+               <lb/>Dr. Aegidi, Wirklicher Legationsrath.</p>
+            <p>
+               <lb/>ReichardL, Wirklicher Legationsrath.</p>
+            <p>
+               <lb/>Hellwig, Wirklicher Legationsrath.</p>
+            <p>
+               <lb/>Hülfsarbeiter.</p>
+            <p>
+               <lb/>Cottel, Geh. Hofrath.</p>
+            <p>
+               <lb/>Jordan, Legattonsrath.</p>
+            <p>
+               <lb/>Frhr. v. Buddenbrock, Legationsrath.</p>
+            <p>
+               <lb/>Dr. Geßner, Legationsrath.</p>
+            <p>
+               <lb/>Secretariat.</p>
+            <p>
+               <lb/>Dr. Doys, Hofrath.</p>
+            <p>
+               <lb/>Central- und Depeschen-Büreau.
+            <lb/>Roland, Geh. Hofratb.</p>
+            <p>
+               <lb/>Chiffr ir-Büreau.
+            <lb/>de la Croix, Geh. Hofrath.</p>
+            <p>
+               <lb/>Geh. Registratur und Journal.
+            <lb/>Gichrach, Geh. Hofrath.</p>
+            <p>
+               <lb/>Geh. Kanzlei.</p>
+            <p>
+               <lb/>Horn, Geh. Hosrath.</p>
+            <pb n="50" xml:id="img_0050"/>
+            <p>
+               <lb/>Die Zentralbehörden des Deutschen Reiche-.</p>
+            <p>
+               <lb/>.-&gt;0</p>
+            <p>
+               <lb/>Reichs-Oberhandelsgericht.</p>
+            <p>
+               <lb/>vr. Pape, Wirkt. Geh. Rath, Präsident.</p>
+            <p>
+               <lb/>Dr. Drechsler, Vice-Präsident.</p>
+            <p>
+               <lb/>Hocheder, Vice-Präsident.
+            <lb/>vr. Ponath, Reichs-Oberhandelsgerichts-Rath.
+            <lb/>vr. Kosmann, „1„1„</p>
+            <p>
+               <lb/>vr. Schmitz,</p>
+            <p>
+               <lb/>vr. Gallenkamp, Reichs-Oberhandelsgerichts-Rath.
+            <lb/>vr. Hoffmann, Reichs-Oberhandelsgerichts-R ath.
+            <lb/>vr. Fleisch auer, Reichs-Oberhandelsgerichts-Rath.
+            <lb/>vr. Boisselier,1„</p>
+            <p>
+               <lb/>vr. Goldschmidt,1„1„1„</p>
+            <p>
+               <lb/>vr. Voigt,</p>
+            <p>
+               <lb/>vr. v. Vangerow, „1„1„</p>
+            <p>
+               <lb/>vr. Werner,1„1„1„</p>
+            <p>
+               <lb/>vr. Barth,</p>
+            <p>
+               <lb/>vr. Wernz,1„1„1„</p>
+            <p>
+               <lb/>vr. Puchelt,1„1„1„</p>
+            <p>
+               <lb/>vr. Römer,1„1„1„</p>
+            <p>
+               <lb/>vr. v. Hahn,1„1^1^</p>
+            <p>
+               <lb/>Mohrmann,1„1„1„</p>
+            <p>
+               <lb/>Langerhans,1„1„1„</p>
+            <p>
+               <lb/>Wiener,</p>
+            <p>
+               <lb/>B ü rea u.</p>
+            <p>
+               <lb/>Berger, Kanzleirath.</p>
+            <p>
+               <lb/>Bundesamt für das Heimathwesen.</p>
+            <p>
+               <lb/>Vorsitzender:</p>
+            <p>
+               <lb/>König, Präsident.</p>
+            <p>
+               <lb/>Mitglieder:</p>
+            <p>
+               <lb/>Wohlers, Geh. Ober-Regierungs-Rath.
+            <lb/>Drenkmann, Ober-Tribunals-Rath.
+            <lb/>Goepel, Geh. Regierungs-Rath,
+            <lb/>v. Ho kleben, Ober-Tribnnals-Rath.</p>
+            <pb n="51" xml:id="img_0051"/>
+            <p>
+               <lb/>Tie Centralbehörden des Deutschen Reiches</p>
+            <p>
+               <lb/>5l</p>
+            <p>
+               <lb/>Statistisches Amt.</p>
+            <p>
+               <lb/>Becker, Director.</p>
+            <p>
+               <lb/>Dr. Meitzen, Geh. Regierungs-Rath.</p>
+            <p>
+               <lb/>" Büre au.</p>
+            <p>
+               <lb/>B ienengräber, Rechnungsrath.</p>
+            <p>
+               <lb/>Normal - Cichungs - Commisston.</p>
+            <p>
+               <lb/>Dr. Förster, Professor, Director.</p>
+            <p>
+               <lb/>Dr. Drasdo, Regierungs-Rath, Vertreter des Directors.</p>
+            <p>
+               <lb/>Bureau.</p>
+            <p>
+               <lb/>W a l t e r,-exped. Secretair.</p>
+            <p>
+               <lb/>Verwaltung des Reichs-Invaliden-Fonds.</p>
+            <p>
+               <lb/>l)r. Elwanger, Vorsitzender, Wirkt. Geh. Ober-Finanzrath.
+            <lb/>Mitglieder.</p>
+            <p>
+               <lb/>Landgraf, Kgl. Bayer. Ober-Rechnungs-Rath.
+            <lb/>v. Rost itz-Wallwitz, Kgl. Sächsischer Gesandter.</p>
+            <p>
+               <lb/>Heß, Kgl. Württemb. Ministerialrath.</p>
+            <p>
+               <lb/>Bureau.</p>
+            <p>
+               <lb/>Götze, Rendant.</p>
+            <p>
+               <lb/>Reichs - Eisenbahn - Amt.</p>
+            <p>
+               <lb/>Scheele, Präsident.</p>
+            <p>
+               <lb/>Körte, Geh. Regierungs-Rath.</p>
+            <p>
+               <lb/>Kr äfft, Geh. Regierungs-Rath.</p>
+            <p>
+               <lb/>Hülfsarbeiter.</p>
+            <p>
+               <lb/>Dr. Ger stner, Geh. Regierungs-Rath.
+            <lb/>Streckert, Regierungs-Rath.</p>
+            <p>
+               <lb/>Ende, Rechn</p>
+            <p>
+               <lb/>^1^ Büre an.^</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Reichstags-Handbuch Wahlperiode ...</title>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1222198746">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="https://orcid.org/0000-0003-4615-4753">
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/105315190X">
+                  <surname>Nolda</surname>
+                  <forename>Andreas</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="https://orcid.org/0000-0002-1096-3957">
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+               <orgName>Bayerische Staatsbibliothek</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Texttranskription
+                                durch OCR.</note>
+                  <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle
+                                Transkription (und Textauszeichnung) mittlerweile nicht mehr dem
+                                Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen
+                                muss.</note>
+                  <date type="importDTA">2021-09-29T20:17:28Z</date>
+               </resp>
+            </respStmt>
+            <respStmt corresp="#availability-textsource-1">
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                            Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Langfristige Bereitstellung der
+                                DTA-Ausgabe</note>
+                  <ref target="https://www.bbaw.de"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy
+                            of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische
+                            Akademie der Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-09-29T20:17:28Z</date>
+            <availability xml:id="availability-textsource-1">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0
+                                License.</p>
+               </licence>
+            </availability>
+            
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="M">Reichstags-Handbuch Wahlperiode .... Berlin, 1916.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Reichstags-Handbuch Wahlperiode ...</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name>Reichsdr.</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1916</date>
+                  
+               </publicationStmt>
+            </biblFull>
+            <recordingStmt>
+               <p>Protokollierte Verhandlungen des Deutschen Reichstags und seiner
+                            Vorläufer, die von Stenografinnen und Stenografen während der Sitzungen
+                            angefertigt und in der Folge der Öffentlichkeit als gedruckte
+                            Publikation zur Verfügung gestellt wurden.</p>
+            </recordingStmt>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bayerische Staatsbibliothek</repository>
+                  <idno>
+                     <idno type="shelfmark">BA/Germ.g. 390 c-1912,a</idno>
+                     <idno type="URLCatalogue">https://opacplus.bsb-muenchen.de/title/7114345</idno>
+                     <idno type="URN">urn:nbn:de:bvb:12-bsb00003461-7</idno>
+                     <idno type="URLIIIF">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00003461/manifest</idno>
+                     <idno type="URL" subtype="IIIFviewer">https://www.digitale-sammlungen.de/de/view/bsb00003461</idno>
+                     <idno type="URL" subtype="DFGviewer">https://daten.digitale-sammlungen.de/~db/bsb00003461/images/</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <typeDesc>
+                     <p>Fraktur</p>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Bogensignaturen: nicht übernommen; Druckfehler: ignoriert;
+                            fremdsprachliches Material: nicht gekennzeichnet;
+                            Geminations-/Abkürzungsstriche: wie Vorlage; Hervorhebungen (Antiqua,
+                            Sperrschrift, Kursive etc.): nicht ausgezeichnet; I/J in Fraktur: wie
+                            Vorlage; i/j in Fraktur: wie Vorlage; Kolumnentitel: nicht übernommen;
+                            Kustoden: nicht übernommen; langes s (ſ): als s transkribiert;
+                            Normalisierungen: keine; rundes r (&amp;#xa75b;): als r/et
+                            transkribiert; Seitenumbrüche markiert: ja; Silbentrennung: keine
+                            Angabe; u/v bzw. U/V: wie Vorlage; Vokale mit übergest. e: als ä/ö/ü
+                            transkribiert; Vollständigkeit: vollständig erfasst; Zeichensetzung: wie
+                            Vorlage; Zeilenumbrüche markiert: ja;</p>
+         </editorialDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">Neuhochdeutsch</language>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Politik</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Rede</classCode>
+            <classCode scheme="#zdl_dwds">gesprochen</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">reichstag</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n="1" xml:id="img_0001"/>
+            <p>
+               <lb/>Nachtrag</p>
+            <p>
+               <lb/>ZUM</p>
+            <p>
+               <lb/>Reichstags - Handbuch</p>
+            <p>
+               <lb/>der</p>
+            <p>
+               <lb/>13. Legislaturperiode.</p>
+            <p>
+               <lb/>Abgeschloffen am 28. April IM.</p>
+            <p>
+               <lb/>Herausgegeben</p>
+            <p>
+               <lb/>vom</p>
+            <p>
+               <lb/>Bureau des Reichstags.</p>
+            <p>
+               <lb/>Berlin L»L«.</p>
+            <p>
+               <lb/>Gedruckt in der Reichstagsdruckerei.</p>
+            <pb n="2" xml:id="img_0002"/>
+            <pb n="3" xml:id="img_0003"/>
+            <p>
+               <lb/>Aenderungen und Nachträge</p>
+            <p>
+               <lb/>in den</p>
+            <p>
+               <lb/>biographischen Notizen über die Mitglieder
+            <lb/>des Reichstags.</p>
+            <p>
+               <lb/>(Aenderungen im Terl sind gesperrt gedruckt.)</p>
+            <p>
+               <lb/>Ablaß, Dr. jur. Justizrat.</p>
+            <p>
+               <lb/>Freiherr v. Ar-etin, Heinrich, Dr. jur.; erblicher Reichsrat
+            <lb/>der Krone Bayern, Königl. bayerischer Kämmerer, Fidei-
+            <lb/>kommiß- und Gutsbesitzer in Haidenburg in Niederbayern,
+            <lb/>Bezirksamt Dilshofen (Eisenbahnstation Aidenbach), wahlkr.:</p>
+            <p>
+               <lb/>Niederbayern (Landshut). Zentrum. -</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Freiherrn v. Malsen-
+            <lb/>waldkirch am 5^. August 19^5 gewählt.</p>
+            <p>
+               <lb/>Geb. am l. Mai ^675 in Haidenburg; katholisch. Zunächst
+            <lb/>Privatunterricht; besuchte dann ^887 bis 4395 das Königl.
+            <lb/>Wilhelmsgymnasium in München, zugleich ^888 bis 1^895 Zögling
+            <lb/>der Königl. bayerischen pagerie. Studierte an den Universi¬
+            <lb/>täten Freiburg i. d. Schweiz I895/9H, München ^89^/97, Forst¬
+            <lb/>akademie Tharandt (Sachsen) 1897/98; Doktorpromotion in
+            <lb/>Heidelberg 190^. Rechtspraktikant in Dilshofen, Traunstein und
+            <lb/>München I 898 bis 1901; seitdem Gutsbewirtschaftung (Land¬
+            <lb/>wirtschaft, Forstwirtschaft und Brauereibetrieb). Diente
+            <lb/>^89^/9'&gt; als Einjährig-Freiwilliger im Königl. bayerischen</p>
+            <pb n="4" xml:id="img_0004"/>
+            <p>
+               <lb/>4</p>
+            <p>
+               <lb/>1. Schweren Reiter-Regiment. Rittmeister der Reserve des
+            <lb/>Regiments. Seit ^907 u Vorstand des Niederbayerischen
+            <lb/>christlichen Bauernvereins, ^906 bis 1909 Leiter der Nieder¬
+            <lb/>bayerischen Ein- und Verkaufsgenoffenschaft in Landshut.
+            <lb/>Seit 1909 erblicher Reichsrat der Krone Bayern. - Bild
+            <lb/>Seite 42.</p>
+            <p>
+               <lb/>Arnold- Oskar; Kommerzienrat, Fabrikbesitzer in Neustadt
+            <lb/>b. Loburg. Wahlkr.: 1. Sachsen-Coburg-Gotha (Loburg).
+            <lb/>— Fortschrittliche Volkspartei. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Dr. Ouarck am
+            <lb/>^7. Juli 19^4 gewählt.</p>
+            <p>
+               <lb/>Geb. am 29. März 1604 zu Neustadt b. Loburg; evan¬
+            <lb/>gelisch. Besuchte die Volksschule zu Neustadt b. Coburg; trat
+            <lb/>in der elterlichen Fahnenfabrik und Kunststickerei in die Lehre,
+            <lb/>leitete dann das Geschäft selbständig und gründete später
+            <lb/>unter der Firma M. Oscar Arnold eine Fabrik für Puppen
+            <lb/>und Sxielwaren. Diente 1875, und 4876 im 6. Thüringischen
+            <lb/>Infanterieregiment Nr. 95. Seit ^884 Mitglied des Landtags
+            <lb/>für das Herzogtum Loburg und des gemeinschaftlichen Land¬
+            <lb/>tags für die Herzogtümer Coburg und Gotha; seit t 904 Prä¬
+            <lb/>sident des Loburger und Vizepräsident des gemeinschaftlichen
+            <lb/>Landtags; Mitglied der Loburger Handelskammer seit deren
+            <lb/>Bestehen; seit 1^894 Mitglied des Landwirtschaftsrates für das
+            <lb/>Herzogtum Loburg; seit ^888 Vorstandsmitglied des Loburger
+            <lb/>Kriegerverbandes; langjähriger Stadtverordneter. Ehren¬
+            <lb/>bürger der Stadt Neustadt. — Ritterkreuz I. Klaffe des
+            <lb/>Sächsisch-Ernestinischen Hausordens; Ehrenritterkreuz I. Klaffe
+            <lb/>von Oldenburg; Komthurkreuz III. Klaffe von Bulgarien;
+            <lb/>Herzog Carl Eduard-Medaille mit Krone; Bulgarische Rote-
+            <lb/>Kreuz-Medaille. — Bild Seite 47.</p>
+            <p>
+               <lb/>Aachrnrier. Am 50. Juni 4912 gestorben.</p>
+            <p>
+               <lb/>Kartliug. Geheimer Kommerzienrat.</p>
+            <pb n="5" xml:id="img_0005"/>
+            <p>
+               <lb/>— ^ -</p>
+            <p>
+               <lb/>Lafferurann. Ulajor der Landwehr-Kavallerie.</p>
+            <p>
+               <lb/>Lauer, Joseph; Landwirt in Matzöd (Post- und
+            <lb/>Telegraphenstarion Dietersburg, Bahnstation Pfarrkirchen),
+            <lb/>wahlkr.: 4. Niederbayern (Pfarrkirchen). — Bei keiner
+            <lb/>Partei. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Bachmeier am
+            <lb/>5. August 1912 gewählt.</p>
+            <p>
+               <lb/>Geb. am 1. April 1880 in Matzöd; römisch-katholisch.
+            <lb/>Besuchte von 1886 bis 1889 die Volksschule zu Dietersburg,
+            <lb/>von 1689/90 das Lrziehungsinstitut Fürstenstein, dabei
+            <lb/>den Unterricht der 1. Lateinklaffe empfangend, hierauf die
+            <lb/>2. und 3. Klaffe der Lateinschule zu paffau. Mußte hierauf
+            <lb/>wegen Ablebens des einzigen Bruders das Studium aufgeben,
+            <lb/>um sich der Landwirtschaft zu widmen. Uebernahm im
+            <lb/>Jahre 1903 das elterliche Anwesen, welches 120 Tagwerk
+            <lb/>Grund umfaßt. Diente in den Jahren 1898 bis 1900 bei
+            <lb/>der 9. Batterie des König!, bayerischen 1. Feldartillerie-
+            <lb/>Regiments „Prinzregent Luitpold" in München. Gehört dem
+            <lb/>Distriktsrat Pfarrkirchen, dem Steuerausschuß am Königl.
+            <lb/>Rentamts Pfarrkirchen sowie dem landwirtschaftlichen Bezirks¬
+            <lb/>ausschüsse dortselbst an; ferner als Vorstandsmitglied dem
+            <lb/>Darlehnskaffenverein Dietersburg und mehreren gemeinnützigen
+            <lb/>Vereinen. — Bild Seite H2.</p>
+            <p>
+               <lb/>Lebrl. Am iz. August 191z gestorben.</p>
+            <p>
+               <lb/>Leck. Mandat am 1. September 1914 niedergelegt.</p>
+            <p>
+               <lb/>Lecker, Johannes. Wohnort Löln.</p>
+            <p>
+               <lb/>Lecker, Jacob, Dr. med. Sanitätsrat.</p>
+            <p>
+               <lb/>ÄrhreuS, Franz; Vorsitzender des Zentral-
+            <lb/>verbandes der Forst-, Land- und Weinbergs¬
+            <lb/>arbeiter Deutschlands in Bielefeld.</p>
+            <pb n="6" xml:id="img_0006"/>
+            <p>
+               <lb/>6</p>
+            <p>
+               <lb/>Brll, Dr. jur. Justiz rat.</p>
+            <p>
+               <lb/>Nogalla v. Bieberstein. Major a. D.</p>
+            <p>
+               <lb/>Birkenmager. Am 3t. März t9tf&gt; gestorben.</p>
+            <p>
+               <lb/>Blo§. Wohnort: Stuttgart-Degerloch.</p>
+            <p>
+               <lb/>v. Böhlrn-orff-kölpin. Major a. D.</p>
+            <p>
+               <lb/>Böhme, Karl, Dr. phil.; Geschäftsführer des Deutschen
+            <lb/>Bauernbundes zu Berlin-Lichterfelde, wahlkr.: t. Reg.-Bez.
+            <lb/>Magdeburg (Salzwedel-Gardelegen). — Nationalliberal. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten v. Kröcher am</p>
+            <p>
+               <lb/>Juli gewählt.</p>
+            <p>
+               <lb/>Geb. am t7. Juli t877 in Jura, Krci^ Ragnit; evan¬
+            <lb/>gelisch. Besuchte die Gymnasien zu Insterburg und Lyck, die
+            <lb/>Universitäten Straßburg, Leipzig und Berlin. Studierte Ge¬
+            <lb/>schichte und Volkswirtschaft, dann Assistent von Professor
+            <lb/>Sering in Berlin, wissenschaftlicher Hilfsarbeiter in der
+            <lb/>Zentrale für private Fürsorge in Frankfurt a. M.; bis t9v6
+            <lb/>beim Bund der Landwirte und Reichsverband gegen die
+            <lb/>Sozialdemokratie. Seit1Geschäftsführer des Deutschen</p>
+            <p>
+               <lb/>Bauernbundes. Zahlreiche Schriften über Zoll- und Handels¬
+            <lb/>politik, innere Kolonisation, Geschichte der Landbevölkerung,
+            <lb/>Vererbung des ländlichen Grundbesitzes. Mitglied des Reichs¬
+            <lb/>tags von bis — Bild Seite 4&lt;-&gt;.</p>
+            <p>
+               <lb/>v. Borhn, Siegfried; Rittergutsbesitzer in Deutsch
+            <lb/>Buckow (Post: Granzin, Kreis Stolp, Telegraph: Stolx-
+            <lb/>pomm., Eisenbahnstation: Stolp in Pommern.) wahlkr.:
+            <lb/>t. Reg.-Bez. Köslin (Stolp-Lauenburg). — Deutschkonser¬
+            <lb/>vativ. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten will (Stolp) am
+            <lb/>23. Dezember gewählt.</p>
+            <p>
+               <lb/>Geb. am 29. Juni t863 zu Sagerke, Kreis Stolp; evan¬
+            <lb/>gelisch. Besuchte das Gymnasium zu Stolp und die Kadetten-</p>
+            <pb n="7" xml:id="img_0007"/>
+            <p>
+               <lb/>Häuser zu Lulm und Groß-Lichterfelde. Am April ^885
+            <lb/>Seconde-Leutnant im 4. Garde-Regiment zu Fuß; ^8&lt;)^
+            <lb/>Abschied genommen (als Hauptmann) zur Bewirtschaftung
+            <lb/>seines Gutes Deutsch Buckow. Mitglied des Kreistags.
+            <lb/>Mitglied des Hauses der Abgeordneten. Bild Seite</p>
+            <p>
+               <lb/>Vohh, Carl Rudolf; Rittergutsbesitzer in Schmagorei
+            <lb/>Post: Heinersdorf, Kreis Oststernberg, Telegraph: Zielenzig25,
+            <lb/>Eisenbahnstation:1Schmagorei). wahlkr.:1Reg.-Bez.</p>
+            <p>
+               <lb/>Frankfurt (Ost- und Weststernberg). Deutschkonservativ. -</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten v. Kaphengst am
+            <lb/>&lt;). Mai gewählt.</p>
+            <p>
+               <lb/>Geb. am 22. August tsc»4 in Schmagorei, Kreis west-
+            <lb/>fternberg; evangelisch. Besuchte die Gymnasien zu Züllichau
+            <lb/>und Hirschberg i. Schl.; studierte Rechts- und Staatswiffen-
+            <lb/>fchaften auf den Universitäten Halle, Leipzig, Berlin. Dann
+            <lb/>zum aktiven Militärdienst übergetreten im Grenadier-Regiment
+            <lb/>Nr. t2.1bis1die Kriegsakademie besucht. 1902</p>
+            <p>
+               <lb/>aus aktivem Dienst ausgeschieden um die Bewirtschaftung des
+            <lb/>ererbten väterlichen Gutes Schmagorei zu übernehmen.
+            <lb/>Hauptmann a. D. Amtsvorsteher, Standesbeamter, Mitglied
+            <lb/>des Kreistags, der Kreissynode und der Brandenburgischen
+            <lb/>Provinzialsynode, Vorsitzender des Brandenburgischen Provinzial¬
+            <lb/>vereins zur Bekämpfung des Vagabundentums. Bild Seite 4l-</p>
+            <p>
+               <lb/>Votiert, Dr. jur. Iustizrat.</p>
+            <p>
+               <lb/>Holz. Wohnort: Rottenburg a. Neckar.</p>
+            <p>
+               <lb/>Vraban-, Dr. jur. Am 20. November ^)i4 gestorben.</p>
+            <p>
+               <lb/>v. Vrünnrck, Siegfried; Landrat in Rosenberg in West¬
+            <lb/>preußen. wahlkr.: 2. Reg.-Bez. Marienwerder (Rosenberg-
+            <lb/>Löbau). Reichspartei - .</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Zürn am 2;. Januar
+            <lb/>i«U4 gewählt.</p>
+            <pb n="8" xml:id="img_0008"/>
+            <p>
+               <lb/>8</p>
+            <p>
+               <lb/>Geb. am 21. August 1871 in Rosenberg (Westpr.); evan¬
+            <lb/>gelisch. Besuchte die Gymnasien in Manenwerder (westpr.)
+            <lb/>und Königsberg i. Pr. Studierte von 1891 bis 1895 in
+            <lb/>Bonn, Freiburg und Königsberg. Referendar an dem Amts¬
+            <lb/>gericht Joppot und den Landgerichten Berlin, Danzig und
+            <lb/>Königsberg i. Pr. Regierungsreferendar bei der Regierung
+            <lb/>in Merseburg. Am i.Mai 190^ mit der Verwaltung des
+            <lb/>Landratsamtes Rosenberg i. westpr. beauftragt, am k. Fe¬
+            <lb/>bruar 1905 zum Landrat ernannt. König!. Kammerherr.</p>
+            <p>
+               <lb/>Johanniterorden. — Bild Seite 42.</p>
+            <p>
+               <lb/>Lltck, Johann Wilhelm; Arbeitersekretär in Dres-
+            <lb/>den-N., 23, Rückertstr. 14 II . wahlkr.: q. Sachsen (Dresden
+            <lb/>rechts der Elbe). — Sozialdemokrat. -</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Kaden am 10. Ok¬
+            <lb/>tober 1915 gewählt.</p>
+            <p>
+               <lb/>Geb. am 12. November 18&lt;&gt;9 in Bautzen; Dissident.
+            <lb/>Besuchte die Volksschulen in Bautzen, Blasewitz und Striesen
+            <lb/>und die Fortbildungsschule in Striesen, von Ostern 1884
+            <lb/>bis 1667 den Stuckateurberuf erlernt und bis 1905 in ver¬
+            <lb/>schiedenen Gegenden Deutschlands ausgeübt, von Juni 1905
+            <lb/>an Gewerkschafts-, später Arbeitersekretär. I689 bis I891
+            <lb/>beim Infanterie-Regiment 100 und 105 gedient. 5 Jahre
+            <lb/>Beisitzer beim Oberversicherungsamt, stellvertretendes Vor¬
+            <lb/>standsmitglied bei der Landesversicherungsanstalt Königreich
+            <lb/>Sachserr, seit 1908 Stadtverordneter in Dresden. Bild
+            <lb/>Seite 48.</p>
+            <p>
+               <lb/>Graf v. Earmer, Friedrich. Am 8. Juni i&lt;)i5 ge¬
+            <lb/>storben.</p>
+            <p>
+               <lb/>Graf v. Garwrr, Carl; Majorats- und Ritterguts¬
+            <lb/>besitzer in Zieserwitz. Major d. R. a. D.</p>
+            <pb n="9" xml:id="img_0009"/>
+            <p>
+               <lb/>9</p>
+            <p>
+               <lb/>Carstens, Ernst; Fabrikbesitzer und Stadtrat in Elms¬
+            <lb/>horn. Wahlkr.: 6. Schleswig-Holstein (Pinneberg-Elmshorn-
+            <lb/>Ottensen). — Fortschrittliche Volkspartei. -</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Dr. Braband am
+            <lb/>27. Februar 1915 gewählt.</p>
+            <p>
+               <lb/>Geb. am 28.Juli 1872 in Elmshorn; evangelisch-lutherisch.
+            <lb/>Absolvierte das Realgymnasium in Altona. Inhaber der
+            <lb/>Steingutfabriken L. &lt;L E. Earstens, Elmshorn, Magdeburg,
+            <lb/>und des Engros- und Exportgeschäfts L. H. Carstens, Elms¬
+            <lb/>horn. Offizier-Stellvertreter. Seit 1905 Stadtverordneter,
+            <lb/>seit 1905 Stadtrat in Elmshorn. Mitglied des Reichstags
+            <lb/>bereits von 1907 bis 1912. -- Bild Seite ^7.</p>
+            <p>
+               <lb/>Cohen, Emanuel gen. Max; Schriftsteller in Neubabels¬
+            <lb/>berg. wahlkr.: Reuß ä. L. — Sozialdemokrat. -</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Förster am 10. De¬
+            <lb/>zember 1912 gewählt.</p>
+            <p>
+               <lb/>Geb. am 50. Januar 1876 in Langenberg (Rheinland);
+            <lb/>konfessionslos. Besuchte die Volksschule und das Real¬
+            <lb/>progymnasium zu Langenberg (Rheinland). Lehrling und
+            <lb/>Angestellter in verschiedenen Engros- und Exportgeschäften,
+            <lb/>sodann Vertreter großer Firmen der Textilwarenbranche des
+            <lb/>In-und Auslandes. Seit 1904 nicht mehr im kaufmännischen
+            <lb/>Beruf tätig. Stadtverordneter in Frankfurt (Main) von 1909
+            <lb/>bis 191 q. Mitarbeiter verschiedener sozialdemokratischer Organe.
+            <lb/>— Bild Seite §8.</p>
+            <p>
+               <lb/>v. Sche - lin - Czarlinski.</p>
+            <p>
+               <lb/>Dam-, Dr. phil. Wohnort: Berlin.</p>
+            <p>
+               <lb/>Dietrich. Geheimer Iustizrat.</p>
+            <p>
+               <lb/>Nuffner. Major der Landwehrjäger l. A.</p>
+            <pb n="10" xml:id="img_0010"/>
+            <p>
+               <lb/>10</p>
+            <p>
+               <lb/>Erumingrr, Erich; König!. Amtsrichter in Augsburg,
+            <lb/>Thelottstr. 71/2. wahlkr.: &lt;&gt;. Oberbayern (IVeilheim). —
+            <lb/>Zentrum.</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Freiherrn v. Thüne-
+            <lb/>feld am 18. Juni 1915 gewählt.</p>
+            <p>
+               <lb/>Geb. am 25. Juni 1880 in Eichstätt; katholisch. Be¬
+            <lb/>suchte das Gymnasium in Eichstätt, die Universitäten in
+            <lb/>München, Leipzig und Berlin. 1906 bis 1909 Rechtsanwalt,
+            <lb/>1&lt;)09 Dritter Staatsanwalt, 1910 Amtsrichter. - Eisernes
+            <lb/>Kreuz I I. Klasse. — Bild Seite 47).</p>
+            <p>
+               <lb/>Ewald, Karl Friedrich Ferdinand; Privatier in Berlin.
+            <lb/>IVahlkr.:19. Reg.-Bez. Potsdam (Jüterbog-Luckenwalde,</p>
+            <p>
+               <lb/>Zauch-Belzig). — Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten v. Oertzen am
+            <lb/>1 1. Juli 1915 gewählt.</p>
+            <p>
+               <lb/>Geb. am 26. November 164s) in Berlin; Dissident.
+            <lb/>Besuchte die Volksschule in Berlin. Lernte von 1860 bis
+            <lb/>18(-&gt;4 Vergolder. Bereiste als Handwerksbursche Deutschland,
+            <lb/>seit 1882 selbständiger Meister. Mitbegründer der Fachvereine,.
+            <lb/>Vorsitzender des Vergolder-Fachvereins. 1884 erster Expedient
+            <lb/>des „Berliner Volksblatt" („vorwärts"). Am 14. Dezember
+            <lb/>1864 auf Grund des Sozialistengesetzes aus Berlin aus¬
+            <lb/>gewiesen. Gründete ein Zigarrengeschäft in Brandenburg
+            <lb/>a. H. 1887 Buchdruckereibesitzer und Redakteur der „Branden¬
+            <lb/>burger Zeitung". Mitbegründer des Konsumvereins Branden¬
+            <lb/>burg a. H. und Vorsitzender des Aufsichtsrats desselben. Seit
+            <lb/>I895 wieder in Berlin. 1895 bis 1905 Gastwirt und bis
+            <lb/>1907 Vorsitzender des „Verbandes der freien Gast- und Schank¬
+            <lb/>wirte". Diente 1868 bis 1871 beim 20. Infanterie-Regiment.
+            <lb/>Stadtverordneter 1884/8.5 und 1900 bis jetzt. — Bild
+            <lb/>Seite 49.</p>
+            <p>
+               <lb/>FaßbrnÄrr, Dr. phil. Geheimer Regierungsrat.</p>
+            <pb n="11" xml:id="img_0011"/>
+            <p>
+               <lb/>«trgtrr. Domänenpächter in Süd erneu land l (Post¬
+            <lb/>station: Norden).</p>
+            <p>
+               <lb/>v. cklernrniny, Karl; Fideikommißbesitzer in Basenthin
+            <lb/>(Post- und Telegraphenstation:1Gollnow in Pommern),</p>
+            <p>
+               <lb/>wahlkr.: 7. Reg.-Bez. Stettin (Greifenberg-Tammin). —
+            <lb/>Deutschkonservativ. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten v. Normann am
+            <lb/>2&gt;. November gewählt.</p>
+            <p>
+               <lb/>Geb. am 11. März ;872 in Benz (Ninterpommern);
+            <lb/>evangelisch. Besuchte von ^88^ bis ^895 die Gymnasien zu
+            <lb/>Treptow a./Rega und Wernigerode; Abiturienteneramen im
+            <lb/>Februar ^89.^. Trat im Jahre ^895 als Fahnenjunker beim
+            <lb/>Ulanen-Regiment Nr. 9 ein; bis l^96 Leutnant bei demselben
+            <lb/>Regiment, t 899 bis ^^9 im Garde-Kürassier-Regiment. Ritt¬
+            <lb/>meister der Reserve. Seit t9"2 Mitglied des Kreistags des
+            <lb/>Tamminer Kreises. Mitglied der Landwirtschaftskammer
+            <lb/>Pommern. Rechtsritter des Johanniter-Mrdens. — Bild
+            <lb/>Seite</p>
+            <p>
+               <lb/>Förster, ^lm 29. November !9l2 gestorben.</p>
+            <p>
+               <lb/>Freiherr von und zu Franckenstein, Moriz; erblicher
+            <lb/>Reichsrat der Krone Bayerns, König!. Kämmerer und König!.
+            <lb/>Regierungsrat a. D., Fideikommißbesitzer zu Schloß Ullfladt
+            <lb/>lEisenbahnstation Langenfeld, Mittelfranken j. Wahlkr.:</p>
+            <p>
+               <lb/>Mittelfranken (Eichstätt). - - Zentrum.</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Speck am 0. Fe¬
+            <lb/>bruar t9l"&gt; gewählt.</p>
+            <p>
+               <lb/>Geb. am t8. März !869 zu Schloß Ullstadt; römisch-
+            <lb/>katholisch. Besuchte das König!. Ludwigsgymnasium München,
+            <lb/>die Universitäten Würzburg, Leipzig, München; machte in
+            <lb/>München ;89o sein Universitätsexamen. Nach Abschluß der
+            <lb/>juristischen Studien ;896 bis 1905 König!. Bezirksamtsassessor</p>
+            <pb n="12" xml:id="img_0012"/>
+            <p>
+               <lb/>-</p>
+            <p>
+               <lb/>in Nördlingen, 1905 bis 1908 König!. Regierungsaffessor in
+            <lb/>Regensbnrg, 1908 bis 1914 König!. Bezirksamimann in vils-
+            <lb/>hofen (Niederbayern). Mußte nach dem Tode des Bruders
+            <lb/>die Familiengüter übernehmen und den bayerischer! Staatsdienst
+            <lb/>verlassen. König!, bayerischer Oberleutnant a. D. von 1905
+            <lb/>bis 19^4 Mitglied der bayerischen Abgeordnetenkammer; legte
+            <lb/>im Jahre 1914 das Mandat nieder, da er durch den Tod
+            <lb/>seines Bruders Mitglied der bayerischen Reichsratskammer
+            <lb/>geworden war. — Ritter des bayerischen St. Georgs-Ordens,
+            <lb/>König!, bayerischen Michaels-Ordens I V. Klasse, Päpstlichen
+            <lb/>Pius-Ordens (Ritterkreuz). Bild Seite 4z.</p>
+            <p>
+               <lb/>Frank, Ludwig, Dr. jur. Am 5. September 1914 im
+            <lb/>Felde gefallen.</p>
+            <p>
+               <lb/>Gebhart. Hospitant der Deutschkonservativen.</p>
+            <p>
+               <lb/>Geck, Oscar, Redakteur in Mannheim, 2, 4. wahlkr. :
+            <lb/>11. Baden (Mannheim Weinheim-Schwetziugen). — Sozial¬
+            <lb/>demokrat. —</p>
+            <p>
+               <lb/>Für den im Felde gefallenen Abgeordneten Dr. Frank am
+            <lb/>-7. November 1914 gewählt.</p>
+            <p>
+               <lb/>Geb. am 8. August 1867 zu Osfenburg (Baden), katho
+            <lb/>lisch. Besuchte dort das Gymnasium 1660 bis 1887, diente
+            <lb/>als Einjährig-Freiwilliger beim 6. Badischen Infanterie-Re¬
+            <lb/>giment Nr. 115 in Freiburg; hörte dann an den Uni¬
+            <lb/>versitäten Freiburg, Zürich, Heidelberg und Straßburg
+            <lb/>juristische und volkswirtschaftliche Vorlesungen zur Vor¬
+            <lb/>bereitung auf den journalistischen Beruf, war hierauf einige
+            <lb/>Jahre Korrespondent und Mitarbeiter der größeren sozialisti¬
+            <lb/>schen Tagespresse Deutschlands und wissenschaftlicher Zeit¬
+            <lb/>schriften, seit 1901 Redakteur an der „volksstimme" in Mann¬
+            <lb/>heim. Als solcher verbüßte er eine Reiche von Freiheitsstrafen
+            <lb/>aus politischen Prozessen, u. a. auch eine längere (natürlich</p>
+            <pb n="13" xml:id="img_0013"/>
+            <p>
+               <lb/>vergebliche) Zengniszwangshast. Kandidierte wiederholt zum
+            <lb/>Badischen Landtag; seit 1905 Mitglied des Mannheimer Stadt
+            <lb/>verordnetenkollegiums und mehrerer wichtiger städtischer Kom¬
+            <lb/>missionen. - Bild Seite r&lt;).</p>
+            <p>
+               <lb/>Grrlach, Heinrich, Dr. med.; Geheimer Medizinalrat,
+            <lb/>Arzt, Mitglied des König!. Medizinalkollegiums der Provinz
+            <lb/>Westfalen in Münster i. Wests, wahlkr.: 2. Reg.-Bez.
+            <lb/>Münster (Münster-Loesfeld). — Zentrum. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Freiherr« v. L^crt-
+            <lb/>ling am 22. März 1912 gewählt.</p>
+            <p>
+               <lb/>Geb. am 29. Januar 18^6 zu Paderborn; katholisch.
+            <lb/>Besuchte das Gymnasium zu Paderborn und die Universitäten
+            <lb/>Münster, Greifswald, Marburg, promovierte im Jahre
+            <lb/>1870, machte den Feldzug als stellvertretender Assistenzarzt mit,
+            <lb/>erledigte im Jahre 1871 das Staatsexamen als Arzt, trat
+            <lb/>1872 zuerst als Volontärarzt, dann als Assistenzarzt in die
+            <lb/>Provinzialheilanstalt zu Marsberg ein; wurde im August 1878
+            <lb/>Direktor der neugegründeten Provinzialheilanstalt zu Münster
+            <lb/>i. Wests, und ist seit 1883 Mitglied des Provinzial-Medizinal-
+            <lb/>kollegiums zu Münster. Am 1. April 1911 legte er die Tätigkeit
+            <lb/>als Direktor der provinzialheilanstalt nieder. Kleinere
+            <lb/>kasuistische Mitteilungen lüber epileptische Dämmerzustände,
+            <lb/>über künstliche Ernährung) in der von Dr. Brosius früher
+            <lb/>herausgegebenen Zeitschrift „Der Irrenfreund". — Roter
+            <lb/>Adlerorden IV. Klasse, Kronenorden III. Klasse, Kriegsdenk¬
+            <lb/>münze 1870/71 von Stahl am Kombattantenbande. — Bild
+            <lb/>Seite 43.</p>
+            <p>
+               <lb/>v. Goßlrr, Alfred; Landrat a. D., Rittergutsbesitzer in
+            <lb/>Schätz bei Guhrau, Bez. Breslau (Post- und Telegraphenstation
+            <lb/>Guhrau, Eisenbahnstation Kaltebortschen). wahlkr. : 1. Reg.-
+            <lb/>Bez. Breslau (Guhrau - Steinau - wohlau). — Deutsch¬
+            <lb/>konservativ. —</p>
+            <pb n="14" xml:id="img_0014"/>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Grasen v. Carmer
+            <lb/>am 20. September 1815 gewählt.</p>
+            <p>
+               <lb/>Geb. am 17. März 16^7 zu Guhrau, Bez. Breslau;
+            <lb/>evangelisch. Besuchte die Klosterschule Roßleben 1881 bis 1886,
+            <lb/>die Universitäten Heidelberg und Berlin I88l&gt; bis 1888.
+            <lb/>Gerichtsreferendar 1888 bis 18&lt;)2 in Rathenow und Berlin;
+            <lb/>Rcgierungsreferendar (892 bis 1884 in Frankfurt a. O.;
+            <lb/>Regierungsassessor 1885 bis 1888 beim Landratsamt Trebnitz
+            <lb/>(Schlesien) und 1888 bis 1901 bei der Regierung in Cassel;
+            <lb/>Landrat des Kreises Brieg (Schlesien) 1881 bis 1908. Ritt¬
+            <lb/>meister der Reserve im Husaren-Regiment von Meten, zurzeit
+            <lb/>Chef der deutschen Verwaltung für Kurland. Mitglied des
+            <lb/>Hauses der Abgeordneten seit 1808. — Roter Adlerorden
+            <lb/>IV. Klasse, Militär-Dienstkreuz, Eisernes Kreuz !I. Klasse,
+            <lb/>Braunschweigischer Kriegsorden; Rechtsritter des Iohanniter-
+            <lb/>ordens. - Bild Seite 41.</p>
+            <p>
+               <lb/>Gottschalk- Fritz; Gutsbesitzer in Sauerwalde (Post-und
+            <lb/>Telegraphenstation Lengwethen, Eisenbahnstation Klapaten,
+            <lb/>Kleinbahnstation Kallminnen. Ivahlkr. : 2. Reg.-Bez. Gum¬
+            <lb/>binnen (Ragnit-Pillkallen). Deutschkonservativ. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Grafen v. Kanitz
+            <lb/>am 25. August 1815 gewählt.</p>
+            <p>
+               <lb/>Geb. am 15. Mktober 1855 in Berkeln, Kreis Riederung;
+            <lb/>evangelisch. Besuchte die Realschule in Tilsit und die Acker¬
+            <lb/>bauschule in Lehrhof-Ragnit, von 1872 bis 1885 wirtschafts-
+            <lb/>inspektor in Gst- und Ivestpreußen; seit 1885 Besitzer des
+            <lb/>Gutes Sauerwalde im Kreise Ragnit. Diente 1876 als Ein¬
+            <lb/>jährig-Freiwilliger; Qualifikation zum Reserveoffizier, dann
+            <lb/>Feldbeamter. Amtsvorsteher, Kreistags und Kreisausschuß¬
+            <lb/>mitglied, Mitglied der Landwirtschaftskammer usw. Seit
+            <lb/>1888 Mitglied des Preußischen Abgeordnetenhauses. Roter
+            <lb/>Adlerorden I V. Klasse. - Bild Seite 41.</p>
+            <pb n="15" xml:id="img_0015"/>
+            <p>
+               <lb/>v. GrabAki. Wohnort: Gnesen.</p>
+            <p>
+               <lb/>Gräfe. Hospitant der Konservativen.</p>
+            <p>
+               <lb/>v. Graefe. Major der Reserve.</p>
+            <p>
+               <lb/>Hargy, Franz 2aver; Redakteur in Colmar i. Elsaß,
+            <lb/>wahlkr.: &lt;&gt;. Elsaß-Lothringen (Schlettstadt). Elsaß-Loth¬
+            <lb/>ringisches Zentrum.</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Dr. will am i(&gt;. Sep¬
+            <lb/>tember 1912 gewählt.</p>
+            <p>
+               <lb/>Geb. am 2. Dezember 1870 in Hirsingen, Kreis Altkirch
+            <lb/>(Elsaß); katholisch. Besuchte das Bischof!. Gymnasium in
+            <lb/>Zillisheim von 188H bis 1687, studierte im Priesterseminar zu
+            <lb/>Straßburg 1887 bis 1892. von I892 bis 169z Student an
+            <lb/>der theologischen Fakultät in München, 1895 bis 1896 an der
+            <lb/>Universität Würzburg (Kathol. stud. Verbindung Gothia).
+            <lb/>Promovierte daselbst im Mai I89Ü. Gründer und Chef¬
+            <lb/>redakteur der Zeitung „Oberelsässische Landeszeitung" in
+            <lb/>Mülhausen. Seit 1901 Chefredakteur des „Elsässer Kurier" in
+            <lb/>Colmar. Mitglied des Bezirkstages für Mber-Clsaß seit i')0&lt;&gt;.
+            <lb/>— Bild Seite 50.</p>
+            <p>
+               <lb/>Haeuslcr. Wohnort: Fürstenfeldbruck bei München.</p>
+            <p>
+               <lb/>v. Halem. Mandat am 9. Dezember 1912 nieder¬
+            <lb/>gelegt; wiedergewählt am 30. Dezember 1912. Mandat
+            <lb/>am q. Februar 19IH nochmals niedergelegt; wieder¬
+            <lb/>gewählt am 21. April 191H.</p>
+            <p>
+               <lb/>Haupt. Mandat am 2. Dezember 1915 für un¬
+            <lb/>gültig erklärt.</p>
+            <p>
+               <lb/>Haußrnann. Rechtsanwalt und Notar.</p>
+            <p>
+               <lb/>Hrckschrr, Siegfried, Dr. jur.; Mitglied des Direk¬
+            <lb/>toriums der Hamburg-Amerika-Linie zu Hamburg.</p>
+            <pb n="16" xml:id="img_0016"/>
+            <p>
+               <lb/>— lir --</p>
+            <p>
+               <lb/>Held, Nationalliberal.</p>
+            <p>
+               <lb/>Hrstermarm. Hospitant der Nation alliberaleri;
+            <lb/>dann aus dem Deutschen Bauernbünde und als
+            <lb/>Hospitant der Nationalliberalen wieder ausge¬
+            <lb/>schieden.</p>
+            <p>
+               <lb/>Freiherr Heyl zu Herrnsheim, Dr. h. c.: wirklicher
+            <lb/>Geheimer Rat, Exzellenz.</p>
+            <p>
+               <lb/>Heyn. Wohnort: Berlin.</p>
+            <p>
+               <lb/>HUdrnbrand. Wohnort: Hamburg.</p>
+            <p>
+               <lb/>Hirsch, Wilhelm; Syndikus der Handelskammer für die
+            <lb/>Kreise Essen, Mülheim (Ruhr) und Oberhausen in Essen
+            <lb/>(Ruhr), (Fernsprecher im Heimatsort: (&gt;75, 676), wahlkr.:
+            <lb/>6. Reg.-Bez. Merseburg (Sangerhausen - Eckartsberga). —
+            <lb/>Nationalliberal. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten wamhoff am 19. Ja¬
+            <lb/>nuar gewählt.</p>
+            <p>
+               <lb/>Geb. am 22. August zu Goslar a. H.; evangelisch¬
+            <lb/>lutherisch. Besuchte das Realgymnasium zu Goslar a. H.,
+            <lb/>studierte Staatswiffenschaften an den Universitäten Leipzig und
+            <lb/>Berlin. ^867—^697 volkswirtschaftlicher Sekretär des Lentral-
+            <lb/>verbandes Deutscher Industrieller. Seit ^97 Syndikus der
+            <lb/>Handelskammer für die Kreise Essen, Mülheim (Ruhr) und
+            <lb/>Oberhausen. Stadtverordneter in Essen feit 1900; Mitglied
+            <lb/>des Provinziallandtags der Rheinprovinz; Stellvertretendes
+            <lb/>Mitglied des Bezirkseisenbahnrats zu Löln, des Rhein-Wasser-
+            <lb/>straßenbeirats, des wafferstraßenbeirats für den Rhein-Herne-
+            <lb/>Kanal und die Lippewasserstraße sowie des Gesamtwasferstraßen-
+            <lb/>beirats; Mitglied des preußischen Abgeordnetenhauses seit t90l.</p>
+            <p>
+               <lb/>Bild Seite Hl».</p>
+            <p>
+               <lb/>Horsch. Mandat am 26. März t9l4 für ungültig
+            <lb/>erklärt.</p>
+            <pb n="17" xml:id="img_0017"/>
+            <p>
+               <lb/>17</p>
+            <p>
+               <lb/>Httbrich, Alfred; Rentier.</p>
+            <p>
+               <lb/>Icklrr. Wohnort: Berlin-Friedenau.</p>
+            <p>
+               <lb/>Jäckel. Wohnort: Grünau (Mark).</p>
+            <p>
+               <lb/>Junik, Dr. jur. Geheimer Justizrat.</p>
+            <p>
+               <lb/>Äabrn. Am 2l. Juni 19^3 gestorben.</p>
+            <p>
+               <lb/>Laempf. Dr. jur. h. c.; wirklicher Geheimer Rat;
+            <lb/>Exzellenz. Mandat am ^2. Oktober 1942 nieder¬
+            <lb/>gelegt; wiedergewählt am 5. November t9i2.</p>
+            <p>
+               <lb/>Kapplrr. Wohnort: Berlin.</p>
+            <p>
+               <lb/>Graf v. Kanih. Am 30. Juni gestorben.</p>
+            <p>
+               <lb/>v. Aaphrngst. Am 5. März 1942 gestorben.</p>
+            <p>
+               <lb/>keil. Wohnort: Ludwigs bürg.</p>
+            <p>
+               <lb/>Krinath. Wohnort: Stuttgart-Untertürkheim.</p>
+            <p>
+               <lb/>Kerschbaum. Nationalliberal.</p>
+            <p>
+               <lb/>Kiel; Gutsbesitzer. Wohnort : Gut Hainmerberg
+            <lb/>(Post Uchte).</p>
+            <p>
+               <lb/>Klrye. National liberal.</p>
+            <p>
+               <lb/>Klos, Joseph; Päpstlicher Kammerherr und Erzbischöf¬
+            <lb/>licher geistlicher Rat, Priester, I. Präbendar an der S1. Do¬
+            <lb/>minikus-Kirche und Redakteur in Posen, wahlkr.: 2. Reg.-
+            <lb/>Bez. Posen (Samter-Birnbaum-Obornik). — Pole. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Grafen v. Brud-
+            <lb/>zewo Mielzynski am t?. März ^9^ gewählt.</p>
+            <p>
+               <lb/>Geb. am März ^670 in Lubasch, Kr. Lzarnikau;
+            <lb/>katholisch. Besuchte das Mariengymnasium zu Posen, dann
+            <lb/>die Priesterseminare zu Posen und Gnesen. 4893 zum Priester
+            <lb/>geweiht. Zuerst Domvikar an der Kathedrale zu Posen, seit</p>
+            <p>
+               <lb/>2</p>
+            <pb n="18" xml:id="img_0018"/>
+            <p>
+               <lb/>18</p>
+            <p>
+               <lb/>1895 1. präbendar an der Dominikanerkirche zu Posen. Seit
+            <lb/>I895 Chefredakteur des 1^,1Kntoliolci, Verfasser</p>
+            <p>
+               <lb/>mehrerer Publikationen, meist homiletischen Inhalts. — Bild
+            <lb/>Seite §5.</p>
+            <p>
+               <lb/>Klose. Am 5. Oktober 1913 gestorben.</p>
+            <p>
+               <lb/>kölsch. Mandat am 27. November 1913 niedergelegt.</p>
+            <p>
+               <lb/>kohl. Am 9. Juli 1913 gestorben.</p>
+            <p>
+               <lb/>v. kröcher. Mandat am 17. April 1913 für un¬
+            <lb/>gültig erklärt.</p>
+            <p>
+               <lb/>kttckhoff. Mandat am 2. Dezember 1913 für un¬
+            <lb/>gültig erklärt, wiedergewählt am 17. Februar 191h.</p>
+            <p>
+               <lb/>kühn. Am 18. März 1916 gestorben.</p>
+            <p>
+               <lb/>Ledrbour. Wohnort: Berlin-Steglitz.</p>
+            <p>
+               <lb/>Lederer, Franz Seraph; Pfarrer in Lupburg (Post:
+            <lb/>Luxburg, Fernsprecher: Parsberg 17, Eisenbahnstation: Pars¬
+            <lb/>berg). wahlkr.: 3. Oberpfalz (Neumarkt). — Zentrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Kohl am 23. Ok¬
+            <lb/>tober 1915 gewählt.</p>
+            <p>
+               <lb/>Geb. am 5. März 1866 in Pfaffenberg (Niederbayern);
+            <lb/>katholisch. Besuchte die Volksschule in Pfaffenberg, das Gym¬
+            <lb/>nasium in Metten und das Lyzeum in Regensburg. Ordiniert
+            <lb/>am 31. Mai I891, Kooperator in Saal 10. Juni 1891, pfarr-
+            <lb/>provisor in Sinzig 16. Juli I89H, Pfarrprovisor in Speins-
+            <lb/>hardt 5. Januar 1895, Benefizprovisor in Lrbendorf 6. Juli
+            <lb/>I895, Pfarrer in Lupburg 28. Dezember 1909. Mitbegründer
+            <lb/>mehrerer Organisationen in der Oberpfalz, Gründer des
+            <lb/>christlichen Glasarbeiterverbandes und langjähriger Leiter des¬
+            <lb/>selben bis zu seiner Umwandlung in den christlichen Keram-
+            <lb/>arbeiterverband Deutschlands. Schriftstellerisch tätig. — König
+            <lb/>Ludwig-Kreuz. — Bild Seite 43.</p>
+            <pb n="19" xml:id="img_0019"/>
+            <p>
+               <lb/>19</p>
+            <p>
+               <lb/>Leicht- Johann; Domkapitular in Bamberg, wahlkr.:
+            <lb/>5. Oberfranken (Bamberg). — Zentrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Dr. Schaedler am
+            <lb/>22. April 19^5 gewählt.</p>
+            <p>
+               <lb/>Geb. am 19. Dezember 1868 zu Bischberg; römisch-
+            <lb/>katholisch. Besuchte das Gymnasium und Lyzeum in Bam¬
+            <lb/>berg. 1895 Kaplan in Ebermannstadt, 1695 in Erlangen,
+            <lb/>I899 Domvikar und Domprediger in Bamberg, seit 1. Ok¬
+            <lb/>tober 1910 Domkapitular dortselbst. — Päpstliches Ehrenkreuz
+            <lb/>pro ^oelosia. ei l^ontilioo. — Bild Seite HH.</p>
+            <p>
+               <lb/>Lender- Dr. theol. Am 29. Juli 1915 gestorben.</p>
+            <p>
+               <lb/>Lensch- Dr. Wohnort: Neubabelsberg.</p>
+            <p>
+               <lb/>Leser. Am 10. Juni 191H gestorben.</p>
+            <p>
+               <lb/>Lende. Wohnort: Hamburg und Altona.</p>
+            <p>
+               <lb/>v. Liebert. Mandat am 20. Januar 19^ nieder¬
+            <lb/>gelegt.</p>
+            <p>
+               <lb/>Liebknecht- Dr. jur. Wohnort: Berlin-Lichterfelde.
+            <lb/>— Bei keiner Fraktion. -</p>
+            <p>
+               <lb/>Graf Wagnis, Anton; Majoratsbesitzer zu Lckersdorf,
+            <lb/>Grafschaft Glatz (Eisenbahnstation Möhlten). wahlkr.:
+            <lb/>12. Reg.-Bez. Breslau (Glatz-Habelschwerdt). — Zentrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Sperlich am 26. April
+            <lb/>1915 gewählt.</p>
+            <p>
+               <lb/>Geb. am 9. Mai 1862 zu Eckersdorf; römisch-katholisch.
+            <lb/>Besuchte das Königl. Gymnasium zu Dresden-Neustadt und
+            <lb/>die Universitäten Breslau, Leipzig und Berlin, widmete sich
+            <lb/>der Bewirtschaftung des eigenen Grundbesitzes und der Ver¬
+            <lb/>waltung der eigenen Industrie (Kohlenbergbau). Rittmeister
+            <lb/>der Reserve a. D. Tätig in Kreis- und Provinzialverwaltung.
+            <lb/>Mitglied des Provinziallandtages in Schlesien, der Kreistage</p>
+            <pb n="20" xml:id="img_0020"/>
+            <p>
+               <lb/>20</p>
+            <p>
+               <lb/>der Kreise Glatz, Habelschwerdt, Neurode; Kreisdeputierter
+            <lb/>des Kreises Glatz. Mitglied des preußischen Herrenhauses
+            <lb/>auf Lebenszeit. — Ehrenritter des souveränen Malteser-Ordens;
+            <lb/>Ritter des Königl. Bayerischen St. Georgs-Ordens, Groß¬
+            <lb/>kreuz des päpstlichen St. Gregor-Ordens, Roter Adler-Orden
+            <lb/>I II. Klaffe. — Bild Seite 44.</p>
+            <p>
+               <lb/>Freiherr v. Malsen-Wal-Kirch. Am 17. Juni 1913 ge¬
+            <lb/>storben.</p>
+            <p>
+               <lb/>v. Mafforv. Am 6. Juni 1914 gestorben.</p>
+            <p>
+               <lb/>v. Mrding. Wohnort: Horndorf, Post Dahlenburg.</p>
+            <p>
+               <lb/>Metzger. Am 8. November 1914 gestorben.</p>
+            <p>
+               <lb/>Graf v. Lru-zrwo Mirhynski. Mandat am 6. Ja¬
+            <lb/>nuar 1914 niedergelegt.</p>
+            <p>
+               <lb/>Nathan- Joseph Martin; Pfarrer und Konfistorialrat in
+            <lb/>Branitz (Oberschl.). Wahlkr.: 9. Reg.-Bez. Oppeln (Leob¬
+            <lb/>schütz). — Zentrum —.</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Klose am 9. Januar
+            <lb/>1914 gewählt.</p>
+            <p>
+               <lb/>Geb. am 11. November 1867 in Stolzmütz, Kreis Leob¬
+            <lb/>schütz; römisch-katholisch. Besuchte die Gymnasien zu Leob¬
+            <lb/>schütz und Ratibor 18?9 bis 1887, die Universitäten in Freiburg
+            <lb/>(Baden) und Breslau 1667 bis 1891.11691 Ordination, Kaplan</p>
+            <p>
+               <lb/>in Sabschütz, I892 Kaplan in Branitz, 1899 Pfarrer in
+            <lb/>Branitz, 1903 F. L. B. Konfistorialrat, 1913 Dechant. Diente
+            <lb/>1887/88 als Einjährig-Freiwilliger beim Grenadier-Regiment
+            <lb/>Nr. 10. — Roter Adlerorden IV. Klaffe. — Bild Seite 44.</p>
+            <p>
+               <lb/>Narnnann, Friedrich, v.; Schriftsteller in Berlin-Schöne¬
+            <lb/>berg. Wahlkr.: waldeck. — Fortschrittliche Volkspariei. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten vietmeyer am
+            <lb/>19. Juni 1915 gewählt.</p>
+            <pb n="21" xml:id="img_0021"/>
+            <p>
+               <lb/>21 —</p>
+            <p>
+               <lb/>Geb. am 2.3. März 1860 in Störmthal bei Leipzig;
+            <lb/>evangelisch. Besuchte die Nicolaischule zu Leipzig, die Fürsten-
+            <lb/>schule zu Meißen und die Universitäten Leipzig und Erlangen.
+            <lb/>Von 1886 bis I890 Geistlicher Ln Langenberg, Kr. Glauchau.
+            <lb/>I890 bis I897 vereinsgeistlicher für innere Mission in Frank¬
+            <lb/>furt (Main), von I896 bis 1903 Vorsitzender des national¬
+            <lb/>sozialen Vereins, von da an Vorstandsmitglied der freisin¬
+            <lb/>nigen Vereinigung. Seit 1910 Ausschußmitglied der fort¬
+            <lb/>schrittlichen Volkspartei. Herausgeber der Wochenschrift „Die
+            <lb/>Hilfe", Verfasser von „Demokratie und Kaisertum", „Neu¬
+            <lb/>deutsche Wirtschaftspolitik" und „Mitteleuropa". Mitglied des
+            <lb/>Reichstags von 1907 bis 1911. — Bild Seite ^7.</p>
+            <p>
+               <lb/>Vlehbel. Major der Reserve.</p>
+            <p>
+               <lb/>Nleuharrs, Caspar August; Fabrikbesitzer in Schwetzingen
+            <lb/>(Baden), wahlkr.: 8. Baden (Baden-Bühl-Rastatt). —
+            <lb/>Zentrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Dr. Lender am
+            <lb/>7. Oktober 1913 gewählt.</p>
+            <p>
+               <lb/>Geb. am 23. Oktober 1860 in welschenennest (Wests.);
+            <lb/>katholisch. Besuchte die Volksschule in welschenennest, die
+            <lb/>Rektoratschule in Olpe und das Realgymnasium in Münster
+            <lb/>i. Wests. Kaufmännische und fachliche Ausbildung 8 Jahre
+            <lb/>im In- und Auslande; jetzt Zigarrenfabrik in Schwetzingen
+            <lb/>und mehreren Landorten, Zigarettenfabrik in Dresden. Seit
+            <lb/>I898 Gemeinderat, seit I895 Mitglied der Handelskammer
+            <lb/>Mannheim, seit 1901 Abgeordneter der II. badischen Kammer,
+            <lb/>seit 1903 Mitglied des badischen Eisenbahnrats. — Bild
+            <lb/>Seite HH.</p>
+            <p>
+               <lb/>Nrnmarm-Hofer, Dr. Professor. Hauptmann der
+            <lb/>Landwehr a. D.</p>
+            <p>
+               <lb/>v. Normaun. Am 17. Oktober 1912 gestorben.</p>
+            <pb n="22" xml:id="img_0022"/>
+            <p>
+               <lb/>22</p>
+            <p>
+               <lb/>Okkitchrr, Rudolf Otto Julius, Dr. jur. h. c.; Land¬
+            <lb/>gerichtsdirektor in Karlsruhe i. Baden, wahlkr.: 12. Baden
+            <lb/>(Heidelberg). - Nationalliberal. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Beck am 27. Ok¬
+            <lb/>tober 191-1 gewählt.</p>
+            <p>
+               <lb/>Geb. am 18. April 1859 in Freiburg i. Baden; katholisch.
+            <lb/>Besuchte die Vorschule in Heidelberg, Gymnasien in Heidel¬
+            <lb/>berg, Karlsruhe und Mannheim, Universitäten Heidelberg,
+            <lb/>Berlin und Freiburg. Badischer Rechtsxraktikant 1862,
+            <lb/>Referendär 1886, Amtsrichter in villingen I890, in Ettlingen
+            <lb/>I892, Landgerichtsrat in Mosbach 189-1, in Freiburg 1898,
+            <lb/>Landgerichtsdirektor in Mannheim 1906, in Karlsruhe 1910.
+            <lb/>Ehrendoktor der Rechte der Universität Freiburg 1906. Früher
+            <lb/>Reserveoffizier im 1. Badischen Leib-Grenadier-Regiment 109,
+            <lb/>zuletzt Oberleutnant der Landwehr; für Kriegsdauer Ober-
+            <lb/>kriegsgerichtsrat beim stellv. Generalkommando XIV. A. K.
+            <lb/>Abgeordneter der Zweiten Badischen Kammer I898 bis 1907.</p>
+            <p>
+               <lb/>Landwehr-Dienstauszeichnung II. Klasse, Eisernes Kreuz
+            <lb/>II. Klaffe am weiß-schwarzen Bande, vom Zähringer Löwen
+            <lb/>das Ritterkreuz 1. Klaffe mit Eichenlaub, Badische Regierungs-
+            <lb/>Jubiläums-Medaille von 1902. — Bild Seite -16.</p>
+            <p>
+               <lb/>Am 3. April 191b gestorben.</p>
+            <p>
+               <lb/>v. Grrhrn. Mandat am 5. April 1915 für ungültig
+            <lb/>erklärt.</p>
+            <p>
+               <lb/>Graf v. Opprrs-orff. Wohnort: Berlin und Ober-
+            <lb/>glogau.</p>
+            <p>
+               <lb/>Pauli. Mandat am 21. Mai 1912 für ungültig
+            <lb/>erklärt.</p>
+            <p>
+               <lb/>v. Payer. Geheimer Rat, Exzellenz.</p>
+            <p>
+               <lb/>Poppe. Wohnort: Heiligenstadt.</p>
+            <p>
+               <lb/>Pospiech. Kaplan in Kattowitz (Oberschl.).</p>
+            <pb n="23" xml:id="img_0023"/>
+            <p>
+               <lb/>Graf Praschrna. Major der Reserve.</p>
+            <p>
+               <lb/>prertß, Dr. phil. Am 5. Februar 4914 gestorben.</p>
+            <p>
+               <lb/>Guarck, Carl Hermann, Dr. jur. Mandat am 23. Mai
+            <lb/>1914 niedergelegt.</p>
+            <p>
+               <lb/>Freiherr v. Nrchrnberg, Albrecht, Dr. jur.; wirklicher
+            <lb/>Geheimer Rat in Berlin-Schöneberg, wahlkr.: §&gt;. Reg.-Bez.
+            <lb/>Königsberg (Braunsberg-Heilsberg). — Zentrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Dr. Preuß am
+            <lb/>24. April gewählt.</p>
+            <p>
+               <lb/>Geb. am 45. September 1861 in Madrid (Spanien);
+            <lb/>katholisch. Besuchte die Universitäten von Prag und Berlin.
+            <lb/>^885 Referendar, I889 Assessor; in demselben Jahre in das
+            <lb/>Auswärtige Amt einberufen, 1893 Bezirksrichter in Deutsch-
+            <lb/>Gstafrika, 1896 mit der Verwaltung des Konsulats Zanzibar
+            <lb/>betraut, 1898 eratsmäßiger Konsul daselbst, 1900 Konsul in
+            <lb/>Moskau, 1905 (Januar) Generalkonsul Ln Warschau, 1906
+            <lb/>(April) Gouverneur von Deutschostafrika, 1912 (Mai) zur
+            <lb/>Disposition gestellt, 1914 verabschiedet mit Ernennung zum
+            <lb/>wirkt. Geh. Rat. Hauptmann der Landwehr a. D. — Bild
+            <lb/>Seite 44.</p>
+            <p>
+               <lb/>Neck. Rentner in Lyck.</p>
+            <p>
+               <lb/>Freiherr v. Nichthofrn. Wohnort: Berlin.</p>
+            <p>
+               <lb/>Ritter. Am 7. Oktober 1914 gestorben.</p>
+            <p>
+               <lb/>Nverrn. Mandat am 6. April 1912 niedergelegt.</p>
+            <p>
+               <lb/>Noestckr, Gustav, Dr. jur.; Gerichtsassessor a. D., Vor¬
+            <lb/>sitzender des Bundes der Landwirte seit seiner Gründung 1893,
+            <lb/>Rittergutsbesitzer in Rittergut Görsdorf bei Dahme (Mark),
+            <lb/>wahlkr.: 1. Reg.-Bez. Bromberg (Kolmar i. P.-Lzarnikau-
+            <lb/>Filehne). — Deutschkonservativ. —</p>
+            <pb n="24" xml:id="img_0024"/>
+            <p>
+               <lb/>- 24 —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Ritter am 18. De¬
+            <lb/>zember 1914 gewählt.</p>
+            <p>
+               <lb/>Geb. am 15. Juli 1856 in Berlin; evangelisch. Besuchte
+            <lb/>die Grützmachersche Vorschule und das Französische Gymnasium
+            <lb/>in Berlin, Schulpforta, das Köllnische Gymnasium in Berlin,
+            <lb/>die Universitäten Berlin, Göttingen und Leipzig. Studierte
+            <lb/>zuerst Geschichte und Philosophie, sodann Jurisprudenz. 1881
+            <lb/>bis 1866 Referendar in Berlin, Halle, Naumburg a. S., 1886
+            <lb/>bis 1869 Gerichtsaffessor in Halle a. S. Seit 1669 Landwirt,
+            <lb/>bewirtschaftet seitdem Rittergut Görsdorf b. Dahme (Mark).
+            <lb/>Oberleutnant der Landwehr-Kavallerie a. D. Mitglied der
+            <lb/>Landwirtschaftskammer für die Provinz Brandenburg, des
+            <lb/>Börsenausschusses, des Bezirkseisenbahnrats Erfurt, Halle
+            <lb/>und stellvertretendes Mitglied des Bezirkseisenbahnrats Magde¬
+            <lb/>burg. Mitglied des preußischen Abgeordnetenhauses. Mit¬
+            <lb/>glied des Reichstags von 1898 bis 1905 und von 1907 bis
+            <lb/>1912. Verfasser politischer, wirtschaftspolitischer und land¬
+            <lb/>wirtschaftlicher Aufsätze. — Roter Adlerorden IV. Klaffe,
+            <lb/>Landwehrdienstauszeichnung I. Klasse. — Bild Seite 42.</p>
+            <p>
+               <lb/>Nühlr. Wohnort: Hellerau (Amtsh. Dresden). —
+            <lb/>Bei keiner Fraktion.</p>
+            <p>
+               <lb/>Nyssrl, Karl; Parteisekretär in Leixzig-Neustadt, Kirch-
+            <lb/>straße 87. wahlkr.: 14. Sachsen (Borna). — Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten v. Liebert am
+            <lb/>26. März 1914 gewählt.</p>
+            <p>
+               <lb/>Geb. am 17. Februar 1869 in Borna; deutsch-katholisch,
+            <lb/>freireligiös. Besuchte die Seminarschule zu Borna und 2 Jahre
+            <lb/>die Fortbildungsschule daselbst. Erlernte von 1885 bis 1866
+            <lb/>das Tischlerhandwerk; bereiste als Handwerksbursche Süd¬
+            <lb/>deutschland, einen Teil von Oesterreich und die Schweiz bis
+            <lb/>I891; arbeitete in Borna und Leipzig als Tischler und piano¬
+            <lb/>fortebauer; seit 1907 Parteisekretär. - Bild Seite 48.</p>
+            <pb n="25" xml:id="img_0025"/>
+            <p>
+               <lb/>25</p>
+            <p>
+               <lb/>Fürst und ALtgraf zu Salm - Nrtfferschetdt. Major
+            <lb/>ü 1a 8uit6 der Armee.</p>
+            <p>
+               <lb/>v. Samgny, Dr. jur. publ.; Geh. Reg.-Rat, Land-
+            <lb/>rat a. D. zu Schloß Trages (Post Somborn, Bz. Lasset).</p>
+            <p>
+               <lb/>Schae-lrr, Dr. jur. can. Am i§,. Februar 1915 ge¬
+            <lb/>storben.</p>
+            <p>
+               <lb/>Schiele, Martin; Rittergutspächter und Fabrikant in
+            <lb/>Schollene bei Rathenow (Poststation Schollene, Tel. Nr. 1,
+            <lb/>Eisenbahnstation Rathenow), wahlkr.: Z. Reg.-Bez. Magde¬
+            <lb/>burg (Jerichow 1 und II). — Deutschkonservativ. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Haupt am
+            <lb/>20. Februar 1914 gewählt.</p>
+            <p>
+               <lb/>Geb. am i?. Januar 1870 zu Groß Schwarzlosen, Kreis
+            <lb/>Stendal; evangelisch. Besuchte das Gymnasium in Stendal.
+            <lb/>Seit 1895 Pächter des Ritterguts Schollene und Leiter bezw.
+            <lb/>Mitbesitzer der Kartoffelstärkefabrik Schollene. Diente 1891
+            <lb/>als Einjährig-Freiwilliger beim Garde-Füsilier-Regiment.
+            <lb/>Leutnant der Landwehr. Mitglied des Kreistags des Kreises
+            <lb/>Jerichow II seit I898, des Kreisausschusses seit 1909. —
+            <lb/>Bild Seite 42.</p>
+            <p>
+               <lb/>Schöpstin. Wohnort: Berlin.</p>
+            <p>
+               <lb/>Schröder.— Nationalliberal. —</p>
+            <p>
+               <lb/>Schultz. Geheimer Justiz rat.</p>
+            <p>
+               <lb/>Schwarze, Amtsgerichtsrat. Wohnort. Mün st er (Wests.).</p>
+            <p>
+               <lb/>Äernler, Dr. jur. Am 25. September 1914 gestorben.</p>
+            <p>
+               <lb/>Siebrndürger. Hauptmann a. D.</p>
+            <p>
+               <lb/>Slehr. Justizrat.</p>
+            <p>
+               <lb/>SUbrrschmidt. Wohnort: Löpenick-Uhlenhorst.</p>
+            <pb n="26" xml:id="img_0026"/>
+            <p>
+               <lb/>26 -</p>
+            <p>
+               <lb/>Sivkovich, Hans; Oberlehrer am Großherzoglichen Lehrer¬
+            <lb/>seminar in Lübtheen (Meckl.-Schw.). wahlkr.: i. Mecklen¬
+            <lb/>burg-Schwerin (Hagenow-Grevesmühlen). — Fortschrittliche
+            <lb/>Volkspartei.</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Pauli am 26. Juni
+            <lb/>1912 gewählt.</p>
+            <p>
+               <lb/>Geb. am 17. Juni 1881 in Wismar; evangelisch-lutherisch.
+            <lb/>Besuchte das Gymnasium der Großen Stadtschule zu Wismar
+            <lb/>I690 bis I899. Studierte 1899 bis 1902 in Rostock, Erlangen
+            <lb/>und Berlin Theologie und Geschichte. 1902/05 Alumnats¬
+            <lb/>inspektor in Güstrow, 190z bis 1905 wissenschaftlicher Hilfs¬
+            <lb/>lehrer am Realgymnasium zu Bützow, 1905/06 Rektor der
+            <lb/>Stadtschule zu Lübz, seit 1906 Oberlehrer am Großherzog!.
+            <lb/>Lehrerseminar zu Lübtheen. — Bild Seite 47.</p>
+            <p>
+               <lb/>Sostnski. Wohnort: Siemian 0 witz (Post Laurahütte).</p>
+            <p>
+               <lb/>Speck. Mandat am 1. Dezember 1914 niedergelegt.</p>
+            <p>
+               <lb/>Sprrlich. Am 25. Dezember 1914 gestorben.</p>
+            <p>
+               <lb/>Stirgelr, Felix; Landessekretär des Volksvereins für
+            <lb/>das katholische Deutschland in Ravensburg. wahlkr.:
+            <lb/>1?. Württemberg (Ravensburg-Riedlingen-Saulgau-Tettnang).
+            <lb/>— Zentrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Leser am 21. August
+            <lb/>1914 gewählt.</p>
+            <p>
+               <lb/>Geb. am 30. August 1881 in Mochental, Gberamt
+            <lb/>Ehingen; katholisch. Besuchte I693 bis 1900 das Gymnasium
+            <lb/>Ravensburg und 1900 bis 1904 die Universität Tübingen.
+            <lb/>Seit 1909 Landessekretär des Volksvereins für das katholische
+            <lb/>Deutschland in Württemberg. — Bild Seite 45.</p>
+            <p>
+               <lb/>AtSvr. Kommerzienrat.</p>
+            <pb n="27" xml:id="img_0027"/>
+            <p>
+               <lb/>27</p>
+            <p>
+               <lb/>Stolten, Johannes Ernst Otto; Redakteur (am „Ham¬
+            <lb/>burger Echo") in Hamburg 5, Schmilinskystraße 25. Wahlkr.:</p>
+            <p>
+               <lb/>Hamburg. -- Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Bebel am (7. Ok¬
+            <lb/>tober (9(3 gewählt.</p>
+            <p>
+               <lb/>Geb. am h. April (833 in Hamburg. Besuchte die paß-
+            <lb/>mannsche Stistungsschule in Hamburg. Lernte von (868 bis
+            <lb/>(872 Schlosser und Maschinenbauer und übte den Beruf bis
+            <lb/>(887 aus. (880 Mitbegründer der Zentral-Kranken- und
+            <lb/>Sterbekaffe der Metallarbeiter. (883 bis (887 Mitglied des
+            <lb/>Gewerblichen Schiedsgerichts in Hamburg. Trat am (. Juli (887
+            <lb/>in die Redaktion der „Bürgerzeitung", Hamburg (am 20. Sep¬
+            <lb/>tember (887 auf Grund des Sozialistengesetzes verboten). Seit
+            <lb/>2. Oktober (687 Redakteur des „Hamburger Echo". Seit (90(
+            <lb/>Mitglied der Hamburgischen Bürgerschaft, seit (907 auch des
+            <lb/>Bürgerausschuffes. Verfasser einer Reihe politischer Broschüren,
+            <lb/>besonders über Hamburgische politische Verhältnisse und Vor¬
+            <lb/>gänge. — Bild Seite 49.</p>
+            <p>
+               <lb/>Ltresemann, Dr., Gustav, Syndikus in Eharlottenburg
+            <lb/>und Dresden-A. wahlkr.: 2. Hannover (Aurich-Wittmund).</p>
+            <p>
+               <lb/>Nationalliberal. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Dr. Semler am
+            <lb/>9. Dezember (9(^ gewählt.</p>
+            <p>
+               <lb/>Geb. am (O. Mai (678 in Berlin; evangelisch. Besuchte
+            <lb/>die Universitäten Berlin und Leipzig. Syndikus des Ver¬
+            <lb/>bandes Sächsischer Industrieller. Präsidialmitglied des Bundes
+            <lb/>der Industriellen, des Deutsch-Amerikanischen wirtschasts-
+            <lb/>verbandes, des Deutsch-Oesterreich-Ungarischen Wirtschafts¬
+            <lb/>verbandes, Mitglied des Aentralvorstandes der national¬
+            <lb/>liberalen Partei. Mitglied des Reichstags von (907 bis (9(2.
+            <lb/>Bild Seite H6.</p>
+            <pb n="28" xml:id="img_0028"/>
+            <p>
+               <lb/>28</p>
+            <p>
+               <lb/>Stubbe, Heinrich; Vorsitzender der Landesorganisation
+            <lb/>der sozialdemokratischen Partei Hamburgs in Hamburg 19,
+            <lb/>Henriettenstr. 9. wahlkr.: 3. Hamburg. — Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Metzger am 29. Januar
+            <lb/>1915 gewählt.</p>
+            <p>
+               <lb/>Geb. am 21. Januar I86H in Grevesmühlen i. M.;
+            <lb/>religionslos. Besuchte die Volksschule in Grevesmühlen.
+            <lb/>Tischler, von 168(, bis 1906 Vorstandsmitglied des Tischler-
+            <lb/>bezw. Holzarbeiterverbandes in Hamburg, von 139-1 bis 1904
+            <lb/>Geschäftsführer der „Holzarbeiter-Zeitung". 1905 Aranken-
+            <lb/>kaffenbeamter der Zentralkrankenkasse der Tischler u. a. ge¬
+            <lb/>werblicher Arbeiter. Seit 1390 Mitglied des Parteivorstandes
+            <lb/>in Hamburg; seit 1906 Vorsitzender der Landesorganisation der
+            <lb/>sozialdemokratischen Partei in Hamburg. Seit 4904 Mitglied
+            <lb/>der Bürgerschaft in Hamburg. — Bild Seite 30.</p>
+            <p>
+               <lb/>Stubbrn-orsf. Rittergutspächter in Semlin (post-
+            <lb/>station Rarstädt) und Berlin.</p>
+            <p>
+               <lb/>Freiherr v. Thünrfeld. Am 16. Mai 1913 gestorben.</p>
+            <p>
+               <lb/>Trargrr. Am 26. März 1912 gestorben.</p>
+            <p>
+               <lb/>v. Tramprzynski. Rechtsanwalt und Notar.</p>
+            <p>
+               <lb/>Trlmborrr, Karl; Geheimer Justizrat, Rechtsanwalt
+            <lb/>in Löln (Rhein), wahlkr.: 5. Reg.-Bez. Löln (Siegkreis-
+            <lb/>Waldbröl). — Zentrum. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Dr. Becker (Löln)
+            <lb/>am 1. März 1912 gewählt.</p>
+            <p>
+               <lb/>Geb. am 2. Dezember 1851 in Löln (Rhein); katholisch.
+            <lb/>Besuchte das Rönigl. katholische Aposteln - Gymnasium zu
+            <lb/>Löln und die Universitäten Leipzig, München und Straßburg.
+            <lb/>Juni 1877 Referendarexamen, juristisches Staatsexamen am
+            <lb/>21. Januar 1882. von 1897 bis 1914 Stadtverordneter in</p>
+            <pb n="29" xml:id="img_0029"/>
+            <p>
+               <lb/>- 29</p>
+            <p>
+               <lb/>Löln. Mitglied des preußischen Abgeordnetenhauses seit 1896
+            <lb/>und des Reichstags ebenfalls seit 1896, beides bis 1912 für
+            <lb/>Löln (Stadt). Seit 1912 Mitglied des Reichstags für den
+            <lb/>5&gt;. Wahlkr. des Reg.-Bez. Löln. wurde am 24. August
+            <lb/>1914 in die Zivilverwaltung für Belgien berufen; bis No¬
+            <lb/>vember 1914 Vertreter des Verwaltungschefs in Stadt und
+            <lb/>Kreis Verviers, seitdem Generalreferent für geistliche und
+            <lb/>Unterrichtsangelegenheiten bei der Zentralverwaltung in
+            <lb/>Brüffel. — Bild Seite 45.</p>
+            <p>
+               <lb/>v. Veit- Dr.; Landrat a. D. in Deyelsdorf in Vor¬
+            <lb/>pommern. Ehrenbürger der Stadt Mohrungen in
+            <lb/>Ostpreußen. — Roter Adlerorden III. Klaffe mit der
+            <lb/>S chleife.</p>
+            <p>
+               <lb/>Nrrtmryrr. Mandat am i?. April 1915 für un¬
+            <lb/>gültig erklärt.</p>
+            <p>
+               <lb/>Vogt- Friedrich. Deutschkonservativ. --</p>
+            <p>
+               <lb/>Nogthrrr. Wohnort: Dresden.</p>
+            <p>
+               <lb/>v. Nollwar. Wohnort: München und Soiensaß.</p>
+            <p>
+               <lb/>Wachhorst -r Wrntr- Friedrich Wilhelm; Hofbesitzer in
+            <lb/>Groß-Mimmelage (Post Badbergen, Hannover, Eisenbahn¬
+            <lb/>station Vehs resp. Ouakenbrück, Telephon: Ouakenbrück Nr. 6),
+            <lb/>und Berlin, wahlkr.: 2. Reg.-Bez. Magdeburg (Stendal-
+            <lb/>Osterburg). — Nationalliberal. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Hoesch am
+            <lb/>25. Mai 1914 gewählt.</p>
+            <p>
+               <lb/>Geb. am 23. Februar 1663 in Bottorf b. Meuslage;
+            <lb/>evangelisch. Besuchte das Realgymnasium in Ouakenbrück.
+            <lb/>Mitglied de? Preußischen Abgeordnetenhauses. Mitglied des
+            <lb/>Reichstags von 1907 bis 1911. — Bild Seite 46.</p>
+            <pb n="30" xml:id="img_0030"/>
+            <p>
+               <lb/>Wagner, Richard; Bürgermeister inTapiau, Kreis wehlau,
+            <lb/>Ostpr. wahlkr.: 2. Reg.-Bez. Königsberg (Labiau-Wehlau).
+            <lb/>— Fortschrittliche Volkspartei. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten v. Massow anl
+            <lb/>2Z. Juli 191^ gewählt.</p>
+            <p>
+               <lb/>Geb. am 5. Oktober 1861 in Kl. Schmerberg, Kreis
+            <lb/>Labiau; evangelisch. Besuchte die Realschule in wehlau
+            <lb/>während der Zeit von 1671—1660. Ausbildung für die ver-
+            <lb/>waltungstätigkeit auf dem Landratsamt Labiau, der Regierung
+            <lb/>zu Marienwerder und der König!. Spezialkommission zu
+            <lb/>Königsberg, vom 1. Oktober 1881 bis i. Oktober 1882
+            <lb/>Einjährig-Freiwilliger beim Ostpreuß. Jägerbataillon Graf
+            <lb/>porck von Wartenburg. Mitglied des Kreistages und des Kreis-
+            <lb/>ausschuffes des Kreises weh lau. Mitglied des Reichstages von
+            <lb/>Dezember 1910 bis Januar 1912. — Bild Seite H8.</p>
+            <p>
+               <lb/>Wawhoff. Am 17. Oktober 1910 gestorben.</p>
+            <p>
+               <lb/>Writl, Dr. Mandat erloschen.</p>
+            <p>
+               <lb/>WrUnböck. Oekonomierat in Stadtsteinach.</p>
+            <p>
+               <lb/>Wrllstrin. Geheimer Ober-Justizrat.</p>
+            <p>
+               <lb/>Werner, Dr. phil. Professor.</p>
+            <p>
+               <lb/>Werner, Ludwig, Redakteur in Berlin-Friedenau.</p>
+            <p>
+               <lb/>Werr, Joseph, Dr. jur.; Amtsgerichtsrat in Merzig
+            <lb/>(Saar), wahlkr.: q. Reg.-Bez. Trier (Saarburg-Merzig'-
+            <lb/>Saarlouis). — Zentrum. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Roeren am
+            <lb/>30. Mai 1912 gewählt.</p>
+            <p>
+               <lb/>Geb. am 23. Juli 1874 in Düren (Rheinl.); katholisch.
+            <lb/>Besuchte die Vorschule des Gymnasiums zu Koblenz, die
+            <lb/>Gymnasien zu Koblenz und Düren, 1893 bis 1896 die Uni-</p>
+            <pb n="31" xml:id="img_0031"/>
+            <p>
+               <lb/>— :;i</p>
+            <p>
+               <lb/>verspäten zu Heidelberg, München, Berlin und Bonn zum
+            <lb/>Studium der Rechts- und Staatswissenschaften. 1896 Refe¬
+            <lb/>rendar, 1896/97 Einjährig-Freiwilliger im 2. Rhein. Feld¬
+            <lb/>artillerie-Regiment Nr. 25 zu Löln-Riehl, I897 bis 1901
+            <lb/>Referendar zu Jülich, Aachen, Elberfeld, Düren, Cöln, 4904
+            <lb/>bis 4905 Gerichtsasseffor zu Düren, Essen, Wegberg, Montjoie,
+            <lb/>Heinsberg, wittlich, seit 1. April 1905 Amtsrichter in Merzig;
+            <lb/>1914 Amtsgerichtsrat. — Erinnerungsmedaille. Bild
+            <lb/>Seite H5.</p>
+            <p>
+               <lb/>Wetterte. Mandat für erledigt erklärt.</p>
+            <p>
+               <lb/>Wtrmer, Otto, Dr. jur.; Stadtrat in Berlin 57,
+            <lb/>Elßholzstr. ^5. wahlkr.: 2. Oldenburg (Jever-Westerstede).
+            <lb/>— Fortschrittliche Volkspartei. -</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Traeger am 9. Mai
+            <lb/>1912 gewählt.</p>
+            <p>
+               <lb/>Geb. am 27. Januar 1868 in Tilsit; evangelisch. Be¬
+            <lb/>suchte die Gymnasien in Strasburg (westpr.) und Ronitz
+            <lb/>1877 bis 1886, studierte Jura in Berlin 1886 bis 1889 und
+            <lb/>promovierte 1890 nach bestandenem Referendarexamen. Nach
+            <lb/>mehrjähriger Tätigkeit auf der Parlamentstribüne als Jour¬
+            <lb/>nalist und Leiter eines parlamentarischen Bureaus wurde er
+            <lb/>I895 Redakteur der „Freisinnigen Zeitung". Wurde I896
+            <lb/>in den Reichstag und in den preußischen Landtag gewählt.
+            <lb/>Syndikusderpapierverarbeitungs-Berufsgenoffenschaftseiti90Z,
+            <lb/>unbesoldeter Stadtrat in Berlin seit 1909. Vorsitzender des
+            <lb/>geschästsführenden Ausschußes der Fortschrittlichen Volkspartei,
+            <lb/>vertrat im Reichstag von 1898 bis 1911 den 1. Wahlkreis des
+            <lb/>Regierungsbezirks Erfurt. Mitglied des preußischen Abgeord¬
+            <lb/>netenhauses. — Bild Seite §8.</p>
+            <p>
+               <lb/>Will, Dionysius, Dr. theol. u. oecon. publ. Am
+            <lb/>25. Juli 1912 gestorben.</p>
+            <pb n="32" xml:id="img_0032"/>
+            <p>
+               <lb/>- 32 -</p>
+            <p>
+               <lb/>Will, Arthur; Bauerhofbesitzer in Schweslin. Am
+            <lb/>Dezember 1912 gestorben.</p>
+            <p>
+               <lb/>Wirth, Karl Joseph, Dr. xhil.; Professor am Real¬
+            <lb/>gymnasium in Freiburg i. B. wahlkr.: 7. Baden (Offen-
+            <lb/>burg-Kehl). — Zentrum. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Kölsch am ^8. Fe¬
+            <lb/>bruar gewählt.</p>
+            <p>
+               <lb/>Geb. am 6. September 1879 in Freiburg i. B.; katholisch.
+            <lb/>Studierte Mathematik und Naturwissenschaften an der Universität
+            <lb/>in Freiburg i. B. 190Z Lehramtspraktikant, 1908 Professor.
+            <lb/>19N Stadtverordneter in Freiburg i. B., 19^5 Mitglied der
+            <lb/>II. Kammer der badischen Landstände für Freiburg I. — Bild
+            <lb/>Seite 45.</p>
+            <p>
+               <lb/>Witt. Hauptdirektor der Mobiliarfeuerversiche-
+            <lb/>rungs - Gesellschaft für die Provinzen Ost- und
+            <lb/>westpreußen a. G. in Marienwerder.</p>
+            <p>
+               <lb/>WSrlr. König!. Landesschulrat.</p>
+            <p>
+               <lb/>Am Irhnhoff, Dr. Vorsitzender des Vorstandes der
+            <lb/>Anwaltskammer zu Düffeldorf.</p>
+            <p>
+               <lb/>Zürn. Am 25. November I9i3 gestorben.</p>
+            <pb n="33" xml:id="img_0033"/>
+            <p>
+               <lb/>- 33 -</p>
+            <p>
+               <lb/>Stärke der Fraktionen.</p>
+            <p>
+               <lb/>Deutsch-Konservative (Kons.)1.....441Mitglieder.</p>
+            <p>
+               <lb/>Deutsche Fraktion (1)^.)1.......271»</p>
+            <p>
+               <lb/>Zentrum (2snt.)1.........9v1»</p>
+            <p>
+               <lb/>Polen (koltzn)1..........181»</p>
+            <p>
+               <lb/>Nationalliberale MI..)1........441»</p>
+            <p>
+               <lb/>Fortschrittliche Volkspariei MVk.) ....1451»</p>
+            <p>
+               <lb/>Sozialdemokratische Arbeitsgemeinschaft (8^.0.)1181»</p>
+            <p>
+               <lb/>Sozialdemokraten (8D.)1.......891»</p>
+            <p>
+               <lb/>Mitglieder, die keiner Fraktion angehören</p>
+            <p>
+               <lb/>(b.L.IV)1........1. .1.11?1»</p>
+            <p>
+               <lb/>392 Mitglieder.</p>
+            <p>
+               <lb/>Lrlröigle Manöalr1.........5 Mitglieder</p>
+            <p>
+               <lb/>Dr. weill (8V.) — 14. Elsaß-Lothringen</p>
+            <p>
+               <lb/>—1am 3. Januar 1915 Mandat erloschen.</p>
+            <p>
+               <lb/>Wetterls (LIs.I..) — 5. Elsaß-Lothringen</p>
+            <p>
+               <lb/>—1am 20. März 1915 Mandat für erledigt
+            <lb/>erklärt.</p>
+            <p>
+               <lb/>Kühn (8V.) — 11. Breslau — am i8.März
+            <lb/>1916 verstorben.</p>
+            <p>
+               <lb/>Birkenmayer Msi^.) — 3. Baden —
+            <lb/>am 3i. März 1916 verstorben.</p>
+            <p>
+               <lb/>Dr. Gbkircher MI..) — 12. Baden —</p>
+            <p>
+               <lb/>am 3. April 1916 verstorben. 1_</p>
+            <p>
+               <lb/>Zusammen . . 397 Mitglieder.</p>
+            <p>
+               <lb/>3</p>
+            <pb n="34" xml:id="img_0034"/>
+            <p>
+               <lb/>^4</p>
+            <p>
+               <lb/>Aenderungen</p>
+            <p>
+               <lb/>in der</p>
+            <p>
+               <lb/>Zusammensetzung -er einzelnen Fraktionen.</p>
+            <p>
+               <lb/>* bezeichnet den betreffenden Abgeordneten als Hospitanten.</p>
+            <p>
+               <lb/>Fraktion der Deutsch-Konservativen.</p>
+            <p>
+               <lb/>Ausgeschieden,
+            <lb/>s. Pauli (ersetzt durch Sw-
+            <lb/>kovich -</p>
+            <p>
+               <lb/>2. v. Normann.</p>
+            <p>
+               <lb/>5.1will.</p>
+            <p>
+               <lb/>4. v. Raphengst.</p>
+            <p>
+               <lb/>v. Rröcher (ersetzt durch
+            <lb/>Dr. Böhme — M .).</p>
+            <p>
+               <lb/>6.1Graf v. Ranitz.</p>
+            <p>
+               <lb/>7.1Hoesch (ersetzt durch wach¬
+            <lb/>horst de wente</p>
+            <p>
+               <lb/>8.1v. Nlaffow (ersetzt durch
+            <lb/>Wagner — I'VI'.).</p>
+            <p>
+               <lb/>9.1Ritter.</p>
+            <p>
+               <lb/>lo. Graf v. Lärmer (Osten).</p>
+            <p>
+               <lb/>Eingetreten:</p>
+            <p>
+               <lb/>s. v. Flemmina.
+            <lb/>2. v. Boehn.</p>
+            <p>
+               <lb/>5. Bohtz.</p>
+            <p>
+               <lb/>4. Gottschalk.</p>
+            <p>
+               <lb/>7. Schiele (gewählt für Haupr</p>
+            <p>
+               <lb/>6.1Dr. Roesicke.</p>
+            <p>
+               <lb/>7.1v. Goßler.</p>
+            <p>
+               <lb/>! 8. Gebhart* früh. ^V.).</p>
+            <p>
+               <lb/>! Gräfe* (früh.1).</p>
+            <pb n="35" xml:id="img_0035"/>
+            <p>
+               <lb/>Deutsche Fraktion.</p>
+            <p>
+               <lb/>Reichspartei.</p>
+            <p>
+               <lb/>Ausgeschieden.</p>
+            <p>
+               <lb/>1.1v. Mertzen (ersetzt durch
+            <lb/>Ewald</p>
+            <p>
+               <lb/>2.1Zürn.</p>
+            <p>
+               <lb/>3.1v. Liebert (ersetzt durch
+            <lb/>Ryffel -</p>
+            <p>
+               <lb/>Eingetreten.</p>
+            <p>
+               <lb/>1.1Alpers.</p>
+            <p>
+               <lb/>2.1Dr. Arendt.</p>
+            <p>
+               <lb/>3.1Bauer (Pfarrkirchen) (ge¬
+            <lb/>wählt für Bachmeier —
+            <lb/>d.k.k^.</p>
+            <p>
+               <lb/>4.1Behrens.</p>
+            <p>
+               <lb/>5.1Brühn.</p>
+            <p>
+               <lb/>16.v. Brünneck.</p>
+            <p>
+               <lb/>Wirtschaftliche Vereini¬
+            <lb/>gung.</p>
+            <p>
+               <lb/>1. Vietmeyer (ersetzt durch
+            <lb/>v. Naumann -
+            <lb/>3. Gebhart (jetzt Xon8.*).</p>
+            <p>
+               <lb/>Deutsche Resormpariei.</p>
+            <p>
+               <lb/>Gräfe (jetzt Lons.*).</p>
+            <p>
+               <lb/>Deutsch-Hannoveraner.</p>
+            <p>
+               <lb/>7.1Dr. Burckhardt.</p>
+            <p>
+               <lb/>8.1Colshorn.</p>
+            <pb n="36" xml:id="img_0036"/>
+            <p>
+               <lb/>36</p>
+            <p>
+               <lb/>Noch: Deutsche Fraktion.
+            <lb/>Eingetreten:</p>
+            <p>
+               <lb/>19.voerksen.</p>
+            <p>
+               <lb/>10.1Frhr.v. Gamp-Maffaunen</p>
+            <p>
+               <lb/>11.1v. Halem.</p>
+            <p>
+               <lb/>12.1Dr. Hegenscheidt,
+            <lb/>ts. Herzog.</p>
+            <p>
+               <lb/>14.1Laux (früher</p>
+            <p>
+               <lb/>15.1Löscher.</p>
+            <p>
+               <lb/>16.1v. Meding.</p>
+            <p>
+               <lb/>17.1Mertin.</p>
+            <p>
+               <lb/>18.1Mumm.</p>
+            <p>
+               <lb/>Fraktion ö</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>(Dr. Frhr. v. Hertling.)
+            <lb/>(Dr. Becker.)</p>
+            <p>
+               <lb/>1.1Roeren.</p>
+            <p>
+               <lb/>2.1Dr. Schaedler.</p>
+            <p>
+               <lb/>z. Frhr. v. Thünefeld.</p>
+            <p>
+               <lb/>4.1Frhr.v.Malsen-waldkirch.</p>
+            <p>
+               <lb/>5.1Kohl.</p>
+            <p>
+               <lb/>6.1Dr. Lender.</p>
+            <p>
+               <lb/>7.1Klose.</p>
+            <p>
+               <lb/>8.1Dr. ssreuß.</p>
+            <p>
+               <lb/>9.1Leser.</p>
+            <p>
+               <lb/>10.1Speck.</p>
+            <p>
+               <lb/>11.1Sperlich.</p>
+            <p>
+               <lb/>12.1Birkenmayer.</p>
+            <p>
+               <lb/>19.1Dr. Graf v. posadowsky-
+            <lb/>Wehner (früher d.k.kV).</p>
+            <p>
+               <lb/>20.1Rupp (Marburg).</p>
+            <p>
+               <lb/>21.1Frhr. v. Scheie.</p>
+            <p>
+               <lb/>22.1Stubbendorff.</p>
+            <p>
+               <lb/>25. Frhr. v. Wangenheim.</p>
+            <p>
+               <lb/>24.1Warmuth (früher d.L.I'.).</p>
+            <p>
+               <lb/>25.1Dr. Werner (Gießen).</p>
+            <p>
+               <lb/>26.1Werner (Hersfeld).</p>
+            <p>
+               <lb/>27.1Witt.</p>
+            <p>
+               <lb/>Zentrums.</p>
+            <p>
+               <lb/>Eingetreten:</p>
+            <p>
+               <lb/>1.1Dr. Gerlach.</p>
+            <p>
+               <lb/>2.1Trimborn.
+            <lb/>z. Dr. werr.</p>
+            <p>
+               <lb/>4.1Leicht.</p>
+            <p>
+               <lb/>5.1Emminger.</p>
+            <p>
+               <lb/>6.1Dr. Frhr. v. Aretin.</p>
+            <p>
+               <lb/>7.1Lederer.</p>
+            <p>
+               <lb/>8.1Neuhans.</p>
+            <p>
+               <lb/>9.1Nathan.</p>
+            <p>
+               <lb/>10.1Dr. Wirth (gewählt für
+            <lb/>Kölsch — NI..).</p>
+            <p>
+               <lb/>11.1Dr. Frhr. v. Rechenberg.</p>
+            <p>
+               <lb/>12.1Stiegele.</p>
+            <p>
+               <lb/>13.1Frhr. von und zu Francken-
+            <lb/>stein.</p>
+            <p>
+               <lb/>14.1Graf Magnis.</p>
+            <pb n="37" xml:id="img_0037"/>
+            <p>
+               <lb/>37</p>
+            <p>
+               <lb/>Fraktion öer Polen.</p>
+            <p>
+               <lb/>Ausgeschieden:1Eingetreten:</p>
+            <p>
+               <lb/>1l.Graf v. Brudzewo Miel-1Klos,</p>
+            <p>
+               <lb/>zynski.1l</p>
+            <p>
+               <lb/>Fraktion öer Nalionalliberalen.</p>
+            <p>
+               <lb/>Ausgeschieden:
+            <lb/>t. Kölsch (ersetzt durch
+            <lb/>Dr. Wirth —</p>
+            <p>
+               <lb/>2.1Dr. Vuarck (ersetzt durch
+            <lb/>Arnold —</p>
+            <p>
+               <lb/>3.1Beck.</p>
+            <p>
+               <lb/>Dr. Semler.</p>
+            <p>
+               <lb/>5.1wamhoff.</p>
+            <p>
+               <lb/>6.1Dr. Vbkircher.</p>
+            <p>
+               <lb/>Eingetreten:</p>
+            <p>
+               <lb/>Dr. Böhme (gewählt für
+            <lb/>v. Rröcher — Lons.).</p>
+            <p>
+               <lb/>2. wachhorst de wente (ge¬
+            <lb/>wählt für tzoesch —Lons.).</p>
+            <p>
+               <lb/>13.Dr. Obkircher.</p>
+            <p>
+               <lb/>H. Dr. Stresemann.</p>
+            <p>
+               <lb/>5.1pirsch.</p>
+            <p>
+               <lb/>6.1Schröder (früher d.k.IV).</p>
+            <p>
+               <lb/>FrsKtion öer Fortschrittlichen Volkspsrtei.</p>
+            <p>
+               <lb/>Ausgeschieden:
+            <lb/>t. Traeger.</p>
+            <p>
+               <lb/>2. Dr. Braband.</p>
+            <p>
+               <lb/>z. Dr. Raempf (jetzt b.rc.1".).</p>
+            <p>
+               <lb/>Eingetreten:</p>
+            <p>
+               <lb/>1.1Dr. Wremer.</p>
+            <p>
+               <lb/>2.1Sivkovich (gewählt für
+            <lb/>Pauli — Lons.).</p>
+            <p>
+               <lb/>z. v. Naumann (gewählt
+            <lb/>für vietmeyer —</p>
+            <p>
+               <lb/>Arnold (gewählt für
+            <lb/>Dr. Duarck — NI..).</p>
+            <p>
+               <lb/>5.1Wagner (gewählt für
+            <lb/>v. Maffow — Loris.).</p>
+            <p>
+               <lb/>6.1Carstens.</p>
+            <pb n="38" xml:id="img_0038"/>
+            <p>
+               <lb/>38</p>
+            <p>
+               <lb/>Fraktion der Sozislörmokratischen Arbeits¬
+            <lb/>gemeinschaft.</p>
+            <p>
+               <lb/>1.1Bernstein.</p>
+            <p>
+               <lb/>2.1Bock.</p>
+            <p>
+               <lb/>z. Büchner,
+            <lb/>q. Dr. Cohn.</p>
+            <p>
+               <lb/>5.1Dittmann.</p>
+            <p>
+               <lb/>6.1Geyer.</p>
+            <p>
+               <lb/>7.1Haase.</p>
+            <p>
+               <lb/>6. Henke.</p>
+            <p>
+               <lb/>9. Dr. Herzfeid.</p>
+            <p>
+               <lb/>U&gt;. Horn (Sachsen).</p>
+            <p>
+               <lb/>11.1Kunert.</p>
+            <p>
+               <lb/>12.1Ledebour.</p>
+            <p>
+               <lb/>13.1Schwartz (Lübeck).
+            <lb/>1H. Stadthagen.</p>
+            <p>
+               <lb/>15.1Stolle.</p>
+            <p>
+               <lb/>16.1Vogtherr.</p>
+            <p>
+               <lb/>17.1Wurm.</p>
+            <p>
+               <lb/>18.1Zubeil.</p>
+            <p>
+               <lb/>Fraktion der Sozialdemokraten.</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>11.Förster.</p>
+            <p>
+               <lb/>2.1Kaden.</p>
+            <p>
+               <lb/>3.1Bebel.</p>
+            <p>
+               <lb/>4.1Haupt (ersetzt durch Schiele</p>
+            <p>
+               <lb/>— Kons.).</p>
+            <p>
+               <lb/>3. Dr. Frank.</p>
+            <p>
+               <lb/>6.1Metzger.</p>
+            <p>
+               <lb/>7.1Dr. Weill.</p>
+            <p>
+               <lb/>8.1Dr. Liebknecht (jetzt
+            <lb/>b.L.L'.).</p>
+            <p>
+               <lb/>9.1Rühle (jetzt d.k.I'.).</p>
+            <p>
+               <lb/>1io.Kühn.</p>
+            <p>
+               <lb/>11—28 stehe vorstehend unter
+            <lb/>Fraktion der Sozialdemokra¬
+            <lb/>tischen Arbeitsgemeinschaft.</p>
+            <p>
+               <lb/>Eingetreten:</p>
+            <p>
+               <lb/>1.1Lohen.</p>
+            <p>
+               <lb/>2.1Ewald (gewählt für
+            <lb/>v. Vertzen — R.1'.).</p>
+            <p>
+               <lb/>3.1Buck.</p>
+            <p>
+               <lb/>4.1Stötten.</p>
+            <p>
+               <lb/>3. Ryffel (gewählt für
+            <lb/>v. Lieberl — R?.).</p>
+            <p>
+               <lb/>6.1Geck.</p>
+            <p>
+               <lb/>7.1Stubbe.</p>
+            <pb n="39" xml:id="img_0039"/>
+            <p>
+               <lb/>39</p>
+            <p>
+               <lb/>Mitglieder ohne Frsktionssngehörigkeit.
+            <lb/>Elf aß-lothringisch e Zentrums? artei.
+            <lb/>Ausgeschieden:1!1Eingetreten:</p>
+            <p/>
+            <pb n="40" xml:id="img_0040"/>
+            <pb n="41" xml:id="img_0041"/>
+            <p>
+               <lb/>Deutsche Konservative</p>
+            <p>
+               <lb/>v. Boehn</p>
+            <p>
+               <lb/>Bohtz</p>
+            <p>
+               <lb/>v, Goßler</p>
+            <p>
+               <lb/>Gottschalk</p>
+            <pb n="42" xml:id="img_0042"/>
+            <p>
+               <lb/>42</p>
+            <p>
+               <lb/>Deutfchkonservativr</p>
+            <p>
+               <lb/>Dr. Roesicke</p>
+            <p>
+               <lb/>Schiele</p>
+            <p>
+               <lb/>Deutsche Fraktion</p>
+            <p>
+               <lb/>Bauer (Pfarrkirchen)</p>
+            <p>
+               <lb/>v. Brünneck</p>
+            <p/>
+            <pb n="43" xml:id="img_0043"/>
+            <p>
+               <lb/>43</p>
+            <p>
+               <lb/>Zentrum</p>
+            <p>
+               <lb/>Frhr. v. Aretin1Emminger</p>
+            <p>
+               <lb/>Frhr. von u. zu Franckenslein</p>
+            <p>
+               <lb/>Dr. Gerlach</p>
+            <p>
+               <lb/>Lederer</p>
+            <pb n="44" xml:id="img_0044"/>
+            <p>
+               <lb/>44</p>
+            <p>
+               <lb/>Zentrum</p>
+            <p>
+               <lb/>Leicht1Graf Magnis</p>
+            <p>
+               <lb/>Nathan</p>
+            <p>
+               <lb/>Neuhaus</p>
+            <p>
+               <lb/>Dr. Frhr, v. Rechenberg</p>
+            <pb n="45" xml:id="img_0045"/>
+            <p>
+               <lb/>45</p>
+            <p>
+               <lb/>Zentrum</p>
+            <p>
+               <lb/>Stiegele</p>
+            <p>
+               <lb/>Trimborn</p>
+            <p>
+               <lb/>Dr. Werr</p>
+            <p>
+               <lb/>Dr. Wirth</p>
+            <p>
+               <lb/>Polen</p>
+            <p>
+               <lb/>Klos</p>
+            <pb n="46" xml:id="img_0046"/>
+            <p>
+               <lb/>4S</p>
+            <p>
+               <lb/>Nationalliberale</p>
+            <p>
+               <lb/>i</p>
+            <p>
+               <lb/>Hirsch</p>
+            <p>
+               <lb/>vr. Obkircher</p>
+            <p>
+               <lb/>Dr. Böhme</p>
+            <p>
+               <lb/>Dr. Stresemann</p>
+            <p>
+               <lb/>Wachhorst de Wente</p>
+            <pb n="47" xml:id="img_0047"/>
+            <p>
+               <lb/>Fortschrittliche Volkspartei</p>
+            <p>
+               <lb/>Arnold</p>
+            <p>
+               <lb/>Carstens</p>
+            <p>
+               <lb/>V Naumann</p>
+            <p>
+               <lb/>Sivkovich</p>
+            <pb n="48" xml:id="img_0048"/>
+            <p>
+               <lb/>48</p>
+            <p>
+               <lb/>Fortschrittliche Volkspartei</p>
+            <p>
+               <lb/>Wagner</p>
+            <p>
+               <lb/>Dr. Wiemer</p>
+            <p>
+               <lb/>Sozialdemokraten</p>
+            <p>
+               <lb/>Buck</p>
+            <p>
+               <lb/>Cohen (Reuß)</p>
+            <pb n="49" xml:id="img_0049"/>
+            <p>
+               <lb/>Sozialdemokraten</p>
+            <p>
+               <lb/>Ryßel</p>
+            <p>
+               <lb/>Ewald</p>
+            <p>
+               <lb/>Geck</p>
+            <p>
+               <lb/>Stollen</p>
+            <pb n="50" xml:id="img_0050"/>
+            <p>
+               <lb/>50</p>
+            <p>
+               <lb/>Sozialdemokraten</p>
+            <p>
+               <lb/>Stubbe</p>
+            <p>
+               <lb/>Bei keiner Fraktion</p>
+            <p>
+               <lb/>Haegy</p>
+         </div>
+      </body>
+   </text>
+</TEI>

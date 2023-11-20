@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Verhandlungen des Reichstages</title>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1222198746">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="https://orcid.org/0000-0003-4615-4753">
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/105315190X">
+                  <surname>Nolda</surname>
+                  <forename>Andreas</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="https://orcid.org/0000-0002-1096-3957">
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+               <orgName>Bayerische Staatsbibliothek</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Texttranskription
+                                durch OCR.</note>
+                  <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle
+                                Transkription (und Textauszeichnung) mittlerweile nicht mehr dem
+                                Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen
+                                muss.</note>
+                  <date type="importDTA">2021-09-29T20:35:57Z</date>
+               </resp>
+            </respStmt>
+            <respStmt corresp="#availability-textsource-1">
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                            Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Langfristige Bereitstellung der
+                                DTA-Ausgabe</note>
+                  <ref target="https://www.bbaw.de"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy
+                            of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische
+                            Akademie der Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-09-29T20:35:57Z</date>
+            <availability xml:id="availability-textsource-1">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0
+                                License.</p>
+               </licence>
+            </availability>
+            
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="M">Verhandlungen des Reichstages. Berlin, 1888.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Verhandlungen des Reichstages</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name>Verl. d. Buchdr. d. Norddt. Allg. Zeitung</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1888</date>
+                  
+               </publicationStmt>
+            </biblFull>
+            <recordingStmt>
+               <p>Protokollierte Verhandlungen des Deutschen Reichstags und seiner
+                            Vorläufer, die von Stenografinnen und Stenografen während der Sitzungen
+                            angefertigt und in der Folge der Öffentlichkeit als gedruckte
+                            Publikation zur Verfügung gestellt wurden.</p>
+            </recordingStmt>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bayerische Staatsbibliothek</repository>
+                  <idno>
+                     <idno type="shelfmark">4 J.publ.g. 1142 y,A-104,2</idno>
+                     <idno type="URLCatalogue">https://opacplus.bsb-muenchen.de/title/4249687</idno>
+                     <idno type="URN">urn:nbn:de:bvb:12-bsb00019572-6</idno>
+                     <idno type="URLIIIF">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00019572/manifest</idno>
+                     <idno type="URL" subtype="IIIFviewer">https://www.digitale-sammlungen.de/de/view/bsb00019572</idno>
+                     <idno type="URL" subtype="DFGviewer">https://daten.digitale-sammlungen.de/~db/0001/bsb00019572/images/</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <typeDesc>
+                     <p>Fraktur</p>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Bogensignaturen: nicht übernommen; Druckfehler: ignoriert;
+                            fremdsprachliches Material: nicht gekennzeichnet;
+                            Geminations-/Abkürzungsstriche: wie Vorlage; Hervorhebungen (Antiqua,
+                            Sperrschrift, Kursive etc.): nicht ausgezeichnet; I/J in Fraktur: wie
+                            Vorlage; i/j in Fraktur: wie Vorlage; Kolumnentitel: nicht übernommen;
+                            Kustoden: nicht übernommen; langes s (ſ): als s transkribiert;
+                            Normalisierungen: keine; rundes r (&amp;#xa75b;): als r/et
+                            transkribiert; Seitenumbrüche markiert: ja; Silbentrennung: keine
+                            Angabe; u/v bzw. U/V: wie Vorlage; Vokale mit übergest. e: als ä/ö/ü
+                            transkribiert; Vollständigkeit: vollständig erfasst; Zeichensetzung: wie
+                            Vorlage; Zeilenumbrüche markiert: ja;</p>
+         </editorialDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">Neuhochdeutsch</language>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Politik</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Rede</classCode>
+            <classCode scheme="#zdl_dwds">gesprochen</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">reichstag</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n="1" xml:id="img_0001"/>
+            <p>
+               <lb/>Stenographische Berichte</p>
+            <p>
+               <lb/>über die</p>
+            <p>
+               <lb/>Verhandlungen des Reichstags.</p>
+            <p>
+               <lb/>VII. Legislaturperiode. III. Session 1888.</p>
+            <p>
+               <lb/>Von der Eröffnungssitzung am 35. Juni bis zur Schlußsitzung am 26. Juni 1888.</p>
+            <p>
+               <lb/>Berlin, 1888.</p>
+            <p>
+               <lb/>Druck und Verlag der Norddeutschen Buchdruckerei und Verlags-Anstalt.</p>
+            <p>
+               <lb/>Berlin 8&gt;V., Wilhelmstraße Nr. 32.</p>
+            <pb n="2" xml:id="img_0002"/>
+            <p>
+               <lb/>Inhattsverzeichmß.</p>
+            <p>
+               <lb/>Seite</p>
+            <p>
+               <lb/>Allerhöchste Verordnung vom 16. Juni 1888, die Ein¬
+            <lb/>berufung des Reichstags betreffend1.......3</p>
+            <p>
+               <lb/>Eröffnungssitzung</p>
+            <p>
+               <lb/>im Weißen Saale des Königlichen Schlosses zu Berlin
+            <lb/>am Montag den 25. Juni 1888.</p>
+            <p>
+               <lb/>Thronrede1.................1.</p>
+            <p>
+               <lb/>Eröffnungserklärung1^ ^18</p>
+            <p>
+               <lb/>Erste Sitzung</p>
+            <p>
+               <lb/>am Montag den 25. Juni 1888.</p>
+            <p>
+               <lb/>Vorläufige Konstituirung des1Reichstags1......9</p>
+            <p>
+               <lb/>Ansprache des Präsidenten aus Anlaß des stattgehabten</p>
+            <p>
+               <lb/>Thronwechsels 1...1...........9</p>
+            <p>
+               <lb/>Namensaufruf zur Feststellung der Beschlußfähigkeit des</p>
+            <p>
+               <lb/>Reichstags1...............10</p>
+            <p>
+               <lb/>Wahl der Präsidenten und1der1Schriftführer ! .' .' .' 11</p>
+            <p>
+               <lb/>Ernennung der Quästoren1...........11</p>
+            <p>
+               <lb/>Mittheilung über Veränderungen im Mitgliederbestände</p>
+            <p>
+               <lb/>des Reichstags1..............N</p>
+            <p>
+               <lb/>Beurlaubungen1...............11</p>
+            <p>
+               <lb/>Der Präsident wird beauftragt, dem Reichstag den Entwurf
+            <lb/>Auer an Seine Majestät den Kaiser zu richtenden</p>
+            <p>
+               <lb/>Adresse vorzulegen1............11</p>
+            <p>
+               <lb/>Das Präsidium wird beauftragt, Ihrer Majestät der
+            <lb/>Kaiserin, Ihrer Majestät der Kaiserin Victoria und</p>
+            <p>
+               <lb/>Seite</p>
+            <p>
+               <lb/>Ihrer Majestät der Kaiserin Augusta die Theilnahme</p>
+            <p>
+               <lb/>des Reichstags auszudrücken1.........12</p>
+            <p>
+               <lb/>Feststellung der Tagesordnung für die nächste Sitzung .112</p>
+            <p>
+               <lb/>Zweite Sitzung</p>
+            <p>
+               <lb/>am Dienstag den 26. Juni 1888.</p>
+            <p>
+               <lb/>Neu eingetretene Mitglieder1...........13</p>
+            <p>
+               <lb/>Mittheilung über die Konstituirung der Abtheilungen . . 13
+            <lb/>Mittheilung des Präsidenten, betreffend eine nachträglich
+            <lb/>eingegangene Kundgebung der serbischen National¬
+            <lb/>versammlung aus Anlaß des Hintritts Seiner Majestät</p>
+            <p>
+               <lb/>des Kaisers Wilhelms 11...........14</p>
+            <p>
+               <lb/>Desgl., betreffend die von außerdeutschen Volksvertretungen
+            <lb/>aus Anlaß des Hintritts Seiner Majestät des Kaisers</p>
+            <p>
+               <lb/>Friedrichs III. erfolgten Kundgebungen1......14</p>
+            <p>
+               <lb/>Desgl., betreffend die Niederlegung eines Kranzes namens
+            <lb/>des Reichstags am Sarge weiland Seiner Majestät</p>
+            <p>
+               <lb/>des Kaisers Friedrichs III1..... 14</p>
+            <p>
+               <lb/>Desgl., betreffend eine für die Ueberschwemmten eingegangene</p>
+            <p>
+               <lb/>Liebesgabe . 1.1.............14</p>
+            <p>
+               <lb/>Berathung einer an Seine Majestät den Kaiser zu erlassenden
+            <lb/>Adresse:</p>
+            <p>
+               <lb/>Verlesung der Adresse . 1.1.......14</p>
+            <p>
+               <lb/>Berathung und Beschlußfassung1......15</p>
+            <p>
+               <lb/>Das Präsidium wird ermächtigt, die Adresse
+            <lb/>Seiner Majestät dem Kaiser zu überreichen 15
+            <lb/>Schluß der Session1.............15</p>
+            <p>
+               <lb/>Vorstand des Reichstags1..........16</p>
+            <p>
+               <lb/>Vorsitzende der Abtheilungen1........16</p>
+            <pb n="3" xml:id="img_0003"/>
+            <p/>
+            <p>
+               <lb/>nr Wilhelm, von Gottes Gnaden Deutscher Kaiser, König von Preußen rc.,
+            <lb/>verordnen auf Grund des Artikels 12 der Verfassung, im Namen des Reichs, was folgt:</p>
+            <p>
+               <lb/>Der Reichstag wird berufen, am 25. Juni dieses Jahres in Berlin zusammenzutreten, und
+            <lb/>beauftragen Wir den Reichskanzler mit den zu diesem Zweck nöthigen Vorbereitungen.</p>
+            <p>
+               <lb/>Urkundlich unter Unserer Höchsteigenhändigen Unterschrift und beigedrucktem Kais erlichen Jnsiegel.</p>
+            <p>
+               <lb/>Gegeben Marmor-Palais, den 16. Juni 1888.</p>
+            <p>
+               <lb/>(1. 8.)1Wilhtl m.</p>
+            <p>
+               <lb/>von Bismarck.</p>
+            <p>
+               <lb/>Verordnung,</p>
+            <p>
+               <lb/>betreffend die Einberufung des Reichstags.
+            <lb/>Vom 16. Juni 1888.</p>
+            <p>
+               <lb/>1*</p>
+            <pb n="4" xml:id="img_0004"/>
+            <pb n="5" xml:id="img_0005"/>
+            <p>
+               <lb/>NklhndlMgcil dkg Rkichgto-s</p>
+            <p>
+               <lb/>Siebente Legislaturperiode.</p>
+            <p>
+               <lb/>Dritte Session. 1888.</p>
+            <p>
+               <lb/>Eröffnungssitzung</p>
+            <p>
+               <lb/>im</p>
+            <p>
+               <lb/>Weißen Saale des Königlichen Schlosses zu Berlin</p>
+            <p>
+               <lb/>am Montag den 25. Juni 1888.</p>
+            <p>
+               <lb/>Die feierliche Eröffnung des durch die Allerhöchste
+            <lb/>Verordnung vom 16. Juni 1888 einberufenen Reichstags
+            <lb/>fand am Montag den 25. Juni 1888, Nachmittags 1 Uhr,
+            <lb/>im Weißen Saale des Königlichen Schlaffes zu Berlin
+            <lb/>statt. Der Eröffnung war ein Gottesdienst vorange¬
+            <lb/>gangen, und zwar für die Mitglieder der evangelischen
+            <lb/>Kirche in der Schloßkapelle um 12 Uhr, für die Mit¬
+            <lb/>glieder der katholischen Kirche in der St. Hedwigskirche,
+            <lb/>wo Propst Aßmann eine Segensandacht abhielt, um
+            <lb/>121/z Uhr.</p>
+            <p>
+               <lb/>Ihre Majestäten der Kaiser und König und
+            <lb/>die Kaiserin und Königin, die zur Zeit hier an¬
+            <lb/>wesenden regierenden deutschen Fürsten, die Prinzen des
+            <lb/>Königlichen Hauses und die anderen Fürstlichen Gäste,
+            <lb/>welche dem Gottesdienst in der Schloßkapelle beiwohnten,
+            <lb/>nahmen rechts vom Altar Platz, wo auch für das Gefolge
+            <lb/>der Allerhöchsten und der Höchsten Herrschaften Sitze zur
+            <lb/>Verfügung standen. Den Allerhöchsten und Höchsten Herr¬
+            <lb/>schaften gegenüber hatte das diplomatische Corps nebst
+            <lb/>den Generälen, Wirklichen Geheimen Räthen und Räthen
+            <lb/>erster Klasse Platz genommen. Die dem Altar gegen¬
+            <lb/>über befindlichen Sitze, und zwar in den vordersten
+            <lb/>Reihen der mittleren Abtheilung, hatten die Mitglieder
+            <lb/>des Bundesraths, die übrigen die Abgeordneten des
+            <lb/>Reichstags eingenommen. Nach dem Gesänge des ein¬
+            <lb/>leitenden 100. Psalms und nach der Liturgie hielt der
+            <lb/>Ober-Hof- und Domprediger v. Koegel die Predigt,
+            <lb/>welcher er auf Allerhöchste Bestimmung die Worte der
+            <lb/>heiligen Schrift 1. Kor. 15, 10: „Von Gottes Gnaden
+            <lb/>bin ich, das ich bin" zu Grunde legte.</p>
+            <p>
+               <lb/>Nach beendigtem Gottesdienst begaben Sich die Aller¬
+            <lb/>höchsten und Höchsten Herrschaften nach der Rothen
+            <lb/>Sammetkammer; das Gefolge derselben blieb in dem</p>
+            <p>
+               <lb/>davor gelegenen Kapitelsaale zurück, die Obersten Hof-,
+            <lb/>die Ober-Hof- und die Hofchargen sowie die zum Tragen
+            <lb/>der Reichsinsignien befohlenen Personen versammelten
+            <lb/>sich in der Bildergallerie, wohin schon vorher durch
+            <lb/>Escorte von zwei Offizieren und vier Mann der Gardes
+            <lb/>du Corps die gedachten Insignien geleitet worden waren,
+            <lb/>die Mitglieder des Bundesraths in dem neben der Bilder¬
+            <lb/>gallerie belesenen Marine-Salon.</p>
+            <p>
+               <lb/>In dem Weißen Saale, in welchem die Generäle
+            <lb/>unter den Arkaden nach der Lustgartenseite, die Wirk¬
+            <lb/>lichen Geheimen Räthe und die Räthe erster Klasse in
+            <lb/>der zweiten Abtheilung der Nischen unter der Tribüne
+            <lb/>auf der Kapellenseite, die Abgeordneten zum Reichstage
+            <lb/>dem Throne gegenüber Aufstellung nahmen, waren rechts
+            <lb/>und links vom Throne Llsuts-xas und hinter dem ersten
+            <lb/>eine Tribüne für Ihre Majestät die'Kaiserin und Königin,
+            <lb/>für die Prinzessinnen des Königlichen Hauses und für
+            <lb/>die anwesenden Durchlauchtigsten Fürstlichen Damen,
+            <lb/>mit einem Eingang vom Königinnen-Gemach, auf¬
+            <lb/>geschlagen. Für das diplomatische Corps war die Tribüne
+            <lb/>auf der Kapellenseite bestimmt.</p>
+            <p>
+               <lb/>Sobald die Aufstellung vollendet war, und der Bun¬
+            <lb/>desrath unter Vortritt des Reichskanzlers, Fürsten von
+            <lb/>Bismarck, seine Plätze in der ersten Abtheilung der
+            <lb/>Nischen unter den Tribünen auf der Kapellenseite ein¬
+            <lb/>genommen hatte, wurde Seiner Majestät dem Kaiser und
+            <lb/>König durch den Reichskanzler davon Anzeige gemacht.</p>
+            <p>
+               <lb/>Seine Majestät geruhten darauf, Allerhöchstsich unter
+            <lb/>Vortritt der Obersten' Hof-, der Ober-Hof- und Hof¬
+            <lb/>chargen und gefolgt von den General- und Flügel-
+            <lb/>Adjutanten nach dem Weißen Saale zu begeben. Den
+            <lb/>Zug eröffneten die Schloß-Garde-Compagnie und die
+            <lb/>Hoffouriere, ihnen folgten die Königlichen Hofpagen, der
+            <lb/>Ober-Ceremonienmeister, dann paarweise, die dem Patent
+            <lb/>nach jüngsten voran, die Hof-, die Vize-Ober-Hofchargen
+            <lb/>und die Ober-Hofchargen, der Ober-Hof- und Haus-
+            <lb/>marschall, der Oberst-Marschall mit dem großen Stabe
+            <lb/>und die anderen Obersten Hofchargen, alsdann die
+            <lb/>Träger der nachstehend aufgeführten Reichs-Insignien
+            <lb/>paarweise, und zwar wurde: a) das entblößte Reichs-</p>
+            <pb n="6" xml:id="img_0006"/>
+            <p>
+               <lb/>6</p>
+            <p>
+               <lb/>Reichstag. — Eröffnungssitzung. Montag den 25. Juni 1888.</p>
+            <p>
+               <lb/>schwert aufrecht getragen von dem General der Infanterie
+            <lb/>Freiherrn von Meerscheidt-Hüllessem, und rechts davon
+            <lb/>b) der Reichsapfel auf einem Kissen von ckrap ä'argsm
+            <lb/>getragen von dem General der Infanterie von Strubberg,
+            <lb/>o) das Zepter auf einem Kiffen von ärap ä'or ge¬
+            <lb/>tragen von dem General der Infanterie und General-
+            <lb/>Adjutanten von Stiehle, und rechts davon ä) die Krone
+            <lb/>auf einem Kissen von ärax ä'or getragen von dem
+            <lb/>Oberst-Kämmerer Otto Grafen zu Stolberg-Wernigerode,
+            <lb/>s) das Reichspanier getragen von dem General-Feld-
+            <lb/>marschall Grafen von Blumenthal, welchen die General-
+            <lb/>lieutenants von Schlichting und Graf von Alten geleiteten.</p>
+            <p>
+               <lb/>Die Insignien wurden zur Rechten und zur Linken
+            <lb/>von den beiden bereits erwähnten Offizieren der Gardes
+            <lb/>du Corps escortirt.</p>
+            <p>
+               <lb/>Seine Majestät den Kaiser und König umgaben die
+            <lb/>anwesenden regierenden deutschen Fürsten und Prinzen
+            <lb/>Fürstlicher Häuser, nämlich:</p>
+            <p>
+               <lb/>Seine Königliche Hoheit der Prinz-Regent von
+            <lb/>Bayern, zur Rechten Seiner Majestät schrei¬
+            <lb/>tend,</p>
+            <p>
+               <lb/>Seine Majestät der König von Sachsen, zur
+            <lb/>Linken Seiner Majestät des Kaisers,</p>
+            <p>
+               <lb/>Seine Königliche Hoheit der Großherzog von
+            <lb/>Baden,</p>
+            <p>
+               <lb/>Seine Königliche Hoheit der Großherzog von
+            <lb/>Hessen,</p>
+            <p>
+               <lb/>Seine Königliche Hoheit der Großherzog von
+            <lb/>Mecklenburg-Schwerin,</p>
+            <p>
+               <lb/>Seine Königliche Hoheit der Großherzog von
+            <lb/>Sachsen-Weimar-Eisenach,</p>
+            <p>
+               <lb/>Seine Königliche Hoheit der Großherzog von
+            <lb/>Oldenburg,</p>
+            <p>
+               <lb/>Seine Königliche Hoheit Prinz Albrecht von
+            <lb/>Preußen, Regent von Braunschweig,</p>
+            <p>
+               <lb/>Seine Hoheit der Herzog von Sachsen-Mei¬
+            <lb/>ningen,</p>
+            <p>
+               <lb/>Seine Hoheit der Herzog von Sachsen-Alten-
+            <lb/>burg,</p>
+            <p>
+               <lb/>Seine Hoheit der Herzog von Sachsen-Coburg
+            <lb/>und Gotha,</p>
+            <p>
+               <lb/>Seine Hoheit der Herzog von Anhalt,</p>
+            <p>
+               <lb/>Seine Durchlaucht der Fürst zu Schwarzburg-
+            <lb/>Rudolstadt,</p>
+            <p>
+               <lb/>Seine Durchlaucht der Fürst von Schwarzburg-
+            <lb/>Sondershausen,</p>
+            <p>
+               <lb/>Seine Durchlaucht der Fürst Reuß jüngerer
+            <lb/>Linie,</p>
+            <p>
+               <lb/>Seine Durchlaucht der Fürst zu Schaumburg-
+            <lb/>Lippe,</p>
+            <p>
+               <lb/>Seine Durchlaucht der Fürst zur Lippe,</p>
+            <p>
+               <lb/>Seine Königliche Hoheit Prinz Heinrich von
+            <lb/>Preußen,</p>
+            <p>
+               <lb/>Seine Königliche Hoheit Prinz Friedrich Leo¬
+            <lb/>pold von Preußen,</p>
+            <p>
+               <lb/>Seine Königliche Hoheit Prinz Wilhelm von
+            <lb/>Württemberg,</p>
+            <p>
+               <lb/>Seine Königliche Hoheit der Erbgroßherzog von
+            <lb/>Hessen,</p>
+            <p>
+               <lb/>Seine Hoheit der Erbprinz von Sachsen-Mei¬
+            <lb/>ningen,</p>
+            <p>
+               <lb/>Seine Hoheit Prinz Friedrich von Sachsen-
+            <lb/>Meiningen,</p>
+            <p>
+               <lb/>Seine Durchlaucht der Erbprinz zu Waldeck
+            <lb/>und Pyrmont,</p>
+            <p>
+               <lb/>sowie die General- und Flügel-Adjutanten, der Geheime
+            <lb/>Kabinets-Rath Seiner Majestät und das Gefolge der
+            <lb/>Höchsten Herrschaften.</p>
+            <p>
+               <lb/>Sobald der Weiße Saal erreicht wurde, bildeten die
+            <lb/>Hofchargen Spalier, und nur die Obersten Hofchargen,
+            <lb/>welche den Neichsinsignien unmittelbar vorangeschritten
+            <lb/>waren, gingen bis an den Thron vor und nahmen zur
+            <lb/>Rechten und Linken desselben ihre Plätze ein. Der
+            <lb/>General-Feldmarschall Graf von Blumenthal mit dem
+            <lb/>Reichspanier trat rechts, der General der Infanterie
+            <lb/>Freiherr von Meerscheidt-Hüllessem mit dem Reichsschwert
+            <lb/>links hinter den Thronsessel auf die mittlere Thronstufe,
+            <lb/>während der Oberst-Kämmerer Gras zu Stolberg-
+            <lb/>Wernigerode die Krone auf das rechts vom Thronsessel
+            <lb/>zunächst stehende Tabouret, der General der Infanterie
+            <lb/>und General-Adjutant von Stiehle das Zepter auf das
+            <lb/>links stehende Tabouret, und der General der Infanterie
+            <lb/>von Strubberg den Reichsapfel auf das andere rechts
+            <lb/>stehende Tabouret legten und sich auf die unterste
+            <lb/>Thronstufe den betreffenden Reichsinsignien zur Seite
+            <lb/>stellten. Die Generäle, welche das Reichspanier begleitet
+            <lb/>hatten, traten rechts auf die unterste Thronstufe in der
+            <lb/>Nähe des Reichspaniers.</p>
+            <p>
+               <lb/>Seine Majestät der Kaiser und König, bei Allerhöchst-
+            <lb/>ihrem Eintritt in den Weißen Saal von einem lebhaften
+            <lb/>dreimaligen Hoch, das der Präsident des Reichstags,
+            <lb/>von Wedell-Piesdorf, auf Seine Majestät und Allerhöchst-
+            <lb/>dessen erhabene Bundesgenossen ausbrachte, empfangen,
+            <lb/>traten auf den Thron.</p>
+            <p>
+               <lb/>Die anwesenden regierenden deutschen Fürsten nahmen
+            <lb/>auf dem HaM-xas zur Rechten des Thrones, vor der
+            <lb/>Tribüne Ihrer Majestät der Kaiserin und Königin, die
+            <lb/>Prinzen des Königlichen Hauses sowie die übrigen Mit¬
+            <lb/>glieder der regierenden deutschen Fürstenhäuser und die
+            <lb/>anwesenden Erbprinzen auf dem Haut-pas zur Linken
+            <lb/>des Thrones Ihre Stellung.</p>
+            <p>
+               <lb/>Hierauf verlasen Seine Majestät der Kaiser und
+            <lb/>König stehend, das Haupt mit dem Helme bedeckt, die
+            <lb/>nachfolgende Thronrede, welche der Reichskanzler Fürst
+            <lb/>von Bismarck, vor den Thron tretend und sich vernei¬
+            <lb/>gend, überreichte.</p>
+            <p>
+               <lb/>Geehrte Herren!</p>
+            <p>
+               <lb/>Mit tiefer Trauer im Herzen begrüße Ich
+            <lb/>Sie und weiß, daß Sie mit Mir trauern. Die
+            <lb/>frische Erinnerung an die schweren Leiden Meines
+            <lb/>Hochseligen Herrn Vaters, die erschütternde That¬
+            <lb/>sache, daß Ich drei Monat nach dem Hintritt weiland
+            <lb/>Seiner Masestät des Kaisers Wilhelm berufen war,
+            <lb/>den Thron zu besteigen, üben die gleiche Wirkung
+            <lb/>in den Herzen aller Deutschen, und unser Schmerz
+            <lb/>hat warme Theilnahme in allen Ländern der Welt
+            <lb/>gefunden. Unter dem Drucke desselben bitte Ich
+            <lb/>Gott, Mir Kraft zur Erfüllung der hohen Pflichten
+            <lb/>zu verleihen, zu denen Sein Wille Mich be¬
+            <lb/>rufen hat.</p>
+            <p>
+               <lb/>Dieser Berufung folgend, habe Ich das Vor¬
+            <lb/>bild vor Augen, welches Kaiser Wilhelm, nach
+            <lb/>schweren Kriegen, in friedliebender Regierung
+            <lb/>seinen Nachfolgern hinterlassen, und dem auch</p>
+            <pb n="7" xml:id="img_0007"/>
+            <p>
+               <lb/>Reichstag. — Eröffnungssitzung. Montag den 25. Juni 1888.</p>
+            <p>
+               <lb/>7</p>
+            <p>
+               <lb/>Meines Hochseligen Herrn Vaters Regierung ent¬
+            <lb/>sprochen hat, soweit die Bethätigung seiner Ab¬
+            <lb/>sichten nicht durch Krankheit und Tod verhindert
+            <lb/>worden ist.</p>
+            <p>
+               <lb/>Ich habe Sie, geehrte Herren, berufen, um
+            <lb/>vor Ihnen dem deutschen Volke zu verkünden, daß
+            <lb/>Ich entschlossen bin, als Kaiser und als König
+            <lb/>dieselben Wege zu wandeln, auf denen Mein
+            <lb/>Hochseliger Herr Großvater das Vertrauen seiner
+            <lb/>Bundesgenossen, die Liebe des deutschen Volkes
+            <lb/>und die wohlwollende Anerkennung des Auslandes
+            <lb/>gewonnen hat. Daß auch Mir dies gelinge, steht
+            <lb/>bei Gott; erstreben will Ich es in ernster Arbeit.</p>
+            <p>
+               <lb/>Die wichtigsten Aufgaben des Deutschen Kaisers
+            <lb/>liegen aus dem Gebiete der militärischen und poli¬
+            <lb/>tischen Sicherstellung des Reichs nach außen, und
+            <lb/>im Innern in der Ueberwachnng der Ausführung
+            <lb/>der Reichsgesetze. Das oberste dieser Gesetze bildet
+            <lb/>die Reichsversassnng; sie zu wahren und zu schirmen,
+            <lb/>in allen Rechten, die sie den beiden gesetzgebenden
+            <lb/>Körpern der Nation und jedem Deutschen, aber
+            <lb/>auch in denen, welche sie dem Kaiser und jedem
+            <lb/>der verbündeten Staaten und deren Landesherren
+            <lb/>verbürgt, gehört zu den vornehmsten Rechten und
+            <lb/>Pflichten des Kaisers.</p>
+            <p>
+               <lb/>An der Gesetzgebung des Reichs habe Ich
+            <lb/>nach der Verfassung mehr in Meiner Eigenschaft
+            <lb/>als König von Preußen, wie in der des Deutschen
+            <lb/>Kaisers mitzuwirken; aber in Beiden wird es Mein
+            <lb/>Bestreben sein, das Werk der Reichsgesetzgebung
+            <lb/>in dem gleichen Sinne fortzuführen, wie Mein
+            <lb/>Hochseliger Herr Großvater es begonnen hat.
+            <lb/>Insbesondere eigne Ich Mir die von ihm am
+            <lb/>17. November 1881 erlassene Botschaft ihrem
+            <lb/>vollen Umfange nach an, und werde im Sinne
+            <lb/>derselben fortfahren, dahin zu wirken, daß die
+            <lb/>Reichsgesetzgebung für die arbeitende Bevölkerung
+            <lb/>auch ferner den Schutz erstrebe, den sie, im An¬
+            <lb/>schluß an die Grundsätze der christlichen Sitten¬
+            <lb/>lehre, den Schwachen und Bedrängten im Kampfe
+            <lb/>um das Dasein gewähren kann. Ich hoffe, daß
+            <lb/>es gelingen werde, auf diesem Wege der Aus¬
+            <lb/>gleichung ungesunder gesellschaftlicher Gegensätze
+            <lb/>näher zu kommen, und hege die Zuversicht, daß
+            <lb/>Ich zur Pflege unserer inneren Wohlfahrt die
+            <lb/>einhellige Unterstützung aller treuen Anhänger des
+            <lb/>Reichs und der verbündeten Regierungen finden
+            <lb/>werde, ohne Trennung nach gesonderter Parteistellnng.</p>
+            <p>
+               <lb/>Ebenso aber halte Ich für geboten, unsere
+            <lb/>staatliche und gesellschaftliche Entwicklung in den
+            <lb/>Bahnen der Gesetzlichkeit zu erhalten und allen
+            <lb/>Bestrebungen, welche den Zweck und die Wirkung
+            <lb/>haben, die staatliche Ordnung zu untergraben, mit
+            <lb/>Festigkeit entgegenzutreten.</p>
+            <p>
+               <lb/>In der auswärtigen Politik bin Ich ent¬
+            <lb/>schlossen, Frieden zu halten mit Jedermann, soviel
+            <lb/>an Mir liegt. Meine Liebe zum deutschen Heere
+            <lb/>und Meine Stellung zu demselben werden Mich
+            <lb/>niemals in Versuchung führen, dem Lande die
+            <lb/>Wohlthaten des Friedens zu verkümmern, wenn
+            <lb/>der Krieg nicht eine, durch den Angriff auf das
+            <lb/>Reich oder dessen Verbündete, uns aufgedrungene
+            <lb/>Nothwendigkeit ist. Unser Heer soll uns den
+            <lb/>Frieden sichern und, wenn er uns dennoch gebrochen
+            <lb/>wird, im Stande sein, ihn mit Ehren zu erkämpfen.
+            <lb/>Das wird es mit Gottes Hilfe vermögen nach der
+            <lb/>Stärke, die es durch das von Ihnen einmüthig
+            <lb/>beschlossene jüngste Wehrgesetz erhalten hat. Diese
+            <lb/>Stärke zu Angriffskriegen zu benutzen, liegt Meinem
+            <lb/>Herzen fern. Deutschland bedarf weder neuen
+            <lb/>Kriegsruhmes noch irgend welcher Eroberungen,
+            <lb/>nachdem es sich die Berechtigung, als einige und
+            <lb/>unabhängige Nation zu bestehen, endgiltig er¬
+            <lb/>kämpft hat.</p>
+            <p>
+               <lb/>Unser Bündniß mit Oesterreich-Ungarn ist
+            <lb/>öffentlich bekannt; Ich halte an demselben in
+            <lb/>deutscher Treue fest, nicht bloß, weil es geschlossen
+            <lb/>ist, sondern, weil Ich in diesem defensiven Bunde
+            <lb/>eine Grundlage des europäischen Gleichgewichtes er¬
+            <lb/>blicke, sowie ein Vermächtnis; der deutschen Geschichte,
+            <lb/>dessen Inhalt heut von der öffentlichen Meinung
+            <lb/>des gesammten deutschen Volkes getragen wird und
+            <lb/>dem herkömmlichen europäischen Völkerrechte ent¬
+            <lb/>spricht, wie es bis 1866 in unbestrittener Geltung
+            <lb/>war. Gleiche geschichtliche Beziehungen und gleiche
+            <lb/>nationale Bedürfnisse der Gegenwart verbinden uns
+            <lb/>mit Italien. Beide Länder wollen die Segnungen
+            <lb/>des Friedens festhalten, um in Ruhe der Befestigung
+            <lb/>ihrer neu gewonnenen Einheit, der Ausbildung ihrer
+            <lb/>nationalen Institutionen und der Förderung ihrer
+            <lb/>Wohlfahrt zu leben.</p>
+            <p>
+               <lb/>Unsere mit Oesterreich-Ungarn und Italien be¬
+            <lb/>stehenden Verabredungen gestatten Mir zu Meiner
+            <lb/>Befriedigung die sorgfältige Pflege Meiner persön¬
+            <lb/>lichen Freundschaft für den Kaiser von Rußland
+            <lb/>und der seit hundert Jahren bestehenden friedlichen
+            <lb/>Beziehungen zu dem russischen Nachbarreiche, welche
+            <lb/>Meinen eigenen Gefühlen ebenso wie den Interessen
+            <lb/>Deutschlands entspricht.</p>
+            <p>
+               <lb/>In der gewissenhaften Pflege des Friedens
+            <lb/>stelle Ich Mich ebenso bereitwillig in den Dienst
+            <lb/>des Vaterlandes, wie in der Sorge für unser
+            <lb/>Kriegsheer, und freue Mich der traditionellen Be¬
+            <lb/>ziehungen zu auswärtigen Mächten, durch welche
+            <lb/>Mein Bestreben in ersterer Richtung befördert wird.</p>
+            <p>
+               <lb/>Im Vertrauen auf Gott und auf die Wehr¬
+            <lb/>haftigkeit unseres Volkes hege Ich die Zuversicht,
+            <lb/>daß es uns für absehbare Zeit vergönnt sein werde,</p>
+            <pb n="8" xml:id="img_0008"/>
+            <p>
+               <lb/>81Reichstag. — Eröffnungssitzung. Montag den 25. Juni 1888.</p>
+            <p>
+               <lb/>in friedlicher Arbeit zu wahren und zu festigen,
+            <lb/>was, unter Leitung Meiner beiden in Gott
+            <lb/>ruhenden Vorgänger auf dem Throne, kämpfend er¬
+            <lb/>stritten wurde.</p>
+            <p>
+               <lb/>Nach Beendigung der wiederholt von lebhaften Bei¬
+            <lb/>fallsäußerungen der Versammlung begleiteten Verlesung
+            <lb/>nahm der Reichskanzler Fürst von Bismarck die Thron¬</p>
+            <p>
+               <lb/>rede wieder in Empfang und erklärte auf Allerhöchsten
+            <lb/>Befehl Seiner Majestät des Kaisers im Namen der ver¬
+            <lb/>bündeten Regierungen den Reichstag für eröffnet, worauf
+            <lb/>Seine Majestät der Kaiser und König unter abermaligem,
+            <lb/>von dem Königlich bayerischen Staatsminister vr. Frei¬
+            <lb/>herrn von Lutz ausgebrachten dreimaligen begeisterten
+            <lb/>Hoch der Versammlung mit huldvollem Gruß an dieselbe
+            <lb/>in Begleitung der anwesenden Fürstlichkeiten in derselben
+            <lb/>Ordnung den Weißen Saal verließen, in welcher der
+            <lb/>Eintritt erfolgt war.</p>
+            <pb n="9" xml:id="img_0009"/>
+            <p>
+               <lb/>Reichstag. — 1. Sitzung.</p>
+            <p>
+               <lb/>1. Sitzung</p>
+            <p>
+               <lb/>am Montag den 25. Juni 1888.</p>
+            <p>
+               <lb/>Seite</p>
+            <p>
+               <lb/>Vorläufige Konstituirung des Reichstags1......9</p>
+            <p>
+               <lb/>Ansprache des Präsidenten aus Anlaß des stattgehabten</p>
+            <p>
+               <lb/>Thronwechsels1..............9</p>
+            <p>
+               <lb/>Namensaufruf zur Feststellung der Beschlußfähigkeit des</p>
+            <p>
+               <lb/>Reichstags. . .1............10</p>
+            <p>
+               <lb/>Wahl der Präsidenten und der Schriftführer1.....11</p>
+            <p>
+               <lb/>Dr. Windthorst (zur Geschäftsordnung,
+            <lb/>Antrag auf Akklamationswahl) . 10, 11
+            <lb/>Annahmeerklärungen:</p>
+            <p>
+               <lb/>Präsident1...........11</p>
+            <p>
+               <lb/>Vizepräsident Dr. Buhl1......11</p>
+            <p>
+               <lb/>Vizepräsident Freiherr von Unruhe-Bomst111</p>
+            <p>
+               <lb/>Ernennung der Quästoren1...........11</p>
+            <p>
+               <lb/>Mittheilung über Veränderungen im Mitgliederbestände des</p>
+            <p>
+               <lb/>Reichstags1...............11</p>
+            <p>
+               <lb/>Beurlaubungen rc1...............11</p>
+            <p>
+               <lb/>Der Präsident wird beauftragt, dem Reichstag den Entwurf
+            <lb/>einer an Seine Majestät den Kaiser zu richtenden</p>
+            <p>
+               <lb/>Adresse vorzulegen1............11</p>
+            <p>
+               <lb/>Das Präsidium wird beauftragt, Ihrer Majestät der
+            <lb/>Kaiserin, Ihrer Majestät der Kaiserin Victoria und
+            <lb/>Ihrer Majestät der Kaiserin Augusta die Theilnahme</p>
+            <p>
+               <lb/>des Reichstags auszudrücken1.......1. . 12</p>
+            <p>
+               <lb/>Feststellung der Tagesordnung für die nächste Sitzung1.1.112</p>
+            <p>
+               <lb/>Berufung der Abtheilungen zu ihrer Konstituirung1...112</p>
+            <p>
+               <lb/>Die Sitzung wird um 3 Uhr 30 Minuten durch
+            <lb/>den Präsidenten von Wedell-Piesdorf eröffnet.</p>
+            <p>
+               <lb/>Präsident: Meine Herren, auf Grund des § 1
+            <lb/>unserer Geschäftsordnung übernehme ich den Vorsitz für
+            <lb/>die heutige Sitzung und eröffne dieselbe hiermit.</p>
+            <p>
+               <lb/>Bevor wir aber in unsere Geschäfte eintreten,
+            <lb/>dürfte es wohl unser Aller Bedürfniß entsprechen, wenn
+            <lb/>ich den Gefühlen, die uns in diesem Augenblick be¬
+            <lb/>wegen, mit einigen Worten Ausdruck zu geben suche.</p>
+            <p>
+               <lb/>(Der Reichstag erhebt sich.)</p>
+            <p>
+               <lb/>Wir stehen innerhalb weniger Monate in tiefer
+            <lb/>Trauer zum zweiten Male am Grabe unseres
+            <lb/>Kaisers. Auf Kaiser Friedrich war die Hoffnung des
+            <lb/>deutschen Volkes gestellt; — jetzt liegt Er in der
+            <lb/>Gruft nach einer Regierung von wenigen Monaten.
+            <lb/>Selten wohl hat ein edler Fürst ein so trauriges Ge¬
+            <lb/>schick gehabt; selten wohl sind die Hoffnungen eines
+            <lb/>treuen Volkes so bitter zerstört worden. Seit langen
+            <lb/>Jahren haben wir mit Stolz und mit Bewunderung
+            <lb/>auf die ritterliche Gestalt unseres Kronprinzen geblickt,
+            <lb/>eingedenk der Thaten, die Er einst für Deutschland
+            <lb/>vollbracht hatte, voll Dankbarkeit für das warme Herz,
+            <lb/>Verhandlungen des Reichstags.</p>
+            <p>
+               <lb/>Montag den 25. Juni 1888.9</p>
+            <p>
+               <lb/>welches in Seiner Brust für Deutschland schlug. Aber
+            <lb/>größer denn je war unsere Bewunderung für Ihn in
+            <lb/>der kurzen Zeit, während welcher wir Ihn unseren
+            <lb/>Kaiser nennen durften, wo wir sahen, wie Er das
+            <lb/>schwere Leid, welches Gottes Hand Ihm auferlegt
+            <lb/>hatte, mit einem Heldenmuthe ertrug, der die
+            <lb/>Tapferkeit, die Er einst auf dem Schlachtfelde ge¬
+            <lb/>zeigt hatte, weit in den Schatten stellte.</p>
+            <p>
+               <lb/>Meine Herren, in dem deutschen Volke brennt
+            <lb/>das Verlangen, dem Kaiser Friedrich über das Grab
+            <lb/>hinaus seine Dankbarkeit zu bezeigen für das, was Er
+            <lb/>zum Heile Deutschlands gethan und gewollt hat.</p>
+            <p>
+               <lb/>(Lebhafter Beifall.)</p>
+            <p>
+               <lb/>Das deutsche Volk wird diese Schuld der Dankbarkeit
+            <lb/>dadurch abtragen, daß es in unerschütterlicher Treue
+            <lb/>zu Kaiser Friedrichs erhabenem Sohn und Erben steht,</p>
+            <p>
+               <lb/>(Bravo!)</p>
+            <p>
+               <lb/>zu unseres jetzt regierenden Kaisers Majestät. Die
+            <lb/>Worte, welche Allerhöchstderselbe heute an uns ge¬
+            <lb/>richtet hat, werden überall in Deutschland freudigen
+            <lb/>Widerhall finden.</p>
+            <p>
+               <lb/>(Bravo!)</p>
+            <p>
+               <lb/>Die Herzen des deutschen Volkes schlagen Ihm ver¬
+            <lb/>trauensvoll entgegen;</p>
+            <p>
+               <lb/>(Bravo!)</p>
+            <p>
+               <lb/>möge Gott Ihm Seinen Schutz und Seinen Segen ver¬
+            <lb/>leihen!</p>
+            <p>
+               <lb/>(Bravo!)</p>
+            <p>
+               <lb/>Meine Herren, kaffen Sie uns unseren Gefühlen
+            <lb/>dadurch Ausdruck geben, daß wir den Ruf, den wir
+            <lb/>heute in feierlicher Stunde erschallen ließen, nochmals
+            <lb/>wiederholen:</p>
+            <p>
+               <lb/>Seine Majestät der deutsche Kaiser, König
+            <lb/>Wilhelm von Preußen, lebe hoch! — aber¬
+            <lb/>mals hoch! — zum dritten Male hoch!</p>
+            <p>
+               <lb/>(Der Reichstag stimmt begeistert in den dreimaligen
+            <lb/>Hochruf des Präsidenten ein.)</p>
+            <p>
+               <lb/>Bis zur Konstituirung des Reichstags berufe ich
+            <lb/>die Herren Abgeordneten Graf von Kleist-Schmenzin,
+            <lb/>vr. Meyer (Jena), Dr. Hermes und Graf Adelmann
+            <lb/>von Adelmannsfelden zu Schriftführern. Ich bitte
+            <lb/>die Herren, an meiner Seite Platz zu nehmen.</p>
+            <p>
+               <lb/>(Geschieht.)</p>
+            <p>
+               <lb/>Meine Herren, die Geschäftsordnung bestimmt
+            <lb/>in § 2, daß der Reichstag durch das Loos in 7 Ab¬
+            <lb/>theilungen von möglichst gleicher Zahl zu vertheilen
+            <lb/>ist. Wir würden jetzt diese Verlosung vorzunehmen
+            <lb/>haben. Im Anschluß an die seit langer Zeit be¬
+            <lb/>stehende Praxis schlage ich Ihnen aber vor, das
+            <lb/>interimistische Büreau mit der Vornahme der Ver¬
+            <lb/>losung zu beauftragen; das Resultat derselben würde
+            <lb/>Ihnen demnächst durch den Druck mitgetheilt werden.
+            <lb/>— Damit ist der Reichstag einverstanden.</p>
+            <p>
+               <lb/>Wegen der Konstituirung der Abtheilungen behalte
+            <lb/>ich mir das weitere noch vor.</p>
+            <p>
+               <lb/>Dann, meine Herren, haben wir zum Namens¬
+            <lb/>aufruf zu schreiten; ich bitte die Herren Schriftführer,
+            <lb/>denselben vorzunehmen.</p>
+            <p>
+               <lb/>2</p>
+            <pb n="10" xml:id="img_0010"/>
+            <p>
+               <lb/>10</p>
+            <p>
+               <lb/>Reichstag. — 1. Sitzung. Montag den 25. Juni 1888.</p>
+            <p>
+               <lb/>Ich bitte diejenigen Herren, deren Namen auf¬
+            <lb/>gerufen wird, mit „hier" zu antworten. Der Namens¬
+            <lb/>aufruf beginnt mit dem Buchstaben A.</p>
+            <p>
+               <lb/>Ich erlaube mir, um möglichste Ruhe zu bitten,
+            <lb/>damit die Schriftführer den Namensaufruf vornehmen
+            <lb/>können.</p>
+            <p>
+               <lb/>(Der Namensaufruf beginnt.)</p>
+            <p>
+               <lb/>Meine Herren, ich bitte nochmals um etwas
+            <lb/>mehr Ruhe.</p>
+            <p>
+               <lb/>(Der Namensaufruf wird fortgesetzt.)</p>
+            <p>
+               <lb/>Meine Herren, ich bitte wiederholt um Ruhe, da
+            <lb/>die Herren Schriftführer mit ihrer Stimme nicht durch¬
+            <lb/>zudringen vermögen.</p>
+            <p>
+               <lb/>(Der Namensaufruf wird fortgesetzt und zu Ende geführt.)</p>
+            <p>
+               <lb/>Ich bitte das Alphabet zu rekapituliren.
+            <lb/>(Geschieht.)</p>
+            <p>
+               <lb/>Anwesend sind:</p>
+            <p>
+               <lb/>Ackermann. Dr. Adae. Graf Adelmann von Adelmanns-
+            <lb/>felden. Aichbichler. Graf von Arnim. Graf von Ballestrem.
+            <lb/>Dr. Barth. Baumbach (Altenburg), Dr. Baumbach
+            <lb/>(Berlin). Baurschmidt. Bayha. Beckmann. Graf von
+            <lb/>Behr-Behrenhoff. von Benda. Bender. Dr.vonBennigsen.
+            <lb/>Bergmann. Berling. von Bernuth. Dr. Blankenhorn.
+            <lb/>Dr. Bock (Aachen). Bock (Minden). Dr. Freiherr von
+            <lb/>Bodenhausen. Dr. Boeckel. Boehm. Dr. Böttcher.
+            <lb/>Bohtz. Dr. Born. Borowski. von Brand. Brand,
+            <lb/>von Bredow. Broemel. Brünings. Buddeberg.
+            <lb/>BuderuS. Dr. Bürklin. Büsing. Dr. Buhl. Dr.
+            <lb/>Bulle. Freiherr von Buol. Burkardt. von Busse. Bux-
+            <lb/>baum. Fürst zu Carolath-Beuthen. Prinz zu Carolath-
+            <lb/>Schönaich. Cegielski. Graf von Chamars. Dr. von
+            <lb/>Chelmicki. von Christen. Clauß. Dr. Clemm (Ludwigs¬
+            <lb/>hafen). von Colmar. Dr. von Cuny. Freiherr von
+            <lb/>Dalwigk-Lichtenfels. Dr. Deahna. Freiherr von Degen¬
+            <lb/>feld. Dr. Delbrück. Delius. Deuringer. Dieden.
+            <lb/>Dr. Diendorfer. Dietz von Bayer, von Dietze (Barby).
+            <lb/>Dissens. Graf von Dönhoff-Friedrichstein. Dommes.
+            <lb/>Graf Douglas. Dr. Drechsler. Graf von Droste zu
+            <lb/>Vischering. Duvigneau. Freiherr von Eckardstein. Frei¬
+            <lb/>herr von Ellrichshausen. Dr. Engler. Dr. Enneccerus.
+            <lb/>Dr. Esser. Fehling. Feustel. Fieser, von Fischer, von
+            <lb/>Flügge. Dr. von Forckenbeck. Francke. Freiherr von
+            <lb/>und zu Franckenstein. Dr. von Frege. Freiherr von
+            <lb/>Friesen. Fritzen, von Funcke. Graf von Galen. Gamp.
+            <lb/>Gebhard, von Gehren. Geibel. Dejanicz vonGliszczynski.
+            <lb/>Goeser. Dr. Goetz. von Goldfus. Goldschmidt. Gott-
+            <lb/>burgsen. Graf. von Gramatzki. von Grand-Ry. Gröber.
+            <lb/>Grub. Grumbt. Günther (Naümburg). Günther
+            <lb/>(Sachsen). Baron von Gustedt-Lablacken. Dr. Haar¬
+            <lb/>mann. Haberland. Hahn. Dr. Hammacher. Freiherr
+            <lb/>von Hammerstein. Dr. Prinz Handjery. Dr. Hartmann.
+            <lb/>Fürst von Hatzfeldt-Trachenberg. Haupt. Haus. Hegel,
+            <lb/>von Helldorff. Henneberg. Henning. Dr. Hermes.
+            <lb/>Dr. von Heydebrand und der Lasa. Hildebrand. Hitze.
+            <lb/>Hobrecht. Graf von und zu Hoensbroech. Hoffmann
+            <lb/>(Königsberg). Hoffmann (Rudolstadt). Hoffmann
+            <lb/>(Sachsen). Erbprinz zu Hohenlohe. Graf von Holstein.
+            <lb/>Holtz. Holtzmann. Graf von Hompesch. Horn. Freiherr
+            <lb/>von Huene. von Hülst. Hultzsch. Jahns. Johannsen.
+            <lb/>Kalle, von Kardorff. von Kehler. Keller (Württem¬</p>
+            <p>
+               <lb/>berg). Kersting, von Kessel. Kleine, von Kleist-Retzow.
+            <lb/>Graf von Kleist-Schmenzin. Klemm (Sachsen). Klose.
+            <lb/>Klotz. Klumpp. Kochann. Dr. Kohli. Krafft. Dr.
+            <lb/>Kropatscheck. Dr. Kruse. Kulemann. Dr. von Kulmiz.
+            <lb/>Kurlbaum. Kurtz. Graf Kwilecki. Freiherr von
+            <lb/>Landsberg-Steinfurt. Dr. Langerhans. Freiherr Lang¬
+            <lb/>werth von Simmern. Leemann. Lehner. Lender. Dr.
+            <lb/>von Lengerke. Lerche.1Lerzer.1Letocha. Leuschner</p>
+            <p>
+               <lb/>(Eisleben). Leuschner (Sachsen),1von Levetzow. Dr.</p>
+            <p>
+               <lb/>Lieber. Limbourg. Dr. Lingens. Lohren. Lorenzen.
+            <lb/>Lucius, von Lüderitz.1Lüders.1Maager. Freiherr</p>
+            <p>
+               <lb/>von Maltzahn - Gültz. Freiherr von Manteuffel.
+            <lb/>von Massow. Menken.1Menzer.1Merbach. Metzner.</p>
+            <p>
+               <lb/>Dr. Meyer (Halle). Dr. Meyer (Jena). Dr. Miguel.
+            <lb/>Graf von Mirbach. Dr. Graf von Moftke. Mooren.
+            <lb/>Dr. Moufang. Müller (Marienwerder). Müller (Pleß).
+            <lb/>Dr. Müller (Sangerhausen). Müller (Weimar). Münch.
+            <lb/>Munckel. Dr. von Mycielski. Freiherr von Neurath.
+            <lb/>Nickel. Niethammer.1Noppel.1Oechelhäuser. von</p>
+            <p>
+               <lb/>Oertzen-Brunn. von Oertzen-Parchim. Dr. Oetker,
+            <lb/>von Oheimb. Dr. Orterer. Freiherr von Ow. Panse.
+            <lb/>Parey. Dr. Perger. Peters. Dr. Petri. Pfähler.
+            <lb/>Pfafferott, von Polczynski. Poll. Ponschab. Graf
+            <lb/>Praschma. Graf von Preysing (Landshut). Graf von
+            <lb/>Preysing (Straubing), von Puttkamer-Plauth. Racke.
+            <lb/>Fürst Radziwill. Herzog von Ratibor. von Rauch¬
+            <lb/>haupt. von Reden. Reich, von Reinbaben. Reindl.
+            <lb/>Retemeyer. Richter. Rickert. Rintelen. Graf von
+            <lb/>Rittberg. Dr. Rudolphi. Graf von Saldern-Ahlimb-
+            <lb/>Ringenwalde. von Saldern-Plattenburg. Dr. Sattler.
+            <lb/>Dr. Scheffer. Freiherr von Schele. Schenck. Graf von
+            <lb/>Schlieffen-Schlieffenberg. Graf von Schlieffen-Schwandt.
+            <lb/>Schmidt (Eichstädt). Schmieden Schneider, von
+            <lb/>Schöning. Schräder. Dr. Schreiner. Schultz. Scipio.
+            <lb/>Sedlmeyer. Senestrey. Dr. von Seydewitz. Seyfarth.
+            <lb/>Siegle. Dr. Siemens. Smiths. Prinz zu Solms-
+            <lb/>Braunfels. Spahn. Staelin. Staudy. Dr. Freiherr
+            <lb/>Schenck von Stauffenberg. von Steinrück. Stephanus.
+            <lb/>Stöcker (Siegen). Stötzel. Graf zu Stolberg-
+            <lb/>Wernigerode. Graf zu Stolberg - Stolberg. von
+            <lb/>Strombeck. Struckmann. Szmula. von Taenzl-Tratzberg.
+            <lb/>Temper. Freiherr von Tettau. Thomsen. Timmermann.
+            <lb/>Trimborn. Dr. Tröndlin. Uhden. Ulrich. Freiherr
+            <lb/>von Unruhe-Bomst. Veiel.1Dr. Virchow. Weber.</p>
+            <p>
+               <lb/>Dr. Websky. von Wedell-Malchow. von Wedell-
+            <lb/>Piesdorf. Freiherr von Wendt. Wenzel, von Weyrauch.
+            <lb/>Wichmann. Wildegger. Dr. Windthorst. Dr. Witte.
+            <lb/>Witzlsperger. Woermann.1Wolf. von Wrisberg.</p>
+            <p>
+               <lb/>Wunnerlich.</p>
+            <p>
+               <lb/>Präsident: Meine Herren, der Namensaufruf hat
+            <lb/>die Anwesenheit von 312 Abgeordneten ergeben.</p>
+            <p>
+               <lb/>(Bravo!)</p>
+            <p>
+               <lb/>Das Haus ist damit beschlußfähig.</p>
+            <p>
+               <lb/>Zur Geschäftsordnung hat das Wort der Herr
+            <lb/>Abgeordnete Dr. Windthorst.</p>
+            <p>
+               <lb/>Abgeordneter Dr. Windthorst: Meine Herren, ich
+            <lb/>glaube, daß wir alle wünschen, die Geschäfte des Reichs¬
+            <lb/>tags möglichst rasch zu erledigen, und dazu kann wesentlich
+            <lb/>beitragen, wenn wir die Formalien etwas abkürzen. Ich
+            <lb/>möchte Ihnen daher proponiren, daß wir das Büreau
+            <lb/>durch Akklamation konstituiren, und ich beantrage zu¬
+            <lb/>nächst, daß wir die drei Präsidenten, den Herrn von</p>
+            <pb n="11" xml:id="img_0011"/>
+            <pb n="12" xml:id="img_0012"/>
+            <p>
+               <lb/>12</p>
+            <p>
+               <lb/>Reichstag. — 1. Sitzung. Montag den 25. Juni 1888.</p>
+            <p>
+               <lb/>schlagen, Ihr Präsidium zu beauftragen, Ihrer
+            <lb/>Majestät der Kaiserin, Ihrer Majestät der verwittweten
+            <lb/>Kaiserin Victoria und Ihrer Majestät der verwittweten
+            <lb/>Kaiserin Augusta die tiefgefühlte Theilnahme des
+            <lb/>Reichstags auszudrücken.</p>
+            <p>
+               <lb/>(Bravo!)</p>
+            <p>
+               <lb/>Der Reichstag hat diesen Auftrag dem Präsidium er¬
+            <lb/>theilt.</p>
+            <p>
+               <lb/>Ich schlage Ihnen vor, die nächste Sitzung morgen
+            <lb/>Nachmittag 1 Uhr abzuhalten mit der Tagesordnung:</p>
+            <p>
+               <lb/>Beschlußfassung über eine Adresse an Seine
+            <lb/>Majestät den Kaiser und König.</p>
+            <p>
+               <lb/>Mit dieser Tagesordnung ist der Reichstag ein¬
+            <lb/>verstanden.</p>
+            <p>
+               <lb/>Die Abtheilungen berufe ich zu ihrer Kon-
+            <lb/>stituirung auf morgen, eine viertel Stunde vor der
+            <lb/>Plenarsitzung.</p>
+            <p>
+               <lb/>Ich schließe die Sitzung.</p>
+            <p>
+               <lb/>(Schluß der Sitzung 4 Uhr 15 Minuten.)</p>
+            <pb n="13" xml:id="img_0013"/>
+            <p>
+               <lb/>Reichstag. — 2. Sitzung. Dienstag den 26. Juni 1888.1__13</p>
+            <p>
+               <lb/>der 4. Abtheilung der Herr Abgeordnete
+            <lb/>von Koscielski;</p>
+            <p>
+               <lb/>der 5. Abtheilung der Herr Abgeordnete
+            <lb/>Dr. Freiherr von Heereman.</p>
+            <p>
+               <lb/>s Sitznrrg</p>
+            <p>
+               <lb/>am Dienstag den 26. Juni 1888.</p>
+            <p>
+               <lb/>Seite</p>
+            <p>
+               <lb/>Neu eingetretene Mitglieder1...........13</p>
+            <p>
+               <lb/>Mittheilung über die Konstituirung der Abtheilungen . . 13
+            <lb/>Mittheilung des Präsidenten, betreffend eine nachträglich
+            <lb/>eingegangene Kundgebung der serbischen National¬
+            <lb/>versammlung aus Anlaß des Hintritts Seiner Majestät</p>
+            <p>
+               <lb/>des Kaisers Wilhelms I.1..........14</p>
+            <p>
+               <lb/>Desgl., betreffend die von außerdeutschen Volksvertretungen
+            <lb/>aus Anlaß des Hintritts Seiner Majestät des Kaisers</p>
+            <p>
+               <lb/>Friedrichs III. erfolgten Kundgebungen1.....14</p>
+            <p>
+               <lb/>Desgl., betreffend die Niederlegung eines Kranzes namens
+            <lb/>des Reichstags am Sarge weiland Seiner Majestät</p>
+            <p>
+               <lb/>des Kaisers Friedrichs IH1..........14</p>
+            <p>
+               <lb/>Desgl., betreffend eine für die Ueberschwemmten eingegangene</p>
+            <p>
+               <lb/>Liebesgabe1...............14</p>
+            <p>
+               <lb/>Berathung einer an Seine Majestät den Kaiser zu erlassenden
+            <lb/>Adresse:</p>
+            <p>
+               <lb/>Verlesung der Adresse1.........14</p>
+            <p>
+               <lb/>Berathung und Beschlußfassung1......15</p>
+            <p>
+               <lb/>Das Präsidium wird ermächtigt, die Adresse
+            <lb/>Seiner Majestät dem Kaiser zu überreichen . 15
+            <lb/>Schluß der Session:</p>
+            <p>
+               <lb/>Stellvertreter des Reichskanzlers, Staats¬
+            <lb/>sekretär des Innern, Staatsminister</p>
+            <p>
+               <lb/>von Boetticher1........15</p>
+            <p>
+               <lb/>Präsident1.........1. . 15</p>
+            <p>
+               <lb/>Die Sitzung wird um 1 Uhr 20 Minuten durch
+            <lb/>den Präsidenten von Wedell-Piesdorf eröffnet.</p>
+            <p>
+               <lb/>Präsident: Die Sitzung ist eröffnet.</p>
+            <p>
+               <lb/>Das Protokoll der vorigen Sitzung liegt zur Ein¬
+            <lb/>sicht auf dem Büreau offen.</p>
+            <p>
+               <lb/>Die Namen der seit der letzten Plenarsitzung ein¬
+            <lb/>getretenen und zugeloosten Abgeordneten wolle der
+            <lb/>Herr Schriftführer verlesen.</p>
+            <p>
+               <lb/>Schriftführer Abgeordneter Dr. Meyer (Jena):
+            <lb/>Seit der letzten Plenarsitzung sind neu ein¬
+            <lb/>getreten und zugeloost worden:</p>
+            <p>
+               <lb/>der 6. Abtheilung der Herr Abgeordnete
+            <lb/>Dr. Virnich;</p>
+            <p>
+               <lb/>der 7. Abtheilung der Herr Abgeordnete
+            <lb/>Bormann;</p>
+            <p>
+               <lb/>der 1. Abtheilung der Herr Abgeordnete
+            <lb/>Magdzinski;</p>
+            <p>
+               <lb/>der 2. Abtheilung der Herr Abgeordnete
+            <lb/>Stöcker (Rothenburg);
+            <lb/>der 3. Abtheilung der Herr Abgeordnete
+            <lb/>Dr. Porsch;</p>
+            <p>
+               <lb/>Präsident: Das Resultat der Konstituirung
+            <lb/>der Abtheilungen wolle der Herr Schriftführer ver¬
+            <lb/>lesen.</p>
+            <p>
+               <lb/>Schriftführer Abgeordneter Dr. Meyer (Jena):
+            <lb/>Die Abtheilungen haben sich konstituirt,
+            <lb/>und sind gewählt:
+            <lb/>in der 1. Abtheilung:</p>
+            <p>
+               <lb/>zum Vorsitzenden der Herr Abgeordnete
+            <lb/>von Bernuth,</p>
+            <p>
+               <lb/>zu dessen Stellvertreter der Herr Ab¬
+            <lb/>geordnete Freiherr von Wendt,
+            <lb/>zu Schriftführern die Herren Abgeord¬
+            <lb/>neten von Colmar und Freiherr
+            <lb/>von Bodenhausen;
+            <lb/>in der 2. Abtheilung:</p>
+            <p>
+               <lb/>zum Vorsitzenden der Herr Abgeordnete
+            <lb/>vr. von Bennigsen,
+            <lb/>zu dessen Stellvertreter der Herr Ab¬
+            <lb/>geordnete von Wrisberg,
+            <lb/>zu Schriftführern die Herren Abgeord¬
+            <lb/>neten Hoffmann (Königsberg) und
+            <lb/>Graf von Dönhoff-Friedrichstein;
+            <lb/>in der 3. Abtheilung:</p>
+            <p>
+               <lb/>zum Vorsitzenden der Herr Abgeordnete
+            <lb/>Ackermann,</p>
+            <p>
+               <lb/>zu dessen Stellvertreter der Herr Ab¬
+            <lb/>geordnete Freiherr Schenck von
+            <lb/>Stauffenberg,</p>
+            <p>
+               <lb/>zu Schriftführern die Herren Abgeord¬
+            <lb/>neten Dr. Hermes und vr. Websky;
+            <lb/>in der 4. Abtheilung:</p>
+            <p>
+               <lb/>zum Vorsitzenden der Herr Abgeordnete
+            <lb/>Rickert,</p>
+            <p>
+               <lb/>zu dessen Stellvertreter der Herr Ab¬
+            <lb/>geordnete Fieser,</p>
+            <p>
+               <lb/>zu Schriftführern die Herren Abgeordneten
+            <lb/>Müller (Pleß) und Menzer;
+            <lb/>in der 5. Abtheilung:</p>
+            <p>
+               <lb/>zum Vorsitzenden der Herr Abgeordnete
+            <lb/>vr. Windthorst,</p>
+            <p>
+               <lb/>zu dessen Stellvertreter der Herr Ab¬
+            <lb/>geordnete Graf von Holstein,
+            <lb/>zu Schriftführern die Herren Abgeord¬
+            <lb/>neten Freiherr von Manteuffel und
+            <lb/>vr. Engler;
+            <lb/>in der 6. Abtheilung:</p>
+            <p>
+               <lb/>zum Vorsitzenden der Herr Abgeordnete
+            <lb/>vr. Lieber,</p>
+            <p>
+               <lb/>zu dessen Stellvertreter der Herr Ab¬
+            <lb/>geordnete Leemann,</p>
+            <p>
+               <lb/>zum Schriftführer der Herr Abgeordnete
+            <lb/>Weber;</p>
+            <p>
+               <lb/>in der 7. Abtheilung:</p>
+            <p>
+               <lb/>zum Vorsitzenden der Herr Abgeordnete
+            <lb/>Graf von Behr-Behrenhoff,
+            <lb/>zu dessen Stellvertreter der Herr Ab¬
+            <lb/>geordnete Nobbe,</p>
+            <p>
+               <lb/>zum Schriftführer der Herr Abgeordnete
+            <lb/>Hegel.</p>
+            <pb n="14" xml:id="img_0014"/>
+            <p>
+               <lb/>14</p>
+            <p>
+               <lb/>Reichstag. — 2. Sitzung. Dienstag den 26. Juni 1888.</p>
+            <p>
+               <lb/>Präsident: Ich habe dem Reichstag die Mit¬
+            <lb/>theilung zu machen, daß die serbische Nationalversamm¬
+            <lb/>lung in ihrer Sitzung vom 2. April dieses Jahres
+            <lb/>dem deutschen Reichstag ihre Theilnahme an dem Ab¬
+            <lb/>leben Seiner Majestät des Hochseligen Kaisers Wilhelm
+            <lb/>zum Ausdruck gebracht hat. Da der Reichstag nicht
+            <lb/>versammelt war, habe ich den Dank unverzüglich dem
+            <lb/>serbischen Gesandten und bevollmächtigten Minister,
+            <lb/>Herrn Petronievitsch, ausgesprochen und die Bitte der
+            <lb/>Üebermittelung dieses Dankes an die serbische National¬
+            <lb/>versammlung hinzugefügt. Der Herr Reichskanzler hat
+            <lb/>die Güte gehabt, die Üebermittelung dieses Dankes zu
+            <lb/>übernehmen.</p>
+            <p>
+               <lb/>Meine Herren, wie beim Hinscheiden Seiner Majestät
+            <lb/>des hochseligen Kaisers Wilhelm, so ist auch aus Anlaß
+            <lb/>des Todes Seiner Majestät des Kaisers Friedrich in
+            <lb/>einer Reihe von parlamentarischen Versammlungen be¬
+            <lb/>freundeter Nationen die Theilnahme an dem neuen
+            <lb/>schweren Schicksalsschlage, welcher Deutschland betroffen
+            <lb/>hat, in wärmster und wohlwollendster Weise zum
+            <lb/>Ausdruck gelangt. Ich bin gewiß, daß ich in Ihrer
+            <lb/>Aller Sinne handle, wenn ich für diese erhebenden und
+            <lb/>unseren Herzen wahrhaft wohlthuenden Kundgebungen
+            <lb/>den wärmsten und herzlichsten Dank des Reichstags
+            <lb/>hiermit ausspreche.</p>
+            <p>
+               <lb/>(Lebhaftes Bravo.)</p>
+            <p>
+               <lb/>Ich gestatte mir ferner noch dem Reichstage mit¬
+            <lb/>zutheilen, daß ich am Sarge des Hochseligen Kaisers
+            <lb/>Friedrich am Tage vor der Beisetzung einen würdigen
+            <lb/>Kranz namens des Reichstags mit der Aufschrift:
+            <lb/>„Seinem geliebten Kaiser Friedrich der deutsche Reichs¬
+            <lb/>tag" niedergelegt habe.</p>
+            <p>
+               <lb/>(Lebhaftes Bravo.)</p>
+            <p>
+               <lb/>Von dem Verein „Vorwärts" zu Denison, Texas,
+            <lb/>sind mir durch den ersten Sprecher, Herrn Louis
+            <lb/>Lebrecht, 202 Mark für die Ueberschwemmten als Liebes¬
+            <lb/>gabe übergeben worden. Ich habe diese Summe der
+            <lb/>Stadthauptkasse Hierselbst, als Sammelstelle für die
+            <lb/>Ueberschwemmten, übergeben lasten und den Gebern
+            <lb/>den Dank des Reichstags für diese der alten Heimat
+            <lb/>dargebrachte Gabe ausgesprochen.</p>
+            <p>
+               <lb/>(Bravo!)</p>
+            <p>
+               <lb/>Wir treten nunmehr in die Tagesordnung ein.
+            <lb/>Gegenstand derselben ist:</p>
+            <p>
+               <lb/>Berathung einer Adresse an Seine Ma¬
+            <lb/>jestät den Kaiser und König.</p>
+            <p>
+               <lb/>Der Reichstag hat mich gestern beauftragt, den
+            <lb/>Entwurf dieser Adresse vorzulegen. Ich habe die Ehre,
+            <lb/>denselben zu verlesen:</p>
+            <p>
+               <lb/>Allerdurchlauchtigster Großmächtigster Kaiser und König,
+            <lb/>Allergnädigster Kaiser, König und Herr!</p>
+            <p>
+               <lb/>In bitterem Schmerz trauert mit Eurer
+            <lb/>Kaiserlichen und Königlichen Majestät der
+            <lb/>deutsche Reichstag um den Heimgang Seiner
+            <lb/>Majestät des Kaisers Friedrich.</p>
+            <p>
+               <lb/>Das deutsche Volk lebte der Zuversicht,
+            <lb/>daß in Seiner Hand das Werk, welches Seine
+            <lb/>Majestät der unvergeßliche Kaiser Wilhelm
+            <lb/>begründet hat, sicher bewahrt, daß unter Seiner
+            <lb/>weisen Leitung Deutschlands Wohl in fried¬
+            <lb/>licher Arbeit zu herrlicher Entwickelung ge¬</p>
+            <p>
+               <lb/>führt werden würde. Gott hat es anders
+            <lb/>beschlosten. Nach einer Regierung von wenigen
+            <lb/>Monaten mußten wir unseren geliebten Kaiser¬
+            <lb/>lichen Herrn ins Grab sinken sehen. Die
+            <lb/>schönen Hoffnungen, welche auf Ihn gestellt
+            <lb/>waren, sind dahin; aber Sein Andenken wird
+            <lb/>in den Herzen des deutschen Volkes fortleben,
+            <lb/>das leuchtende Vorbild, welches Er durch hin¬
+            <lb/>gebende Pflichttreue in schwerer Zeit, durch
+            <lb/>Heldenmuth im Handeln und im Dulden
+            <lb/>gegeben hat, wird nimmermehr vergessen
+            <lb/>werden, wird noch auf kommende Geschlechter
+            <lb/>eine mächtige Wirkung üben.</p>
+            <p>
+               <lb/>Mit hoher Freude und innigem Dank haben
+            <lb/>wir aus Eurer Majestät Munde vernommen,
+            <lb/>daß Allerhöchstdieseben entschlossen sind, die
+            <lb/>Wege zu wandeln, auf welchen Seine in Gott
+            <lb/>ruhende Majestät, der Kaiser Wilhelm, das
+            <lb/>Vertrauen Seiner Bundesgenosten, die Liebe
+            <lb/>des deutschen Volkes und die wohlwollende
+            <lb/>Anerkennung des Auslandes gewonnen hat.</p>
+            <p>
+               <lb/>Eure Majestät wollen die Reichsverfastung
+            <lb/>unverbrüchlich wahren, die Gesetzgebung zum
+            <lb/>Wohle Deutschlands, insbesondere zum Schutze
+            <lb/>der Schwachen und Bedrängten ausbauen.
+            <lb/>Recht und Gesetz schirmen und aufrecht erhalten.</p>
+            <p>
+               <lb/>Der Reichstag ist bereit. Eure Majestät in
+            <lb/>der Ausführung dieses Willens mit aller Kraft
+            <lb/>zu unterstützen; er hofft, daß der Allmächtige
+            <lb/>zu seiner Arbeit das Gelingen geben werde.</p>
+            <p>
+               <lb/>Eure Majestät sind entschlossen, gestützt auf
+            <lb/>bewährte Bündnisse und Beziehungen, den
+            <lb/>Frieden aufrecht zu erhalten, so lange der
+            <lb/>Krieg nicht eine uns aufgedrungene Noth¬
+            <lb/>wendigkeit ist. Um den Frieden zu sichern
+            <lb/>und, wenn er dennoch gestört werden sollte,
+            <lb/>ihn mit Ehren zu erkämpfen, wollen Eure
+            <lb/>Majestät die Schlagfertigkeit unseres Heeres
+            <lb/>erhalten und pflegen.</p>
+            <p>
+               <lb/>Der deutsche Reichstag zollt dieser er¬
+            <lb/>habenen Kundgebung Eurer Majestät seinen
+            <lb/>vollen Beifall.</p>
+            <p>
+               <lb/>Wir werden kein Opfer scheuen, welches
+            <lb/>zur Sicherung unseres Vaterlandes nöthig ist,
+            <lb/>wie wir einmüthig bewilligt haben, was unser
+            <lb/>Hochseliger Kaiser Wilhelm von uns forderte,
+            <lb/>um den Frieden Deutschlands zu bewahren.
+            <lb/>Wir hegen aber das Vertrauen, daß der
+            <lb/>Friede des mit seinem Kaiser und den ver¬
+            <lb/>bündeten Regierungen fest geeinten deutschen
+            <lb/>Volkes von Niemand gestört werden wird.</p>
+            <p>
+               <lb/>Möge es Eurer Kaiserlichen und König¬
+            <lb/>lichen Majestät beschieden sein, unserem Vater¬
+            <lb/>lands eine lange Zeit ungetrübten Glücks zu
+            <lb/>bringen.</p>
+            <p>
+               <lb/>Möge Gott Eurer Majestät und dem Kaiser¬
+            <lb/>lichen Hause Seinen gnädigen Schutz verleihen;
+            <lb/>möge Er unser deutsches Vaterland segnen
+            <lb/>und behüten.</p>
+            <p>
+               <lb/>In tiefster Ehrfurcht verharrt
+            <lb/>Eurer Kaiserlichen und Königlichen Majestät
+            <lb/>Allerunterthänigster
+            <lb/>Der deutsche Reichstag.</p>
+            <p>
+               <lb/>Ich eröffne die Diskussion. — Das Wort wird
+            <lb/>nicht verlangt; ich schließe die Diskussion.</p>
+            <pb n="15" xml:id="img_0015"/>
+            <p>
+               <lb/>Reichstag. — 2. Sitzung. Dienstag den 26. Juni 1888.</p>
+            <p>
+               <lb/>15</p>
+            <p>
+               <lb/>Ich bitte die Herren, welche wollen, daß die eben
+            <lb/>von mir verlesene Adresse an Seine Majestät den
+            <lb/>Kaiser gerichtet werde, sich von ihren Plätzen zu er¬
+            <lb/>heben.</p>
+            <p>
+               <lb/>(Geschieht.)</p>
+            <p>
+               <lb/>Der Reichstag hat einstimmig beschlossen, daß die
+            <lb/>Adresse an Seine Majestät den Kaiser zu richten ist.</p>
+            <p>
+               <lb/>(Lebhaftes Bravo.)</p>
+            <p>
+               <lb/>Ich schlage Ihnen vor, meine Herren, das Präsidium
+            <lb/>zu beauftragen, diese Adresse Seiner Majestät dem
+            <lb/>Kaiser zu überreichen.</p>
+            <p>
+               <lb/>Der Reichstag ist mit diesem meinem Vorschlage
+            <lb/>einverstanden.</p>
+            <p>
+               <lb/>Das Wort hat der Herr Bevollmächtigte zum
+            <lb/>Bundesrath, Staatssekretär des Innern, Staatsminister
+            <lb/>von Boetticher.</p>
+            <p>
+               <lb/>Bevollmächtigter zum Bundesrath, Stellvertreter
+            <lb/>des Reichskanzlers, Staatssekretär des Innern, Staats¬
+            <lb/>minister von Boetticher: Ich habe dem hohen Hause
+            <lb/>eine Kaiserliche Botschaft mitzutheilen.</p>
+            <p>
+               <lb/>(Der Reichstag erhebt sich.)</p>
+            <p>
+               <lb/>Die Botschaft lautet:</p>
+            <p>
+               <lb/>Wir Wilhelm, von Gottes Gnaden deutscher
+            <lb/>Kaiser, König von Preußen re. re.,
+            <lb/>thun kund und fügen hiermit zu wissen, daß
+            <lb/>wir Unseren Staatssekretär des Innern, Staats¬</p>
+            <p>
+               <lb/>minister von Boetticher, ermächtigt haben,
+            <lb/>gemäß Artikel 12 der Verfassung die gegen¬
+            <lb/>wärtigen Sitzungen des Reichstags in Unserem
+            <lb/>und der verbündeten Regierungen Namen am
+            <lb/>26. Juni dieses Jahres zu schließen.</p>
+            <p>
+               <lb/>Urkundlich unter Unserer Höchsteigenhändigen
+            <lb/>Unterschrift und beigedrucktem Kaiserlichen
+            <lb/>Jnsiegel.</p>
+            <p>
+               <lb/>Gegeben Berlin, am 26. Juni 1888.</p>
+            <p>
+               <lb/>(Gez.) Wilhelm I. U.</p>
+            <p>
+               <lb/>(Ggez.) von Bismarck.</p>
+            <p>
+               <lb/>Ich habe die Ehre, dem Herrn Präsidenten das
+            <lb/>Original dieser Botschaft zu überreichen.</p>
+            <p>
+               <lb/>Auf Grund der mir ertheilten Allerhöchsten Er¬
+            <lb/>mächtigung erkläre ich im Namen der verbündeten Re¬
+            <lb/>gierungen die Sitzungen des Reichstags für geschlossen.</p>
+            <p>
+               <lb/>Präsident: Meine Herren, lasten Sie uns dem
+            <lb/>festen Vertrauen in Deutschlands Zukunft, das uns
+            <lb/>alle erfüllt, dadurch Ausdruck geben, daß wir rufen:
+            <lb/>Seine Majestät der deutsche Kaiser, König Wilhelm
+            <lb/>von Preußen, lebe hoch! — und nochmals hoch! —
+            <lb/>und zum dritten Male hoch!</p>
+            <p>
+               <lb/>(Der Reichstag stimmt begeistert in den dreimaligen
+            <lb/>Hochruf des Präsidenten ein.)</p>
+            <p>
+               <lb/>Die Sitzung ist geschlossen.</p>
+            <p>
+               <lb/>(Schluß der Sitzung 1 Uhr 35 Minuten.)</p>
+            <pb n="16" xml:id="img_0016"/>
+            <p>
+               <lb/>16</p>
+            <p>
+               <lb/>Reichstag. — Vorstand. Vorsitzende der Abtheilungen.</p>
+            <p>
+               <lb/>Vorstand des Reichstags.</p>
+            <p>
+               <lb/>Präsidium.</p>
+            <p>
+               <lb/>Herr von Wedell-Piesdorf, Präsident.</p>
+            <p>
+               <lb/>„ vr. Buhl, Erster Vizepräsident.</p>
+            <p>
+               <lb/>„ Freiherr von Unruhe-Vomst, Zweiter Vizepräsident.</p>
+            <p>
+               <lb/>Schriftführer.</p>
+            <p>
+               <lb/>Herr Dr. Vnrklin.</p>
+            <p>
+               <lb/>„ vr. Hermes.</p>
+            <p>
+               <lb/>„ Graf von Kleist-Schmenzin.</p>
+            <p>
+               <lb/>„ vr. von Kulwiz.</p>
+            <p>
+               <lb/>„ Dr. Porsch.</p>
+            <p>
+               <lb/>„ Graf von Schönborn-Wiesentheid.</p>
+            <p>
+               <lb/>„ Dr. Tröndlin.</p>
+            <p>
+               <lb/>„ Wichmann.</p>
+            <p>
+               <lb/>Quästoren.</p>
+            <p>
+               <lb/>Herr Kochann.</p>
+            <p>
+               <lb/>„ Francke.</p>
+            <p>
+               <lb/>Vorsitzende der Abtheilungen.</p>
+            <p>
+               <lb/>Herr von Bernuth,</p>
+            <p>
+               <lb/>„ Dr. von Bennigsen,
+            <lb/>„ Ackermann,</p>
+            <p>
+               <lb/>„ Rickert,</p>
+            <p>
+               <lb/>„ vr. Windthorst,</p>
+            <p>
+               <lb/>„ Dr. Lieber,</p>
+            <p>
+               <lb/>Vorsitzender der 1. Abtheilung.</p>
+            <p>
+               <lb/>4.</p>
+            <p>
+               <lb/>// /, //</p>
+            <p/>
+            <p/>
+            <p>
+               <lb/>6.</p>
+            <p>
+               <lb/>//</p>
+            <p>
+               <lb/>„ Graf von Behr-Behrenhoff, „1„ 7.</p>
+            <p>
+               <lb/>Druck und Verlag der Norddeutschen Buchdruckerei und Verlags-Anstalt.
+            <lb/>Berlin, Wilhelmstr. 32.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

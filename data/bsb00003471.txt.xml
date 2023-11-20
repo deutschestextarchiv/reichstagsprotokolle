@@ -1,0 +1,2494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Amtliches Reichstags-Handbuch Legislaturperiode ...</title>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1222198746">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="https://orcid.org/0000-0003-4615-4753">
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/105315190X">
+                  <surname>Nolda</surname>
+                  <forename>Andreas</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="https://orcid.org/0000-0002-1096-3957">
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+               <orgName>Bayerische Staatsbibliothek</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Texttranskription
+                                durch OCR.</note>
+                  <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle
+                                Transkription (und Textauszeichnung) mittlerweile nicht mehr dem
+                                Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen
+                                muss.</note>
+                  <date type="importDTA">2021-09-29T20:17:33Z</date>
+               </resp>
+            </respStmt>
+            <respStmt corresp="#availability-textsource-1">
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                            Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Langfristige Bereitstellung der
+                                DTA-Ausgabe</note>
+                  <ref target="https://www.bbaw.de"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy
+                            of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische
+                            Akademie der Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-09-29T20:17:33Z</date>
+            <availability xml:id="availability-textsource-1">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0
+                                License.</p>
+               </licence>
+            </availability>
+            
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="M">Amtliches Reichstags-Handbuch Legislaturperiode .... Berlin, 1902.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Amtliches Reichstags-Handbuch Legislaturperiode ...</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name>Reichsdr.</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1902</date>
+                  
+               </publicationStmt>
+            </biblFull>
+            <recordingStmt>
+               <p>Protokollierte Verhandlungen des Deutschen Reichstags und seiner
+                            Vorläufer, die von Stenografinnen und Stenografen während der Sitzungen
+                            angefertigt und in der Folge der Öffentlichkeit als gedruckte
+                            Publikation zur Verfügung gestellt wurden.</p>
+            </recordingStmt>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bayerische Staatsbibliothek</repository>
+                  <idno>
+                     <idno type="shelfmark">BA/Germ.g. 390 c-1898/1903,a</idno>
+                     <idno type="URLCatalogue">https://opacplus.bsb-muenchen.de/title/7114213</idno>
+                     <idno type="URN">urn:nbn:de:bvb:12-bsb00003471-2</idno>
+                     <idno type="URLIIIF">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00003471/manifest</idno>
+                     <idno type="URL" subtype="IIIFviewer">https://www.digitale-sammlungen.de/de/view/bsb00003471</idno>
+                     <idno type="URL" subtype="DFGviewer">https://daten.digitale-sammlungen.de/~db/bsb00003471/images/</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <typeDesc>
+                     <p>Fraktur</p>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Bogensignaturen: nicht übernommen; Druckfehler: ignoriert;
+                            fremdsprachliches Material: nicht gekennzeichnet;
+                            Geminations-/Abkürzungsstriche: wie Vorlage; Hervorhebungen (Antiqua,
+                            Sperrschrift, Kursive etc.): nicht ausgezeichnet; I/J in Fraktur: wie
+                            Vorlage; i/j in Fraktur: wie Vorlage; Kolumnentitel: nicht übernommen;
+                            Kustoden: nicht übernommen; langes s (ſ): als s transkribiert;
+                            Normalisierungen: keine; rundes r (&amp;#xa75b;): als r/et
+                            transkribiert; Seitenumbrüche markiert: ja; Silbentrennung: keine
+                            Angabe; u/v bzw. U/V: wie Vorlage; Vokale mit übergest. e: als ä/ö/ü
+                            transkribiert; Vollständigkeit: vollständig erfasst; Zeichensetzung: wie
+                            Vorlage; Zeilenumbrüche markiert: ja;</p>
+         </editorialDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">Neuhochdeutsch</language>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Politik</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Rede</classCode>
+            <classCode scheme="#zdl_dwds">gesprochen</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">reichstag</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n="1" xml:id="img_0001"/>
+            <p>
+               <lb/>Nachtrag</p>
+            <p>
+               <lb/>zum</p>
+            <p>
+               <lb/>amtliche«</p>
+            <p>
+               <lb/>Reichstags -Bandbuch</p>
+            <p>
+               <lb/>für die</p>
+            <p>
+               <lb/>III. Tegislskur-Verioöe I8W—MZ.</p>
+            <p>
+               <lb/>Abgeschlossen am II. Juni 1982.</p>
+            <p>
+               <lb/>Herausgegeben vom Reichstags-Bürcau.</p>
+            <p>
+               <lb/>Berlin LS«».</p>
+            <p>
+               <lb/>Gedruckt in der Reichstags-Druckerei.</p>
+            <pb n="2" xml:id="img_0002"/>
+            <pb n="3" xml:id="img_0003"/>
+            <p>
+               <lb/>A n H &lt;r L t.</p>
+            <p>
+               <lb/>Seite</p>
+            <p>
+               <lb/>Aenderungen und Nachträge in den biographischen Notizen
+            <lb/>über die Mitglieder des Reichstages'" -.1. .15</p>
+            <p>
+               <lb/>Stärke der Fraktionen mit den-i^^fetb8r-5stättUhabten
+            <lb/>Aenderungen . . . . . ...1. ... 36</p>
+            <p>
+               <lb/>Vorstand des Reichstages. . -1^</p>
+            <p>
+               <lb/>Vorsitzende der Abtheilungen des ^jAskageS."1. . 43</p>
+            <p>
+               <lb/>Tabellen:</p>
+            <p>
+               <lb/>Ausgaben und Einnahmen des Reichs nach dem Reichs-
+            <lb/>haushalts-Etat für das Rechnungsjahr 1901 und den</p>
+            <p>
+               <lb/>Nachträgen zu demselben1...........44</p>
+            <p>
+               <lb/>Ausgaben und Einnahmen des Reichs nach den: Reichs-
+            <lb/>haushalts-Etat für das Rechnungsjahr 1902 und dem</p>
+            <p>
+               <lb/>Nachtrage zu demselben1...........46</p>
+            <p>
+               <lb/>Matrikularbeiträge für die Etats- resp. Rechnungsjahre</p>
+            <p>
+               <lb/>1882/83 bis 1902 . . . '1..........48</p>
+            <p>
+               <lb/>Ueberweisungen an die Bundesstaaten für die Etats- bezw.</p>
+            <p>
+               <lb/>Rechnungsjahre 1882/83 bis11902 1........ 54</p>
+            <p>
+               <lb/>Ertrag der Zölle und Verbrauchssteuern:</p>
+            <p>
+               <lb/>Ertrag der Zölle im Ganzen für die Etats- bezw.</p>
+            <p>
+               <lb/>Rechnungsjahre 1876/771bis11899 1....... 60</p>
+            <p>
+               <lb/>1*</p>
+            <pb n="4" xml:id="img_0004"/>
+            <p>
+               <lb/>4</p>
+            <p>
+               <lb/>Seite</p>
+            <p>
+               <lb/>L. Einnahme vom Taback im deutscher: Zollgebiet für</p>
+            <p>
+               <lb/>die Erntejahre 1871/72 bis 1899 1....... 62</p>
+            <p>
+               <lb/>10.Einnahme vom Zucker im deutschen Zollgebiet für
+            <lb/>die Betriebsjahre 1871/72 bis 1900/19011.... 64</p>
+            <p>
+               <lb/>v. Ertrag der Zuckerabgaben im deutschen Zollgebiet für
+            <lb/>die Betriebsjahre 1871/72 bis 1900/19011.... 66</p>
+            <p>
+               <lb/>D. Einnahme vom Branntwein im Branntweinsteuer¬
+            <lb/>gebiet:</p>
+            <p>
+               <lb/>1.1in den Etatsjahren 1870 bis 1886/87 und dem
+            <lb/>Halbjahr 1. April bis 30. September 1887 . . 68</p>
+            <p>
+               <lb/>2.1in den Betriebsjahren 1887/88 bis 1899/1900 . 69
+            <lb/>I'. Die Besteuerung des inländischen Branntweins im</p>
+            <p>
+               <lb/>deutschen Branntweinsteuer-Gebiet während des Be¬
+            <lb/>triebsjahres 1899/1900 1........... 70</p>
+            <p>
+               <lb/>0-. Einnahme vom Bier:</p>
+            <p>
+               <lb/>a) im Brausteuergebiet für die Etats- bezw. Rech¬
+            <lb/>nungsjahre 1870 bis 1900 1........ 74</p>
+            <p>
+               <lb/>d) in den einzelnen deutschen Steuergebieten für die
+            <lb/>Jahre 1876 bis 19001..........</p>
+            <p>
+               <lb/>76</p>
+            <pb n="5" xml:id="img_0005"/>
+            <p>
+               <lb/>Fenderungen und Nachträge</p>
+            <p>
+               <lb/>in den</p>
+            <p>
+               <lb/>biographischen Notizen über die Mitglieder
+            <lb/>des Reichstages.</p>
+            <p>
+               <lb/>lNenörvungen im Text stnö gesperrt gedruckt.)</p>
+            <p>
+               <lb/>Ahlwardt. Niederschön Hausen-Nord end.</p>
+            <p>
+               <lb/>von Arnswaldt (Böhme). Am 6. März 1899 ver¬
+            <lb/>storben.</p>
+            <p>
+               <lb/>Graf von Ballestrem. Wirklicher Geheimer Rath.</p>
+            <p>
+               <lb/>Barth, Theodor, Or.jur. zu Berlin, Thiergartenstraße 37.
+            <lb/>Wahlkr..- 2. Reg.-Bez. Merseburg (Schweinitz-Wittenberg). —
+            <lb/>Freisinnige Vereinigung. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Dr. von Siemens am
+            <lb/>30. Dezember 1901 gewählt.</p>
+            <p>
+               <lb/>Geb. am 16. Juli 1849 in Duderstadt; evangelisch. Be¬
+            <lb/>suchte die Universitäten Heidelberg, Leipzig und Berlin.
+            <lb/>1871—72 Rechtsanwalt in Bremen, 1872—76 Amtsafseffor in
+            <lb/>Bremerhaven, 1876—83 Syndikus der Bremer Handelskammern
+            <lb/>seit 1883 Herausgeber der „Nation". Von 1881—84 im
+            <lb/>Reichstage als Vertreter des Herzogthums Gotha, von 1885—98
+            <lb/>als Vertreter des schlesischen Wahlkreises Hirschberg-Schönau.</p>
+            <pb n="6" xml:id="img_0006"/>
+            <p>
+               <lb/>6</p>
+            <p>
+               <lb/>Seit 1898 auch Mitglied des preußischen Abgeordnetenhauses
+            <lb/>für den 14. schleswig-holsteinschen Wahlkreis.</p>
+            <p>
+               <lb/>Bayer. Am 9. Juni 1902 verstorben.</p>
+            <p>
+               <lb/>Becker, Carl Georg, I)r. ^jur.; Amtsrichter zu Hennef.
+            <lb/>Wohnung in Berlin: Schinkelplatz 4. Wahlkr.: 5. Reg.-Bez.
+            <lb/>Köln (Siegkreis-Waldbröl). — Centrum. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Dr. Lingens am
+            <lb/>9. Januar 1902 gewählt.</p>
+            <p>
+               <lb/>Geb. am 24. September 1858 zu Gut Schönrath b. Mül¬
+            <lb/>heim a. Rhein; katholisch. Besuchte die Rheinische Ritter¬
+            <lb/>akademie zu Bedburg und die Universitäten Bonn und Berlin.
+            <lb/>Studirte auf der landwirtschaftlichen Hochschule Halle Land¬
+            <lb/>wirthschaft und bewirthschaftete das elterliche Gut. Mitgründer
+            <lb/>und längere Zeit Vorsitzender des Aufsichtsrathes der Aktien¬
+            <lb/>gesellschaft „Kreis Bergheimer Volksbank und Zuckerfabrik Bed¬
+            <lb/>burg". Seit 1898 Amtsrichter in Hennef und Mitglied des
+            <lb/>preußischen Abgeordnetenhauses für die Kreise Sieg, Mül¬
+            <lb/>heim am Rhein und Wipperfürth.</p>
+            <p>
+               <lb/>Bender. Am 27. Mai 1901 verstorben.</p>
+            <p>
+               <lb/>Bernstein, Eduard; Schriftsteller zu Berlin Hohen¬
+            <lb/>staufenstraße 31. Wahlkr.: 7. Reg.-Bez. Breslau (Breslau,
+            <lb/>Westlicher Theil). — Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Dr. Schoenlank am
+            <lb/>20. März 1902 gewählt.</p>
+            <p>
+               <lb/>Geb. am 6. Januar 1850 zu Berlin; konfessionslos. Be¬
+            <lb/>suchte erst die Löffler'sche Knabenschule und dann das Werder'sche</p>
+            <pb n="7" xml:id="img_0007"/>
+            <p>
+               <lb/>7</p>
+            <p>
+               <lb/>Gymnasium zu Berlin. Trat Oktober 1866 als Lehrling in ein
+            <lb/>Bankgeschäft ein und war nach absolvirter Lehrzeit mit kurzer
+            <lb/>Unterbrechung bis Oktober 1878 im Bankfach thätig. Bon 1878
+            <lb/>bis 1881 Privat- und Redaktionssekretär des Privatgelehrten Karl
+            <lb/>Höchberg. Seitdem Schriftsteller und später Redakteur am
+            <lb/>Zürich-Londoner „Sozialdemokrat". Bis 1899 ständiger Mit-
+            <lb/>, arbeiter der Wochenschrift „DieMeue Zeit", Stuttgart; seit 1900
+            <lb/>ständiger Mitarbeiter der „Sozialistischen Monatshefte", Berlin;
+            <lb/>Mitarbeiter am „Vorwärts", Organ der sozialdemokratischen
+            <lb/>Partei Deutschlands, und Herausgeber der „Dokumente des
+            <lb/>Sozialismus"^ Hefte für Geschichte, Urkunden und Bibliographie
+            <lb/>des Sozialismus. Schrieb u. A.: „Die Voraussetzungen des
+            <lb/>Sozialismus und die Aufgaben der Sozialdemokratie", Stutt¬
+            <lb/>gart 1899, und „Zur Geschichte und Theorie des Sozialismus",
+            <lb/>Berlin 1901.</p>
+            <p>
+               <lb/>Beurner, Wilhelm, Dr. xiail.; Generalsekretär zu Düssel¬
+            <lb/>dorf. Wohnung in Berlin:1Wilhelmstraße 46/47. Wahl¬</p>
+            <p>
+               <lb/>kreis: 6. Reg.-Bez. Düsseldorf (Mülheim a. d. Ruhr-Duisburg).
+            <lb/>— Nationalliberal. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Möller (Duisburg)
+            <lb/>am 2. August 1901 gewählt.</p>
+            <p>
+               <lb/>Geb. am 3. August 1848 zu Obrighoven bei Wesel; pro¬
+            <lb/>testantisch. Besuchte das Gymnasium in Wesel und die Uni¬
+            <lb/>versität in Bonn. Studirte Theologie, Sprachen und VolkS-
+            <lb/>wirthschast, wirkte 2 Jahre am Gymnasium in Wesel, 15 Jahre
+            <lb/>am Realgymnasium in Witten a. d. R. und wurde im Herbst
+            <lb/>1887 als Generalsekretär des „Vereins zur Wahrung der ge-</p>
+            <pb n="8" xml:id="img_0008"/>
+            <p>
+               <lb/>8</p>
+            <p>
+               <lb/>nieinsamen wirtschaftlichen Interessen in Rheinland und West¬
+            <lb/>falen" und der „Nordwestlichen Gruppe des Vereins deutscher
+            <lb/>Eisen- und Stahlindustrieller" nach Düsseldorf berufen, welche
+            <lb/>Stellung er z. Z. noch einnimmt. Er redigirt die »Mit¬
+            <lb/>theilungen" des erstgenannten Vereins sowie den volkswirtschaft¬
+            <lb/>lichen Theil der Zeitschrift für das deutsche Eisenhüttenwesen
+            <lb/>„Stahl und Eisen" (Düsseldorf). Er vertrat 1893—98 den
+            <lb/>Wahlkreis Arnsberg 4 (Hagen-Schwelm) im Abgeordnetenhaus
+            <lb/>und gehört letzterem z. Z. als Vertreter des Wahlkreises Düssel¬
+            <lb/>dorf 5 (Essen-Mülheim-Duisburg-Ruhrort) an. Er ist Mit¬
+            <lb/>glied der Rheinschiffahrts-Kommission und des Bezirkseisenbahn-
+            <lb/>raths Münster-Hannover sowie stellvertretendes Mitglied des
+            <lb/>Bezirkseisenbahnraths Köln.</p>
+            <p>
+               <lb/>Biesenbach, Gustav; Bürgermeister der Bürgermeisterei
+            <lb/>Unkel a. Rhein, zu Rheinbreitbach. Wohnung in Berlin:
+            <lb/>Niederwallstraße 11. Wahlkr.: 2. Reg.-Bez. Trier (Wittlich-
+            <lb/>Berncastel). — Centrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Dieden am 23. Februar
+            <lb/>1899 gewählt.</p>
+            <p>
+               <lb/>Geb. am 23. Juni 1862 in Düsseldorf; römisch-katholisch.
+            <lb/>Besuchte das Königl. Gymnasium in Düsseldorf, studirte
+            <lb/>darauf an der Universität in München Forstwissenschaft und
+            <lb/>Nationalökonomie. War nach Ablegung des forstlichen
+            <lb/>Examens an der staatswirthschaftlichen Fakultät in München
+            <lb/>in mehreren Domänen-Verwaltungen in Deutschland und
+            <lb/>Oesterreich als Forstbeamter thätig. Seit 1896 Leiter der
+            <lb/>landwirthschaftlichen Abtheilung der „Kölnischen Volkszeitung".</p>
+            <pb n="9" xml:id="img_0009"/>
+            <p>
+               <lb/>9</p>
+            <p>
+               <lb/>Seit 1898 Dezernent der Abtheilung Weinbau und Winzer¬
+            <lb/>wesen der Neuwieder Raiffeisen-Organisation im Ehrenamte.
+            <lb/>Mitglied des preußischen Landtages seit 1895.</p>
+            <p>
+               <lb/>Fürst von Bismarck, Herbert. Generalmajors 1a suits
+            <lb/>der Armee.</p>
+            <p>
+               <lb/>Graf von Bismarck-Bohlen. Am 18. Februar 1901
+            <lb/>verstorben.</p>
+            <p>
+               <lb/>Böckel, vr. Groß-Lichterfelde, West, Stuben¬
+            <lb/>rauchstraße 12.</p>
+            <p>
+               <lb/>Boltz, Heinrich; Rechtsanwalt und Geheimer Justizrath
+            <lb/>zu Saarbrücken. Wohnung in Berlin: Westminsterhotel.
+            <lb/>Wahlkr.: 5. Reg.-Bez. Trier (Saarbrücken). — National¬
+            <lb/>liberal. -</p>
+            <p>
+               <lb/>Mandat am 21. Januar 1902 für ungültig erklärt. Am
+            <lb/>25. April 1902 wiedergewählt.</p>
+            <p>
+               <lb/>Geb. am 5. November 1831 zu Völklingen; evangelisch.
+            <lb/>Absolvirte das Gymnasium zu Trier, besuchte die Universitäten
+            <lb/>Heidelberg und Bonn. Auskultator und Referendar beim
+            <lb/>Landgericht Trier. 1861 zum Assessor ernannt, 1862 als
+            <lb/>Advokat beim Landgericht Saarbrücken niedergelassen. 1885
+            <lb/>zum Justizrath und 1901 zum Geheimen Justizrath ernannt.
+            <lb/>Seit dem Jahre 1870 Stadtrath und seit 1890 Beigeordneter
+            <lb/>der Stadt Saarbrücken. Nach absolvirter Dienstzeit beim
+            <lb/>29. Infanterie-Regiment Offizier beim 30. Landwehr-Regiment
+            <lb/>und 1873 als Hauptmann abgegangen. Von Juli 1893 bis
+            <lb/>21. Januar 1902 (an welchem Tage die Wahl ungültig erklärt</p>
+            <pb n="10" xml:id="img_0010"/>
+            <p>
+               <lb/>10</p>
+            <p>
+               <lb/>Worden ist) und in Folge Wiederwahl wieder seit 25. April
+            <lb/>1902 Mitglied des Reichstages.</p>
+            <p>
+               <lb/>Brodbek. Mandat am 20. Juni 1899 niedergelegt.</p>
+            <p>
+               <lb/>Bueb. Mandat am 25. April 1900 niedergelegt.</p>
+            <p>
+               <lb/>von Chrzarrotvski, Bernhard; Rechtsanwalt zu Posen.
+            <lb/>Wahlkr.: 1. Reg.-Bez. Posen (Stadt- und Landkreis Posen).
+            <lb/>- Pole. -</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Motty am 11. März
+            <lb/>1901 gewählt.</p>
+            <p>
+               <lb/>Geb. am 27. Juli 1861 zu Wojnowice (Kreis Grätz-
+            <lb/>Posen); katholisch. Besuchte das Marien-Gymnasium in Posen
+            <lb/>und die Universitäten in Krakau und Berlin.</p>
+            <p>
+               <lb/>Crüger, Hans, Dr. ^'ur.; Anwalt des Allgemeinen Ver¬
+            <lb/>bandes deutscher Erwerbs- und Wirthschaftsgenossenschaften zu
+            <lb/>Charlottenburg, Bleibtreustraße 44. Wahlkr.: 2. Reg.-Bez.
+            <lb/>Wiesbaden (Wiesbaden-Rüdesheim). — Freisinnige Volks¬
+            <lb/>partei. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Wintermeyer am
+            <lb/>11. Dezember 1901 gewählt.</p>
+            <p>
+               <lb/>Geb. am 30. Mai 1859 zu Königsberg O.-Pr.; evangelisch.
+            <lb/>Besuchte das Gymnasium und die Universität Königsberg O.-Pr.
+            <lb/>1886 Gerichtsassessor; wurde am 1. Januar 1887 1. Sekretär
+            <lb/>des Allgemeinen Verbandes deutscher Erwerbs- und Wirthschafts-
+            <lb/>genossenschasten und 1896 Anwalt dieses Verbandes. Mitglied
+            <lb/>des Hauses der Abgeordneten, Stadtverordneter in Charlotten¬
+            <lb/>burg, Redakteur der „Blätter für Genossenschaftswesen"; schrieb</p>
+            <pb n="11" xml:id="img_0011"/>
+            <p>
+               <lb/>11</p>
+            <p>
+               <lb/>u. A. eine Geschichte der Genossenschaften in den einzelnen
+            <lb/>Staaten (Verlag von Fischer-Jena), Anleitungen zur Gründung
+            <lb/>von Kreditgenossenschaften, von Handwerkergenossenschaften,
+            <lb/>Broschüren über Getreideabsatzgenossenschaften, Rohstoffgenossen¬
+            <lb/>schaften, Kreditgenossenschaften (mit Ludolf Parisius), Kom¬
+            <lb/>mentare zum Genossenschaftsgesetz und dem Reichsgesetz, betreffend
+            <lb/>die Gesellschaften mit beschränkter Haftung (Verlag von
+            <lb/>I. Guttentag-Berlin). Ist Herausgeber des Jahrbuchs des
+            <lb/>Allgemeinen Verbandes, der Handbibliothek für das deutsche Ge¬
+            <lb/>nossenschaftswesen, der genossenschaftlichen Zeit- und Streit¬
+            <lb/>fragen und lieferte volkswirtschaftliche (hauptsächlich genossen¬
+            <lb/>schaftliche) Aufsätze für eine große Anzahl von Zeitschriften,
+            <lb/>sowie für das Handwörterbuch für Staatswissenschaften.</p>
+            <p>
+               <lb/>Dernrnig, Emil; Architekt zu Hannover. Wohnung in
+            <lb/>Berlin: Linkstraße 5. Wahlkr.: Schaumburg-Lippe. — Frei¬
+            <lb/>sinnige Volkspartei. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Dr. Müller (Schaum¬
+            <lb/>burg) am 31. Januar 1902 gewählt.</p>
+            <p>
+               <lb/>Geb. am 14. September 1865 in Dresden; evangelisch¬
+            <lb/>lutherisch. Besuchte die Gewerbeschule, die Baugewerkenschule
+            <lb/>und die Kunstakademie zu Dresden. Hat sich 1893 in Hannover
+            <lb/>als Architekt etablirt.</p>
+            <p>
+               <lb/>Dieden. Am 28. Dezember 1898 verstorben.</p>
+            <p>
+               <lb/>Dietrich. Justizrath, Rechtsanwalt und Notar.</p>
+            <p>
+               <lb/>Doerksen. Hauptmann der Landwehr.</p>
+            <p>
+               <lb/>von Dziembowski-Bomst. Am 15. September 1900
+            <lb/>verstorben.</p>
+            <pb n="12" xml:id="img_0012"/>
+            <p>
+               <lb/>12</p>
+            <p>
+               <lb/>Echinger, Josef; Posthalter, Kaufmann und Bürger¬
+            <lb/>meister zu Englmar (Post daselbst mit Telephon, Eisenbahn¬
+            <lb/>station Steinburg). Wahlkr.: 2. Niederbayern (Straubing).
+            <lb/>— Centrum. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Eßlinger am 25. Mai
+            <lb/>1899 gewählt.</p>
+            <p>
+               <lb/>Geb. am 22. März 1841; katholisch. Besuchte das Lehrer¬
+            <lb/>seminar zu Straubing. War 10 Jahre Volksschullehrer. War
+            <lb/>vom Jahre 1887—99 bayerischer Landtagsabgeordneter.</p>
+            <p>
+               <lb/>Eickhoff. Zum Professor ernannt.</p>
+            <p>
+               <lb/>Endemann, Dr. Geheimer Sanitätsrath.</p>
+            <p>
+               <lb/>Eßlinger. Mandat am 18. April 1899 niedergelegt.</p>
+            <p>
+               <lb/>Fischer, Richard; Schriftsetzer, jetzt Buchhändler zu Berlin,
+            <lb/>Kreuzbergstraße 25, IV. Wahlkr.: 2. Berlin. — Sozial¬
+            <lb/>demokrat. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Kreitling am 11. No¬
+            <lb/>vember 1899 gewählt.</p>
+            <p>
+               <lb/>Geb. am 3. April 1855 in Kaufbeuren; katholisch getauft.
+            <lb/>Besuchte die Volks- und Lateinschule.</p>
+            <p>
+               <lb/>von Fischer. Am 8. Januar 1900 verstorben.</p>
+            <p>
+               <lb/>Förster (Reuß). Hamburg I., Große Theater-
+            <lb/>straße 44.</p>
+            <p>
+               <lb/>Franzius. Am 2. Mai 1899 verstorben.</p>
+            <p>
+               <lb/>von Frege-Weltzien, Dr. Amt als erster Vize-
+            <lb/>Präsident des Reichstages am 15. November 1901
+            <lb/>wegen schwerer Krankheit niedergelegt.</p>
+            <pb n="13" xml:id="img_0013"/>
+            <p>
+               <lb/>13</p>
+            <p>
+               <lb/>Friedet, Johann; Bierbrauerei- und Gutsbesitzer zu
+            <lb/>Oberkonnersreuth (Post- und Eisenbahnstation Bayreuth, Ober¬
+            <lb/>franken, Bayern). Wahlkr.: 2. Oberfranken (Bayreuth). —
+            <lb/>Nationalliberal. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten von Fischer am
+            <lb/>6. März 1900 gewählt.</p>
+            <p>
+               <lb/>Geb. am 7. Mai 1856 in Oberkonnersreuth; protestantisch.
+            <lb/>Besuchte die Volksschule zu Oberkonnersreuth, dann von 1863
+            <lb/>bis 1871 die Gewerbeschule zu Bayreuth. Erlernte die Bier¬
+            <lb/>brauerei in dem Geschäfte der Eltern, diente als Einjährig-
+            <lb/>Freiwilliger im 2. bayerischen Kürassier-Regiment 1873—74, war
+            <lb/>in verschiedenen Brauereien in München re. thätig, leitete dann
+            <lb/>'die Bierbrauerei seiner Eltern, welche er im Jahre 1884 auf
+            <lb/>eigene Rechnung übernahm. Mitglied des Distriktsrathes
+            <lb/>Bayreuth seit 1886. Stellvertretender Landrath von 1888 bis
+            <lb/>1893. Seit 1893 Mitglied der bayerischen Abgeordneten-
+            <lb/>Kammer. Bezirks-Feuerwehr-Vertreter von 1883—93, seit
+            <lb/>1893 Stellvertreter. In der Heimathgemeinde Oberkonners¬
+            <lb/>reuth Stellvertreter des Bürgermeisters seit 1886.</p>
+            <p>
+               <lb/>Am 5. Mai 1902 verstorben.</p>
+            <p>
+               <lb/>Gander. Am 26. Oktober 1899 verstorben.</p>
+            <p>
+               <lb/>von Gershorff, Hans Otto; Rittergutsbesitzer, Ober¬
+            <lb/>leutnant der Reserve im Kürassier-Regiment Herzog Friedrich
+            <lb/>Eugen von Württemberg, zu Bauchwitz (Bez. Posen), (Post-,
+            <lb/>Telegraphen- und Eisenbahnstation). Wohnung in Berlin:
+            <lb/>Pafsauerstraße 19. Wahlkr.: 3. Reg.-Bez. Posen (Meseritz-
+            <lb/>Bomst). — Deutsch-Konservativ. —</p>
+            <pb n="14" xml:id="img_0014"/>
+            <p>
+               <lb/>14</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten von Dziembowski-
+            <lb/>Bornst am 29. November 1900 gewählt.</p>
+            <p>
+               <lb/>Geb. am 10. Januar 1864 zu Bauchwitz; evangelisch.
+            <lb/>Besuchte das Gymnasium in Meseritz, die Klosterschule Roß¬
+            <lb/>leben und die Universität Berlin (Jura). Von 1887—92 als
+            <lb/>Offizier im aktiven Dienst beim Kürassier-Regiment Herzog
+            <lb/>Friedrich Eugen von Württemberg. 1892 väterliche Besitzung
+            <lb/>übernommen.</p>
+            <p>
+               <lb/>Gotheirr, Georg; Bergrath zu Breslau-Kleinburg.
+            <lb/>Wohnung in Berlin:1Behrenstraße 67, II. Wahlkr.:</p>
+            <p>
+               <lb/>2. Reg.-Bez. Stralsund (Greifswald). — Freisinnige Ver¬
+            <lb/>einigung. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Graf von Bismarck-
+            <lb/>Bohlen am 29. Mai 1901 gewählt.</p>
+            <p>
+               <lb/>Geb. am 15. August 1857 zu Neumarkt i. Schl.;
+            <lb/>evangelisch. Besuchte das Realgymnasium am Zwinger zu
+            <lb/>Breslau, die Universität Breslau und die Bergakademie Berlin.
+            <lb/>1880 Bergreferendar, 1884 Bergassessor, von 1885—87 General¬
+            <lb/>sekretär des Oberschlesischen Berg- und Hüttenmännischen
+            <lb/>Vereins, vom 1. April 1887 ab erst Hülfsarbeiter, später Berg¬
+            <lb/>revierbeamter in Waldenburg i. Schl, und Tarnowitz; schied am
+            <lb/>1. Oktober 1892 aus dem Staatsdienst aus; vom 1. November
+            <lb/>1893 bis Anfang November 1901 Erster Syndikus der
+            <lb/>Handelskammer Breslau. 1889—92 Stadtverordneter in
+            <lb/>Waldenburg i. Schl., seit 1894 Stadtverordneter in Breslau;
+            <lb/>seit 1893 Mitglied des preußischen Abgeordnetenhauses für
+            <lb/>Breslau (Stadt), seit Mai 1901 Mitglied des Reichstages.</p>
+            <pb n="15" xml:id="img_0015"/>
+            <p>
+               <lb/>15</p>
+            <p>
+               <lb/>Schrieb 1889: „Sollen wir unsern Bergbau verstaatlichen?"
+            <lb/>„Wie bessern wir unsere Arbeiterverhältnisse?" 1901: „Der
+            <lb/>deutsche Außenhandel. Materialien und Betrachtungen."
+            <lb/>(Berlin, Siemenroth u. Troschel.) Zahlreiche Aussätze,
+            <lb/>namentlich verkehrspolitischen Inhalts, in der „Nation", der
+            <lb/>„Zeitschrift des Oberschlesischen Berg- und Hüttenmännischen
+            <lb/>Vereins", der „Schriften des Verbandes deutsch-österr.-ungar.
+            <lb/>Binnenschiffahrtsvereine" und a. a. O.</p>
+            <p>
+               <lb/>Gradrrauer, Dr. Groß-Lichterfelde, Paulinen-
+            <lb/>straße 6.</p>
+            <p>
+               <lb/>von Grand-Ry. Kettenis bei Eupen.</p>
+            <p>
+               <lb/>von der Gröben-Arenstein. Bei keiner Fraktion.</p>
+            <p>
+               <lb/>Grünberg, Carl Friedrich; Fabrikant (Webwaaren) zu
+            <lb/>Hartha in Sachsen. Wohnung in Berlin: Mittenwalder-
+            <lb/>straße 7. Wahlkr.: 10. Sachsen (Döbeln). - Sozial¬
+            <lb/>demokrat. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Dr. Lehr am 28. Ja¬
+            <lb/>nuar 1902 gewählt.</p>
+            <p>
+               <lb/>Geb. am 22. Oktober 1847 zu Hartha. Besuchte die
+            <lb/>Volksschule anr Orte. Lernte die Weberei und hat als Gehülfe
+            <lb/>Deutschland bereist. War 11 Jahre Stadtverordneter, dann
+            <lb/>Landtagsabgeordneter im sächsischen Landtag, Periode von 1897
+            <lb/>bis 1900. Hat als Soldat bei der 4. Kompagnie des 107. Re¬
+            <lb/>giments den Feldzug in Frankreich mitgemacht und später
+            <lb/>England, Schottland, Frankreich und die Schweiz bereist.</p>
+            <pb n="16" xml:id="img_0016"/>
+            <p>
+               <lb/>16</p>
+            <p>
+               <lb/>Freiherr von Hamrnerstein. Am 16. Februar 1902
+            <lb/>verstorben.</p>
+            <p>
+               <lb/>Harriehausen. Mandat am 1. Mai 1900 für un¬
+            <lb/>gültig erklärt.</p>
+            <p>
+               <lb/>Heiligenstadt, vr. Mandat am 5. Juli 1900 nieder¬
+            <lb/>gelegt.</p>
+            <p>
+               <lb/>Hesse. Mandat am 27. September 1900 nieder¬
+            <lb/>gelegt.</p>
+            <p>
+               <lb/>Hille, Dr. Mandat am 20. November 1900 nieder¬
+            <lb/>gelegt.</p>
+            <p>
+               <lb/>Himburg. Hohengöhren bei Schönhausen, Elbe.</p>
+            <p>
+               <lb/>Jaeobsen. Bei keiner Fraktion.</p>
+            <p>
+               <lb/>Jessen, Jens; Chefredakteur zu Flensburg. Wohnung
+            <lb/>in Berlin: Königgrätzer Straße 10. Wahlkr.: 1. Schleswig-
+            <lb/>Holstein (Hadersleben-Sonderburg). — Däne. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Johannsen am
+            <lb/>8. März 1902 gewählt.</p>
+            <p>
+               <lb/>Geb. am 5. Februar 1854 in Toghale (Kreis Tondern);
+            <lb/>evangelisch-lutherisch. Besuchte das Schullehrer-Seminar zu
+            <lb/>Tondern und die Universität Göttingen. Nach Seminarzeit
+            <lb/>Haus- und Privatlehrer, darauf ein Jahr in Paris, von dort
+            <lb/>nach Göttingen, hörte Vorlesungen über neuere Sprachen, bestand
+            <lb/>in Cassel Examen für Mittelschullehrer (Französisch und
+            <lb/>Englisch) und Examen für Rektoren, sollte Vorsteher einer
+            <lb/>privaten dänischen Realschule in Hadersleben sein; dieselbe
+            <lb/>wurde jedoch von den Behörden geschlossen. Seit 1. Juli 1882</p>
+            <pb n="17" xml:id="img_0017"/>
+            <p>
+               <lb/>17</p>
+            <p>
+               <lb/>Chefredakteur und seit 1883 zugleich Verleger der Tages¬
+            <lb/>zeitung „Flensborg Avis". Als Redakteur nach und nach zu
+            <lb/>4 Jahren Gefängniß verurtheilt. War 1898 dänischer Zähl¬
+            <lb/>kandidat bei der Reichstagswahl im 4. schleswigschen Wahlkreis
+            <lb/>(Tondern-Husum).</p>
+            <p>
+               <lb/>Fürst zu Jnnhausen und Krryphauseu, Edzard; Wirk¬
+            <lb/>licher Geheimrath, Königl. hannoverscher Kammerherr, ost¬
+            <lb/>friesischer Landschaftsrath zu Lützburg bei Hage in Ostfriesland.
+            <lb/>Wohnung in Berlin: Wilhelmstraße 69. Wahlkr.: 1. Hannover
+            <lb/>(Emden-Norden). — Hospitant der deutsch-konservativen
+            <lb/>Partei. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Franzius am 8. Juni
+            <lb/>1899 gewählt.</p>
+            <p>
+               <lb/>Geb. am 14. Dezember 1827 in Hannover; reformirt.
+            <lb/>Besuchte 1842—47 die Ritterakademie Lüneburg. 1847—49
+            <lb/>Rechtsstudien in Bonn, 1849—50 Rechtsstudien in Berlin.
+            <lb/>1851—55 auf dem Kreisgericht Berlin als Auskultator, 1856
+            <lb/>Eintritt in die hannoversche Erste Kammer, seit 1867 Mitglied
+            <lb/>des hannoverschen Provinzial-Landtages und während 16 Jahren
+            <lb/>Mitglied des Provinzial-Ausschusses. Vorsitzender des han¬
+            <lb/>noverschen Landtages und Provinzial-Ausschusses, Vorsitzender
+            <lb/>der reformirten Gesamwt-Synode und des Ausschusses für die
+            <lb/>Provinz Hannover, erbliches Mitglied des Herrenhauses seit
+            <lb/>1867, Erster Kreis-Deputirter deS Kreises Norden, Mitglied
+            <lb/>des landschaftlichen Kollegii zu Aurich bis 1897, während
+            <lb/>35 Jahren Vorsitzender des landwirtschaftlichen Hauptvereins
+            <lb/>Ostfriesland. Mitglied des Reichstages von 1893—98.</p>
+            <p>
+               <lb/>2</p>
+            <pb n="18" xml:id="img_0018"/>
+            <p>
+               <lb/>— 18 —</p>
+            <p>
+               <lb/>Johannsen. Am 25. Oktober 1901 verstorben.</p>
+            <p>
+               <lb/>Jörns, Fritz, Fabrikbesitzer zu Osterode a. Harz. Woh¬
+            <lb/>nung in Berlin: Königgrätzerstraße 10. Wahlkr.: 11. Hannover
+            <lb/>(Einbeck-Northeim). — Nationalliberal. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Harriehausen am
+            <lb/>16. Juli 1900 gewählt.</p>
+            <p>
+               <lb/>Geb. am 20. September 1837 zu Katzenstein b. Osterode a.H.;
+            <lb/>evangelisch-lutherisch. Besuchte die Volksschule und das Pro¬
+            <lb/>gymnasium zu Osterode a. H., das Privat-Jnstitut Auhagen zu
+            <lb/>Hannover und die Bergakademie zu Berlin. Durchwanderte
+            <lb/>als Kupferhammerschmied Deutschland und arbeitete in ver¬
+            <lb/>schiedenen Kupferwerken, war auch in einem englischen Schmelz-
+            <lb/>und Walzwerk am Tyne längere Zeit beschäftigt. Uebernahm
+            <lb/>daS vom 'Vater hinterlassene Kupferwerk 1. Januar 1872.
+            <lb/>Gehörte in Katzenstein b. Osterode a. H. der Gemeinde-Ver¬
+            <lb/>waltung an, seit Anschluß seines Grundstücks an die Stadt
+            <lb/>Osterode a. H. im Jahre 1889 Bürgervorsteher der Stadt
+            <lb/>Osterode a. H. Im Jahre 1897 zum Mitglied des Kreistages
+            <lb/>im Kreise Osterode a. H. erwählt. Mitglied des Reichstages
+            <lb/>1893—98. Mitglied des preußischen Abgeordnetenhauses
+            <lb/>seit 1893.</p>
+            <p>
+               <lb/>Kirsch. Schöneberg, Feurigstraße 42.</p>
+            <p>
+               <lb/>Graf von Klinckowstroem. Am 26. Januar 1902 ver¬
+            <lb/>storben.</p>
+            <p>
+               <lb/>Kreitling. Mandat am 8. Februar 1899 nieder¬
+            <lb/>gelegt.</p>
+            <pb n="19" xml:id="img_0019"/>
+            <p>
+               <lb/>19</p>
+            <p>
+               <lb/>Krupp, Wilhelm; Kaufmann zu Engers (Rhein). Wohnung
+            <lb/>in Berlin: Niederwallstraße 11. Wahlkr.: 2. Reg.-Bez. Coblenz
+            <lb/>(Neuwied). — Centrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Bender am 30. August
+            <lb/>1901 gewählt.</p>
+            <p>
+               <lb/>Geb. am 11. Juli 1843 zu Engers; katholisch. Besuchte
+            <lb/>die Volksschule in Engers und die Höhere Bürgerschule zu
+            <lb/>Coblenz. Absolvirte daS Examen zum einjährig-freiwilligen
+            <lb/>Dienst. Ausbildung im elterlichen Geschäft, 1869 Uebernahme
+            <lb/>desselben. Diente als Einjährig-Freiwilliger von 1861—62.
+            <lb/>Theilnahme an den Feldzügen 1866 und 1870/71. Bürger¬
+            <lb/>meisterei-Beigeordneter. Mitglied des Kreistages und des
+            <lb/>Kreis-Ausschusses zu Neuwied.</p>
+            <p>
+               <lb/>Kruse, Dr. Am 22. Februar 1900 verstorben.</p>
+            <p>
+               <lb/>Langer. Pfarrer zu Wartha, Kreis Frankenstein
+            <lb/>i. Schlesien.</p>
+            <p>
+               <lb/>Ledebour, Georg; Schriftsteller zu Berlin-Halensee,
+            <lb/>Georg-Wilhelmstraße 22. Wahlkr.: 6. Berlin. - Sozial¬
+            <lb/>demokrat. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Liebknecht am 30. Oktober
+            <lb/>1900 gewählt.</p>
+            <p>
+               <lb/>Geb. am 7. März 1850 in Hannover; Dissident. Besuchte
+            <lb/>die Realschule in Hannover. War als Redakteur thätig bei
+            <lb/>folgenden Zeitungen:1„Demokratische Blätter", „Berliner</p>
+            <p>
+               <lb/>Volkszeitung", „Vorwärts", „Sächsische Arbeiterzeitung".
+            <lb/>Gegenwärtig Mitarbeiter an verschiedenen sozialdemokratischen
+            <lb/>Zeitungen und Zeitschriften.</p>
+            <p>
+               <lb/>2*</p>
+            <pb n="20" xml:id="img_0020"/>
+            <p>
+               <lb/>— 20 —</p>
+            <p>
+               <lb/>Lehr, Dr. Am 12. November 1901 verstorben.</p>
+            <p>
+               <lb/>Leinenweber. Kommerzienrath.</p>
+            <p>
+               <lb/>Lenzmann. Justiz rath.</p>
+            <p>
+               <lb/>Lernn, Franz Xaver; Königl. bayerischer Oberlandes¬
+            <lb/>gerichtsrath zu Bamberg. Wahlkr.: 2. Oberpfalz (Amberg).
+            <lb/>— Centrum. —</p>
+            <p>
+               <lb/>Mandat in Folge seiner Ernennung zum Oberlandes¬
+            <lb/>gerichtsrath am 1. Januar 1900 niedergelegt: wieder¬
+            <lb/>gewählt am 1. März 1900.</p>
+            <p>
+               <lb/>Geb. am 13. Februar 1849 zu Straubing; katholisch.
+            <lb/>Besuchte das Gymnasium zu Straubing, das Lyceum in
+            <lb/>Regensburg und die Universität Würzburg. 1879 Dritter
+            <lb/>Staatsanwalt in Straubing, 1880 Amtsrichter in Nürnberg,
+            <lb/>1883 Amtsrichter in Passau, 1886 Zweiter Staatsanwalt in
+            <lb/>München I, 1890 Landgerichtsrath in Wieden, 1896 Land¬
+            <lb/>gerichtsrath in Regensburg, 1900 Oberlandesgerichtsrath in
+            <lb/>Bamberg. Mitglied der bayerischen Abgeordnetenkammer und
+            <lb/>des Reichstags seit 1893.</p>
+            <p>
+               <lb/>Lichtenberger, Philipp; Kaufmann und Gutsbesitzer zu
+            <lb/>Speyer (Rheinpfalz). Wohnung in Berlin: Wilhelmstraße 69.
+            <lb/>Wahlkr.:13. Pfalz (Germersheim). — Nationalliberal,</p>
+            <p>
+               <lb/>Hospitant —.</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Gander am 19. De¬
+            <lb/>zember 1899 gewählt.</p>
+            <p>
+               <lb/>Geb. am 29. Mai 1855 in Speyer; evangelisch. Besuchte
+            <lb/>die Volksschule, das Gymnasium und das Lyceum in Speyer</p>
+            <pb n="21" xml:id="img_0021"/>
+            <p>
+               <lb/>21</p>
+            <p>
+               <lb/>bis 1874; kaufmännische Ausbildung in Bremen 1874—76;
+            <lb/>Universität München 1877—78 (Nationalökonomie re). 1879—83
+            <lb/>in der väterlichen Tabakfabrik thätig, hat dieselbe dann selbst
+            <lb/>übernommen, später aufgegeben und Handel mit inländischem
+            <lb/>Rohtabak betrieben; dabei Landwirthschaft. 1894—99 Mitglied
+            <lb/>des bayerischen Landtages.</p>
+            <p>
+               <lb/>Dr. Lieber (Montabaur). Am 31. März 1902 ver¬
+            <lb/>storben.</p>
+            <p>
+               <lb/>Liebknecht. Am 7. August 1900 verstorben.</p>
+            <p>
+               <lb/>Lingens, vr. Mandat aus Gesundheitsrücksichten am
+            <lb/>19. Oktober 1901 niedergelegt.</p>
+            <p>
+               <lb/>von Loebell. Mandat am 1. Mai 1900 für un¬
+            <lb/>gültig erklärt.</p>
+            <p>
+               <lb/>Lohe. Wahl am 9. Juni 1899 für ungültig erklärt;
+            <lb/>wiedergewählt am 26. September 1899.</p>
+            <p>
+               <lb/>von Manteuffel. Am 21. Juli 1900 verstorben.</p>
+            <p>
+               <lb/>Mattschull, Friedrich Martin; Gutsbesitzer zu Mitzken
+            <lb/>(Post- und Telegraphen - Station Dittauen, Bahnhaltestelle
+            <lb/>Mitzken, Kreis Memel). Wahlkr.: 1. Reg.-Bez. Königsberg
+            <lb/>(Memel-Heydekrug). — Littauer und konservativ. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Smalakys am 8. Mai
+            <lb/>1901 gewählt.</p>
+            <p>
+               <lb/>Geb. am 20. Januar 1847 zu Gr. Rudlauken, Kreis
+            <lb/>Labiau; evangelisch. Besuchte bis zum 13. Lebensjahre die
+            <lb/>Elementarschule im Geburtsorte, hatte bis zum vollendeten</p>
+            <pb n="22" xml:id="img_0022"/>
+            <p>
+               <lb/>22</p>
+            <p>
+               <lb/>15. Lebensjahre Privatunterricht und besuchte hierauf bis zum
+            <lb/>vollendeten 16. Lebensjahre die Ackerbauschule. Von 1867—71
+            <lb/>der Militärpflicht beim Garde-Jäger-Bataillon genügt, dann
+            <lb/>bis 1894 als Inspektor resp. Ober-Jnpektor fungirt, seit 1894
+            <lb/>Gutsbesitzer. Von 1889—1895 Amtsvorsteher und Standes¬
+            <lb/>beamter.</p>
+            <p>
+               <lb/>Möller (Duisburg). Mandat niedergelegt am
+            <lb/>6. Mai 1901 in Folge Ernennung zum preußischen Staats¬
+            <lb/>minister und Minister für Handel und Gewerbe.</p>
+            <p>
+               <lb/>Motty. Am 21. Dezember 1900 verstorben.</p>
+            <p>
+               <lb/>Müller (Fulda). Rentier zu Fulda.</p>
+            <p>
+               <lb/>Müller (Meiningen), Dr. Nürnberg, MartinLuther-
+            <lb/>straße 29. Wohnung in Berlin: Lützowstraße 84.</p>
+            <p>
+               <lb/>Müller (Schaumburg), Dr. Am 2. Dezember 1901
+            <lb/>verstorben.</p>
+            <p>
+               <lb/>Oertel (Nürnberg). Am 4. April 1900 verstorben.</p>
+            <p>
+               <lb/>von Oldenburg, Elard; Rittergutsbesitzer, Kammerherr,
+            <lb/>Rittmeister a. D., Vorsitzender der Landwirthschaftskammer
+            <lb/>und des Bundes der Landwirthe in Westpreußen, zu Januschau
+            <lb/>bei Rosenberg. Wohnung in Berlin: Hotel Continental.
+            <lb/>Wahlkr.: 1. Reg.-Bez. Danzigs (Elbing-Marienburg). —
+            <lb/>Deutsch-Konservativ. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten von Puttkamer-
+            <lb/>Plauth am 3. April 1902 gewählt.</p>
+            <p>
+               <lb/>Geb. am 20. März 1855 zu Beisleiden (Kreis Pr.-Eilau);
+            <lb/>evangelisch. Besuchte die Gymnasien zu Königsberg und</p>
+            <pb n="23" xml:id="img_0023"/>
+            <p>
+               <lb/>23</p>
+            <p>
+               <lb/>Wernigerode und die Ritterakademie zu Brandenburg. Von
+            <lb/>1874—83 im 2. Garde-Ulanen-Regiment, nachher Gutsbesitzer.</p>
+            <p>
+               <lb/>Pachnicke, Dr. Schriftsteller zu Berlin, Martin
+            <lb/>Lutherstraße 5.</p>
+            <p>
+               <lb/>Peus, Heinrich; Schriftsteller, Chefredakteur des „Volks¬
+            <lb/>blatt für Anhalt" zu Dessau. Wahlkr.: 8. Reg.-Bez. Potsdam
+            <lb/>(Westhavelland). — Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten von Loebell am
+            <lb/>6. Juli 1900 gewählt.</p>
+            <p>
+               <lb/>Geb. am 24. Juli 1862 in Elberfeld; konfessionslos.
+            <lb/>Besuchte die Volksschule zu Elberfeld bis zum 11. Jahre, die
+            <lb/>Oberrealschule daselbst bis zum Maturitätsexamen im 18. Jahre,
+            <lb/>das Gymnasium bis zum 20. Jahre und die Universität zu
+            <lb/>Berlin bis zum 26. Jahre. Studirte 1883 Theologie, dann von
+            <lb/>1884—86 Philologie, diente 1886-87 und studirte 1886—88
+            <lb/>Philosophie, Politik und Nationalökonomie; wandte sich 1890
+            <lb/>dem politischen Leben zu, gründete 1891 das „Volksblatt für
+            <lb/>Anhalt", ist dessen leitender Redakteur seitdem. Vertrat schon
+            <lb/>1896—98 denselben Wahlkreis Brandenburg-Westhavelland.
+            <lb/>Bethätigte sich bisher nur als Journalist und verfaßte eine
+            <lb/>Anzahl kleinerer Broschüren.</p>
+            <p>
+               <lb/>Pierson. Rentner.</p>
+            <p>
+               <lb/>Placke, Georg; Schiffsbauereibesitzer, Major der Land¬
+            <lb/>wehr zu Aken a. Elbe. Wohnung in Berlin: Hotel Kaiserhof.
+            <lb/>Wahlkr.: 7. Reg.-Bez. Magdeburg (Aschersleben). — National¬
+            <lb/>liberal. —</p>
+            <pb n="24" xml:id="img_0024"/>
+            <p>
+               <lb/>24</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Schmidt (Aschers¬
+            <lb/>leben) am 26. Februar 1900 gewählt.</p>
+            <p>
+               <lb/>Geb. am 16. August 1848 zu Aken a. Elbe; evangelisch.
+            <lb/>Besuchte die Lateinische Hauptschule in Halle a. S. und
+            <lb/>1874—75 die Universität Halle a. S. als Hospitant. Kauf¬
+            <lb/>männische Kontorausbildung in Magdeburg. Beigeordneter
+            <lb/>(Zweiter Bürgermeister) der Stadt Aken a. Elbe; Mitglied
+            <lb/>des Kreistages und des Kreis-Ausschusses des Kreises
+            <lb/>Calbe a. Saale; 1893—98 Mitglied des Reichstags. Eisernes
+            <lb/>Kreuz I. Klasse. Im Feldzug 1870/71 Leutnant der Reserve
+            <lb/>Infanterie-Regiments Nr. 67.</p>
+            <p>
+               <lb/>Praetorius, Hugo; Rentner, früher Gutsbesitzer auf
+            <lb/>Roderbeck (Kreis Greifenhagen), zu Berlin Bayreuther-
+            <lb/>straße 8. Wahlkr.: 3. Reg.-Bez. Stettin (Randow-Greifen-
+            <lb/>hagen). — Konservativ. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten von Manteuffel am
+            <lb/>9. Oktober 1900 gewählt.</p>
+            <p>
+               <lb/>Geb. am 17. Februar 1835 zu Berlin; evangelisch. Be¬
+            <lb/>suchte die Klosterschule zu Roßleben, 1860—1898 Besitzer des
+            <lb/>Gutes Roderbeck; die Kriege von 1864, 1866 und 1870/71 im
+            <lb/>6. Kürassier-Regiment mitgemacht und als Rittmeister der Re¬
+            <lb/>serve verabschiedet; 1880—90 Mitglied des Provinzial-Landtags
+            <lb/>Pommern, von 1885 ununterbrochen im preußischen Abgeord¬
+            <lb/>netenhaus für Randow-Greifenhagen.</p>
+            <p>
+               <lb/>von Preffentin gen. von Rautter (siehe unter
+            <lb/>von Rautter).</p>
+            <pb n="25" xml:id="img_0025"/>
+            <p>
+               <lb/>25</p>
+            <p>
+               <lb/>Graf von Preysing-Lichtenegg-Moos, Conrad; König¬
+            <lb/>licher Kämmerer, erblicher Reichsrath der Krone Bayern, Fidei-
+            <lb/>kommißbesitzer auf Schloß Moos (Bahnstation Langenisarhofen
+            <lb/>Mederbayern)). Wohnung in Berlin: Kaiserhof. Wahlkr.:
+            <lb/>5. Niederbayern (Deggendorf). — Centrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Dr. Ratzinger am
+            <lb/>22. Januar 1900 gewählt.</p>
+            <p>
+               <lb/>Geb. am 16. März 1843 auf Schloß Zeil (Württemberg);
+            <lb/>katholisch.</p>
+            <p>
+               <lb/>Prietze, Hermann; Geheimer Bergrath zu Saarbrücken.
+            <lb/>Wohnung in Berlin: Königgrätzerstraße 127. Wahlkr.: 6. Reg.-
+            <lb/>Bez. Trier (Ottweiler-St. Wendel). Nationalliberal. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Freiherrn von Stumm-
+            <lb/>Halberg am 12. Juni 1901 gewählt.</p>
+            <p>
+               <lb/>Geb. am 8. August 1839 zu Berge, Kreis Osterburg:
+            <lb/>evangelisch. Besuchte das Gymnasium zum Kloster U. L. Fr.
+            <lb/>zu Magdeburg 1852—59, die Universität und Bergakademie zü
+            <lb/>Berlin 1861—64. 1864 Bergeleve, 1867 Bergreferendar, 1870
+            <lb/>Bergafsessor, Feldzug 1870/71 als Landwehr-Offizier bei dem
+            <lb/>2. Magdeburgischen Landwehr-Regiment, 1871—76 Hülfsarbeiter
+            <lb/>und Berginspektor aus dem Königl. Salzwerck zu Staßfurt, als¬
+            <lb/>dann Berginspektor, von 1878—91 Bergwerksdirektor der Grube
+            <lb/>„König" bei Neunkirchen. Seit 1891 Mitglied und stell¬
+            <lb/>vertretender Vorsitzender der Königl. Bergwerksdirektion zu
+            <lb/>Saarbrücken, Vorsitzender des Saarbrücker Knappschaftsvereins,
+            <lb/>Mitglied des Kreisausschusses des Kreises Saarbrücken und des
+            <lb/>Presbyteriums der evangelischen Gemeinde zu Saarbrücken. Seit</p>
+            <pb n="26" xml:id="img_0026"/>
+            <p>
+               <lb/>26</p>
+            <p>
+               <lb/>Mai 1901 Mitglied des preußischen Abgeordnetenhauses für den
+            <lb/>Wahlkreis Saarbrücken-Ottweiler-St. Wendel.</p>
+            <p>
+               <lb/>von Puttkawer-Plauth. M an d at am 28. Januar 1902
+            <lb/>niedergelegt.</p>
+            <p>
+               <lb/>Rath. Am 2. Mai 1899 verstorben.</p>
+            <p>
+               <lb/>Notzinger, vr. Am 3. Dezember 1899 verstorben.</p>
+            <p>
+               <lb/>von Pressentin ge«, von Rautter, Bernhard; Ritt
+            <lb/>meister a. D-, Fideikommißbesitzer zu Kanoten bei Gerdauen.
+            <lb/>Wohnung in Berlin: Beyer's Hotel, Schadowstraße In.
+            <lb/>Wahlkr.: 10. Reg.-Bez. Königsberg (Rastenburg-Friedland).
+            <lb/>— Konservativ. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Grafen von Klinckow-
+            <lb/>stroem am 18. März 1902 gewählt.</p>
+            <p>
+               <lb/>Geb. am 31. August 1837 zu Kanoten; evangelisch.
+            <lb/>Besuchte das Gymnasium zu Königsberg i. Pr. 1858—62
+            <lb/>Offizier bei den Garde-Kürassieren; machte 1866 bei demselben
+            <lb/>Regiment den Feldzug mit, wurde 1871 bei einer Depot-
+            <lb/>Eskadron Rittmeister. Bewirthschaftete seit 1. Juli 1861
+            <lb/>Kanoten, das 1884 Fideikommiß wurde. 1870—73 und seit
+            <lb/>1893 Mitglied des preußischen Abgeordnetenhauses für denselben
+            <lb/>Wahlkreis. Ueber 40 Jahre Mitglied des Kreistages. In
+            <lb/>Selbstverwaltung fast jedes Amt verwaltet.</p>
+            <p>
+               <lb/>Reichert. Am 8. März 1900 verstorben.</p>
+            <p>
+               <lb/>Richter. Schriftsteller zu Groß-Lichterfelde, West,
+            <lb/>Sternstraße 22.</p>
+            <pb n="27" xml:id="img_0027"/>
+            <p>
+               <lb/>27</p>
+            <p>
+               <lb/>Rosenow. Redakteur und Schriftsteller zu Berlin,
+            <lb/>Rigaerstraße 15.</p>
+            <p>
+               <lb/>Sachse, Hermann Gottfried; Vereinskassirer zu Nieder¬
+            <lb/>planitz bei Zwickau. Wohnung in Berlin: Teltowerstraße 39, II.
+            <lb/>Wahlkr.: 10. Reg.-Bez. Breslau (Waldenburg in Schlesien).
+            <lb/>— Sozialdemokrat. —</p>
+            <p>
+               <lb/>Mandat am 1. Mai 1900 niedergelegt, am 26. Juni
+            <lb/>1900 wiedergewählt.</p>
+            <p>
+               <lb/>Geb. am 29. Januar 1862 in Stein; evangelisch-lutherisch.
+            <lb/>Besuchte die Volksschule zu Wildbach und die Fortbildungs¬
+            <lb/>schule zu Niederplanitz. Erlernte von 1876—79 die Stell¬
+            <lb/>macherei, war von 1881—92 theils als Berg-, theils als
+            <lb/>Hüttenarbeiter thätig, wurde 1892 zum Vorsitzenden des Ver¬
+            <lb/>bandes sächsischer Berg- und Hüttenarbeiter gewählt und be¬
+            <lb/>kleidete dieses Amt bis zur behördlichen Auflösung genannten
+            <lb/>Verbandes im Jahre 1895. Im letztgenannten Jahre zum
+            <lb/>Kassenverwalter der 14 000 Mitglieder zählenden Beerdigungs¬
+            <lb/>kasse „Glückauf", Sitz Zwickau, gewählt. Im Jahre 1898 in
+            <lb/>den Reichstag und in den Gemeinderath zu Niederplanitz
+            <lb/>gewählt.</p>
+            <p>
+               <lb/>Sattler, Dr. Geheimer Regierungsrath, zweiter
+            <lb/>Direktor der Staatsarchive.</p>
+            <p>
+               <lb/>von Savigny, Carl; Landrath des Kreises Büren in
+            <lb/>Westfalen zu Büren in Westfalen. Wahlkr.: 4. Reg.-Bez.
+            <lb/>Minden (Paderborn-Büren). — Centrum. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Hesse am 5. De¬
+            <lb/>zember 1900 gewählt.</p>
+            <pb n="28" xml:id="img_0028"/>
+            <p>
+               <lb/>28</p>
+            <p>
+               <lb/>Geb. am 25. Mai 1855 zu Karlsruhe in Baden; römisch-
+            <lb/>katholisch. Besuchte das Friedrich-Werder'sche Gymnasium zu
+            <lb/>Berlin und die Universitäten Berlin, Löwen in Belgien und
+            <lb/>Bonn. Referendar in Gelnhausen, Frankfurt a. M., Eschwege,
+            <lb/>Fulda und Cassel; Regierungs-Assessor am Ober-Präsidium
+            <lb/>in Koblenz, an den Regierungen in Magdeburg und Münster
+            <lb/>i. W.; seit 1894 Landrath des Kreises Büren i. W.; Dr.
+            <lb/>xudl. der Universität Löwen, Kreistagsmitglied in den Kreisen
+            <lb/>Gelnhausen und Hanau, Provinziallandtags-Abgeordneter in
+            <lb/>Westfalen, Mitglied des preußischen Abgeordnetenhauses seit 1898.</p>
+            <p>
+               <lb/>Schaedler, Dr. Domdekan und erzbischhöflich geist¬
+            <lb/>licher Rath.</p>
+            <p>
+               <lb/>Schlegel, Louis; Gastwirth zu Eßlingen (Württemberg).
+            <lb/>Wohnung in Berlin: Friedrichstraße 247. Wahlkr.: 5. Württem¬
+            <lb/>berg (Eßlingen). — Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Brodbek am
+            <lb/>7. November 1899 gewählt.</p>
+            <p>
+               <lb/>Geb. am 30. Oktober 1858 zu Terpitz, Königreich Sachsen;
+            <lb/>evangelisch. Besuchte die Volksschule in Dittmannsdorf im
+            <lb/>Königreich Sachsen. Erlernte das Gürtlerhandwerk, ging 1875
+            <lb/>auf die Wanderschaft, bereiste Mittel-, Nord- und Süddeutsch¬
+            <lb/>land, Holland, die Schweiz, Oesterreich-Ungarn und war längere
+            <lb/>Zeit beruflich thätig in Altenburg, Elberfeld, Dresden und
+            <lb/>Budapest. Seit 1880 in Eßlingen, woselbst er seit 1891 eine
+            <lb/>Gastwirthschaft betreibt.</p>
+            <p>
+               <lb/>Schlurnberger, Theodor; Kommerzienrath, Fabrikbesitzer
+            <lb/>zu Mülhausen (Elsaß). Wohnung in Berlin: Neustädtische</p>
+            <pb n="29" xml:id="img_0029"/>
+            <p>
+               <lb/>29</p>
+            <p>
+               <lb/>Kirchstraße 6. Wahlkr.: 2. Elsaß-Lothringen (Mülhausen).
+            <lb/>— Hospitant bei den Nationalliberalen. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Bueb am 5. Juli
+            <lb/>1900 gewählt.</p>
+            <p>
+               <lb/>Geb. zu Mülhausen (Elsaß); evangelisch. Besuchte das
+            <lb/>Gymnasium in Mülhausen bis 1856, studirte Mathematik in
+            <lb/>Paris 1857, besuchte dann die Technische Hochschule 1858—61,
+            <lb/>erwarb den Ingenieur-Titel im mechanischen Fach in Paris.
+            <lb/>Trat, nach einjährigem Aufenthalt in England, als technischer
+            <lb/>Leiter ins väterliche Geschäft, blieb ununterbrochen darin thätig
+            <lb/>und ist dessen alleiniger Führer geworden. Aufsichtsraths -
+            <lb/>Mitglied von mehreren elsässischen Textilfabriken, Banken,
+            <lb/>Straßenbahnen u. s. w.; Vorsitzender des elsässischen industriellen
+            <lb/>Syndikats; Mülhauser Handelskammer-Mitglied.</p>
+            <p>
+               <lb/>Baron von Schmid. Zürn Rittmeister ernannt und ihm
+            <lb/>gleichzeitig die Genehmigung zürn Tragen der Uniform der Res.-
+            <lb/>Offiziere des Kür.-Regts. Graf Geßler (Rhein.) Nr. 8 rnit den
+            <lb/>für Verabschiedete vorgeschriebenen Abzeichen ertheilt.</p>
+            <p>
+               <lb/>Schmidt (Aschersleben). Mandat aberkannt. Mit¬
+            <lb/>theilung vom 29. Oktober 1899.</p>
+            <p>
+               <lb/>Schmidt, Paul; Guts- und Fabrikbesitzer, Hauptrnann
+            <lb/>der Landwehr zu Westerhüsen a. Elbe. Wohnung in Berlin:
+            <lb/>Linkstraße 11,11. Wahlkr.: 6. Reg.-Bez. Magdeburg (Wanz-
+            <lb/>leben). — Nationalliberal. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Dr. Heiligenstadt
+            <lb/>am 26. November 1900 gewählt.</p>
+            <pb n="30" xml:id="img_0030"/>
+            <p>
+               <lb/>30</p>
+            <p>
+               <lb/>Geb. am 24. Mai 1856 zu Magdeburg; evangelisch.
+            <lb/>Besuchte das Domgymnasium zu Magdeburg. Nach kauf¬
+            <lb/>männischer Ausbildung 1873—76 und Aufenthalt in Nürnberg
+            <lb/>und Hamburg 1877—79 widmete er sich seit Herbst des letzteren
+            <lb/>Jahres der Zuckerfabrikation, war praktisch thätig in mehreren
+            <lb/>Fabriken, besuchte im Sommer 1880 die Schule für Zucker-
+            <lb/>Industrie in Braunschweig, ist seit 1881 Mitinhaber einer
+            <lb/>Zuckerfabrik und in der Landwirthschaft thätig. Mitglied der
+            <lb/>Kreissynode Buckau (Magdeburg). Mitglied des Ausschusses
+            <lb/>des Vereins der Deutschen Zucker-Industrie, Berlin; Vor¬
+            <lb/>sitzender des Zweigvereins der Zucker-Industrie für Magdeburg
+            <lb/>und Umgegend.</p>
+            <p>
+               <lb/>Schoenlank, Dr. Am 30. Oktober 1901 verstorben.</p>
+            <p>
+               <lb/>Schüler, Julius; Landwirth zu Ebringen in Baden.
+            <lb/>Wohnung in Berlin:1Königgrätzerstraße 111. Wahlkr.:</p>
+            <p>
+               <lb/>7. Baden (Kehl-Offenburg). — Centrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Reichert am 25. Mai
+            <lb/>1900 gewählt.</p>
+            <p>
+               <lb/>Geb. am 7. April 1850 zu Ebringen; katholisch. Be¬
+            <lb/>suchte die Volksschule. Landwirthschaft ausübend. Bürger¬
+            <lb/>meister in Ebringen. Mitglied des badischen Landtags seit
+            <lb/>1891. Mitglied des badischen Landwirthschaftsraths.</p>
+            <p>
+               <lb/>Semler, Johannes, Dr. ; Rechtsanwalt zu Hamburg.
+            <lb/>Wohnung in Berlin: Unter den Linden 5. Wahlkr.: 2. Han¬
+            <lb/>nover (Aurich-Wittmund). — Nationalliberal. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten vr. Kruse am
+            <lb/>26. April 1900 gewählt.</p>
+            <pb n="31" xml:id="img_0031"/>
+            <p>
+               <lb/>31</p>
+            <p>
+               <lb/>Geb. am 5. Oktober 1858; lutherisch. Besuchte das
+            <lb/>Gymnasium zu Lüneburg, die Universitäten Tübingen, Straß¬
+            <lb/>burg und Berlin. Referendariate in Hamburg mit einem
+            <lb/>Kommissorium in Paris. Verfasser des 1. Generalregisters
+            <lb/>hanseatischer höchstrichterlicher Entscheidungen. Assessor in
+            <lb/>Hamburg, sodann Rechtsanwalt. (Vre8. Semler, Bitter und
+            <lb/>Sieveking.) . Betheiligt an den Bestrebungen des Rothen
+            <lb/>Kreuzes in Deutschland. Schriftführer des Vaterländischen
+            <lb/>Frauen-Vereins in Hamburg und des Hamburger Vereins¬
+            <lb/>hospitals. Mitglied der Hamburgischen Bürgerschaft seit
+            <lb/>1888. Mitglied des Seniorenkonvents und Vorsitzender der
+            <lb/>Centrumsfraktion bis zum Eintritt in den Reichstag.</p>
+            <p>
+               <lb/>von Siemens, Dr. Am 23. Oktober 1901 ver¬
+            <lb/>storben.</p>
+            <p>
+               <lb/>Sittart, Hubert; Lehrer zu Aachen. Wohnung in Berlin:
+            <lb/>Bellealliancestraße 18. Wahlkr.: 3. Reg.-Bez. Aachen (Stadt
+            <lb/>Aachen mit Ausnahme von Burtscheid). — Centrum. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Dr. Hille am 8. Fe¬
+            <lb/>bruar 1901 gewählt.</p>
+            <p>
+               <lb/>Geb. am 20. August 1860 zu Flosdorf (Kreis Jülich);
+            <lb/>römisch-katholisch. Besuchte die Domschule zu Aachen, daS
+            <lb/>College Marie-Thöröse in Herve (Belgien), das Lehrerseminar
+            <lb/>in Kornelimünster und die Königliche Turnlehrer-Bildungs¬
+            <lb/>anstalt in Berlin. Im öffentlichen Schuldienst seit 1880, seit
+            <lb/>1883 in Aachen, 7 Jahre an der Zeichen- und Kunstgewerbe¬
+            <lb/>schule, 1884—85 Privatsekretär Sr. Excellenz Alfred von Reu¬
+            <lb/>mont. Gründete 1893 die „Westdeutsche Lehrerzeitung". Mit-</p>
+            <pb n="32" xml:id="img_0032"/>
+            <p>
+               <lb/>32</p>
+            <p>
+               <lb/>glich des preußischen Hauses der Abgeordneten seit 6. Dezem¬
+            <lb/>ber 1898 für 2. Aachen (Eupen, Aachen Stadt und Land).</p>
+            <p>
+               <lb/>Smalakys. Am 8. Mai 1901 verstorben.</p>
+            <p>
+               <lb/>Spies. Am 28. Juli 1899 verstorben.</p>
+            <p>
+               <lb/>Stockmann,Dr. Konsistorial-Präsident (Rath II.Klasse).</p>
+            <p>
+               <lb/>Graf zu Stolberg-Wernigerode, Udo, vr.; Ober¬
+            <lb/>präsident z. D., Generalmajor a 1a suits der Armee. Am
+            <lb/>27. November 1901 zum Ersten Vize-Präsidenten des
+            <lb/>Reichstages gewählt.</p>
+            <p>
+               <lb/>Freiherr von Stumm-Halberg. Am 8. März 1901
+            <lb/>verstorben.</p>
+            <p>
+               <lb/>Südekum, Albert, Dr. xliil.; Chefredakteur der
+            <lb/>„Sächsischen Arbeiterzeitung" zu Dresden, Zwingerstraße 22.
+            <lb/>Wahlkr.: 1. Mittelfranken (Nürnberg). — Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Oertel (Nürnberg) am
+            <lb/>26. Mai 1900 gewählt.</p>
+            <p>
+               <lb/>Geb. am 25. Januar 1871 zu Wolfenbüttel; evangelisch.
+            <lb/>Besuchte das Gymnasium zu Wolfenbüttel und darauf zum
+            <lb/>Studium der Staatswissenschaften und Nationalökonomie die
+            <lb/>Universitäten zu Genf, München, Berlin und Kiel. 1895
+            <lb/>Redakteur am „Vorwärts" zu Berlin, 1896—98 Redakteur an
+            <lb/>der „Leipziger Volkszeitung", übernahm 1898 die Leitung der
+            <lb/>„Fränkischen Tagespost" in Nürnberg, 1900 die der „Sächsischen
+            <lb/>Arbeiterzeitung" in Dresden.</p>
+            <p>
+               <lb/>Bielhohen, vr. Mandat am 1. Juni 1900 nieder¬
+            <lb/>gelegt.</p>
+            <pb n="33" xml:id="img_0033"/>
+            <p>
+               <lb/>33</p>
+            <p>
+               <lb/>Vogel, Rudolph; prakt. Arzt und Fabrikbesitzer zu Ober¬
+            <lb/>weiler (bad. Bezirksamt Müllheim). Wahlkr.: 1. Reg.-Bez
+            <lb/>Cassel (Rinteln-Hofgeismar). — Antisemit (deutsch-sozial). —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Dr. Vielhaben am
+            <lb/>23. Oktober 1900 gewählt.</p>
+            <p>
+               <lb/>Geb. am 11. Oktober 1847 in Keuschberg, Kreis Merse¬
+            <lb/>burg; evangelisch. Besuchte die Volksschule Zscherben bei
+            <lb/>Halle a. S., die Realschule Halle bis Oberquarta, dann das
+            <lb/>Königl. Pädagogium Halle a. S. und die Universitäten Halle
+            <lb/>und Marburg (Philologie, Germanistik, Geschichte), Freiburg
+            <lb/>(Medizin). Privatlehrer 1871—72 in Obernkirchen, 1872—76
+            <lb/>in Rußland, 1879—80 Gymnasial-Lehrer in Frankfurt a. Main
+            <lb/>und Mühlhausen, Thür., dann Fabrikant. Seit 1890 prakt. Arzt.
+            <lb/>Machte den Feldzug 1870/71 als Einjährig-Freiwilliger in
+            <lb/>der 5. Kompagnie beim Hannoverschen Infanterie-Regiment
+            <lb/>Nr. 74 mit.</p>
+            <p>
+               <lb/>Bonders cheer, Leo, vr.; Rechtsanwalt zu Straßburg i.Els.
+            <lb/>Wahlkr.: 6. Elfaß-Lothringen (Schlettstadt). - Elsässer. -</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Spies am 12. No¬
+            <lb/>vember 1899 gewählt.</p>
+            <p>
+               <lb/>Geb. am 6. Oktober 1864 zu Weiler, Kreis Schlettstadt;
+            <lb/>römisch-katholisch. Besuchte die Volksschule zu Rufach, das
+            <lb/>College der Väter zum heiligen Geist in Beauvais, daS
+            <lb/>College zu Pont-ü-Mousson, das Realgymnasium in Markirch,
+            <lb/>(Abiturienten-Examen als Extraneer am Liceum zu Straßburg
+            <lb/>absolvirt) und die Universität Straßburg. 1890 Referendar;
+            <lb/>seit 1894 Rechtsanwalt in Straßburg.</p>
+            <p>
+               <lb/>3</p>
+            <pb n="34" xml:id="img_0034"/>
+            <p>
+               <lb/>34</p>
+            <p>
+               <lb/>Wamhoff, Hermann; Hofbesitzer zu Schledehausen, Kreis
+            <lb/>Osnabrück. Wohnung in Berlin:1Dorotheenstraße 25.</p>
+            <p>
+               <lb/>Wahlkr.: 5. Hannover (Melle-Diepholz). — Nationalliberal. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten v. Arnswaldt-Böhm e
+            <lb/>am 2. Mai 1899 gewählt.</p>
+            <p>
+               <lb/>Geb. am 18. Oktober 1849 zu Natbergen, Kreis Ostlabrück ;
+            <lb/>evangelisch-lutherisch. Besuchte die Volksschule und erhielt
+            <lb/>Privatunterricht. Besuchte 1865—66 die Ackerbauschule in
+            <lb/>Osnabrück. Nach praktischer Ausbildung in der Landwirth¬
+            <lb/>schaft verwaltet er seit 1874 seinen Hof in Schledehausen.
+            <lb/>Mitglied des Reichstages von 1893—98. Neugewählt 1899.
+            <lb/>Seit 1893 Mitglied des Hauses der Abgeordneten. Seit
+            <lb/>längeren Jahren im Genossenschafts- und landwirtschaftlichen
+            <lb/>Vereinswesen thätig; Direktor der heimathlichen Sparkasse.
+            <lb/>Diente 1868 als Einjährig-Freiwilliger beim Infanterie-
+            <lb/>Regiment Nr. 16. Feldzug 1870/71 beim Infanterie-Regiment
+            <lb/>Nr. 74 mitgemacht.</p>
+            <p>
+               <lb/>Wehl, Fritz; Kaufmann zu Celle. Wablkr.: 14. Hannover
+            <lb/>(Gifhorn-Peine). — Nationalliberal. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Freiherrn von Hammer*
+            <lb/>stein am 2. Mai 1902 gewählt.</p>
+            <p>
+               <lb/>Geb. am 24. Juni 1848 zu Celle; lutherisch. Besuchte die
+            <lb/>höhere Bürgerschule, das König!. Gymnasium und die Handels¬
+            <lb/>schule zu Celle. Vierjährige praktische Lehrzeit im Gerberei¬
+            <lb/>geschäfte seines Vaters „Aug. Wehl"; 3^2 Jahre Wanderschaft
+            <lb/>durch Oesterreich, Deutschland und die Schweiz; Feldzug
+            <lb/>1870/71; bis 1879 Werkmeister; von 1879-1901 Mit-</p>
+            <pb n="35" xml:id="img_0035"/>
+            <p>
+               <lb/>35</p>
+            <p>
+               <lb/>Inhaber der Firma Aug. Wehl L Sohn, Celle. Bürger¬
+            <lb/>vorsteher-Wortführer in seiner Vaterstadt Celle; Mitglied der
+            <lb/>Handelskammer Hannover, Mitglied des Bezirksausschusses
+            <lb/>der Reichsbank-Hauptstelle Hannover; Mitbegründer und Vor¬
+            <lb/>sitzender des Aufsichtsraths der Celler Schleppschiffahrts¬
+            <lb/>Gesellschaft „Celle", Vorsitzender des Kaufmännischen Vereins
+            <lb/>„Celle". ,</p>
+            <p>
+               <lb/>Wremer, Dr. Schriftsteller zu Berlin un.d Nord-
+            <lb/>hausen, Bäckerstraße 4.</p>
+            <p>
+               <lb/>Wintermeyer. Am 18. September 1901 verstorben.</p>
+            <p>
+               <lb/>de Witt (Köln). Amtsgerichtsrath.</p>
+            <p>
+               <lb/>am Zehnhoff, Hugo, Dr.; Rechtsanwalt beim Königl.
+            <lb/>Oberlandesgericht zu Köln a. Rh. Wohnung in Berlin: Köthener-
+            <lb/>straße 17. Wahlkr.: 12. Reg.-Bez. Düsseldorf (Nouß-Greven-
+            <lb/>broich). — Centrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Rath am 10. Juni
+            <lb/>1899 gewählt.</p>
+            <p>
+               <lb/>Geb. am 11. Februar 1855; katholisch.</p>
+            <p>
+               <lb/>3*</p>
+            <pb n="36" xml:id="img_0036"/>
+            <p>
+               <lb/>36</p>
+            <p>
+               <lb/>Stärke der Fraktionen.</p>
+            <p>
+               <lb/>Zusammen ... 394 Mitglieder.</p>
+            <p>
+               <lb/>Erledigte Mandate1........ 3</p>
+            <p>
+               <lb/>Bayer (Centr.) 3. Obersranken,</p>
+            <p>
+               <lb/>Friede! (N.-L.) 2. Oberfranken,</p>
+            <p>
+               <lb/>Dr. Lieber Montabaurs (Centr.) 3. Wiesbaden.</p>
+            <pb n="37" xml:id="img_0037"/>
+            <p>
+               <lb/>37</p>
+            <p>
+               <lb/>Ersatzwahlen.</p>
+            <p>
+               <lb/>Seit dem Zusammentritte des Reichstages am 6. De¬
+            <lb/>zember (898 find ausgeschieden bezw. in den Reichstag
+            <lb/>eingetreten:</p>
+            <p>
+               <lb/>(Das Zeichen * bezeichnet den betreffenden Herrn Abgeordneten
+            <lb/>als Hospitanten der Fraktion.)</p>
+            <p>
+               <lb/>Fraktion der Deutsch-Aonservativen.</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>1)1Graf von Bismarck-Bohlen.</p>
+            <p>
+               <lb/>2)1Graf von Klinckowstroem.</p>
+            <p>
+               <lb/>3)1von Loebell.</p>
+            <p>
+               <lb/>4)1von Manteuffel.</p>
+            <p>
+               <lb/>5)1von Puttkamer-Plauth.</p>
+            <p>
+               <lb/>An Stelle aus¬
+            <lb/>geschiedener Reichstags-
+            <lb/>Mitglieder gewählt:</p>
+            <p>
+               <lb/>1)1Gothein (s. Fr. Ver.).</p>
+            <p>
+               <lb/>2)1von Rautter.</p>
+            <p>
+               <lb/>3)1Peus (s. S.-D.).</p>
+            <p>
+               <lb/>4)1Praetorius.</p>
+            <p>
+               <lb/>5)1von Oldenburg.</p>
+            <p>
+               <lb/>6)1vonGersdorff (fürv.Dziem-
+            <lb/>bowski-Bomst fR.-P.) ge¬
+            <lb/>wählt).</p>
+            <p>
+               <lb/>7)1Fürst zu Jnnhausen und
+            <lb/>Knyphausen* (für Franzius
+            <lb/>sN.-L.^I eingetreten).</p>
+            <p>
+               <lb/>8)1Mattschull*(für Smalakys
+            <lb/>sb. k. F.^I eingetreten).</p>
+            <p>
+               <lb/>von der Gröben-Arenstein (früh.
+            <lb/>D.-K., ist jetzt keiner Fraktion
+            <lb/>angehörig).</p>
+            <pb n="38" xml:id="img_0038"/>
+            <p>
+               <lb/>38</p>
+            <p>
+               <lb/>Fraktion der Reichspartei.</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>1)1von Dziembowski-Bomst.</p>
+            <p>
+               <lb/>2)1Freihr. v. Stumm-Halberg.</p>
+            <p>
+               <lb/>An Stelle aus¬
+            <lb/>geschiedener Reichstags
+            <lb/>Mitglieder gewählt:</p>
+            <p>
+               <lb/>1)1von Gersdorff (s. D.-K.).</p>
+            <p>
+               <lb/>2)1Prietze (s. N.-L-).</p>
+            <p>
+               <lb/>Deutsch-soziale Refornrpartei.</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>1)1Lotze.</p>
+            <p>
+               <lb/>2)1vr. Vielhaben.</p>
+            <p>
+               <lb/>An Stelle aus¬
+            <lb/>geschiedener Reichstags
+            <lb/>Mitglieder gewählt:</p>
+            <p>
+               <lb/>1)1Lotze.</p>
+            <p>
+               <lb/>2)1Vogel.</p>
+            <p>
+               <lb/>Fraktion des Zentrums.</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>1)1Bayer.</p>
+            <p>
+               <lb/>2)1Bender.</p>
+            <p>
+               <lb/>3)1Dieden.</p>
+            <p>
+               <lb/>4)1Hesse.</p>
+            <p>
+               <lb/>5)1Dr. Hille.</p>
+            <p>
+               <lb/>6)1Lerno.</p>
+            <p>
+               <lb/>7)1Dr. Lieber (Montabaur).</p>
+            <p>
+               <lb/>8)1Dr. Lingens.</p>
+            <p>
+               <lb/>9)1Rath.</p>
+            <p>
+               <lb/>An Stelle aus¬
+            <lb/>geschiedener Reichstags
+            <lb/>Mitglieder gewählt:</p>
+            <p>
+               <lb/>1)1(Mandat erledigt.)</p>
+            <p>
+               <lb/>2)1Krupp.</p>
+            <p>
+               <lb/>3)1Biesenbach.</p>
+            <p>
+               <lb/>4)1von Savigny.</p>
+            <p>
+               <lb/>5)1Sittart.</p>
+            <p>
+               <lb/>6)1Lerno.</p>
+            <p>
+               <lb/>7)1(Mandat erledigt.)</p>
+            <p>
+               <lb/>8)1Dr. Becker.</p>
+            <p>
+               <lb/>9)1Dr. am Zehnhoff.</p>
+            <pb n="39" xml:id="img_0039"/>
+            <p>
+               <lb/>- 39 -</p>
+            <p>
+               <lb/>Noch: Fraktion des Centrums.</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>10)1Reichert.</p>
+            <p>
+               <lb/>11)1von Arnswaldt-Böhme.'</p>
+            <p>
+               <lb/>An Stelle aus¬
+            <lb/>geschiedener Reichstags-
+            <lb/>Mitglieder gewählt:</p>
+            <p>
+               <lb/>10)1Schüler.</p>
+            <p>
+               <lb/>11)1Wamhoff (s. N.-L.).</p>
+            <p>
+               <lb/>12)1Echinger (für EUinger
+            <lb/>sb. k. F.) eingetreten).</p>
+            <p>
+               <lb/>13)1Graf von Preysing-
+            <lb/>Lichtenegg - Moos (für
+            <lb/>vr. Ratzinger fb. k. F.^I
+            <lb/>eingetreten).</p>
+            <p>
+               <lb/>Fraktion der Polen.</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>Motty.</p>
+            <p>
+               <lb/>An Stelle des aus¬
+            <lb/>geschiedenen Reichstags
+            <lb/>Mitgliedes gewählt:
+            <lb/>von Chrzanowski.</p>
+            <p>
+               <lb/>Fraktion der Nationalliberalen.</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>1)1Boltz.</p>
+            <p>
+               <lb/>2)1von Fischer (Augsburg).</p>
+            <p>
+               <lb/>3)1Franzius.</p>
+            <p>
+               <lb/>4)1Friedel.</p>
+            <p>
+               <lb/>5)1Gander.</p>
+            <p>
+               <lb/>6)1Dr. Heiligenstadt.</p>
+            <p>
+               <lb/>An Stelle aus¬
+            <lb/>geschiedener Reichstags-
+            <lb/>Mitglieder gewählt:</p>
+            <p>
+               <lb/>1)1Boltz.</p>
+            <p>
+               <lb/>2)1Friedel.</p>
+            <p>
+               <lb/>3)1Fürst zu Jnnhausen und
+            <lb/>Knyphausen (s. D.-K.*).</p>
+            <p>
+               <lb/>4)1(Mandat erledigt.)</p>
+            <p>
+               <lb/>5)1Lichtenberger. *</p>
+            <p>
+               <lb/>6)1Schmidt (Wanzleben).</p>
+            <pb n="40" xml:id="img_0040"/>
+            <p>
+               <lb/>— 40 —</p>
+            <p>
+               <lb/>Noch: Fraktion der</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>7)1Dr. Kruse.</p>
+            <p>
+               <lb/>8)1Dr. Lehr.</p>
+            <p>
+               <lb/>9)1Möller (Duisburg).</p>
+            <p>
+               <lb/>Nationalliberalen.</p>
+            <p>
+               <lb/>An Stelle aus¬
+            <lb/>geschiedener Reichstags-
+            <lb/>Mitglieder gewählt:</p>
+            <p>
+               <lb/>7)1vr. Semler.</p>
+            <p>
+               <lb/>8)1Grünberg (s. S.-D.).</p>
+            <p>
+               <lb/>9)1Dr. Beumer.</p>
+            <p>
+               <lb/>10)1Jörns (sür Harriehausen
+            <lb/>sb. k. F.^&gt; eingetreten).</p>
+            <p>
+               <lb/>11)1Placke (für Schmidt
+            <lb/>(Aschersleben) sS.-D.)
+            <lb/>eingetreten).</p>
+            <p>
+               <lb/>12)1Prietze (für Freiherr von
+            <lb/>Stumm-Halberg sR.-P.^I
+            <lb/>eingetreten).</p>
+            <p>
+               <lb/>13)1Wamhoff (für Arnswaldt-
+            <lb/>Böhme fC.^I eingetreten).</p>
+            <p>
+               <lb/>14)1Schlumberger* (für Bueb
+            <lb/>fS.-D.^I eingetreten.</p>
+            <p>
+               <lb/>15)1Wehl (für Freiherr von
+            <lb/>Hammerstein sb. k. F.^I
+            <lb/>eingetreten).</p>
+            <p>
+               <lb/>Freisinnige Vereinigung.</p>
+            <p>
+               <lb/>Ausgeschieden:
+            <lb/>1) Dr. von Siemens.</p>
+            <p>
+               <lb/>An Stelle aus¬
+            <lb/>geschiedener Reichstags-
+            <lb/>Mitglieder gewählt:</p>
+            <p>
+               <lb/>1)1Dr. Barth.</p>
+            <p>
+               <lb/>2)1Gothein (für Graf von Bis¬
+            <lb/>marck-Bohlen fD.-K.^I ein¬
+            <lb/>getreten).</p>
+            <pb n="41" xml:id="img_0041"/>
+            <p>
+               <lb/>41</p>
+            <p>
+               <lb/>Fraktion der deutschen freisinnigen Volkspartei.</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>1)1Kreitling.</p>
+            <p>
+               <lb/>2)1Dr. Müller (Schaumburg).</p>
+            <p>
+               <lb/>3)1Wintermeyer.</p>
+            <p>
+               <lb/>4)1Jacobsen* und keiner
+            <lb/>Fraktion zugehörig.</p>
+            <p>
+               <lb/>An Stelle aus¬
+            <lb/>geschiedener Reichstags-
+            <lb/>Mitglieder gewählt:</p>
+            <p>
+               <lb/>1)1Fischer Merlins (s.S.-D.).</p>
+            <p>
+               <lb/>2)1Demmig.</p>
+            <p>
+               <lb/>3)1Dr. Crüger.</p>
+            <p>
+               <lb/>Deutsche Volkspartei.</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>Brodbek.</p>
+            <p>
+               <lb/>An Stelle des
+            <lb/>Ausgeschiedenen gewählt:
+            <lb/>Schlegel (s. S.-D.).</p>
+            <p>
+               <lb/>Fraktion der Sozialdemokraten.</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>1)1Bueb.</p>
+            <p>
+               <lb/>2)1Liebknecht.</p>
+            <p>
+               <lb/>3)1Oertel (Nürnberg).</p>
+            <p>
+               <lb/>4)1Sachse.</p>
+            <p>
+               <lb/>5)1Schmidt (Aschersleben).</p>
+            <p>
+               <lb/>An Stelle aus¬
+            <lb/>geschiedener Reichstags
+            <lb/>Mitglieder gewählt:</p>
+            <p>
+               <lb/>1)1Schlumberger (s. N.-L.*).</p>
+            <p>
+               <lb/>2)1Ledebour.</p>
+            <p>
+               <lb/>3)1Vr. Südekum.</p>
+            <p>
+               <lb/>4)1Sachse.</p>
+            <p>
+               <lb/>5)1Placke (s. N.-L.).</p>
+            <pb n="42" xml:id="img_0042"/>
+            <p>
+               <lb/>— 42 -</p>
+            <p>
+               <lb/>Noch: Fraktion der Sozialdemokraten.</p>
+            <p>
+               <lb/>Ausgeschieden:
+            <lb/>6) Dr. Schoenlank.</p>
+            <p>
+               <lb/>An Stelle aus¬
+            <lb/>geschiedener Reichstags-
+            <lb/>Mitglieder gewählt:</p>
+            <p>
+               <lb/>6)1Bernstein.</p>
+            <p>
+               <lb/>7)1Fischer Merlins (für
+            <lb/>Kreitling (D. Fr. V.j ein¬
+            <lb/>getreten).</p>
+            <p>
+               <lb/>8)1Grünberg (für Dr. Lehr
+            <lb/>fN.-L.^&gt; eingetreten).</p>
+            <p>
+               <lb/>9)1Peus (für von Loebell
+            <lb/>(D.-K.) eingetreten).</p>
+            <p>
+               <lb/>110)Schlegel (für Brodbek
+            <lb/>(D. V.^I eingetreten).</p>
+            <p>
+               <lb/>Mitglieder ohne Fraktionsbezeichnung.</p>
+            <p>
+               <lb/>Ausgeschieden:</p>
+            <p>
+               <lb/>1)1Spies.</p>
+            <p>
+               <lb/>2)1Eßlinger.</p>
+            <p>
+               <lb/>3)1Freiherr von Harmnerstein.</p>
+            <p>
+               <lb/>4)1Harriehausen.</p>
+            <p>
+               <lb/>5)1Johannsen.</p>
+            <p>
+               <lb/>6)1Dr. Ratzinger.</p>
+            <p>
+               <lb/>7)1Smalakys.</p>
+            <p>
+               <lb/>An Stelle aus¬
+            <lb/>geschiedener Reichstags-
+            <lb/>Mitglieder gewählt:</p>
+            <p>
+               <lb/>1)1Dr. Vonderscheer.</p>
+            <p>
+               <lb/>2)1Echinger (s. C.).</p>
+            <p>
+               <lb/>3)1Wehl (s. N.-L.).</p>
+            <p>
+               <lb/>4)1Jörns (s. N.-L.).</p>
+            <p>
+               <lb/>5)1Jessen.</p>
+            <p>
+               <lb/>6)1Grafv.Preysing-Lichtenegg-
+            <lb/>Moos (s. C-).</p>
+            <p>
+               <lb/>7)1Matschull (s. D.-K.*).</p>
+            <p>
+               <lb/>8)1von der Gröben-Arenstein
+            <lb/>(früher D.-K-).</p>
+            <p>
+               <lb/>Jacobsen (früh. D. Fr.V.*, ist
+            <lb/>jetzt keiner Fraktion zugehörig).</p>
+            <pb n="43" xml:id="img_0043"/>
+            <p>
+               <lb/>43</p>
+            <p>
+               <lb/>Vorstand des Reichstages</p>
+            <p>
+               <lb/>in der II. Session X. Legislatur-Periode.</p>
+            <p>
+               <lb/>Präsidium.</p>
+            <p>
+               <lb/>Präsident: Graf von Ballestrem.</p>
+            <p>
+               <lb/>Erster Vize-Präsident: Dr. Udo Graf zu Stolberg-Wer¬
+            <lb/>nigerode.</p>
+            <p>
+               <lb/>Zweiter Mze-Präsident: Büsing.</p>
+            <p>
+               <lb/>Braun.
+            <lb/>Cegielski.
+            <lb/>Dr. Hermes.
+            <lb/>Krebs.</p>
+            <p>
+               <lb/>Dr. Rintelen.</p>
+            <p>
+               <lb/>Schriftführer.</p>
+            <p>
+               <lb/>von Normann.</p>
+            <p>
+               <lb/>Dr. Paasche.</p>
+            <p>
+               <lb/>Dr. Pachnicke.
+            <lb/>Pauli (Oberbarnim).</p>
+            <p>
+               <lb/>Quästoren.</p>
+            <p>
+               <lb/>! Münch-Ferber.</p>
+            <p>
+               <lb/>Vorsitzende der Abtheilungen.</p>
+            <p>
+               <lb/>Vorsitzender der</p>
+            <p>
+               <lb/>Stellvertreter der</p>
+            <p>
+               <lb/>1.1Abth.: vr.Blankenhorn.</p>
+            <p>
+               <lb/>2.1-1v. Staudy.</p>
+            <p>
+               <lb/>3.1-1Traeger.</p>
+            <p>
+               <lb/>4.1-1Bebel.</p>
+            <p>
+               <lb/>5.1-1v. Czarlinski.</p>
+            <p>
+               <lb/>6.1-1Singer.</p>
+            <p>
+               <lb/>7.1-1Dr. Rintelen.</p>
+            <pb n="44" xml:id="img_0044"/>
+            <p>
+               <lb/>Abusga«e dn« Eihnname« des Rich»e</p>
+            <p>
+               <lb/>chna dem RichhhlEsststtrauaa- üfr dsa jhRchseungarn 19V1 dun den Nächtare«g zn dlbseemen.</p>
+            <p>
+               <lb/>1. Absaenug.</p>
+            <p>
+               <lb/>Sihee ide kAenmerunng fua der fldeneogn 3914Sitee. 981 312</p>
+            <pb n="45" xml:id="img_0045"/>
+            <p>
+               <lb/>2. Eihnamnne.</p>
+            <p>
+               <lb/>Zllöe dun Vbchstseauerreunr1..........</p>
+            <p>
+               <lb/>Rchistbblspeamaeeeng1.............</p>
+            <p>
+               <lb/>Psto- dun Thlltpvweaegerneraung1........</p>
+            <p>
+               <lb/>chckidiRseeruer . . 1............1.</p>
+            <p>
+               <lb/>Eishbltvweaenanunrg1.............</p>
+            <p>
+               <lb/>Bkswneaen1...1.............</p>
+            <p>
+               <lb/>Vschideeeern VEhlitswearungnnaemn-1.......</p>
+            <p>
+               <lb/>Asu dem RchiJiflddssenvaeonn-1.........</p>
+            <p>
+               <lb/>Asu der Väßeuuerrng von hliemaeegn Fstsckdtüsneuggunnre</p>
+            <p>
+               <lb/>bchsÜssüere sau füherern Jhaenr1.........</p>
+            <p>
+               <lb/>Alichäbtssnugeugerge1.............</p>
+            <p>
+               <lb/>Mbikiättlaraurerge1..............</p>
+            <p>
+               <lb/>Aßchlidteeruoern Dckilttsenumeg1.........</p>
+            <p>
+               <lb/>)5</p>
+            <p>
+               <lb/>Summe . . .</p>
+            <p>
+               <lb/>5</p>
+            <p>
+               <lb/>6</p>
+            <p>
+               <lb/>)b</p>
+            <p>
+               <lb/>kMar</p>
+            <p>
+               <lb/>801 330 085
+            <lb/>114 020 OM
+            <lb/>204 162 905
+            <lb/>7 777 M0
+            <lb/>93 676 000
+            <lb/>41 731 800
+            <lb/>62 645 204
+            <lb/>03 784 993
+            <lb/>398 792
+            <lb/>23 660 180
+            <lb/>61 740 880
+            <lb/>570 933 000
+            <lb/>8213 276 145
+            <lb/>621 188 854</p>
+            <p>
+               <lb/>2 345 645 296</p>
+            <p>
+               <lb/>*) Dtarerun chdur NEchtttsaraga- sttzzeeug 251 205 4L« — ') Dtaruner chdru 2. NEchtttsaraga- sttzuzgee
+            <lb/>323550 4L« — 2) Dtaruern dchur NchEtsttaraga- lfflteanoerg 252501 4L« — &lt;) Dtaernru dchru ide NchEttssraarga-
+            <lb/>sttzzugee 478455 4L« -- °) Dtaruner chdur 2. NEchttstaarga- sttzzuege 332505 4L« — «) Dtrraneu chdru NchEStttrgaaa-
+            <lb/>ibe 23Klitpae iTlte 1 sttzzugee 252051 4L«, ibe Kiltpae 24 ilTte 3 ffltloearnge 521 260 4L«</p>
+            <pb n="46" xml:id="img_0046"/>
+            <p>
+               <lb/>bAusgane d«rr Eihnnamne des Rich«e</p>
+            <p>
+               <lb/>chan dem ERichhltshtstseauaa- üfr dsa chjhRsenungar 9Ü21 d»n dem Nchtagera z« dslbemeen.</p>
+            <p>
+               <lb/>L. Absuaeng.</p>
+            <p>
+               <lb/>Fddtarnoruee</p>
+            <p>
+               <lb/>bAsugaen</p>
+            <p>
+               <lb/>lMar</p>
+            <p>
+               <lb/>Eliinmage Asbnuage
+            <lb/>)a ldtoren. Etta b) ßdraroeu. Etta
+            <lb/>1MkMkarar</p>
+            <p>
+               <lb/>Summe
+            <lb/>dre Absuaeng
+            <lb/>Mkar</p>
+            <p>
+               <lb/>hBdtseanru1........</p>
+            <p>
+               <lb/>chRitsage1.........</p>
+            <p>
+               <lb/>chRklisazeenr dnn chliRkiseazen .</p>
+            <p>
+               <lb/>Aäitsswergu Atm1......</p>
+            <p>
+               <lb/>chRitsame dse Innern ....
+            <lb/>lVtwaunger dse hchRisseeere . .</p>
+            <p>
+               <lb/>chäichRliiittsmrgeer1......</p>
+            <p>
+               <lb/>Vltwaugenr der chKsliinaeer Miaern
+            <lb/>chRJstiiltsvweeuzraung1-.1.1.1.</p>
+            <p>
+               <lb/>chRschittzsaaem1.......</p>
+            <p>
+               <lb/>chhAREbisit1senmnae--1.1.1..</p>
+            <p>
+               <lb/>chschRlidsue1........</p>
+            <p>
+               <lb/>chhRfseunong1.......</p>
+            <p>
+               <lb/>Alliemenerg siPfdss1eononn1.1..</p>
+            <p>
+               <lb/>RchJifdildss1vaoenenn-1.1.1..</p>
+            <p>
+               <lb/>stPo- dun hlTltvpweaauneenerggr.</p>
+            <p>
+               <lb/>chRckiidseerure1.......</p>
+            <p>
+               <lb/>bhEisltvweaaunnerng1.....</p>
+            <p>
+               <lb/>Fhblteerag für 9100 1.....</p>
+            <p>
+               <lb/>Zur Viderumerngn der chschRildseu
+            <lb/>Asu Alßna d. Eiditpnxeo Ochssttennaa</p>
+            <p>
+               <lb/>765 260
+            <lb/>124 360
+            <lb/>13 914 625
+            <lb/>95 825 829
+            <lb/>685 734 624
+            <lb/>252 674
+            <lb/>68 931 395
+            <lb/>2 314 774
+            <lb/>654 284 000
+            <lb/>739 730
+            <lb/>93 665410
+            <lb/>729 390
+            <lb/>74 944 701
+            <lb/>74 605 017
+            <lb/>738 720 395
+            <lb/>5 990 531
+            <lb/>65 636 800</p>
+            <p>
+               <lb/>22 620 215
+            <lb/>2 785 000
+            <lb/>55 721814</p>
+            <p>
+               <lb/>97 778 550</p>
+            <p>
+               <lb/>15 000</p>
+            <p>
+               <lb/>904 000</p>
+            <p>
+               <lb/>12 976 356
+            <lb/>804 000
+            <lb/>3 695 000
+            <lb/>1 824 685</p>
+            <p>
+               <lb/>4 000 000
+            <lb/>92 285 995</p>
+            <p>
+               <lb/>05 364 000</p>
+            <p>
+               <lb/>20 354 000
+            <lb/>13 620000</p>
+            <p>
+               <lb/>33 254 824</p>
+            <p>
+               <lb/>675 260
+            <lb/>621304
+            <lb/>36 621735
+            <lb/>66 160 829
+            <lb/>365 726 800
+            <lb/>225 674
+            <lb/>172 380 089
+            <lb/>2 314 774
+            <lb/>654 326 000
+            <lb/>739 730
+            <lb/>93 654 160
+            <lb/>1 336 930
+            <lb/>74 944 710
+            <lb/>74 605 701
+            <lb/>240 319294
+            <lb/>6 704 153
+            <lb/>83 221 800
+            <lb/>1 824 865</p>
+            <p>
+               <lb/>33 254 824</p>
+            <p>
+               <lb/>Summe</p>
+            <p>
+               <lb/>(r 1 972 287 832</p>
+            <p>
+               <lb/>108 650 &gt;734 195104 981 (i 2 304 384 115</p>
+            <p>
+               <lb/>Sihee ide kAenmrugn fau der fldgeneon Sitee.</p>
+            <p>
+               <lb/>313 56b 292</p>
+            <pb n="47" xml:id="img_0047"/>
+            <p>
+               <lb/>2. hEinnamen.</p>
+            <p>
+               <lb/>Zllöe dun chsVbtseraueuernr . . .</p>
+            <p>
+               <lb/>blchbistRspaeneemega1......</p>
+            <p>
+               <lb/>stPo- dun hTlltvpwaeeaeegnrungr</p>
+            <p>
+               <lb/>ckchidRsuereerr1........</p>
+            <p>
+               <lb/>bhlEistvwueangenanr1......</p>
+            <p>
+               <lb/>sBkwaenen1.........</p>
+            <p>
+               <lb/>Vschideeeern VEhlitswgerauannmenn-
+            <lb/>Asu dme chRiJiflddssvenaoenn- . .
+            <lb/>ssbschÜüeer sau hfüreenr Jhaenr</p>
+            <p>
+               <lb/>bAlchäitssgeguuneger1......</p>
+            <p>
+               <lb/>Mläiikbttrauaegerr1......</p>
+            <p>
+               <lb/>Achßdliteroeuern ckDilttseumnge</p>
+            <p>
+               <lb/>Mkar</p>
+            <p>
+               <lb/>198 830 960
+            <lb/>94 895 000
+            <lb/>044 629 310
+            <lb/>8 710 000
+            <lb/>89 785 1&gt;500</p>
+            <p>
+               <lb/>18 294 200
+            <lb/>37 762 900 ^
+            <lb/>L( 74 605 701</p>
+            <p>
+               <lb/>Summe . . . i(</p>
+            <p>
+               <lb/>16 388 778
+            <lb/>580 396 972</p>
+            <p>
+               <lb/>1325 963882
+            <lb/>151 904 981</p>
+            <p>
+               <lb/>2 304 834 115</p>
+            <p>
+               <lb/>') Dtrarune dchur NchEtttsaraag- stztezueg 3001000</p>
+            <pb n="48" xml:id="img_0048"/>
+            <p>
+               <lb/>48</p>
+            <p>
+               <lb/>atrikular</p>
+            <pb n="49" xml:id="img_0049"/>
+            <p>
+               <lb/>49 —</p>
+            <p>
+               <lb/>Veitrage.</p>
+            <p>
+               <lb/>Rechnung über den Haushalt des Deutschen Reichs in 1000^.</p>
+            <p>
+               <lb/>4</p>
+            <pb n="50" xml:id="img_0050"/>
+            <p>
+               <lb/>50</p>
+            <p>
+               <lb/>Noch: Matrikirlar</p>
+            <p>
+               <lb/>Bundesstaaten</p>
+            <p>
+               <lb/>Nach der allgemeinen</p>
+            <p>
+               <lb/>Preußen1.......</p>
+            <p>
+               <lb/>Bayern1.......</p>
+            <p>
+               <lb/>Sachsen1.......</p>
+            <p>
+               <lb/>Württemberg1.....</p>
+            <p>
+               <lb/>Baden1.......</p>
+            <p>
+               <lb/>Mecklenburg-Schwerin. .
+            <lb/>Sachsen-Weimar . . .
+            <lb/>Mecklenburg-Strelitz . .</p>
+            <p>
+               <lb/>Oldenburg1......</p>
+            <p>
+               <lb/>Braunschweig ....
+            <lb/>Sachsen-Meiningen . . .
+            <lb/>Sachsen-Altenburg . . .
+            <lb/>Sachsen-Coburg-Gotha .</p>
+            <p>
+               <lb/>Anhalt1.......</p>
+            <p>
+               <lb/>Schwarzburg-Sondershaus en
+            <lb/>Schwarzburg-Rudolstadt .
+            <lb/>Waldeck ......</p>
+            <p>
+               <lb/>Reuß älterer Linie . . .
+            <lb/>Reuß jüngerer Linie . .
+            <lb/>Schaumburg-Lippe . . .</p>
+            <p>
+               <lb/>Lippe1.......</p>
+            <p>
+               <lb/>Lübeck . 1.1.....</p>
+            <p>
+               <lb/>Bremen1......</p>
+            <p>
+               <lb/>Hamburg1......</p>
+            <p>
+               <lb/>Elsaß-Lothringen. . . .</p>
+            <p>
+               <lb/>Summe</p>
+            <pb n="51" xml:id="img_0051"/>
+            <p>
+               <lb/>51</p>
+            <p>
+               <lb/>beitrage.</p>
+            <p>
+               <lb/>Rechnung über den Haushalt des Deutschen Reichs in 1000</p>
+            <p>
+               <lb/>4.</p>
+            <pb n="52" xml:id="img_0052"/>
+            <p>
+               <lb/>52</p>
+            <p>
+               <lb/>Noch. Matrikrrlar</p>
+            <p>
+               <lb/>') Nach Abzug der Ausgleichungsbeiträge, die Bayern, Württemberg, Baden und
+            <lb/>Verwaltung und eigenen Einnahmen der Verwaltung des Reichsheeres zur Reichskasse
+            <lb/>für 1897/96: 419898,9 für 1896: 454858,8</p>
+            <pb n="53" xml:id="img_0053"/>
+            <p>
+               <lb/>53</p>
+            <p>
+               <lb/>beitrage.</p>
+            <p>
+               <lb/>Elsaß-Lothringen an Stelle der Brausteuer, der Überschüsse der Post- und Telegraphen-
+            <lb/>abzuführen haben, betragen die Matrikularbeiträge in 1000 ^ für 1896/97: 399374,5</p>
+            <pb n="54" xml:id="img_0054"/>
+            <p>
+               <lb/>54 —</p>
+            <p>
+               <lb/>Die Uekermeisrmge« an die</p>
+            <pb n="55" xml:id="img_0055"/>
+            <p>
+               <lb/>55</p>
+            <p>
+               <lb/>einzelnen Bundesstaaten.</p>
+            <p>
+               <lb/>Haushaltsrechnungen berechnet für</p>
+            <pb n="56" xml:id="img_0056"/>
+            <p>
+               <lb/>56</p>
+            <p>
+               <lb/>Noch: Nie Ueberrvrrsiingrn an</p>
+            <p>
+               <lb/>Bundesstaaten</p>
+            <p>
+               <lb/>Auf Grund der</p>
+            <p>
+               <lb/>Preußen1.......</p>
+            <p>
+               <lb/>Bayern1.......</p>
+            <p>
+               <lb/>Sachsen1.......</p>
+            <p>
+               <lb/>Württemberg1.....</p>
+            <p>
+               <lb/>Baden1.......</p>
+            <p>
+               <lb/>Hessen1.......</p>
+            <p>
+               <lb/>Mecklenburg-Schwerin. .
+            <lb/>Sachsen-Weimar....
+            <lb/>Mecklenburg-Strelitz . .</p>
+            <p>
+               <lb/>Oldenburg1......</p>
+            <p>
+               <lb/>Braunschweig1.....</p>
+            <p>
+               <lb/>Sachsen-Meiningen . . .
+            <lb/>Sachsen-Altenburg . . .
+            <lb/>Sachsen-Coburg-Gotha .</p>
+            <p>
+               <lb/>Anhalt 1.1......</p>
+            <p>
+               <lb/>Schwarzburg-Sondershaus en
+            <lb/>Schwarzburg-Rudolstadt .</p>
+            <p>
+               <lb/>Waldeck. 1.1.....</p>
+            <p>
+               <lb/>Reuß älterer Linie . . .
+            <lb/>Reuß jüngerer Linie . .
+            <lb/>Schaumburg-Lippe . . .</p>
+            <p>
+               <lb/>Lippe1........</p>
+            <p>
+               <lb/>Lübeck1.......</p>
+            <p>
+               <lb/>Bremen1.......</p>
+            <p>
+               <lb/>Hamburg1......</p>
+            <p>
+               <lb/>Elsaß-Lothringen. . . .</p>
+            <p>
+               <lb/>Zusammen</p>
+            <p>
+               <lb/>355 033,9 S7S 914,5</p>
+            <pb n="57" xml:id="img_0057"/>
+            <p>
+               <lb/>57</p>
+            <p>
+               <lb/>-ir einzelnen Lrrn-eSstnaten.</p>
+            <p>
+               <lb/>Haushaltsrechnungen berechnet für</p>
+            <pb n="58" xml:id="img_0058"/>
+            <p>
+               <lb/>58</p>
+            <p>
+               <lb/>Noch: Die Urkerwrisungen an</p>
+            <pb n="59" xml:id="img_0059"/>
+            <p>
+               <lb/>die einzelnen Bundesstaaten.</p>
+            <pb n="60" xml:id="img_0060"/>
+            <p>
+               <lb/>60</p>
+            <p>
+               <lb/>Ertrag der Zölle «nd</p>
+            <p>
+               <lb/>Ertrag der Zölle im Ganzen für die Etats-</p>
+            <p>
+               <lb/>Für die Jahre 1876/77 bis 1896/97 nach den definitiven, für</p>
+            <p>
+               <lb/>(ekr. Statistisches Jahrbuch für das Deutsche</p>
+            <p>
+               <lb/>') Die Etatsperiode 1876/77 umfaßt die Zeit vom 1. Januar 1876 bis
+            <lb/>vor 1876 mit dem Kalenderjahr deckte, am 1. April.</p>
+            <pb n="61" xml:id="img_0061"/>
+            <p>
+               <lb/>61</p>
+            <p>
+               <lb/>Verbrauchssteuern.</p>
+            <p>
+               <lb/>resp. Rechnungsjahre 1876/77 bis 1899.</p>
+            <p>
+               <lb/>1897/98 bis 1899 nach den vorläufigen Zoll-Abrechnungen</p>
+            <p>
+               <lb/>Reich, 1866 Seite 170 und 1901 Seite 181).</p>
+            <p>
+               <lb/>Zollgebiet</p>
+            <p>
+               <lb/>31. März 1877, von da ab beginnt das Etats- resp. Rechnungsjahr, welches sich</p>
+            <pb n="62" xml:id="img_0062"/>
+            <p>
+               <lb/>62</p>
+            <p>
+               <lb/>L. Einnahme vom Taback im deutschen Zoll-</p>
+            <p>
+               <lb/>(ekr. Statistisches Jahrbuch sür das Deutsche</p>
+            <pb n="63" xml:id="img_0063"/>
+            <p>
+               <lb/>63</p>
+            <p>
+               <lb/>gebiet für die Erntejahre 1871/72 bis 1899</p>
+            <p>
+               <lb/>Reich, 1895 Seite 180 und 1901 Seite 189).</p>
+            <pb n="64" xml:id="img_0064"/>
+            <p>
+               <lb/>64</p>
+            <p>
+               <lb/>Einnahme vom Zncker im dentschen Zollgebiet</p>
+            <p>
+               <lb/>(okr. Statistisches Jahrbuch für das Deutsche</p>
+            <p>
+               <lb/>') Die einzelnen Betriebsjahre umfassen bis 1879/80 die Zeit vom 1. Sept. bis
+            <lb/>vom 1. Aug. bis 31. Juli. ') Einschließlich 28.2 (1000 -/l6) Zoll für Stärkezucker
+            <lb/>zucker und 10,8 (1000 für Stärkezuckersyrup. &lt;) ekr. ViertehahrSheste zur Statistik</p>
+            <pb n="65" xml:id="img_0065"/>
+            <p>
+               <lb/>65</p>
+            <p>
+               <lb/>für die Betriebsjahre 1871/72 bis 1800/1901</p>
+            <p>
+               <lb/>Reich, 1889 Seite 190 und 1601 Seite 190).</p>
+            <p>
+               <lb/>31. Aug., für 1880/81 die 11 Monate 1. Sept. bis 31. Juli und von 1881/82 an die Zeit
+            <lb/>und 5.1 (1000 -/lL) für Stärkezuckersvrup. *) Einschließlich 14,0 (1000 für Stärke-
+            <lb/>deS Deutschen Reichs 1601 Seite IV 287 und 288.</p>
+            <p>
+               <lb/>9</p>
+            <pb n="66" xml:id="img_0066"/>
+            <p>
+               <lb/>66</p>
+            <p>
+               <lb/>D. Ertrag der Zuckerabgaben</p>
+            <p>
+               <lb/>(ofr. Bierteljahrshefte zur Statistik des Deutschen</p>
+            <p>
+               <lb/>') Für 1888,V9 bis 1891/92 ist hier der Bruttoertrag der Materialsteuer</p>
+            <pb n="67" xml:id="img_0067"/>
+            <p>
+               <lb/>67</p>
+            <p>
+               <lb/>im deutschen Zollgebiet</p>
+            <p>
+               <lb/>Reichs, 1892 Seite IV 130 und 1901 Seite IV 288).</p>
+            <p>
+               <lb/>gaben ertrag</p>
+            <p>
+               <lb/>und der Nettoertrag der Verbrauchsabgabe eingesetzt.</p>
+            <p>
+               <lb/>ü'</p>
+            <pb n="68" xml:id="img_0068"/>
+            <p>
+               <lb/>L. Eihnname vom itBwnenran im isbittBtwneneuergranee.</p>
+            <p>
+               <lb/>l. Än -ru Ehjttrnaae 8170 bt 6/81887</p>
+            <p>
+               <lb/>k(er. Sisschistttae Jhbchrau für sda sDchteeu Rchie, 8981 Sitee 731).-</p>
+            <p>
+               <lb/>Von 8741 an silchen. isßLhEltngeaorn-. Dsa Vijlhtaerer 1. Jnuaar bis 31. März 8771 ist bcküsiichttuenrg iblbgeeen.</p>
+            <pb n="69" xml:id="img_0069"/>
+            <p>
+               <lb/>2. 3» de« Lhtibjrarrnres 188878/ ibs 9001899/1</p>
+            <p>
+               <lb/>kkoe. stSiischttsae Jhbcharu üsr dsa Dschteue Riche, 9011 Site- 817),</p>
+            <pb n="70" xml:id="img_0070"/>
+            <p>
+               <lb/>70</p>
+            <p>
+               <lb/>Die Besteuerung des inländischen Branntweins
+            <lb/>Betriebsjahres 189S/19V0 (1. Oktober</p>
+            <p>
+               <lb/>(ofr. Vierteljahreshefte zur Statistik des</p>
+            <pb n="71" xml:id="img_0071"/>
+            <p>
+               <lb/>71</p>
+            <p>
+               <lb/>im deutschen Branntweinsteuer-Gebiet während des
+            <lb/>1899 bis 39. September 1990)</p>
+            <p>
+               <lb/>Deutschen Reichs, 1801 Seite II 102 fs.).</p>
+            <p>
+               <lb/>Einnahme</p>
+            <pb n="72" xml:id="img_0072"/>
+            <p>
+               <lb/>72</p>
+            <p>
+               <lb/>Noch: k'. Dir Besteuerung -es intan-Lsche« Bräunt-</p>
+            <pb n="73" xml:id="img_0073"/>
+            <p>
+               <lb/>73</p>
+            <p>
+               <lb/>«eins im -imtsche« Lranntwrinstruer-Grdirt.</p>
+            <pb n="74" xml:id="img_0074"/>
+            <p>
+               <lb/>74</p>
+            <p>
+               <lb/>6. Einnahme</p>
+            <p>
+               <lb/>(okr. Statistisches Jahrbuch für das Deutsche Reich, 1892 Seite ISO, 1896 Seite 170</p>
+            <p>
+               <lb/>s.) Im Brausteuergebiet für</p>
+            <p>
+               <lb/>') Das Merteljahr 1. Jan. bis 31. März 1877 ist unberücksichtigt geblieben. — -) In</p>
+            <pb n="75" xml:id="img_0075"/>
+            <p>
+               <lb/>75</p>
+            <p>
+               <lb/>vom Vier</p>
+            <p>
+               <lb/>und Vierteljahrshefte zur Statistik des Deutschen Reichs Seite IV 142).</p>
+            <p>
+               <lb/>die Jahre 187« bis 190«.</p>
+            <p>
+               <lb/>den Spalten 2. 4 und 5 fehlen für die Jahre 1870 und 1871 die Beträge für Südhessen.</p>
+            <pb n="76" xml:id="img_0076"/>
+            <p>
+               <lb/>Noch: 6. «in-
+            <lb/>d) In den einzelnen deutschen Steuer-</p>
+            <p>
+               <lb/>(ekr. Statistische, Jahrbuch lür da» Deutsche Reich, 1892 Seite 191, 1898 Seite 171</p>
+            <p>
+               <lb/>*) Die Zeit vom 1. Januar bis 31. März 1877 ist unberücksichtigt geblieben.
+            <lb/>1. Juli 1877/78; 1. Juli 1878 bis 31. Mär- 1879 (9 Monate), 1. April 1879/80 bis</p>
+            <pb n="77" xml:id="img_0077"/>
+            <p>
+               <lb/>»ahme vom Liter.</p>
+            <p>
+               <lb/>gebieten für die Jahre 1876 bis I960</p>
+            <p>
+               <lb/>und Vierteljahrsheste zur Statistik des Deutschen Reichs Seite IV 142).</p>
+            <p>
+               <lb/>") Erst vom 1. IM 1878 ab einschl. der bayerischen Pfalz. *) 1. Juli 1876/77 bis
+            <lb/>1. April 1894/95.</p>
+            <pb n="78" xml:id="img_0078"/>
+            <p>
+               <lb/>78</p>
+            <p>
+               <lb/>Noch: 6. Et«-</p>
+            <p>
+               <lb/>Die Bierabgaben stellen sich pro</p>
+            <p>
+               <lb/>y Die Zeit vom 1. Januar bis 31. März 1877 ist unberücksichtigt geblieben.
+            <lb/>.1. Juli. 18M78; 1. Juli 1878 bis 31. März 1879 (9 Monate), 1. April 1879/80 bis</p>
+            <pb n="79" xml:id="img_0079"/>
+            <p>
+               <lb/>79</p>
+            <p>
+               <lb/>nähme vom Girr.</p>
+            <p>
+               <lb/>Kopf der jeweiligen Bevölkerung:</p>
+            <p>
+               <lb/>') Erst vom 1. Juli 1878 ab einschl. der bayerischen Pfalz. ') 1. Juli 1876/77 bis.
+            <lb/>1. April 1894/95.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

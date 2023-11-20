@@ -1,0 +1,2939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Amtliches Reichstags-Handbuch Legislaturperiode ...</title>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1222198746">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="https://orcid.org/0000-0003-4615-4753">
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/105315190X">
+                  <surname>Nolda</surname>
+                  <forename>Andreas</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="https://orcid.org/0000-0002-1096-3957">
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+               <orgName>Bayerische Staatsbibliothek</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Texttranskription
+                                durch OCR.</note>
+                  <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle
+                                Transkription (und Textauszeichnung) mittlerweile nicht mehr dem
+                                Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen
+                                muss.</note>
+                  <date type="importDTA">2021-09-29T20:17:39Z</date>
+               </resp>
+            </respStmt>
+            <respStmt corresp="#availability-textsource-1">
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                            Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Langfristige Bereitstellung der
+                                DTA-Ausgabe</note>
+                  <ref target="https://www.bbaw.de"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy
+                            of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische
+                            Akademie der Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-09-29T20:17:39Z</date>
+            <availability xml:id="availability-textsource-1">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0
+                                License.</p>
+               </licence>
+            </availability>
+            
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="M">Amtliches Reichstags-Handbuch Legislaturperiode .... Berlin, 1896.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Amtliches Reichstags-Handbuch Legislaturperiode ...</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name>Reichsdr.</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1896</date>
+                  
+               </publicationStmt>
+            </biblFull>
+            <recordingStmt>
+               <p>Protokollierte Verhandlungen des Deutschen Reichstags und seiner
+                            Vorläufer, die von Stenografinnen und Stenografen während der Sitzungen
+                            angefertigt und in der Folge der Öffentlichkeit als gedruckte
+                            Publikation zur Verfügung gestellt wurden.</p>
+            </recordingStmt>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bayerische Staatsbibliothek</repository>
+                  <idno>
+                     <idno type="shelfmark">BA/Germ.g. 390 c-1893/98,a</idno>
+                     <idno type="URLCatalogue">https://opacplus.bsb-muenchen.de/title/7114115</idno>
+                     <idno type="URN">urn:nbn:de:bvb:12-bsb00003472-8</idno>
+                     <idno type="URLIIIF">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00003472/manifest</idno>
+                     <idno type="URL" subtype="IIIFviewer">https://www.digitale-sammlungen.de/de/view/bsb00003472</idno>
+                     <idno type="URL" subtype="DFGviewer">https://daten.digitale-sammlungen.de/~db/bsb00003472/images/</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <typeDesc>
+                     <p>Fraktur</p>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Bogensignaturen: nicht übernommen; Druckfehler: ignoriert;
+                            fremdsprachliches Material: nicht gekennzeichnet;
+                            Geminations-/Abkürzungsstriche: wie Vorlage; Hervorhebungen (Antiqua,
+                            Sperrschrift, Kursive etc.): nicht ausgezeichnet; I/J in Fraktur: wie
+                            Vorlage; i/j in Fraktur: wie Vorlage; Kolumnentitel: nicht übernommen;
+                            Kustoden: nicht übernommen; langes s (ſ): als s transkribiert;
+                            Normalisierungen: keine; rundes r (&amp;#xa75b;): als r/et
+                            transkribiert; Seitenumbrüche markiert: ja; Silbentrennung: keine
+                            Angabe; u/v bzw. U/V: wie Vorlage; Vokale mit übergest. e: als ä/ö/ü
+                            transkribiert; Vollständigkeit: vollständig erfasst; Zeichensetzung: wie
+                            Vorlage; Zeilenumbrüche markiert: ja;</p>
+         </editorialDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">Neuhochdeutsch</language>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Politik</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Rede</classCode>
+            <classCode scheme="#zdl_dwds">gesprochen</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">reichstag</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n="1" xml:id="img_0001"/>
+            <p>
+               <lb/>Machtr-ag</p>
+            <p>
+               <lb/>zum</p>
+            <p>
+               <lb/>amtlichen</p>
+            <p>
+               <lb/>Reichstags-Handbuch</p>
+            <p>
+               <lb/>für die</p>
+            <p>
+               <lb/>neunte Legislatur-Periode 1893/98</p>
+            <p>
+               <lb/>nebst</p>
+            <p>
+               <lb/>Mittheilungen über öss neue Keichslagsgebäuöe.</p>
+            <p>
+               <lb/>Herausgegeben</p>
+            <p>
+               <lb/>vom</p>
+            <p>
+               <lb/>Reichstags - Bureau.</p>
+            <p>
+               <lb/>Berlin t896.</p>
+            <p>
+               <lb/>Gedruckt in der Hausdruckerei des Reichstags.</p>
+            <pb n="2" xml:id="img_0002"/>
+            <pb n="3" xml:id="img_0003"/>
+            <p>
+               <lb/>Inhalt.</p>
+            <p>
+               <lb/>Seite</p>
+            <p>
+               <lb/>Aenderungen in der Geschäftsordnung für den Reichstag .15</p>
+            <p>
+               <lb/>Aenderungen unv Nachträge in den biographischen Notizen</p>
+            <p>
+               <lb/>über die Mitglieder des Reichstages1.......7</p>
+            <p>
+               <lb/>Stärke der Fraktionen mit den in denselben stattgehabten</p>
+            <p>
+               <lb/>Aenderungen1...............28</p>
+            <p>
+               <lb/>Vorstand deS Reichstages1..........88</p>
+            <p>
+               <lb/>Vorsitzende der Abtheilungen des Reichstages.... 88
+            <lb/>DaS neue Reichstagshauö:</p>
+            <p>
+               <lb/>1I.Baugeschichte1.............84</p>
+            <p>
+               <lb/>1II.Bauausführung1.............85</p>
+            <p>
+               <lb/>III.1Zusammenstellung statistischer Angaben. .... 86</p>
+            <p>
+               <lb/>IV.1Grundrisse und Fanden .. 7 ...... 87</p>
+            <p>
+               <lb/>V.1Raumvertheilung1............41</p>
+            <p>
+               <lb/>VI.1Rundgang durch das Gebäude1.......42</p>
+            <p>
+               <lb/>1VII.Beleuchtung, Heizung und Lüftung1......55</p>
+            <p>
+               <lb/>Tabellen:</p>
+            <p>
+               <lb/>Ausgaben und Einnahmen des Reichs nach dem Reichs¬
+            <lb/>haushalts-Etat für das Etatsjahr 1895/96 und den</p>
+            <p>
+               <lb/>Nachträgen zu demselben1..........58</p>
+            <p>
+               <lb/>Ausgaben und Einnahmen des Reichs nach dein Reichs-
+            <lb/>haushalts-Etat für das Etatsjahc 1896/97 .... 60
+            <lb/>Matrikularbeiträge für die Etatsjahre 1882/88 bis 1896/97 62
+            <lb/>Ueberweisungen an die Bundesstaaten für die Etats-
+            <lb/>jabre 1882/83 bis 1896/971 68</p>
+            <p/>
+            <pb n="4" xml:id="img_0004"/>
+            <p>
+               <lb/>4</p>
+            <p>
+               <lb/>Seite</p>
+            <p>
+               <lb/>Ertrag der Zölle und Verbrauchssteuern:</p>
+            <p>
+               <lb/>X. Ertrag der Zölle im Ganzen für die Etatsjahre</p>
+            <p>
+               <lb/>1876/77 bis 1893/94 1........... 64</p>
+            <p>
+               <lb/>ö. Einnahme vom Taback im deutschen Zollgebiet für</p>
+            <p>
+               <lb/>die Erntejahre 1871/72 bis 1894/9511..... 66</p>
+            <p>
+               <lb/>10.Einnahme vom Zucker im deutschen Zollgebiet für
+            <lb/>die Betriebsjahre 1871/72 bis 1894/951.... 68</p>
+            <p>
+               <lb/>v. Ertrag der Zuckerabgaben im deutschen Zollgebiet
+            <lb/>für die Betriebsjahre t 871/72 bis 1894/95 ... 70
+            <lb/>L. Einnahme vom Branntwein im Branntweinsteuer-
+            <lb/>Gebiet:</p>
+            <p>
+               <lb/>1.1in den Etatsjahren 1870 bis 1886/87 und dem</p>
+            <p>
+               <lb/>Halbjahr 1. April bis 30. September 18871. 72</p>
+            <p>
+               <lb/>2.1in den Betriebsjahren 1887/88 bis 1893/94 . 73
+            <lb/>IV Die Besteuerung des inländischen Branntweins im</p>
+            <p>
+               <lb/>deutschen Branntweinsteuer-Gebiet während des</p>
+            <p>
+               <lb/>Betriebsjahres 1893/94 1.......... 74</p>
+            <p>
+               <lb/>(1. Einnahme vom Bier:</p>
+            <p>
+               <lb/>a)1im Brausteuergebiet für die Etatsjahre 1870</p>
+            <p>
+               <lb/>bis 1894/95 1............ 76</p>
+            <p>
+               <lb/>b)1in den einzelnen deutschen Steuergebieten für</p>
+            <p>
+               <lb/>die Jahre 1876 bis 1894/951....... 78</p>
+            <p>
+               <lb/>Grundrisse zum Reichstagsgebäude1........83</p>
+            <pb n="5" xml:id="img_0005"/>
+            <p>
+               <lb/>Aenderungen</p>
+            <p>
+               <lb/>in der</p>
+            <p>
+               <lb/>Geschäftsordnung für den Reichstag.</p>
+            <p>
+               <lb/>An Stelle des Z. 35 Abs. 3 — Seite 74 des Hand¬
+            <lb/>buchs — und beziehungsweise des Z. 60 — Seite 78 des
+            <lb/>Handbuchs — ist zu setzen:</p>
+            <p>
+               <lb/>K. 35 Absatz 3.*)</p>
+            <p>
+               <lb/>Die von Mitgliedern des Reichstages gestellten Anträge
+            <lb/>kommen in der Reihenfolge zur Verhandlung, in welcher sie
+            <lb/>eingegangen sind. Alle Anträge, welche innerhalb der ersten
+            <lb/>zehn Tage einer Session eingegangen sind, gelten als gleich¬
+            <lb/>zeitig eingebracht. Ueber die Reihenfolge der Berathung
+            <lb/>gleichzeitig eingebrachter Anträge hat der Präsident sich mit
+            <lb/>dem Hause zu verständigen. Erfolgt eine Verständigung
+            <lb/>nicht, so entscheidet das durch den Präsidenten zu ziehende
+            <lb/>Loos. Gesetzentwürfe behalten ihre Priorität bis zu ihrer
+            <lb/>Schlußberathung; die zweite und dritte Berathung hat mit¬
+            <lb/>hin, soweit sie zur Verhandlung im Plenum vorbereitet ist,
+            <lb/>vor denjenigen Anträgen stattzufinden, welche in der Reihen¬
+            <lb/>folge der ersten Berathung diesen Gesetzentwürfen nach-</p>
+            <p>
+               <lb/>*) Beschluß des Reichstages vom 5. Februar 1895 —
+            <lb/>Stenographischer Bericht 29. Sltzunng Seite 671V.</p>
+            <pb n="6" xml:id="img_0006"/>
+            <p>
+               <lb/>6</p>
+            <p>
+               <lb/>gestanden haben. Die Petitionen gelangen in derjenigen
+            <lb/>Reihenfolge zur Berathung, in welcher sie zur Verhandlung
+            <lb/>im Plenum vorbereitet sind. Eine Entfernung von der
+            <lb/>Stelle der Tagesordnung, welche den von Mitgliedern des
+            <lb/>Reichstages gestellten Anträgen und den Petitionen nach der
+            <lb/>Priorität gebührt, kann nur beschlossen werden, wenn nicht
+            <lb/>bei Anträgen von dem Antragsteller und bei Petitionen von
+            <lb/>dreißig Mitgliedern widersprochen wird.</p>
+            <p>
+               <lb/>§. 60.**)</p>
+            <p>
+               <lb/>Die Aufrechterhaltung der Ordnung in den Sitzungen
+            <lb/>liegt dem Präsidenten ob.</p>
+            <p>
+               <lb/>Wenn ein Mitglied die Ordnung verletzt, so wird cs
+            <lb/>vom Präsidenten mit Nennung des Namens darauf zurück¬
+            <lb/>gewiesen.</p>
+            <p>
+               <lb/>Im Falle gröblicher Verletzung der Ordnung kann das
+            <lb/>Mitglied durch den Präsidenten von der Sitzung ausgeschlossen
+            <lb/>werden. Leistet dasselbe der Aufforderung des Präsidenten
+            <lb/>zum Verlassen des Saales keine Folge, so hat der Präsident
+            <lb/>in Gemäßheit des §. 61 dieser Geschäftsordnung zu Ver¬
+            <lb/>fahren. Wenn während der Dauer der Ausschließung irr
+            <lb/>anderen als Geschäftsordungsfragen eine Abstimmung erfolgt
+            <lb/>ist, bei welcher die Stimme des ausgeschlossenen Mitgliedes
+            <lb/>den Ausschlag hätte geben können, so muß die Abstimmung
+            <lb/>in der nächsten Sitzung wiederholt werden.</p>
+            <p>
+               <lb/>Das ausgeschlossene Mitglied ist berechtigt, spätestens
+            <lb/>am folgenden Tage schriftlich Einspruch zu erheben, auf
+            <lb/>welche der Reichstag, jedoch nicht vor dem darauffolgenden
+            <lb/>Tage, ohne Diskussion darüber entscheidet, ob der Ordnungs¬
+            <lb/>ruf oder die Ausweisung gerechtfertigt war.</p>
+            <p>
+               <lb/>**) Beschluß des Reichstages vom 16. Februar 1895 —
+            <lb/>Stenographischer Bericht 39. Sitzung Seite 946^..</p>
+            <pb n="7" xml:id="img_0007"/>
+            <p>
+               <lb/>Aenderungen und Nachträge</p>
+            <p>
+               <lb/>in den biographischen Notizen über die Mitglieder
+            <lb/>des Reichstages.</p>
+            <p>
+               <lb/>(Aenderungen im Text sind gesperrt gedruckt.)</p>
+            <p>
+               <lb/>Ahlwardt, früherer Rektor. Groß-Lichterfelde,
+            <lb/>Stuben rauchstr. 12.</p>
+            <p>
+               <lb/>Prinz von Arenberg, Major L 1a. suits der Armee,
+            <lb/>Legationssekretär a. D. zu Berlin, Hindersinstr. 6.</p>
+            <p>
+               <lb/>von Arnstvaldt, Werner; Landschaftsrath und Ritter¬
+            <lb/>gutsbesitzer zu Böhme bei Rethem a. d. Aller.</p>
+            <p>
+               <lb/>Augst, Wilhelm; Kupferschmied und Direktor des
+            <lb/>Fränkischen Kohlenkonsumvereinß zu Gerabronn (Station Blau-
+            <lb/>felden). Wohnung in Berlin: Dorotheenstr. 84. Wahlkr.:
+            <lb/>XII. Württemberg (Gerabronn-Künzelsau). — Deutsche Volks¬
+            <lb/>partei —.</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Pflüger (Württem¬
+            <lb/>berg) am 12. November 1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 12. April 1853 zu Jlshofen; evangelisch. Be¬
+            <lb/>suchte die Volksschule. Gemeinderath in Gerabronn.</p>
+            <p>
+               <lb/>Bantleon. Mandat am 8. Februar 1895 für un¬
+            <lb/>gültig erklärt.</p>
+            <pb n="8" xml:id="img_0008"/>
+            <p>
+               <lb/>8</p>
+            <p>
+               <lb/>Bayerlein, Julius; Privatier und Stadtratl) zu Bay¬
+            <lb/>reuth. Wohnung in Berlin: Hotel Hollstein. Wahlkr.:
+            <lb/>2. Oberfranken (Bayreuth). — Nationalliberal —.</p>
+            <p>
+               <lb/>Geb. am 23. Januar 1838 zu Bayreuth; protestantisch.
+            <lb/>Lernte nach vorausgegangenem Besuch der Volks-, Latein- und
+            <lb/>Realschule als Kaufmann, trat 1863 in das Baumwollen-
+            <lb/>waaren-Fabrikgeschäft der Firma „F. C. Bayerlein in Bay¬
+            <lb/>reuth" als Theihaber ein, dessen Betrieb er leitete; nach Auf¬
+            <lb/>enthalt an der höheren Webschule in Reutlingen wandelte er
+            <lb/>dieses Fabrikgeschäft in ein mechanisches Etablissement um,
+            <lb/>blieb in ihm bis 1892 mit Erfolg thätig und zog sich dann in
+            <lb/>das Privatleben zurück. Seit 1884 Mitglied der Handels- und
+            <lb/>Gewerbekammer von Oberfranken, von 1885 an Mitglied des
+            <lb/>Gemeindekollegiums und seit 1892 Mitglied des Magistrats¬
+            <lb/>kollegiums von Bayreuth. Bis 1892, der Niederlegung seiner
+            <lb/>geschäftlichen Thätigkeit, Schiedsrichter der Sektion II der
+            <lb/>Süddeutschen Textil-Berufsgenossenschaft in Hof, sowie Schieds¬
+            <lb/>richter der Jnvaliditäts- und Altersversicherungs-Anstalt für
+            <lb/>Oberfrankerr in Bayreuth.</p>
+            <p>
+               <lb/>Beckh, Hermann; Rechtsanwalt, Justizrath und Guts¬
+            <lb/>besitzer zu Nürnberg.</p>
+            <p>
+               <lb/>Druckfehlerberichtigung: Seite 142 des Handbuchs,
+            <lb/>Zeile 9 und 10 von oben ist zu lesen: „1863 zum Königlichen
+            <lb/>Advokaten in Lindau i. B. ernannt, siedelte 1870 nach Nürn¬
+            <lb/>berg über".</p>
+            <p>
+               <lb/>Benoit, Wilhelm; Geheimer Banrath a. D. zu Charlotten¬
+            <lb/>burg, Hardenbergstr. 27. Wahlkr.: 3. Rcg.-Bez. Cöslin (Cöslin-
+            <lb/>Colberg). — Freisinnige Vereinigung. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten von Gerlach am
+            <lb/>28. Juni 1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 12. August 1826 zu Märkisch-Friedland; evangelisch.
+            <lb/>Besuchte das Gymnasium in Stargard (Pommern) und die
+            <lb/>Königl. Bauakademie in Berlin (1847 bis 1850).11846</p>
+            <pb n="9" xml:id="img_0009"/>
+            <p>
+               <lb/>9</p>
+            <p>
+               <lb/>Regierungs-Feldmesser bei dem Bau der Stardard-Posener
+            <lb/>Eisenbahn. 1849 Regierungs-Bauführer bei dem Bau des
+            <lb/>Weichsel-Nogat-Kanals. 1854 Regierungs-Baumeister bei dem
+            <lb/>Bau der Kölner Rheinbrücke und der Deutz-Gießener Eisenbahn.
+            <lb/>1863 Kreis-Baumeister in Wesel; 1870 Bauinspektor in Siegen;
+            <lb/>1872 Hafenbauinspektor in Swinemünde; 1875 bis 1891 Re-
+            <lb/>gierungS- und Baurath in Cöslin (Wasser- und Hafenbauten).
+            <lb/>In Swinemünde Amtsvorsteher des fiskalischen Amtsbezirks
+            <lb/>„Swinemünder-Hafengrund* und Mitglied der Kreissynode
+            <lb/>Usedom-Wollin. Von 1877 bis 1891 Mitglied der Kreissynode
+            <lb/>Eöslin und von 1881 bis 1890 desgleichen der Pommerschen
+            <lb/>Provinzialsynode.</p>
+            <p>
+               <lb/>Bindewald, Fritz; Maler zu Marburg (Bez. Kassel),
+            <lb/>Neustadt Nr. II. Wohnung in Berlin: Krausenstraße 25.
+            <lb/>Wahlkr.: 3. Hessen (Alsfeld-Lauterbach). — Reformpartei —.</p>
+            <p>
+               <lb/>Für den Abgeordneten Zimmermann, der die Wahl ab¬
+            <lb/>gelehnt, am 2. August 1893 gewählt.</p>
+            <p>
+               <lb/>Boeckel, Otto; De. Ml., Buchdruckereibesiper zu Berlin,
+            <lb/>Neue Königstr. 17. — Bei keiner Fraktion.</p>
+            <p>
+               <lb/>Boettcher, De. MI. Mandat am 7. Mai 1895 für
+            <lb/>ungültig erklärt.</p>
+            <p>
+               <lb/>Bohm. Am 17. März 1896 verstorben.</p>
+            <p>
+               <lb/>Bostetter, August; Kaiserlicher Sanitätsrath.</p>
+            <p>
+               <lb/>Braubach, De. zur. Mandat in Folge Uebernahme
+            <lb/>einer Rechtßanwaltstelle beim Reichsgericht am 5. Dezember 1895
+            <lb/>niedergelegt.</p>
+            <p>
+               <lb/>Bürklin, Albert; Dr. zur., General-Intendant.</p>
+            <p>
+               <lb/>Amt als zweiter Vizepräsident des Reichstages
+            <lb/>am 26. März 1895 niedergelegt.</p>
+            <p>
+               <lb/>Freiherr von Buol-Berenberg. Erster Vizepräsident
+            <lb/>des Reichstages bis zum 27. März 1895. Seit diesem Tage</p>
+            <pb n="10" xml:id="img_0010"/>
+            <p>
+               <lb/>— 10 —</p>
+            <p>
+               <lb/>zum Präsidenten des Reichstages gewählt. -- Bei
+            <lb/>keiner Fraktion. —</p>
+            <p>
+               <lb/>Prinz zu Schönaich-Carolath. Hospitant der
+            <lb/>Fraktion der Nationalliberalen.</p>
+            <p>
+               <lb/>Caffelmann. Mandat am 8. Februar 1895 für un¬
+            <lb/>gültig erklärt; wiedergewählt am 19. April 1895.</p>
+            <p>
+               <lb/>Charta«, Nicolaus; Gutsbesitzer zu Sierck (Lothringen).
+            <lb/>Wahlkr.: 13. Elsaß-Lothringen (Bolchen-Diedenhofen). —
+            <lb/>Elsässer. -</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Neumann am
+            <lb/>9. Januar 1896 gewählt.</p>
+            <p>
+               <lb/>Geb. am 10. Oktober 1859; katholisch. Besuchte das
+            <lb/>Gymnasium in Sierck.</p>
+            <p>
+               <lb/>Conrad, Thaddäus; Gutsbesitzer zu Buchwald bei
+            <lb/>Liebau i. Schl. Am 15. Juni 1895 verstorben.</p>
+            <p>
+               <lb/>Cytronowski. Mandat am 17. November 1893
+            <lb/>niedergelegt.</p>
+            <p>
+               <lb/>Graf Dönhoff-Friedrichstein, August. — Bei keiner
+            <lb/>Fraktion. —</p>
+            <p>
+               <lb/>von Dziembowski, Stephan; Landrath a. D. Schloß
+            <lb/>Meseritz (Reg.-Bez. Posen). Wohnung in Berlin: Hotel
+            <lb/>Hohenzollern, Behrenstr. 18/19. Wahlkr.: 3. Reg.-Bez. Posen
+            <lb/>lMeseritz-Bomst). — Deutsche Reichspartei. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Freiherrn von Unruhe-
+            <lb/>Bomst am 31. März 1894 gewählt; Mandat am 7. Mai 1895
+            <lb/>iür ungültig erklärt; wiedergewählt am 20. Juli 1895.</p>
+            <p>
+               <lb/>Geb. am 24. Dezember 1828; evangelisch. 1874 bis 1880
+            <lb/>Landrath des Kreises Meseritz; in früheren Jahren vielfach in
+            <lb/>ständischen und Kommunalämtern thätig. Seit 1877 Mitglied
+            <lb/>der Provinzialständischen Kommission für den Chaussee- und
+            <lb/>Wegebau. Seit l889 Mitglied und von 1891 ab Vorsitzender</p>
+            <pb n="11" xml:id="img_0011"/>
+            <p>
+               <lb/>11</p>
+            <p>
+               <lb/>des Provinzial-Ausschusses, sowie des Ausschusses für die
+            <lb/>Jnvaliditäts- und Alters-Versicherungs-Anstalt Posen.</p>
+            <p>
+               <lb/>von Elm, Adolph; Cigarren-Sortirer zu Hamburg-
+            <lb/>Eimsbüttel. Wohnung in Berlin: Willibald Alexisstr. 34.
+            <lb/>Wahlkr.:16. Schleswig-Holstein (Pinneberg-Segeberg). —</p>
+            <p>
+               <lb/>Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Graf von Moltke
+            <lb/>am 23. Juni 1894 gewählt.</p>
+            <p>
+               <lb/>Geb. am 24. September 1857 zu Hamburg; konfessionslos.
+            <lb/>Besuchte die Volksschule und Mittelschule zu Wandsbeck.
+            <lb/>Seit Bestehen (18. März 1891) Leiter der Tabakarbeiter-
+            <lb/>Genossenschaft (E. G. m. b. H.) Hamburg-Eschwege; von
+            <lb/>1878 bis 1882 in den Vereinigten Staaten von Nordamerika,
+            <lb/>dort in New-Pork Mitglied des Trade-Councils in Detroit,
+            <lb/>Mitglied der Executive der sozialistischen Arbeiterpartei. Seit
+            <lb/>1885 Geschäftsführer des Vereins Deutscher Cigarren-Sortirer,
+            <lb/>seit Bestehen der Generalkommission der Gewerkschaften
+            <lb/>Deutschlands (17. November 1890) Mitglied derselben.</p>
+            <p>
+               <lb/>Engels. Geheimer und Ober-Bergrath.</p>
+            <p>
+               <lb/>Fischbeck, Otto; Handelskammer-Syndikus a. D. zu
+            <lb/>Berlin, Calvinstraße 14. Wahlkr.: 1. Neg.-Bez. Düsseldorf
+            <lb/>(Lennep-Mettmann). — Freisinnige Volkspartei. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Meist am 30. April
+            <lb/>1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 28. August 1865 zu Güntershagen (Kr. Dram-
+            <lb/>burg); evangelisch. Besuchte das Gymnasium zu Stendal;
+            <lb/>studirte 1885 bis 1889 an den Universitäten Berlin und
+            <lb/>Greifswald Staatswissenschaften und Nationalökonomie, wurde
+            <lb/>1890 in die Stellung bei der Handelskammer zu Bielefeld
+            <lb/>berufen, übernahm gleichzeitig die Geschäftsführung des Gnaden¬
+            <lb/>fonds zur Beförderung der Leinenmanufaktur zu Bielefeld.
+            <lb/>Wurde 1893 in Bielefeld zum Stadtverordneten gewählt.</p>
+            <pb n="12" xml:id="img_0012"/>
+            <p>
+               <lb/>12</p>
+            <p>
+               <lb/>Förster, Paul; Gymnasial-Oberlehrer, Professor, Dr. Ml.
+            <lb/>Wohnort: Friedenau. Wahlkr.: 5. Reg.-Bez. Cöslin (Neu-
+            <lb/>stettin). — Deutsche Reformpartei. —</p>
+            <p>
+               <lb/>Für den Abgeordneten Ahlwardt, der die Wahl abgelehnt,
+            <lb/>am 18. Juli 1893 gewählt.</p>
+            <p>
+               <lb/>Geb. am 14. November 1844 zu Delitzsch; evangelisch.
+            <lb/>Besuchte das Gymnasium des grauen Klosters in Magdeburg
+            <lb/>und die Universitäten Berlin und Göttingen.</p>
+            <p>
+               <lb/>Schriften: „Spanische Sprachlehre"; „Kunst des glücklichen
+            <lb/>Lebens"; „Kaiser Wilhelms I. deutsch-soziales Vermächtnis".
+            <lb/>Begründer der Zeitung „Frei-Deutschland". 2. Vorsitzender
+            <lb/>des Internationalen Vereins zur Bekämpfung der wissenschaft¬
+            <lb/>lichen Thierfolter (Vivisektion) und Herausgeber der Zeitschrift
+            <lb/>„Der Thier- und Menschenfreund".</p>
+            <p>
+               <lb/>Machte die Feldzüge 1866 und 1870/71 mit. Zuletzt
+            <lb/>Hauptmann der Landwehr a. D.</p>
+            <p>
+               <lb/>von Frege-Weltzin, Dr. (Früher Dr. von Frege.)</p>
+            <p>
+               <lb/>Zrledberg, Robert; Dr. Ml., ordentlicher Professor der
+            <lb/>Staatswissenschaften an der Universität Halle a. d. Saale.
+            <lb/>Wohnung in Berlin: Leipzigerplatz 18. Wahlkr.: 2. Anhalt
+            <lb/>(Bernburg). — Nationalliberal. —</p>
+            <p>
+               <lb/>Mandat in Folge seiner Ernennung zum ordentlichen
+            <lb/>Professor am 4. September 1894 niedergelegt; wieder¬
+            <lb/>gewählt am 13. November 1894.</p>
+            <p>
+               <lb/>Fritzen, Carl; Amtsgerichtsrath zu Dülken (Rhein-
+            <lb/>provinz). Wahlkr.: 7. Reg.-Bez. Düsseldorf (Rees-Mors).
+            <lb/>— Centrum. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Gescher am 8. Fe¬
+            <lb/>bruar 1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 19. Februar 1844 zu Cleve; katholisch. Besuchte
+            <lb/>Bildungsstätten: Bonn und Heidelberg. Mitglied des Preußischen
+            <lb/>Abgeordnetenhauses.</p>
+            <pb n="13" xml:id="img_0013"/>
+            <p>
+               <lb/>13</p>
+            <p>
+               <lb/>Fürst zu Fürsten-erg, Karl Egon; Oberst-Marschall
+            <lb/>Sr. Majestät des Kaisers. Wohnort: Donaueschingen (Badischer
+            <lb/>Schwarzwald), Großh. Baden. Wohnung in Berlin: Wilhelm¬
+            <lb/>straße 23. Wahlkr.: 2. Baden (Donaueschingen-Villingen).
+            <lb/>— Parteilos. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Freiherrn von Hornstein
+            <lb/>am 10. November 1893 gewählt.</p>
+            <p>
+               <lb/>Geb. am 25. August 1852 zu Kruschowitz in Böhmen;
+            <lb/>katholisch. Besuchte die Universitäten zu Heidelberg und
+            <lb/>Straßburg i. E. 1875 bis 1890 aktiver Militär. Jetzt Major
+            <lb/>ä. 1a 8mt6 der Armee. Erbliches Mitglied des preußischen
+            <lb/>Herrenhauses, der Württembergischen Kammer der Standes¬
+            <lb/>herren und der badischen Ersten Kammer.</p>
+            <p>
+               <lb/>Fusangel, Joh.; Chef-Redakteur zu Hagen (West¬
+            <lb/>falen).</p>
+            <p>
+               <lb/>Gamp, Wirklicher Geheimer Ober-Regierungsratb.</p>
+            <p>
+               <lb/>Gerisch, Karl Alwin; Maschinenbauer zu Hamburg-Eims¬
+            <lb/>büttel, Eichenstr. 4, und zu Berlin, Bahnhofstr. 4. Wahlkr.:
+            <lb/>23. Sachsen (Plauen). — Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten von Polenz am
+            <lb/>1. Juni 1894 gewählt.</p>
+            <p>
+               <lb/>Geb. am 14. März 1857 zu Rautenkranz i. Vgtl.; Dissident.
+            <lb/>Besuchte die Volksschule in Rautenkranz und die Fortbildungs¬
+            <lb/>schule in Berlin. Erlernte in Auerbach i. V. die Maschinen¬
+            <lb/>bauerei. Arbeitete in Berlin. War hier erst Vorsitzender,
+            <lb/>dann Rendant und Arbeitsvermittler der Metallarbeiter-
+            <lb/>Organisation.</p>
+            <p>
+               <lb/>von Gerlach. Mandat am 27. März 1895 für
+            <lb/>ungültig erklärt.</p>
+            <p>
+               <lb/>Gerstenberger, Liborius; Pfarrer und Königl. Distrikts¬
+            <lb/>schulinspektor zu Laufach. Wahlkr.: 1. Unterfranken (Aschaffen¬
+            <lb/>burg). — Centrum. —</p>
+            <pb n="14" xml:id="img_0014"/>
+            <p>
+               <lb/>14</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Haus am 27. Mal
+            <lb/>1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 19. April 1864 zu Rödelsee; katholisch. Be¬
+            <lb/>suchte das Königl. Gymnasium zu Schweinfurt und die Universität
+            <lb/>und das Priesterseminar zu Würzburg.</p>
+            <p>
+               <lb/>Gescher. Mandat in Folge seiner Ernennung zum Ober-
+            <lb/>Regierungsrath und Stellvertreter des Regierungspräsidenten
+            <lb/>zu Düsseldorf am 2. Dezember 1894 niedergelegt.</p>
+            <p>
+               <lb/>Greift. Mandat am 8. Februar 1895 für ungültig
+            <lb/>erklärt; wiedergewählt am 27. Mai 1895; verstorben
+            <lb/>am 10. Oktober 1895.</p>
+            <p>
+               <lb/>Gröber, Landgerichtsrath in Heilbronn. Mandat
+            <lb/>in Folge seiner Ernennung zum Landgerichtsrath am 12. Oktober
+            <lb/>1895niedergelegt; wiedergewählt am 13.Dezember 1895.</p>
+            <p>
+               <lb/>Freiherr von Gnltlingen, Landgerichtsdirektor zu
+            <lb/>Stuttgart. Mandat am 10. August 1895 in Folge seiner
+            <lb/>Ernennung zum Landgerichtsdirektor niedergelegt; wieder¬
+            <lb/>gewählt am 12. November 1895.</p>
+            <p>
+               <lb/>Haas, 15r. moä. Mandat am 18. Oktober 1895
+            <lb/>niedergelegt.</p>
+            <p>
+               <lb/>Haehnle, Hans; Fabrikant zu Stuttgart und Giengen
+            <lb/>a./Brenz. Wohnung in Berlin: Nürnberger Hos, Friedrich¬
+            <lb/>straße. Wahlkr.: 14. Württemberg (Ulm). — Deutsche Volks¬
+            <lb/>partei. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Bantleon am
+            <lb/>14. Mai 1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 29. Juli 1838 zu Giengen a./Brenz; evangelisch.
+            <lb/>Mitglied der Handels- und Gewerbekammer Heidenheim,
+            <lb/>Beirath der Centralstelle für Gewerbe und Handel, Beirath
+            <lb/>der Königl. Verkehrsanstalten, seit Februar 1895 Abgeordneter
+            <lb/>des Württembergischen Landtags. Mitglied des Reichstags
+            <lb/>1882/84 und 1890/93.</p>
+            <pb n="15" xml:id="img_0015"/>
+            <p>
+               <lb/>15</p>
+            <p>
+               <lb/>Hänichen. Mandat am 22. Februar 1895 wegen
+            <lb/>Krankheit niedergelegt.</p>
+            <p>
+               <lb/>Hahn, Dr., Privatmann zu Berlin. — Bei keiner
+            <lb/>Fraktion. —</p>
+            <p>
+               <lb/>Freiherr von Hammerstein. Mandat am 11. Sep¬
+            <lb/>tember 1895 niedergelegt.</p>
+            <p>
+               <lb/>Haffe, Ernst; 1)n., Professor zu Leipzig, Kupfergäßchen 1.</p>
+            <p>
+               <lb/>Geb. am 14. Februar 1846 zu Leulitz bei Wurzen.</p>
+            <p>
+               <lb/>Haus. Am 17. März 1895 verstorben.</p>
+            <p>
+               <lb/>von Herder; Wohnort: Niederforchheim bei Forch-
+            <lb/>heim (Sachsen).</p>
+            <p>
+               <lb/>Hilgendorff, Robert; Rittergutsbesitzer zu Platzig (Post
+            <lb/>Prechlau), nächste Eisenbahnstation: Schlochau und Konitz.
+            <lb/>Wohnung in Berlin: Hotel Prinzenhof. Wahlkr.: 7. Reg.-
+            <lb/>Bez. Marienwerder (Schlochau-Flatow). — Deutsch-konser¬
+            <lb/>vativ. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Graf von Kanitz
+            <lb/>(Schlochau) am 23. Mai 1894 gewählt.</p>
+            <p>
+               <lb/>Geb. am 27. Dezember 1856 zu Platzig; evangelisch. Be¬
+            <lb/>suchte die Gymnasien zu Konitz und Neustetün. Nach absol-
+            <lb/>virtem Gymnasialbesuch bis 1882 in der Landwirthschaft
+            <lb/>thätig, übernahm dann das väterliche Gut. Mitglied des
+            <lb/>Kreistages und der Kreissynode. Seit 1893 Mitglied des
+            <lb/>Preußischen Hauses der Abgeordneten. Premier-Lieutenant der
+            <lb/>Landwehr-Kavallerie.</p>
+            <p>
+               <lb/>Himburg, Ernst; Amtsrichter, Premier-Lieutenant a. D.
+            <lb/>und Rittergutsbesitzer zu Osterburg. Wohnung in Berlin:
+            <lb/>Roonstr. 1. Wahlkr.: 2. Reg.-Bez. Magdeburg (Osterburg -
+            <lb/>Stendal). — Deutsch-konservativ. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten von Jagow am
+            <lb/>26. Oktober 1894 gewählt.</p>
+            <pb n="16" xml:id="img_0016"/>
+            <p>
+               <lb/>16</p>
+            <p>
+               <lb/>Geb. am 18. März 1851 zu Hohengöhren, Kr. Jerichow II.:
+            <lb/>evangelisch. Besuchte das Gymnasium zu Stendal und die
+            <lb/>Universitäten Heidelberg und Berlin. Theilgenommen am
+            <lb/>Feldzuge 1870/71.</p>
+            <p>
+               <lb/>Hirschel» Otto; Schriftführer des mitteldeutschen Bauern-
+            <lb/>Vereins zu Frankfurt a. Main, Humboldtstr. 59. Wahlkr.:
+            <lb/>6. Hessen (Erbach-Bensheim). — Deutsche Reformpartei. —</p>
+            <p>
+               <lb/>Geb. am 2. Juli 1862 zu Frankfurt«. Main; evangelisch.
+            <lb/>Besuchte das Realgymnasium. Seit 1889 für die hessische
+            <lb/>Bauernbewegung in Wort und Schrift thätig.</p>
+            <p>
+               <lb/>Hitze, Franz, I)r. tbeol.; Professor zu Münster i. W.</p>
+            <p>
+               <lb/>Hofmanu, Heinrich Christian Wilhelm; Amtsrichter zu
+            <lb/>Rennerod. — Hospitant der nationalliberalen Frak-
+            <lb/>ion. —</p>
+            <p>
+               <lb/>Erbprinz zu Hohenlohe-Oehringen, Christian Kraft;
+            <lb/>Oberstkämmerer Sr. Majestät des Kaisers und
+            <lb/>Königs, Major ä. I«. suite der Armee zu Slawentzitz
+            <lb/>(O.-Schl).</p>
+            <p>
+               <lb/>Prinz zu Hoheulohe-Schillingsfürst, Prinz von Ratibor
+            <lb/>und Corwey, Alexander; Legationsrath zu Berlin. — Bei
+            <lb/>keiner Fraktion. --</p>
+            <p>
+               <lb/>Horn, Georg; Redakteur zu Löbtau bei Dresden.
+            <lb/>Wohnung in Berlin: Alexandrinenstraße 37, III. Wahlkr.:
+            <lb/>6. Sachsen (Amtsh. Dresden-Altstadt-Dippoldiswalde). —
+            <lb/>Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Hänichen am
+            <lb/>25. April 1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 30. August 1841 in Fabrikschleichach i. Bayern;
+            <lb/>katholisch. Besuchte die Volksschule. Bis 1878 Glasarbeiter,
+            <lb/>dann bis 1884 Produktenhändler. 1884 Begründer und Heraus¬
+            <lb/>geber des „Der Fachgenosse" (Organ der Glasarbeiter). Seit</p>
+            <pb n="17" xml:id="img_0017"/>
+            <p>
+               <lb/>17</p>
+            <p>
+               <lb/>1884 Mitglied des Gemeindekollegiums in Löbtau; 1890 Mit¬
+            <lb/>glied der Zweiten sächsischen Kammer.</p>
+            <p>
+               <lb/>Freiherr von Hornstein. Am 13. Oktober 1893 ver¬
+            <lb/>storben.</p>
+            <p>
+               <lb/>von Jagow, Hermann. Mandat niedergelegt.</p>
+            <p>
+               <lb/>Jskraut, Carl Friedrich Wilhelm; Pastor zu Gohfeld
+            <lb/>bei Loehne i. Westfalen. Wahlkr.: 4. Reg.-Bez. Kassel (Esch-
+            <lb/>wege-Schmalkalden). — Deutsch-soziale Neformpartei (christlich¬
+            <lb/>sozial).</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Leuß am 18. März
+            <lb/>1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 1. März 1854 zu Steinhoefel, Provinz Branden¬
+            <lb/>burg; evangelisch. Studirte 1876 bis 1879 in Halle und
+            <lb/>Berlin. 1881 im Domkandidatenstift. 1882 Diakonus in
+            <lb/>Luckenwalde. 1883 bis 1889 Pfarrer in Kemnitz (Ost-Prignitz).
+            <lb/>Non i889 bis 1892 Vereinsgeistlicher für innere Mission in
+            <lb/>Bielefeld, von da ab in Gohfeld bei Loehne i. Westfalen.
+            <lb/>Nahm in Bielefeld den Kampf gegen die Sozialdemokratie in
+            <lb/>der Grafschaft Ravensberg auf, drängte den Einfluß derselben
+            <lb/>entschieden zurück und giebt jetzt die Flugblätterfolge „Aus dem
+            <lb/>Reich Gottes" heraus.</p>
+            <p>
+               <lb/>Kalmring. Am 28. Februar 1895 verstorben.</p>
+            <p>
+               <lb/>Graf von Kanitz (Schlochau). Mandat am 14. März
+            <lb/>1894 niedergelegt.</p>
+            <p>
+               <lb/>von Kar-orff, Landrath a. D. und Rittergutsbesitzer zu
+            <lb/>Nieder-Wabnitz bei Bernstadt in Schlesien.</p>
+            <p>
+               <lb/>Mandat am 28. Juni 1895 niedergelegt; wieder¬
+            <lb/>gewählt am 17. September 1895.</p>
+            <p>
+               <lb/>König, Adolf; Arzt, Dr. meü., zu Witten a. d. Ruhr.
+            <lb/>Wohnung in Berlin: Westend-Hotel. Wahlkr.: 1. Reg.-Bez.
+            <lb/>Kassel (Rinteln-Hofgeismar). — Deutsch-sozial. —</p>
+            <p>
+               <lb/>Für den Abgeordneten Werner, der die Wahl abgelehnt,</p>
+            <pb n="18" xml:id="img_0018"/>
+            <p>
+               <lb/>- 18 -</p>
+            <p>
+               <lb/>am 24. Juli 1893 gewählt. Wahl am 26. Februar 1895
+            <lb/>für ungültig erklärt.</p>
+            <p>
+               <lb/>Geb. am 28. Juni 1850 zu Witten; evangelisch. Besuchte
+            <lb/>das Gymnasium zu Duisburg und die Universitäten Göttingen,
+            <lb/>Kiel und Wien. Seit 1876 Arzt in Witten und Anstaltsarzt
+            <lb/>der Diakonissenanstalt. War 5 Jahre Stadtverordneter und
+            <lb/>6 Jahre Magistratsmitglied in Witten. Schrieb verschiedene
+            <lb/>Broschüren und Abhandlungen.</p>
+            <p>
+               <lb/>Kröber, Adolf. Am 3. April 1896 verstorben.</p>
+            <p>
+               <lb/>von KoLeiol-Koseielskr. Mandat am 9. März 1894
+            <lb/>niedergelegt.</p>
+            <p>
+               <lb/>Krupp. Hospitant der Reichspartei.</p>
+            <p>
+               <lb/>Krzymiüski, Jozef; Dr. meä. und prakt. Arzt zu
+            <lb/>Jnowrazlaw. Wohnung in Berlin: Hotel Monopol. Wahlkr..
+            <lb/>4. Neg.-Bez. Bromberg (Jnowrazlaw-Mogilno). —- Pole. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten voll Koseielski am
+            <lb/>16. Mai 1894 gewählt.</p>
+            <p>
+               <lb/>Geb. am 1. März 1858 in Kaleje, Kr. Schrimm; katholisch.
+            <lb/>Besuchte die Gymnasien zu Schrimm und Polnisch Lissa, die
+            <lb/>Universitäten in Greifswald und Berlin. Praktizirt seit 1885
+            <lb/>in Jnowrazlaw; seit 1889 Mitglied der Stadtverordneten¬
+            <lb/>versammlung daselbst.</p>
+            <p>
+               <lb/>von Leipziger-Kropstaedt, Carl.</p>
+            <p>
+               <lb/>Druckfehlerberichtigung: Seite 199 des Handbuchs,
+            <lb/>Zeile 4 der Biographie, ist zu lesen: „Eisenbahnst. Wittenberg
+            <lb/>und Jahmo".</p>
+            <p>
+               <lb/>Lenzmlmn, Julius; Rechtsanwalt und Notar zu
+            <lb/>Hagen i. W.</p>
+            <p>
+               <lb/>Lerno, Landgenchtsrath zu Negensburg. Dittr. 162.</p>
+            <p>
+               <lb/>Letocha, Paul; Königl. Amtsgerichtsrath zu Steglitz bei
+            <lb/>Berlin. Wahlkr.: 6. Reg.-Bez. Oppeln (Kattowitz-Zabrze).
+            <lb/>— Centrum. —</p>
+            <pb n="19" xml:id="img_0019"/>
+            <p>
+               <lb/>19</p>
+            <p>
+               <lb/>Mandat am 13. Juli 1893 niedergelegt; wieder¬
+            <lb/>gewählt am 5. September 1893.</p>
+            <p>
+               <lb/>Lenst, Hans; Schriftsteller zu Marienhafe in Ostfriesland.
+            <lb/>Mandat am 20. Dezember 1894 niedergelegt.</p>
+            <p>
+               <lb/>von Levetzow, Dr. ll. o., Albert Erdmann Carl Gerhard;
+            <lb/>Wirklicher Geheimer Rath. — Deutsch-konservativ. —
+            <lb/>Amt als Präsident des Reichstages am 23. März
+            <lb/>1895 niedergelegt.</p>
+            <p>
+               <lb/>Liebermann von Sonnenberg, Mar; Premier-
+            <lb/>Lieutenant a. D., Schriftsteller zu Gro ß-Lichterfelde. —
+            <lb/>Deutsch-soziale Reformpartei. —</p>
+            <p>
+               <lb/>Lütgenau, Franz; De. pliLI., Journalist in Dortmund.
+            <lb/>Wohnung in Berlin: Wasserthorstr. 33. Wahlkr.: 6. Reg.-Bez.
+            <lb/>Arnsberg (Dortmund). — Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Möller (Dortmund)
+            <lb/>am 5. November 1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 5. Oktober 1857 in Nheindorf, Kr. Solingen.
+            <lb/>Besuchte das Gymnasium in Neuß und die Akademie bezw. die
+            <lb/>Universitäten Münster, Berlin und Bonn. Verfaßte u. A.:
+            <lb/>»Natürliche und soziale Religion' (Stuttgart, Dietz, 1894).</p>
+            <p>
+               <lb/>Maager, August; Rittergutsbesitzer auf Denkwitz bei
+            <lb/>Nilbau.</p>
+            <p>
+               <lb/>Freiherr von Manteuffel. Landesdirektor der
+            <lb/>Provinz Brandenburg.</p>
+            <p>
+               <lb/>Mareour, Eduard, De. i&gt;1ii1.; Chef-Redakteur zu
+            <lb/>Coblenz.</p>
+            <p>
+               <lb/>Meist. Mandat am 8. Februar 1895 für ungültig
+            <lb/>erklärt.</p>
+            <p>
+               <lb/>Mentz, Julius; Königlicher Amtsrath.</p>
+            <p>
+               <lb/>Metzger, Friedrich Wilhelm; Journalist zu Hamburg.</p>
+            <p>
+               <lb/>2*</p>
+            <pb n="20" xml:id="img_0020"/>
+            <p>
+               <lb/>20</p>
+            <p>
+               <lb/>Möller, Heinrich; Bergmann zu Weitmar 120 bei
+            <lb/>Bochum.</p>
+            <p>
+               <lb/>Möller, Theodor Adolf; Königlicher Kommerzienrath.
+            <lb/>Mandat am 24. Mai 1895 niedergelegt.</p>
+            <p>
+               <lb/>Molkenbuhr, Hermann; Cigarrenarbeiter zu Ottensen.
+            <lb/>Wohnung in Berlin: Mittenwalderstr. 11. Wahlkr.: 1. Ham¬
+            <lb/>burg. — Sozialdemokrat. —</p>
+            <p>
+               <lb/>Für den Abgeordneten Bebel, der die Wahl abgelehnt, an:
+            <lb/>17. August 1893 gewählt.</p>
+            <p>
+               <lb/>Geb. am 11. September 1851 zu Wedel in Holstein;
+            <lb/>konfessionslos. Besuchte bis März 1862 die Volksschule in
+            <lb/>Wedel, dann die Abendschule in Ottensen. Arbeitete als Kind
+            <lb/>in Cigarrenfabriken als Tabackzurichter, seit 1870 als Cigarren¬
+            <lb/>arbeiter. Vertrat von 1890 bis 1893 den sechsten Schleswig-
+            <lb/>Holsteinischen Wahlkreis (Pinneberg-Segeberg). Mitglied der
+            <lb/>Kommission für Arbeiterstatistik. Wurde 1881 auf Grund des
+            <lb/>tz 28 des Sozialistengesetzes aus Hamburg und Umgegend aus¬
+            <lb/>gewiesen. Ging im Mai 1881 nach Amerika, kehrte 1884 zurück.</p>
+            <p>
+               <lb/>Graf Moltke. Mandat am 18. April 1894 für un-
+            <lb/>gültig erklärt.</p>
+            <p>
+               <lb/>Müller, Julius; Gutsbesitzer und Premier-Lieutenant d. L.
+            <lb/>a. D. zu Nutzhorn bei Grüppenbühren (Oldbg.). Wahlkr.:
+            <lb/>Fürstenth. Waldeck. — Deutsch-sozial und „Bund der Land-
+            <lb/>wirthe-. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten vr. Böttcher am
+            <lb/>22. Juli 1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 1. Januar 1850 zu Nutzhorn; evangelisch;
+            <lb/>Machte 1870/71 den Feldzug beim Oldenburg. Inf.-Regt.
+            <lb/>Nr. 91 mit.</p>
+            <p>
+               <lb/>Nadbyl; Rechtsanwalt und Notar zu Breslau.
+            <lb/>Ohlauerstraße 45.</p>
+            <pb n="21" xml:id="img_0021"/>
+            <p>
+               <lb/>21</p>
+            <p>
+               <lb/>Nauck, Rudolph; Großherzoglicher Domänenpächter. —
+            <lb/>Hospitant der Reichspartei. —</p>
+            <p>
+               <lb/>Neumann. Am 30. Oktober 1895 verstorben.</p>
+            <p>
+               <lb/>Paasche, Herrmann, Dr. Ml.; Geheimer Regierungs¬
+            <lb/>rath, ordentlicher Professor der Staatswissenschaften -u
+            <lb/>Charlottenburg.</p>
+            <p>
+               <lb/>Pachnicke, Hermann, Dr. Ml.; Wohnort: Halensee bei
+            <lb/>Berlin. — Hospitant der Freisinnigen Vereinigung. —</p>
+            <p>
+               <lb/>Pichler, Dr. Mandat am 8. Februar 1895 für un¬
+            <lb/>gültig erklärt; wiedergewählt am 27. März 1895.</p>
+            <p>
+               <lb/>Pierson, Ludwig; Rentner zu Ay, Poststation Ay (Mosel),
+            <lb/>Eisenbahnstation Hagendingen. Wahlkr.r 14. Elsaß-Lothringen
+            <lb/>(Metz). — Partei der Elsaß-Lothringer. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Dr. Haas am
+            <lb/>9. Januar 1896 gewählt.</p>
+            <p>
+               <lb/>Geb. am 10. Februar 1846 zu Ennery bei Metz; katholisch.
+            <lb/>Besuchte das College von Beauregard. Mitglied deö Kreis¬
+            <lb/>tages seit 1878 und des Landesausschusses seit 1882.</p>
+            <p>
+               <lb/>Pieschel, Theodor, Dr. M; Landgerichtsrath zu
+            <lb/>Naumburg (Saale).</p>
+            <p>
+               <lb/>Pflüger, Georg; Kaufmann zu Creglingen. Mandat
+            <lb/>am 26. Juli 1895 aus Gesundheitsrücksichten niedergelegt.</p>
+            <p>
+               <lb/>Pöhlmann, Otto; Kaiserlicher Kreisdirektor zu Schlett-
+            <lb/>stadt. — Hospitant der Reichspartei. —</p>
+            <p>
+               <lb/>von Polenz. Mandat am i8. April 1894 für un¬
+            <lb/>gültig erklärt.</p>
+            <p>
+               <lb/>von Puttkamer, Bernhard; Rittergutsbesitzer zu Groß-
+            <lb/>Plauth bei Freystadt (Westpreußen).</p>
+            <p>
+               <lb/>Quentin, Ludwig; Bürgermeister zu Herford i. West¬
+            <lb/>falen. Wohnung in Berlin: Beyers Hotel, Schadowstraße 7.</p>
+            <pb n="22" xml:id="img_0022"/>
+            <p>
+               <lb/>22</p>
+            <p>
+               <lb/>Wahlkr.: 2. Reg.-Bez. Minden (Herford-Halle). Hospitant
+            <lb/>der nationalliberalen Partei. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Freiherrn von
+            <lb/>Hammerstein am 4. Dezember 1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am l7. August 1847 zu Detmold, Fürstenthmn
+            <lb/>Lippe; evangelisch. Besuchte das Gymnasium Leopoldinum zu
+            <lb/>Detmold, studirte die Rechte Ostern 1866 in Heidelberg (Korps
+            <lb/>Vandalia) und Michaelis 1867, Berlin bis 1869. Juli 1869
+            <lb/>erstes, 1872 zweites juristisches Staatsexamen in Detmold, 1873
+            <lb/>Rechtsanwalt in Lage, 1. Oktober 1874 Austritt aus dem
+            <lb/>lippeschen Staatsdienst und zweiter Bürgermeister in Bochum
+            <lb/>i. Wests., 1. Oktober 1875 Bürgermeister in Herford. Mitglied
+            <lb/>des Kreistages in Herford. 1. Oktober 1869 Einjahrig-Frei¬
+            <lb/>williger im Znf.-Regt. Nr. 55, Krieg 1870/71 gegen Frankreich,
+            <lb/>März 1871 Sek.-Lieutenant d. Res., später Prem.-Lieutenant
+            <lb/>(jetzt a. D.).</p>
+            <p>
+               <lb/>Radwans«, Paul; Rechtsanwalt zu Pleß O./Schl.
+            <lb/>Wahlkr.: 7. Reg.-Bez. Oppeln (Pleß-Rybnik). — Centrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Conrad am 24. Ok¬
+            <lb/>tober 1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 11. Januar 1854 zu Groß-Chelm, Kreis Pleß;
+            <lb/>katholisch. Besuchte das Königl. Gymnasium (Fürstenschule)
+            <lb/>in Pleß und die Universität Breslau.</p>
+            <p>
+               <lb/>Fürst Nadziwill, Ferdinand; wohnhaft zu Berlin, Boß¬
+            <lb/>straße 3l, Antonin (Posen) und Olyka (Kaiserreich Rußland).
+            <lb/>Wahlkr.: 10. Reg.-Bez. Posen (Adelnau-Schildberg). —
+            <lb/>Fraktion der Polen. —</p>
+            <p>
+               <lb/>Geb. an: 19. Oktober 1834 zu Berlin; katholisch. Ab-
+            <lb/>solvirte das französische Gymnasium in Berlin im Herbste 1854
+            <lb/>und besuchte die Universitäten in Bonn und Berlin. Als Aus¬
+            <lb/>kultator beim Stadtgericht in Berlin, als Regierungsreferendar
+            <lb/>bei der Regierung in Potsdam beschäftigt. 1855 als Einjähriger
+            <lb/>beim 7. Husaren-Regiment eingetreten. Als Reserve-Offizier</p>
+            <pb n="23" xml:id="img_0023"/>
+            <p>
+               <lb/>23</p>
+            <p>
+               <lb/>1859 zum 6. Kürassier-Regiment eingezogen, 1866 demselben
+            <lb/>Regiment aggregirt. 1870 zum 3. Reserve-Ulanen-Regiment
+            <lb/>eingezogen, dann dem 1. Brandenburgischen Ulanen-Regiment
+            <lb/>(Kaiser von Rußland) Nr. 3 aggregirt. Major der Reserve
+            <lb/>des 1. Brandenburgischen Ulanen-Regiments (Kaiser Alexander II.
+            <lb/>von Rußland) Nr. 3. Mitglied des Reichstages seit 1873,
+            <lb/>erbliches Mitglied des preußischen Herrenhauses.</p>
+            <p>
+               <lb/>Reichmuth, Hermann; Landwirth zu Olbersleben in
+            <lb/>Sachsen-Weimar. Wahlkr.: 1. Sachsen-Weimar. — Reichs¬
+            <lb/>partei. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Kalmring am 9. Mai
+            <lb/>1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 31. Oktober 1856 in Olbersleben; evangelisch.
+            <lb/>Besuchte die Realschule zu Erfurt und im Jahre 1881/82 das
+            <lb/>landwirthsch. Institut zu Halle. Bewirthschaftet seit 1882 das
+            <lb/>väterliche Gut in Olbersleben. Vorstand des landwirtschaft¬
+            <lb/>lichen Vereins Buttstädt und des landwirtschaftlichen Ein¬
+            <lb/>und Verkaufsvereins Buttstätt; Vorstand der Molkereigenossen¬
+            <lb/>schaft Guthmannshausen. Mitglied der Gemeindevertretung
+            <lb/>seines Heimathsortes.</p>
+            <p>
+               <lb/>Reindl. Am 7. April 1896 verstorben.</p>
+            <p>
+               <lb/>Rickert; Ehrenbürger der Stadt Danzig.</p>
+            <p>
+               <lb/>Nimpau. (Druckfehlerberichtigung Seite 226 des
+            <lb/>Handbuchs.)</p>
+            <p>
+               <lb/>Schippel, Max; Schriftsteller u Berlin, Thurm-
+            <lb/>straße 37.</p>
+            <p>
+               <lb/>Schmidt, Albert; Redakteur zu Magdeburg.</p>
+            <p>
+               <lb/>Schmidt, Reinhart; Fabrikbesitzer zu Elberfeld. Wahlkr.:
+            <lb/>8. Hessen (Bingen-Alzey). — Freisinnige Volkspartei. —</p>
+            <p>
+               <lb/>Am 27. März 1895 zum Ersten Vizepräsidenten
+            <lb/>des Reichstages gewählt. — Am 4. Dezember 1895 als
+            <lb/>Erster Vizepräsident wiedergewählt.</p>
+            <pb n="24" xml:id="img_0024"/>
+            <p>
+               <lb/>24</p>
+            <p>
+               <lb/>Für den Abgeordneten Träger, der die Wahl abgelehnt,
+            <lb/>am 22. Juli 1893 gewählt.</p>
+            <p>
+               <lb/>Geb. am 14. Juni 1838; evangelisch. Besuchte das
+            <lb/>Realgymnasium zu Elberfeld. Begründete seine Fabrik 1869.
+            <lb/>Mitglied des Reichstages 1881 bis 1884 und seit 1887. Mit¬
+            <lb/>glied des Abgeordnetenhauses 1890 bis 1893. Mitglied der
+            <lb/>Stadtverordnetenversammlung Elberfeld 1873 bis 1884 und
+            <lb/>seit 1890.</p>
+            <p>
+               <lb/>Schmieder, OberlandeSgerichtsrath a. D. und Geheimer
+            <lb/>Justizrath.</p>
+            <p>
+               <lb/>Schoenlank, Bruno, Dr. xlül.; Schriftsteller zu Leipzig,
+            <lb/>Körnerplatz 8.</p>
+            <p>
+               <lb/>Druckfehlerberichtigung: Seite 236 des Handbuchs,
+            <lb/>Absatz 2 der Biographie, Zeile 4 von oben, ist zu lesen ,pro-
+            <lb/>wovirte in Halle 1882".</p>
+            <p>
+               <lb/>von Slaski, Rittergutsbesitzer zu Adlig Groß-Trzebcz
+            <lb/>bei Nawra (Westpreußen).</p>
+            <p>
+               <lb/>Spahn, Kammergerichtsrath. Am 27. März 1895
+            <lb/>zum Zweiten Vizepräsidenten des Reichstages ge¬
+            <lb/>wählt. — Am 4. Dezember 1895 zum Zweiten Vizepräsidenten
+            <lb/>wiedergewählt.</p>
+            <p>
+               <lb/>Stadthagen, Arthur; Schriftsteller zu Berlin.</p>
+            <p>
+               <lb/>Druckfehlerberichtigung: Seite 243 des Handbuchs,
+            <lb/>Absatz 2, Zeile 10 und 11 von oben, ist zu lesen „Seit 1889
+            <lb/>Stadtverordneter zu Berlin".</p>
+            <p>
+               <lb/>Steinmann. Am 14. Dezember 1894 verstorben.</p>
+            <p>
+               <lb/>Stöcker, Johann; Gastwirth und Brauer zu Marktzeuln
+            <lb/>(Oberfranken).</p>
+            <p>
+               <lb/>Graf zu Stolberg-Wernigerode, Udo, I)r.; Ober-
+            <lb/>Präsident z. D., Major a 1a suite der Armee, Besitzer der</p>
+            <pb n="25" xml:id="img_0025"/>
+            <p>
+               <lb/>25</p>
+            <p>
+               <lb/>Fideikommisse Kreppelhof in Schlesien und Dönhofstädt, sowie
+            <lb/>des Rittergutes Cammin in der Neumark. Wohnort: Kreppel¬
+            <lb/>hof. Wahlkr.: 6. Reg.-Bez. Gumbinnen (Lyck-Johannisburg).
+            <lb/>— Deutsch-konservativ. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Steinmann am 23. Fe¬
+            <lb/>bruar 1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 4. März 1840 zu Berlin; evangelisch. Absolvirte
+            <lb/>das Abiturienten-Examen, studirte in Halle. Als aktiver
+            <lb/>Militär die Feldzüge 1866 und 1870/71 mitgemacht, bei
+            <lb/>Königgrätz verwundet. Besuchte die Kriegsakademie. Von
+            <lb/>1891 bis 1895 Ober-Präsident der Provinz Ostpreußen, Ehren-
+            <lb/>doktor der Universität Königsberg. Mitglied des Herrenhauses,
+            <lb/>des schlesischen Provinzial-Landtages und Provinzial-Ausschusses
+            <lb/>und des Reichstages von 1877 bis 1881 und von 1884 bis 1893.</p>
+            <p>
+               <lb/>von Strombeck, Landgerichtsrath zu Berlin.</p>
+            <p>
+               <lb/>Strzoda, Franz; Landwirth, Bauerngutsbesitzer zu Deutsch-
+            <lb/>Müllmen (Kr. Neustadt O.-S.), Eisenbahnstationen: Ober-
+            <lb/>Glogau und Deutsch-Rasselwitz. Wohnung: Schöneberg bei
+            <lb/>Berlin, ErdmannSstr. 11, IV. Wahlkr.: 10. Reg.-Bez. Oppeln
+            <lb/>(Neustadt). — Centrum. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Cytronowski am
+            <lb/>25. Januar 1894 gewählt.</p>
+            <p>
+               <lb/>Geb. am 6. August 1857 zu Rosenberg, Kr. Neustadt;
+            <lb/>katholisch. Besuchte das Gymnasium zu Leobschütz bis inklusive
+            <lb/>Ober-Tertia, ging dann zur Landwirthschaft über, praktizirte
+            <lb/>auf der von Tiele-Winkler'schen Herrschaft KüjLu-Moschen; von
+            <lb/>da zum Militär eingezogen 1877 bis 1880 zum Kaiser Franz
+            <lb/>Garde-Grenadier-Regiment Nr. 2 zu Berlin, seit 1880 selbst¬
+            <lb/>ständiger Besitzer zu Deutsch-Müllmen. Mitbegründer einer
+            <lb/>Zuckerfabrik, Vorstandsmitglied des Schlesischen Bauern-
+            <lb/>Vereins, Rechner einer Raiffeisenschen Darlehnskasse, Hagel¬
+            <lb/>und landwirtschaftlicher Kreiö-Taxator, Kreistagsmitglied und
+            <lb/>seit 1894 Mitglied des Deutschen Reichstages.</p>
+            <pb n="26" xml:id="img_0026"/>
+            <p>
+               <lb/>26</p>
+            <p>
+               <lb/>Freiherr von Sturnrn-Halberg.</p>
+            <p>
+               <lb/>Geb. am 30. März 1836 zu Saarbrücken.</p>
+            <p>
+               <lb/>Thomsen, Gustav, A.; zu Heide in Holstein.</p>
+            <p>
+               <lb/>Timmerman. Druckfehlerberichtigung Seite 248
+            <lb/>des Handbuchs.</p>
+            <p>
+               <lb/>Trimborn, Carl; Rechtsanwalt zu Köln am Rhein.
+            <lb/>Wohnung in Berlin:1vorläufig Tauenzien-Straße 16III.</p>
+            <p>
+               <lb/>Wahlkr.: 1. Reg.-Bez. Köln (Stadt Köln). — Centrum. —</p>
+            <p>
+               <lb/>Für den verstorbenen Abgeordneten Greiß am 13. Januar
+            <lb/>1896 gewählt.</p>
+            <p>
+               <lb/>Geb. am 2. Dezember 1854 zu Köln; katholisch. Besuchte
+            <lb/>bis Herbst 1873 das Königliche katholische Gymnasium an
+            <lb/>St. Aposteln zu Köln; studirte dann an den Universitäten
+            <lb/>Leipzig, München und Straßburg zunächst Geschichte, dann
+            <lb/>Rechtswissenschaft. Seit Januar 1882 Rechtsanwalt beim
+            <lb/>Königlichen Landgericht zu Köln; seit 1894 Stadtverordneter
+            <lb/>daselbst.</p>
+            <p>
+               <lb/>Uhden, Otto; Königt. Amtsrath zu Sorge bei Crossen.
+            <lb/>— Bei keiner Fraktion. —-</p>
+            <p>
+               <lb/>Freiherr von Unruhe-Bomst. Mandatam 2. Februar
+            <lb/>1894 aus Gesundheitsrücksichten niedergelegt.</p>
+            <p>
+               <lb/>Vielhaben, Georg Wilhelm, Dr. jur.; Rechtsanwalt zu
+            <lb/>Hamburg. Wohnung in Berlin: Kaiserhof. Wahlkr.: 1. Reg.-
+            <lb/>Bez. Kassel (Rinteln-Hofgeismar). — Deutsch-soziale Reform¬
+            <lb/>partei. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Dr. König am
+            <lb/>23. April 1895 gewählt.</p>
+            <p>
+               <lb/>Geb. am 6. Juli 1860 zu Bremen; lutherisch. Besuchte
+            <lb/>die Realschule zu Bremerhaven, das Gymnasium zu Bremen
+            <lb/>und die Universität zu Berlin. 1885 Juni Referendar in
+            <lb/>Hamburg; 1889 März Rechtsanwalt in Hamburg; 1891 bis</p>
+            <pb n="27" xml:id="img_0027"/>
+            <p>
+               <lb/>27</p>
+            <p>
+               <lb/>1893 Geschäftsführer des Arbeitgeberverbandes Hamburg-Altona
+            <lb/>(gebildet in Anlaß der sozialdemokratischen Feier des 1. Mai),
+            <lb/>gegenwärtig Mitglied der Hamburger Kommission zur Errichtung
+            <lb/>von Arbeitsnachweisen.</p>
+            <p>
+               <lb/>Vogtherr. Plötzensee bei Berlin, Riedemannöstr. 66.</p>
+            <p>
+               <lb/>von Vollmar, Georg. Wohnsitz: München, Sene-
+            <lb/>felderstr. 4, und Soiensaß am Walchensee bei Urfeld, bayerisches
+            <lb/>Hochland.</p>
+            <p>
+               <lb/>Wallenborn, Quirin Peter; Privatmann zu Bitburg,
+            <lb/>Eisenbahnstation Erdorf-Bitburg (Eifelbahn). Wohnung in
+            <lb/>Berlin:1Wilsnackerstraße 101. Wahlkr.: 5. Reg.-Bez.</p>
+            <p>
+               <lb/>Coblenz (Mayen-Ahrweiler). — Centruin. —</p>
+            <p>
+               <lb/>Für den ausgeschiedenen Abgeordneten Dr. Braubach am
+            <lb/>4. Februar 1896 gewählt.</p>
+            <p>
+               <lb/>Geb. am 30. März 1848 zu Bitburg; katholisch. Besuchte
+            <lb/>die Gymnasien zu Trier und Münstereifel 1862 bis 1868, die
+            <lb/>Universität Bonn 1868 bis 1870, studirte klassische Philologie
+            <lb/>und Philosophie; wandte sich, durch Krankheit gezwungen die
+            <lb/>Studien aufzugeben, dem Garten- und Obstbau, wie landwirth-
+            <lb/>schaftlichen Angelegenheiten zu. Mitglied des Kreisausschusses
+            <lb/>seit 1888, des Rheinischen Provinzial-Landtages von 1888 bis
+            <lb/>1894, des Preußischen Abgeordnetenhauses seit 1893.</p>
+            <p>
+               <lb/>Wamhoff. Mandat am 31. Januar 1896 nieder¬
+            <lb/>gelegt.</p>
+            <p>
+               <lb/>von Winterfeldt-Menkin. Wohnort: Prenzlau und
+            <lb/>Menkin bei Löcknitz.</p>
+            <p>
+               <lb/>de Witt, Herrmann, Königl. Amtsrichter zu Köln (Rh.).</p>
+            <p>
+               <lb/>Wurm, Emanuel; Chemiker und Schriftsteller zu
+            <lb/>Berlin, Göbenstr. 13.</p>
+            <pb n="28" xml:id="img_0028"/>
+            <p>
+               <lb/>28</p>
+            <p>
+               <lb/>Freiherr Zorm von Bulach, Hugo; Unterstaats-
+            <lb/>sekretär im Ministerium für Elsaß-Lothringen.</p>
+            <p>
+               <lb/>Mandat in Folge seiner Ernennung zum Unterstaatssekretär
+            <lb/>im Ministerium für Elsaß-Lothringen am 23. Januar 189b
+            <lb/>niedergelegt; wiedergewählt am 3. April 1895.</p>
+            <p>
+               <lb/>Stärke der Fraktionen.</p>
+            <p>
+               <lb/>Bohm (Fr.) 3. Potsdam.
+            <lb/>KröLer (V. P.) 3. Mittelfranken.
+            <lb/>Reindl (Cent.) 4. Schwaben.</p>
+            <p>
+               <lb/>Wamhoff (N.-L.) 4. Hannover.</p>
+            <pb n="29" xml:id="img_0029"/>
+            <p>
+               <lb/>29</p>
+            <p>
+               <lb/>Seit dem Zusammentritte des Reichstages am
+            <lb/>Juli IS9Z sind aus den betreffenden Fraktionen
+            <lb/>ausgeschieden, — bezw. in dieselben eingetreten:</p>
+            <p>
+               <lb/>(Das Zeichen * bezeichnet den betreffenden Herrn
+            <lb/>Abgeordneten als Hospitanten der Fraktion.)</p>
+            <p>
+               <lb/>Fraktion der Deutsch-Konservativen:</p>
+            <p>
+               <lb/>Ausgeschieden.</p>
+            <p>
+               <lb/>Graf von Dönhoff-Friedrich -
+            <lb/>stein.</p>
+            <p>
+               <lb/>von Gerlach.</p>
+            <p>
+               <lb/>Gescher.</p>
+            <p>
+               <lb/>Freiherr von Hammerstein,
+            <lb/>von Jagow.</p>
+            <p>
+               <lb/>Graf von Kanitz (Schlochau).</p>
+            <p>
+               <lb/>Nauck.</p>
+            <p>
+               <lb/>von Polenz.</p>
+            <p>
+               <lb/>Steinmann.</p>
+            <p>
+               <lb/>Uhden.</p>
+            <p>
+               <lb/>Prinz zu Hohenlohe-Schillings¬
+            <lb/>fürst.*</p>
+            <p>
+               <lb/>Pöhlmann.*</p>
+            <p>
+               <lb/>Eingetreten.</p>
+            <p>
+               <lb/>Hilgendorff.</p>
+            <p>
+               <lb/>Himburg,
+            <lb/>vr. von Levetzow.
+            <lb/>vr. Udo Graf zu Stolberg-
+            <lb/>Wernigerode.</p>
+            <p>
+               <lb/>Fraktion der Reichspartei:</p>
+            <p>
+               <lb/>Ausgeschieden.</p>
+            <p>
+               <lb/>Kalmring.</p>
+            <p>
+               <lb/>Graf Moltke.</p>
+            <p>
+               <lb/>Freiherr von Unruhe-Bomst.</p>
+            <p>
+               <lb/>Eingetreten.</p>
+            <p>
+               <lb/>von Dziembowski-Bomst.
+            <lb/>Reichmuth.</p>
+            <p>
+               <lb/>Nauck.*</p>
+            <p>
+               <lb/>Pöhlmann.*</p>
+            <pb n="30" xml:id="img_0030"/>
+            <p>
+               <lb/>— 30 —</p>
+            <p>
+               <lb/>Deutsch-soziale Reformpartei:</p>
+            <p>
+               <lb/>Ausges chieden.
+            <lb/>Dr. Boeckel.</p>
+            <p>
+               <lb/>Hänichen.</p>
+            <p>
+               <lb/>Eingetreten.</p>
+            <p>
+               <lb/>Bindewald.</p>
+            <p>
+               <lb/>Dr. Förster (Neustettin).
+            <lb/>Jskraut.</p>
+            <p>
+               <lb/>Liebermann von Sonnenberg.
+            <lb/>Müller (Waldeck).</p>
+            <p>
+               <lb/>Dr. Vielhaben.</p>
+            <p>
+               <lb/>Fraktion des Centrums:</p>
+            <p>
+               <lb/>Ausgeschieden.</p>
+            <p>
+               <lb/>Dr. Braubach.</p>
+            <p>
+               <lb/>Freiherr von Buol-Berenberg.
+            <lb/>Conrad.</p>
+            <p>
+               <lb/>Cytronowski.</p>
+            <p>
+               <lb/>Greiß.</p>
+            <p>
+               <lb/>Haus.</p>
+            <p>
+               <lb/>Reindl.</p>
+            <p>
+               <lb/>Fraktion
+            <lb/>Ausges chieden.
+            <lb/>von Koäciol-Kossielski.</p>
+            <p>
+               <lb/>Fraktion der Na
+            <lb/>Ausges chieden.
+            <lb/>Bantleon.</p>
+            <p>
+               <lb/>Dr. Boettcher.</p>
+            <p>
+               <lb/>Möller (Dortmund).</p>
+            <p>
+               <lb/>Wamhcff.</p>
+            <p>
+               <lb/>Dr. Hahn.*</p>
+            <p>
+               <lb/>Eingetreten.</p>
+            <p>
+               <lb/>Fritzen (ReeS).</p>
+            <p>
+               <lb/>Fußangel.</p>
+            <p>
+               <lb/>Gerstenberger.</p>
+            <p>
+               <lb/>Radwanski.</p>
+            <p>
+               <lb/>Strzoda.</p>
+            <p>
+               <lb/>Trimborn.</p>
+            <p>
+               <lb/>Wallenborn.</p>
+            <p>
+               <lb/>er Polen:</p>
+            <p>
+               <lb/>Eingetreten.</p>
+            <p>
+               <lb/>Dr. Krzyminski.</p>
+            <p>
+               <lb/>tionalliberalen:</p>
+            <p>
+               <lb/>Eingetreten.</p>
+            <p>
+               <lb/>Prinz zu Schönaich-Carolath.*
+            <lb/>Ouentin.*</p>
+            <pb n="31" xml:id="img_0031"/>
+            <p>
+               <lb/>- 31 -</p>
+            <p>
+               <lb/>Freisinnige Bereinigung:
+            <lb/>Ausgeschieden.1Eingetreten.</p>
+            <p>
+               <lb/>Benoit.</p>
+            <p>
+               <lb/>Dr. Pachnicke.*</p>
+            <p>
+               <lb/>Fraktion der deutschen freisinnigen Volkspartei:</p>
+            <p>
+               <lb/>Ausgeschieden.</p>
+            <p>
+               <lb/>Bohm.</p>
+            <p>
+               <lb/>Eingetreten.</p>
+            <p>
+               <lb/>Fischbeck.</p>
+            <p>
+               <lb/>Schmidt (Elberfeld).</p>
+            <p>
+               <lb/>Deutsche Nolkspartei:
+            <lb/>Ausgeschieden.1Eingetreten.</p>
+            <p>
+               <lb/>Kröber (Bayern).1j Augst.</p>
+            <p>
+               <lb/>Pflüger (Württemberg).1&gt; Haehnle.</p>
+            <p>
+               <lb/>Fraktion der Sozialdemokraten:</p>
+            <p>
+               <lb/>Ausgeschieden.</p>
+            <p>
+               <lb/>Meist.</p>
+            <p>
+               <lb/>Eingetreten,
+            <lb/>von Elm.</p>
+            <p>
+               <lb/>Gerisch.</p>
+            <p>
+               <lb/>Horn (Sachsen).</p>
+            <p>
+               <lb/>Dr. Lütgenau.
+            <lb/>Molkenbnhr.</p>
+            <p>
+               <lb/>Von Mitgliedern, die keiner Fraktion angehörten
+            <lb/>fallen aus:</p>
+            <p>
+               <lb/>Dr. Haas.</p>
+            <p>
+               <lb/>Neumann.</p>
+            <p>
+               <lb/>Prinz zu Schönaich-Carolath.
+            <lb/>Fußangel.</p>
+            <p>
+               <lb/>Freiherr von Hornstein.</p>
+            <p>
+               <lb/>Leuh.</p>
+            <p>
+               <lb/>Dr. von Levetzow.
+            <lb/>Liebermann von Sonnenberg.
+            <lb/>Dr. Pachnicke.</p>
+            <pb n="32" xml:id="img_0032"/>
+            <p>
+               <lb/>32</p>
+            <p>
+               <lb/>Zu den Mitgliedern keiner Fraktion treten dagegen
+            <lb/>hinzu:</p>
+            <p>
+               <lb/>Pierson" &lt; Elsaß-Lothringer.
+            <lb/>Dr. Boeckel.</p>
+            <p>
+               <lb/>Freiherr von Buol-BerenLerg.
+            <lb/>GrafvonDönhoff-Friedrichstein.</p>
+            <p>
+               <lb/>Fürst zu Fürstenberg.</p>
+            <p>
+               <lb/>Dr. Hahn.</p>
+            <p>
+               <lb/>Prinz zu Hohenlohe-Schillings¬
+            <lb/>fürst.</p>
+            <p>
+               <lb/>Uhden.</p>
+            <pb n="33" xml:id="img_0033"/>
+            <p>
+               <lb/>Vorstand des Reichstages</p>
+            <p>
+               <lb/>in der Session IX. Legislatur-Periode.
+            <lb/>Präsidium.</p>
+            <p>
+               <lb/>Präsident: Freiherr von Buol-Berenberg.</p>
+            <p>
+               <lb/>Erster Vizepräsident: Schmidt (Elberfeld).</p>
+            <p>
+               <lb/>Zweiter Vizepräsident: Spahn.</p>
+            <p>
+               <lb/>Schriftführer.</p>
+            <p>
+               <lb/>Dr. Kropatscheck.
+            <lb/>Merbach.
+            <lb/>von Normann.</p>
+            <p>
+               <lb/>Dr. Preschet.</p>
+            <p>
+               <lb/>(Quästoren.</p>
+            <p>
+               <lb/>Placke.1! Dr. Rintelcn.</p>
+            <p>
+               <lb/>Braun.
+            <lb/>Cegielski.
+            <lb/>Dr. Hermes.
+            <lb/>Krebs.</p>
+            <p>
+               <lb/>Vorsitzende der Abtheilungen.</p>
+            <p>
+               <lb/>Vorsitzenderder 1.Abtheilung: Dr. von Bennigsen.</p>
+            <p>
+               <lb/>„1, 2.1„ Graf vonKanitz-Podangen.</p>
+            <p>
+               <lb/>»1„3.1^1Graf von Hompesch.</p>
+            <p>
+               <lb/>„1„ 4.1^1Rickert.</p>
+            <p>
+               <lb/>^1, 5.1Freiherr von Stumm-</p>
+            <p>
+               <lb/>Halberg.</p>
+            <p>
+               <lb/>^ 6.1„1Auer.</p>
+            <p>
+               <lb/>.,7.1,1Dr. Lieber (Montabaur).</p>
+            <pb n="34" xml:id="img_0034"/>
+            <p>
+               <lb/>Das neue Reichstagshaus/)</p>
+            <p>
+               <lb/>1.</p>
+            <p>
+               <lb/>Bangeschichte.</p>
+            <p>
+               <lb/>Kurz nach Beendigung des großen Krieges, am 11. Mai
+            <lb/>1871 beschloß der Reichstag dm Bau eines Reichstagshauses.
+            <lb/>Am 10. Dezember 1871 waren die erforderlichen Vorbereitungen
+            <lb/>so weit gediehen, daß das Ausschreiben zu einem internationalen
+            <lb/>Wettbewerb erfolgen konnte.</p>
+            <p>
+               <lb/>Wie bekannt, ging Architekt Bohnstedt aus dieser Kon¬
+            <lb/>kurrenz als Sieger hervor.</p>
+            <p>
+               <lb/>Der erste Wettbewerb führte jedoch zu keiner befriedigen¬
+            <lb/>den Lösung der Aufgabe und die Angelegenheit mußte infolge
+            <lb/>dessen vertagt werden.</p>
+            <p>
+               <lb/>Erst 10 Jahre später, am Io. Dezember 1881, beschloß der
+            <lb/>Reichstag, die Frage der Erbauung eines Reichstagshauses
+            <lb/>wieder aufzunehmen.</p>
+            <p>
+               <lb/>Am 2. Februar 1882 wurde ein neuer Wettbewerb aus¬
+            <lb/>geschrieben, an welchem sich im Gegensatz zu jenem von 1871
+            <lb/>nur Architekten, deren Muttersprache die deutsche ist, bctheiligen
+            <lb/>durften.</p>
+            <p>
+               <lb/>Als Einlieferungstermin für die Entwürfe wurde der
+            <lb/>10. Juni 1882 festgesetzt. Die Betheiligung der deutschen
+            <lb/>Architekten an diesen: zweiten Wettbewerb war eine außer¬
+            <lb/>gewöhnlich große, nicht weniger als 189 Entwürfe gingen ein
+            <lb/>und unter diesen wurde der Entwurf mit den: Kennwort „Für</p>
+            <p>
+               <lb/>*) Dieser Abschnitt ist vorn Geheimen Baurath Wallot entworfen.</p>
+            <pb n="35" xml:id="img_0035"/>
+            <p>
+               <lb/>- 35 -</p>
+            <p>
+               <lb/>Staat und Stadt" des Architekten Paul Wallot mit einem
+            <lb/>ersten Preise ausgezeichnet.</p>
+            <p>
+               <lb/>Am 18. Juni 1883 beschloß der Reichstag die Berufung
+            <lb/>des Architekten Wallot zur Ausführung des Gebäudes.</p>
+            <p>
+               <lb/>Ein Jahr später, am 9. Juni 1884 wurde durch Se. Ma¬
+            <lb/>jestät den hochseligen Kaiser Wilhelm I. die Grundsteinlegung
+            <lb/>und am 5. Dezember 1894 durch Se. Majestät den regierenden
+            <lb/>Kaiser Wilhelm II. die Schlußsteinlegung des Reichstagsbaues
+            <lb/>vollzogen.1^</p>
+            <p>
+               <lb/>Von Beginn der Bauausführung ab lag die Leitung der ge¬
+            <lb/>schäftlichen Angelegenheiten, also der Kostenfeststellungen, der
+            <lb/>Verdingungen, ferner der technisch-konstruktive Theil der Arbeiten
+            <lb/>in den Händen des BaurathS Ha eger.</p>
+            <p>
+               <lb/>Im Jahre 1890 wurde der Regierungsbaumeister Wittig
+            <lb/>als drittes Mitglied in die Neichstagsbauverwaltung berufen
+            <lb/>mit der Aufgabe, den inneren Ausbau des Obergeschosses und
+            <lb/>der Geschäfts- und Wirthschaftsräume des Erd- und Zwischen¬
+            <lb/>geschosses im Einvernehmen mit dein leitenden Architekten zu
+            <lb/>entwerfen und auszuführen.</p>
+            <p>
+               <lb/>II.</p>
+            <p>
+               <lb/>Bauausführung.</p>
+            <p>
+               <lb/>Die F'lndamentirung und die Ausführung der Keller¬
+            <lb/>räume nahm die Jahre 1884 und 1885 in Anspruch; 1886 und
+            <lb/>1887 stieg das Mauerwerk bis zur Hauptgesimshöhe; 1888 und</p>
+            <p>
+               <lb/>18891wurden die Werksteine, welche die größten deutschen
+            <lb/>Steinbrüche in so ungewöhnlich großem Umfange nur im Laufe
+            <lb/>mehrerer Jahre anliefern konnten, versetzt. Zurückgeblieben
+            <lb/>waren indeß noch diejenigen Bautheile, deren Ausführung von
+            <lb/>der Frage der Kuppelanlage abhängig war. Nachdem im Januar</p>
+            <p>
+               <lb/>18901entschieden war, daß die Kuppel in Metall und Glas über
+            <lb/>dem Sitzungssaal zu errichten sei, wurden diese letzten wichtigen</p>
+            <p>
+               <lb/>3*</p>
+            <pb n="36" xml:id="img_0036"/>
+            <p>
+               <lb/>Arbeiten so gefördert, daß am Sedantage des Jahres 1891 die
+            <lb/>Reichskrone auf der Kuppellaterne enthüllt werden konnte.</p>
+            <p>
+               <lb/>An die Fertigstellung des Aeußeren schloß sich sofort der
+            <lb/>innere Ausbau. Im Jahre 1891 war bereits ein ansehnlicher
+            <lb/>Theil der Jnnenräume geputzt und 1892 wurden die Fenster¬
+            <lb/>öffnungen geschlossen.</p>
+            <p>
+               <lb/>Eine große Zahl der bedeutendsten Werkstätten in allen
+            <lb/>Theilen Deutschlands arbeitete inzwischen für den inneren Aus¬
+            <lb/>bau des Hauses, der während der Jahre 1893/94 im Wesent¬
+            <lb/>lichen fertig gestellt werden konnte.</p>
+            <p>
+               <lb/>III.</p>
+            <p>
+               <lb/>Zusammenstellung statistischer Angaben.</p>
+            <p>
+               <lb/>1) Zur Veranschaulichung des Gesammtverbrauchs an
+            <lb/>Baumaterialien mögen folgende Zahlenaugabeu dienen:</p>
+            <p>
+               <lb/>Es gelangten zur Verwendung:</p>
+            <p>
+               <lb/>1200 ebm Granitquadern,</p>
+            <p>
+               <lb/>30 000 ebin Sandstein (die Fanden des Kultus-Mini¬
+            <lb/>steriums Hierselbst enthalten 417 ebm, das Pschorr-
+            <lb/>Haus in der Friedrichstraße 536 obm),</p>
+            <p>
+               <lb/>12 000 ebm Kalksteine für die Fundamente,</p>
+            <p>
+               <lb/>32 Millionen Ziegelsteine,</p>
+            <p>
+               <lb/>2700 t Guß- und Schweißeisen.</p>
+            <p>
+               <lb/>2) Abmessungen des Gebäudes.</p>
+            <p>
+               <lb/>Es beträgt:</p>
+            <p>
+               <lb/>die Länge des Gebäudes1....... 137,40 m</p>
+            <p>
+               <lb/>die Tiefe des Gebäudes mit den Rampen -
+            <lb/>anlagen an der Ost- und Westseite . .193,90 m</p>
+            <p>
+               <lb/>die bebaute Fläche1.........1l200 qm</p>
+            <p>
+               <lb/>die Höhe des Gebäudes von Oberkante Bürger¬
+            <lb/>steig bis zum Hauptgesims der Fronten rund127 m</p>
+            <pb n="37" xml:id="img_0037"/>
+            <p>
+               <lb/>37</p>
+            <p>
+               <lb/>die Höhe bis1zum Hauptgesims der Thurme1401m</p>
+            <p>
+               <lb/>die Höbe bis1zur Plattform der Kuppel .1591m</p>
+            <p>
+               <lb/>die Höhe bis1zum höchsten Punkt der Laterne1751m</p>
+            <p>
+               <lb/>die Höfe des Gebäudes haben 28,40 m
+            <lb/>Länge und 15,70 m Tiefe.</p>
+            <p>
+               <lb/>3) Kosten:</p>
+            <p>
+               <lb/>Die eigentlichen Baukosten stellen sich nach
+            <lb/>den endgültigen Voranschlägen auf . . . 21100000 «4L
+            <lb/>(ausschließlich der Aufwendungen für</p>
+            <p>
+               <lb/>Grunderwerb, Straßenanlagen und
+            <lb/>Bauleitung.)</p>
+            <p>
+               <lb/>Außerdem wurden bewilligt:
+            <lb/>für die innere Ausstattung des Hauses:</p>
+            <p>
+               <lb/>an Mtzbeln1.......... 600 000 &lt;46.</p>
+            <p>
+               <lb/>au Beleuchtungskörpern1..... 4M 000 «4L.</p>
+            <p>
+               <lb/>an Teppichen, Läufern, Vorhängen .1275 000 «4L</p>
+            <p>
+               <lb/>für künstlerische Ausschmückung:</p>
+            <p>
+               <lb/>für 1893/94 ..... 340 000 «4L</p>
+            <p>
+               <lb/>für 1894/9511..... 400 000 «4L</p>
+            <p>
+               <lb/>für l 895/96 1..... 132 0M.iL</p>
+            <p>
+               <lb/>für 1896/9711..... 52 000 «4L</p>
+            <p>
+               <lb/>924 000«^.</p>
+            <p>
+               <lb/>IV.</p>
+            <p>
+               <lb/>Grundrisse und Fahnden.</p>
+            <p>
+               <lb/>Die Ausbildung der Grundrisse und Fayaden jedes Ge¬
+            <lb/>bäudes ist abhängig von der Lage des Bauplatzes. Als selbst¬
+            <lb/>verständlich gilt es, daß die Hauptfayade auch den Haupt¬
+            <lb/>eingang enthalten muß.</p>
+            <p>
+               <lb/>Bei der besonderen Lage des Reichstagsgebäudcs war
+            <lb/>jedoch hier diese Regel nicht durchführbar. Die Hauptfayade</p>
+            <pb n="38" xml:id="img_0038"/>
+            <p>
+               <lb/>ist dem Kölligsplatz zugekehrt, liegt also von der Stadt ab¬
+            <lb/>gewendet. ES mussten deshalb die Hauptverkehrseingänge in
+            <lb/>die Nebenfa^aden verlegt werden, weil diese der Stadt näher
+            <lb/>liegen. Dieser scheinbar unwesentliche Widerspruch bot große,
+            <lb/>nur schwer zu bewältigende Schwierigkeiten bei der Grundriß-
+            <lb/>bildung und der Ausgestaltung des Gebäudes.</p>
+            <p>
+               <lb/>Von entscheidendem Einfluß auf die Fa^adenbildung waren
+            <lb/>die bedeutenden Höhenunterschiede der Jnnenräume. Große,
+            <lb/>hohe Säle und Hallen wechseln — den Anforderungen des
+            <lb/>Hauses entsprechend — mit kleineren Räumen, und so folgen
+            <lb/>auch im Aeußeren auf Fenster von bedeutenden Abmessungen
+            <lb/>solche von mäßiger Größe. Beispielsweise haben die Thür¬
+            <lb/>fenster in den Thürmen lichte Weiten von ist/s zu 7 m und
+            <lb/>unmittelbar daneben liegen Fenster von 1,80 zu 8Vs m. Eo
+            <lb/>handelte sich nun bei der Ausbildung der Fanden darum, diese
+            <lb/>großen Unterschiede zusammenzufassen und in ein restes rhythmisches
+            <lb/>System zu zwingen.</p>
+            <p>
+               <lb/>Wenn auch unsere moderne Zeit all gemeinverständlichen
+            <lb/>und gleichzeitig für die vorliegende Aufgabe bezeichnenden
+            <lb/>Dekorationsmotiven arm ist. so ging doch das Bestreben dahin,
+            <lb/>den Zweck und die Bedeutung des Gebäudes auch in den
+            <lb/>Einzelformen zur Geltung zu bringen. Eitles der wenigen
+            <lb/>Motive, welches sich aus dem reichen Formenschatz unserer
+            <lb/>Vergangenheit bis in die heutige Zeit erhaltet! hat, ist das
+            <lb/>Wappen als Bezeichnung für Staat und Stadt. Am Reichs¬
+            <lb/>tagsgebäude wurde dieses Motiv in mannigfacher Form und
+            <lb/>Neugestaltung verwandt.</p>
+            <p>
+               <lb/>Ferner lag es nahe, der politischen Zusammenfassung der
+            <lb/>deutschen Stämme und Länder durch das Symbol unserer Ein¬
+            <lb/>heit, die Kaiserkrone, Ausdruck zu verleihen.</p>
+            <p>
+               <lb/>In besonderer Weise wurde der Eingang in der Hauvt-
+            <lb/>fayade am Köngsplatz ausgezeichnet. Rechts und links von
+            <lb/>den Thüren unter dem Portikus erheben sich in den Feldern
+            <lb/>zwischen den Pilastern stilisirte Nachbildungen zweier deutscher</p>
+            <pb n="39" xml:id="img_0039"/>
+            <p>
+               <lb/>39</p>
+            <p>
+               <lb/>Waldbäume, einer Eiche und einer Kiefer; dieselben erscheinen
+            <lb/>als Träger der Wappen der deutschen Bundesstaaten; am
+            <lb/>Fuß der Stämme lagern die mächtigen Gestalten der
+            <lb/>beiden Grenzflüsse, des Rheins und der Weichsel, im Horst
+            <lb/>schwebt der Aar mit der Kaiserkrone in seinen Fängen (Modell
+            <lb/>von Prof. Otto Lessing). Im Giebel des Portikus wird das
+            <lb/>deutsche Neichswappen von zwei wehrhaften Gestalten bewacht,
+            <lb/>und rechts und links, im Schutz dieser Recken, blühen Kunst
+            <lb/>und Wissenschaft, Handel und Gewerbe (Modell von Professor
+            <lb/>Fritz Schaper).</p>
+            <p>
+               <lb/>Ueber dem Portikus, auf der Rücklage desselben, erhebt
+            <lb/>sich eine große Figurengruppe — eine reitende Frauengestalt —
+            <lb/>die „Germania im Sattel", geleitet von den beiden Genien des
+            <lb/>Ruhmes und des Friedens (Modell von Prof. Reinhold Begas).</p>
+            <p>
+               <lb/>Die Schlußsteine der Feusterbögen an der Westseite
+            <lb/>(modellirt vom Prof. Wilhelm Widemann) versinnbildlichen
+            <lb/>deutsche Flüsse und Ströme. Die Thüreinstellungen in den
+            <lb/>Fenstern dieser Fa§ade tragen als Aufsätze die deutschen
+            <lb/>Städtewappen.</p>
+            <p>
+               <lb/>An den Eckthürmen über den Säulen stehen je vier
+            <lb/>Statuen, und zwar:
+            <lb/>am Südwestthurm:</p>
+            <p>
+               <lb/>„Ackerbau" und „Viehzucht" von Prof. Otto Lesstng,</p>
+            <p>
+               <lb/>„Weinbau" und „Bierbrauerei" von Prof. Robert Diez,
+            <lb/>Dresden;</p>
+            <p>
+               <lb/>am Nordwestthurm:</p>
+            <p>
+               <lb/>„Handel und Schifffahrt" und „Großindustrie" von
+            <lb/>Prof. Gustav Eberlein,</p>
+            <p>
+               <lb/>„Klein- und Hausindustrie" und „Elektrotechnik" von
+            <lb/>Prof. Sirius Eberle, München;
+            <lb/>am Nordostthurm:</p>
+            <p>
+               <lb/>„Erziehung" und „Unterricht" von Bildhauer Friedrich
+            <lb/>Schierholz, Frankfurt a. M..</p>
+            <pb n="40" xml:id="img_0040"/>
+            <p>
+               <lb/>40</p>
+            <p>
+               <lb/>„Kunst- und „Litteratur" von Bildhauer Christian
+            <lb/>Behrens, Breslau;
+            <lb/>am Südostthurm:</p>
+            <p>
+               <lb/>„Wehrkraft zu Lande" und „Wehrkraft zur Sec" von
+            <lb/>Prof. Rudolf Maison, München,</p>
+            <p>
+               <lb/>„Rechtspflege" und „Staatskunst" von Prof. Hermann
+            <lb/>Bolz, Karlsruhe.</p>
+            <p>
+               <lb/>Die Gruppe über dem Südportal zeigt einen Löwen, der
+            <lb/>die Reichsinsignien bewacht, daneben Kindergestalten, das Reichs¬
+            <lb/>banner aufrichtend (Modell von Bildhauer Max Klein). Das
+            <lb/>Nordportal ist bekrönt von der Gestalt der „Wahrheit"
+            <lb/>(Modell von Bildhauer Adolf Brütt).</p>
+            <p>
+               <lb/>Oben am Giebelfeld der Süd- und Nordseite befinden
+            <lb/>sich die Wappen der vier Königreiche im Schuhe eines mäch¬
+            <lb/>tigen Adlers (Modell von Prof. Otto Lessing).</p>
+            <p>
+               <lb/>Zu beiden Seiten des Ostmittelbaues werden später auf
+            <lb/>den bereits vorhandenen Steinpostamenten in Kupfer getriebene
+            <lb/>reitende Bannerträger Aufstellung finden (Modelle von Professor
+            <lb/>Rudolf Maison, München).</p>
+            <p>
+               <lb/>Der Sandstein der Außen- und Hoffa^aden stammt zum
+            <lb/>größten Theil aus Schlesien und zwar aus den Brüchen von
+            <lb/>Alt-Warthau und Cudowa; außerdem ist zur Verwendung ge¬
+            <lb/>kommen: Nesselberger Sandstein (b. Springe, Hannover),
+            <lb/>Teutoburger-Wald-Sandstein (b. Lippe), Burgpreppacher Sand¬
+            <lb/>stein (nördl. von Würzburg). Der Granit für die Gebäude¬
+            <lb/>sockel, für die Rampen und Freitreppen ist aus den Brüchen
+            <lb/>des Fichtelgebirges geliefert.</p>
+            <p>
+               <lb/>An der Ausführung der Steinmetzarbeiten waren haupt¬
+            <lb/>sächlich folgende Firmen betheiligt: P. Wimmel L Co.,
+            <lb/>Carl Schilling, PH. Holzmann L Co., O. Plöger und Gebr.
+            <lb/>Zeidler.</p>
+            <pb n="41" xml:id="img_0041"/>
+            <p>
+               <lb/>41</p>
+            <p>
+               <lb/>V.</p>
+            <p>
+               <lb/>Raumvertheilung.</p>
+            <p>
+               <lb/>Das Reichstagshaus besteht aus fünf Geschossen und
+            <lb/>zwar: dem Kellergeschoß, Erdgeschoß, Hauptgeschoß, Zwischen¬
+            <lb/>geschoß und Obergeschoß.</p>
+            <p>
+               <lb/>Das Kellergeschoß wird zum größten Theile durch die
+            <lb/>Hcizungs- und Lüftungseinrichtungen in Anspruch genommen,
+            <lb/>enthalt außerdem noch Theile des Archivs, ferner die Küchen der
+            <lb/>Hausinspektoren und die Wirthschaftskellereien.</p>
+            <p>
+               <lb/>Im Erdgeschoß liegen die Eingangshallen der Nord&gt;
+            <lb/>Sud- und Ostseite, die Kleiderablagen, einige Berathungs-
+            <lb/>säle, die Wartehalle für das Publikum, die Kartenausgabe,
+            <lb/>die Botenmeisterei, Thelle des Archivs, die Arbeitsräume der
+            <lb/>Stenographen, Wohnungen der Hansinspektoren und endlich
+            <lb/>die Küchenanlage.</p>
+            <p>
+               <lb/>Das Hauptgeschoß enthält als Mittelpunkt den Haupt»
+            <lb/>sitzimgssaal mit seinen Umgängen. Westlich davon, nach dem
+            <lb/>Königsplatz hin, liegen die Räume für die Abgeordneten:
+            <lb/>die große Wandelhalle, die Erfrischungssäle, die Post, der
+            <lb/>^esesaal, der Schreibsaal und einige Sprechzimmer. In der
+            <lb/>Osthälfte des Hauses, nach dem Brandenburger Thor hin, be¬
+            <lb/>finden sich die Räume für den BundeSrath, bestehend aus einem
+            <lb/>Borsaal, den Bundes rathSsitzungvsälen, den Zimmern für den
+            <lb/>Reichskanzler und die Staatssekretäre, — auf der anderen
+            <lb/>Seite, jenseits der Osteingangshalle, die Räume für den Reichs-
+            <lb/>tagsvorstand, der Bibliotheklesesaal und die Amtszimmer des
+            <lb/>Direktors.</p>
+            <p>
+               <lb/>Im Zwischengeschoß sind im Anschluß an die Räume
+            <lb/>des Bureaus die Registratur-, Archiv- und Kanzleiräume, die
+            <lb/>Tribünen des großen Sitzungssaales, die Säle hinter der Hof¬
+            <lb/>loge, Arbeits- und Erholungsräume für die Mitglieder der
+            <lb/>Presse, endlich einige Sprech- und Umkleidezimmer.</p>
+            <pb n="42" xml:id="img_0042"/>
+            <p>
+               <lb/>42</p>
+            <p>
+               <lb/>Das Obergeschoß enthält das große Büchermagazin,
+            <lb/>mit den Geschäftsräumen der Bibliothekbeamten, ferner die
+            <lb/>nachträglich eingerichtete Dienstwohnung des Direktors. Alle
+            <lb/>übrigen Räume sind Ausschuß- und Fraktionssitzungssäte.</p>
+            <p>
+               <lb/>VI.</p>
+            <p>
+               <lb/>Rundgang durch das Gebäude.</p>
+            <p>
+               <lb/>In dem beigegebenen Grundriß des Hauptgeschosses ist eine
+            <lb/>rothe Linie eingetragen, welche alle wichtigeren Räume dieses
+            <lb/>Geschosses berührt; folgen wir derselben, so gelangen wir zuerst
+            <lb/>in die</p>
+            <p>
+               <lb/>Südeingangshalle. Dieselbe dient ausschließlich dem
+            <lb/>Verkehr der Reichstagsabgeordneten und derjenigen Mitglieder
+            <lb/>des Bundesraths, welche die Eingänge auf der Ostseite nicht
+            <lb/>benutzen. Als Material ist durchweg Sandstein aus den Brüchen
+            <lb/>von Bayerfeld in der Rheinpsatz verwandt.</p>
+            <p>
+               <lb/>Die Hauptzierde der Halle werden acht Bronzestandbilder
+            <lb/>von hervorragenden deutschen Kaisern des alten Reiches bilden,
+            <lb/>welche, auf niedrigen Sockeln vor den Pfeilern aufgestellt, eine
+            <lb/>Höhe von 2,50 m erhalten sollen.</p>
+            <p>
+               <lb/>Die linke Reihe beginnt mit Karl dem Großen, daran
+            <lb/>schließen sich Heinrich I., Otto der Große, Heinrich III., auf
+            <lb/>der gegenüberliegenden Seite Friedrich I., Rudolph von Habs¬
+            <lb/>burg, Karl IV. und als Letzter zur Rechten Maximilian, der
+            <lb/>letzte Ritter. Wenngleich das neue Reich nicht eine Fortsetzung
+            <lb/>des alten, des „heiligen römischen Reiches deutscher Nation" ist,
+            <lb/>so erschien es doch angemessen, durch die Darstellung dieser Helden¬
+            <lb/>gestalten an die große Geschichte unseres Volkes zu erinnern.</p>
+            <p>
+               <lb/>Es sei an dieser Stelle erwähnt, daß, wie hier in der
+            <lb/>Südeingangshalle die politischen, so in der Nordeingangshalte
+            <lb/>die geistigen Größen des alten Reiches, die Dichter, Erfinder
+            <lb/>und Männer der Wissenschaft aufgestellt werden sollen.</p>
+            <pb n="43" xml:id="img_0043"/>
+            <p>
+               <lb/>43</p>
+            <p>
+               <lb/>Die Südeingangshalle erhält ihr Licht durch vier große
+            <lb/>Glasfenster, deren Motive ebenfalls in Beziehung stehen zu
+            <lb/>der sonstige« Ausgestaltung des Raumes.</p>
+            <p>
+               <lb/>In dem Feilster über dem Eingang ist die thronende
+            <lb/>Germania dargestellt inmitten jugendlicher Gestalten; ihre
+            <lb/>Kinder, die deutschen Stämme, sind verbunden durch ein alle
+            <lb/>umschlingendes Band in den Reichsfarben. Im Hintergrund
+            <lb/>dehnen sich im Schmuck der Frühlingsblüthen die deutschen
+            <lb/>Lande hin, „vom Fels zürn Meer". Im oberen Theile des
+            <lb/>Fensters erblickt man St. Michael, den Schutzpatron der
+            <lb/>Deutschen, im Untertheil die Gestalten von Nord- und Süd-
+            <lb/>deutschland im Handschlag vereinigt.</p>
+            <p>
+               <lb/>Das dem Eintretenden gegenüberliegende Fenster in der
+            <lb/>Nordwand enthält den Reichsadler mit den Wappen der deut¬
+            <lb/>schen Bundesstaaten.</p>
+            <p>
+               <lb/>Die beiden kleineren Fenster oben vor den Portalen werden
+            <lb/>noch mit farbigen Darstellungen versehen werden.</p>
+            <p>
+               <lb/>Die Architekturformen sowohl der Süd-, wie auch der
+            <lb/>Nordeingangshalle haben eine Ausbildung erfahren, welche eine
+            <lb/>Darstellung der Bronzestandbilder im Stil und in der Tracht
+            <lb/>des Mittelalters gestattet. Neberhanpt ging das Bestreben des
+            <lb/>Architekten dahin, diese beiden Eingangshallen derart zu ge¬
+            <lb/>stalten, daß sie den Eintretenden loslösen vom Getriebe des
+            <lb/>Alltagslebens.</p>
+            <p>
+               <lb/>Die große Treppe der Südeingangshalle führt links zu
+            <lb/>den Räumen der Reichstagsabgeordneten, rechts zu denjenigen
+            <lb/>des Bundesraths. Die beiden, in das Innere des Hauses
+            <lb/>führenden Portale tragen die Wappen und die zugehörigen
+            <lb/>heraldischen Symbole der Königreiche Preußen und Bayern.
+            <lb/>Denselben entsprechen in der Nordeingangshalle die Portale
+            <lb/>„Sachsen" und „Württemberg". Die Modelle zu diesen vier
+            <lb/>Portalen sind vom Bildhauer August Vogel hergestellt, mit
+            <lb/>der Übertragung in Stein war der Bildhauer Hildebrandt</p>
+            <pb n="44" xml:id="img_0044"/>
+            <p>
+               <lb/>44</p>
+            <p>
+               <lb/>betraut. Alle Steinmetzarbeiten der Südeingangshalle lieferte
+            <lb/>Philipp Holzmann L Co.</p>
+            <p>
+               <lb/>Durch das „Portal Bayern* gelangt man in die große
+            <lb/>Wandelhalle, welche außerdem auch von der Kleiderablage aus
+            <lb/>direkt mittels der großen, in der Axe der Wandelhalle liegen¬
+            <lb/>den Haustreppe zu erreichen ist. Bevor wir die Wandelhalle
+            <lb/>entlang schreiten, treten wir ein in die</p>
+            <p>
+               <lb/>Erfrischringssirle. Der Ausbau beider Säle wurde von
+            <lb/>Münchener Künstlern und Unternehmern ausgeführt. Die
+            <lb/>Täfelungen und Möbel sind gefertigt von A. Pössenbacher,
+            <lb/>die Modelle zu den Holzarbeiten von dem Bildhauer Pruska
+            <lb/>in München. Die Decke des Langsaales hat Otto Hupp ge¬
+            <lb/>malt, als Dekorationsmotive sind hier die Geschlechterwappen
+            <lb/>der deutschen fürstlichen Familien benutzt worden.</p>
+            <p>
+               <lb/>Der Eckraum ist noch nicht vollendet. Die Decke, von
+            <lb/>Bichl in München in angetragenem Stuck ausgeführt, wird
+            <lb/>in der Hauptsache unverändert bleiben. Die vier Stirnwände
+            <lb/>jedoch sollen durch gemalte landschaftliche Scenerien mit
+            <lb/>Staffage belebt werden.</p>
+            <p>
+               <lb/>Die Fenster beider Räume enthalten zugleich Thüren in
+            <lb/>Steinrahmen, welche auf geräumige Balköne führen. Die
+            <lb/>oberen Theile der Fenster werden später mit Glasmalereien
+            <lb/>geschmückt werden.</p>
+            <p>
+               <lb/>Die Speisenausgabe, das Büffet, steht durch Treppen und
+            <lb/>Aufzüge in unmittelbarer Verbindung mit der Küchenanlage
+            <lb/>irn Erdgeschoß.</p>
+            <p>
+               <lb/>Nur: kehren wir zur</p>
+            <p>
+               <lb/>Wandelhalle zurück. Dieselbe ist 96 m lang. Sie besteht
+            <lb/>aus dem mittleren Kuppelraum von 24 m Weite (in der Dia¬
+            <lb/>gonale gemessen), 24 m Höhe und den beiden mit Tonnen¬
+            <lb/>gewölben überdeckten Seitenhallen von 17 m Höhe, 9 m Weite.
+            <lb/>Um die große Längenentwickelung der Wandelhalle zu unter¬
+            <lb/>brechen, ist sie durch zwei brückenartige Einstellungen getheilt.</p>
+            <pb n="45" xml:id="img_0045"/>
+            <p>
+               <lb/>Die Brücken haben aber nicht ausschließlich diesen Zweck zu er-
+            <lb/>füllen, sie dienen gleichzeitig dem Verkehr im oberen Geschoß.</p>
+            <p>
+               <lb/>Der Kuppelraum liegt in der Kurzaxe des Hauses, d. h.
+            <lb/>in der Linie, welche von der Mitte der Westfayade nach der
+            <lb/>Mitte der Ostfa^ade gezogen ist. Die Verlängerung dieser
+            <lb/>Linie trifft auf die Siegessäule. In der Mitte des Kuppel¬
+            <lb/>raumes wird später ein Standbild Kaiser Wilhelms I. errichtet
+            <lb/>und in Beziehung zu diesem sollen dann noch die vier Nischen
+            <lb/>mit Bildwerken ausgestattet werden.</p>
+            <p>
+               <lb/>Nach Westen hin führt ein Ausgang zur Treppe und
+            <lb/>Rampe nach dem Königsplatz, nach Osten der Eingang in den
+            <lb/>Sitzungssaal.</p>
+            <p>
+               <lb/>Das Relief über der westlichen Thür zeigt den preußischen
+            <lb/>Aar mit dem Wahlspruch „Nee 80IL eeäo", auf der gegen¬
+            <lb/>überliegenden Wand ist ein ruhender Löwe vor drei Zierschilden
+            <lb/>dargestellt. Der mittlere Schild mit dem "VV. I. an der Spitze
+            <lb/>erinnert an den ersten Kaiser Wilhelm, den Siegreichen, der
+            <lb/>Schild zur Linken mit dem durch einen Trauerschleier halb
+            <lb/>bedeckten k' an den früh dahingeschiedenen Kaiser Friedrich.
+            <lb/>Auf dem dritten runden Schild ist der Name 'VViUmIm II.
+            <lb/>sichtbar.</p>
+            <p>
+               <lb/>Die Figurengruppen oben in den vier Kuppelzwickeln
+            <lb/>stellen Herrschertugenden dar.</p>
+            <p>
+               <lb/>Die Modelle für die vier Sphinxe auf den Endeinstellungen,
+            <lb/>ferner für die Bronzen auf den Thürfüllungen sind vom Professor
+            <lb/>W. Widemann, die übrigen Modelle der Halle vom Professor
+            <lb/>Otto Lessing ausgeführt.</p>
+            <p>
+               <lb/>Auf den oberen umlaufenden Brüstungen des Kuppelraumes
+            <lb/>sollen später noch Statuen aufgestellt werden.</p>
+            <p>
+               <lb/>Vor allem aber fehlt zur Zeit noch die Ausschmückung
+            <lb/>mit den Werken der Malerei, für welche die Putzflächen des
+            <lb/>Kuppelgewölbes und die Tonnengewölbe der Seitenhallen be¬
+            <lb/>stimmt sind.</p>
+            <pb n="46" xml:id="img_0046"/>
+            <p>
+               <lb/>46</p>
+            <p>
+               <lb/>Die Architektur der Wandelhalle ist in einen! Marmorputz
+            <lb/>auf Backsteinmauerwerk hergestellt. Die ornamentalen und
+            <lb/>zürn Theil auch die figürlichen Theile sind in demselben Ma¬
+            <lb/>terial in Formen gegossen.</p>
+            <p>
+               <lb/>symmetrisch zu den Erfrischungsräumen liegen an der
+            <lb/>Nordhälfte der Wandelhalle die</p>
+            <p>
+               <lb/>Lese- und Schreibsäle und in Verbindung mit diesen die</p>
+            <p>
+               <lb/>Post.</p>
+            <p>
+               <lb/>Der Lesesaal dient im Gegensatz zum Bibliothektesesaal
+            <lb/>lediglich der politischen Tageslitteratur u. s. w. Er ist ca.
+            <lb/>24 m lang, 10 m breit und 8,50 m hoch. Die Täfelungen sind
+            <lb/>ebenso wie im Schreibsaal von der Firma A. Bembö in Mainz
+            <lb/>ausgeführt. An die Stelle der blauen Stoffbespannung an den
+            <lb/>Wänden beider Säle werden später Gemälde treten. Es sollen
+            <lb/>die Motive zu diesen Gemälden der deutschen Landschaft entnom¬
+            <lb/>men werden und eine Folge „vom Fels zum Meer" darstellen.
+            <lb/>Der Kamin im Schreibsaat ist aus Pyrenäen-Marmor angefertigt.</p>
+            <p>
+               <lb/>Aus diesem Saale, in welchem acht Doppelschreibtische
+            <lb/>ausgestellt sind, kehren wir zurück durch den Lesesaal in die
+            <lb/>Wandelhalle, und treten hinaus auf einen breiten Gang,
+            <lb/>welcher durch die</p>
+            <p>
+               <lb/>Nordeingangshalle führend die westliche und östliche
+            <lb/>Gcbäudehälfte verbindet. Der mittlere Theil dieses Ganges ist
+            <lb/>in Wirklichkeit eine Art Brücke, unter welcher die Durchfahrt
+            <lb/>nach den beiden Höfen liegt.</p>
+            <p>
+               <lb/>Ueber die Brüstung hinabsehend, erblicken wir ähnliche
+            <lb/>architektonische Formen wie in der Südeingangshalle. Es
+            <lb/>wurde bei der Beschreibung dieser Halle bereits hervor¬
+            <lb/>gehoben, daß wie dort die politischen, nun hier die geistigen
+            <lb/>Größen des alten Reiches unten vor den Pfeilern zur Dar¬
+            <lb/>stellung gelangen sollen.</p>
+            <pb n="47" xml:id="img_0047"/>
+            <p>
+               <lb/>47</p>
+            <p>
+               <lb/>Die beiden weiblichen Gestalten oben auf der Brücke über
+            <lb/>der Durchfahrt erscheinen, von unten gesehen, auf einem
+            <lb/>Giebelbau gelagert. Sie halten vereint dasSvmbol der Ein¬
+            <lb/>heit der deutschen Stämme -- die Kaiserkrone.</p>
+            <p>
+               <lb/>Auch die Fenster dieses Raumes sollen, — bei zweien ist
+            <lb/>dies bereits geschehen — sämmtlich mit Glasmalereien ver¬
+            <lb/>sehen werden. Das eine der beiden Glasfcnster stellt die Ein¬
+            <lb/>tracht dar mit dem Spruche: „Ooneoräis. res xrrrvrre ereseuut",
+            <lb/>das andere die Zwietracht mit dem Spruche: „VLseoräia.
+            <lb/>umximae äiladuntur".</p>
+            <p>
+               <lb/>Sämmtliche Glasfenster der Süd- und Nordeingangshalle
+            <lb/>sind erfunden und hergestellt vom Glasmaler Alexander LinNe¬
+            <lb/>man n in Frankfurt a. M. Die beiden Portalbauten sind
+            <lb/>ebenfalls wie jene der SüdeingangShalle modellirt vom Bild¬
+            <lb/>hauer A. Vogel, die weiblichen Gestalten auf dem Giebel
+            <lb/>über der Durchfahrt hat Professor Hundrieser modellirt,
+            <lb/>Bildhauer Lock in Stein ausgeführt. Die Steinmetzarbeiten
+            <lb/>lieferte O. Plöger. Das Steinmatenal stammt aus Udel¬
+            <lb/>fangen bei Trier.</p>
+            <p>
+               <lb/>Durch das Portal „Württemberg" gelangt inan zunächst in
+            <lb/>den Prästdialvorsaal. An dessen östlicher Seite liegen die
+            <lb/>Räume des Präsidiums, während die beiden Thüren an der
+            <lb/>nördlichen Schmalseite zu den Räumen des Direktors und
+            <lb/>zum Bibliotheklesesaal führen. Die Wölbflächen dieses Vor¬
+            <lb/>saales sollen durchweg bemalt werden und dann einen Gegen¬
+            <lb/>satz bilden zu den Hellen Wandflächen. Die Balkendecke über
+            <lb/>dem nach Norden gelegenen Theil wird im Anschluß an die
+            <lb/>Wölbmalereien des Vorsaals ebenfalls bemalt. Den Zielpunkt
+            <lb/>in der Mitte der nördlichen Schmalseite wird ein Kamin in
+            <lb/>farbigem Marmor bilden.</p>
+            <p>
+               <lb/>Die Wände, Architekturen und Bildhauerarbeiten dieses
+            <lb/>Raumes sind in istrisch - dalmatischem Kalkstein ausgeführt.
+            <lb/>Dieser Kalkstein ist von großer Härte, schöner warmer Färbung</p>
+            <pb n="48" xml:id="img_0048"/>
+            <p>
+               <lb/>48</p>
+            <p>
+               <lb/>und von krystallinischem Gefüge; er ist politurfähig wie Marmor,
+            <lb/>aber nickt durchscheinend wie dieser.</p>
+            <p>
+               <lb/>Die Modelle zu den Steinbildwerken sind vorn Bild¬
+            <lb/>hauer Otto Les sing, diejenigen zu dem Gestühl vom Bild¬
+            <lb/>hauer PruSka in München angefertigt.</p>
+            <p>
+               <lb/>Ausgeführt sind die Steinbildhauerarbeiten vom Stemmest-
+            <lb/>Meister O. Plöger in Berlin, das Gestühl von L. I. Peter
+            <lb/>in Mannheim, die Balkendecke von I. Gluckert in Darm-
+            <lb/>stadt, die Lederschneidarbeiten des Gestühls von G. Hulbe in
+            <lb/>Hamburg. Die Möbel in den Präsidialräumcn sind entworfen
+            <lb/>und ausgeführt von der Firma I. D. Hey mann in Hamburg.</p>
+            <p>
+               <lb/>Der Bibliotheklesesaal enthalt lediglich die jedem Ab¬
+            <lb/>geordneten direkt zugängliche Nachschlagcbibliothek. ES steht
+            <lb/>jedoch dieser, ruhigen, ungestörten Arbeiten gewidmete Saal
+            <lb/>durch Bücheraufzüge und Fernsprecher in unmittelbarer Verbin¬
+            <lb/>dung mit dem großen Büchermagazin im oberen Stock.</p>
+            <p>
+               <lb/>Die Schreinerarbeiten dieses Raumes sind ausgeführt von
+            <lb/>Wirth'S Söhne in Stuttgart.</p>
+            <p>
+               <lb/>Aus dem Präsidialvorsaal treten wir, gen Süden weiter-
+            <lb/>schreitend, in die</p>
+            <p>
+               <lb/>Osteingangshalle ein. In dieselbe gelangt man von
+            <lb/>außen durch die bedeckte Unterfahrt in der Mitte der Ostfayade.
+            <lb/>Der Raum dient als Eingangshalle für die ganze Osthälfte des
+            <lb/>Hauses, insbesondere für den Bundesrath, das Präsidium und
+            <lb/>die Besucher der Hof-, Diplomaten- und Bundesrathslogen
+            <lb/>des Sitzungssaales.</p>
+            <p>
+               <lb/>Die Treppenaufgänge zu diesen Logen liegen zu beiden
+            <lb/>Seiten der Halle, und zwar führt die Treppe rechts, also nörd¬
+            <lb/>lich von den Eingangsthüren, zu den Logen für den Kaiserlichen
+            <lb/>Hof und die Diplomaten; die andere zur Loge des Bundesratbs.</p>
+            <p>
+               <lb/>Von unten aus erblickt man in den beiden Zwickeln der
+            <lb/>Hallentreppe Reliefwerke, welche Krieg und Frieden darstellen-
+            <lb/>sie sind vom Professor W. Widemann modellirt.</p>
+            <pb n="49" xml:id="img_0049"/>
+            <p>
+               <lb/>49</p>
+            <p>
+               <lb/>Die beiden Portalaufbauten gewähren in den oberen
+            <lb/>Fenstern Einblick in die Uebergänge, welche nach den ge¬
+            <lb/>nannten Logen führen. Die vier Kinderfiguren neben diesen
+            <lb/>Fenstern sind Träger von Herrscherinsignien, der Krone, des
+            <lb/>Schwertes, des Scepters und Reichsapfels. Die Putten und die
+            <lb/>ornamentalen Theile sind modellirt vorn Professor Otto Lessing,
+            <lb/>die Köpfe an den Pfeilern vom Professor W. Widemann.
+            <lb/>Diese letzteren stellen die verschiedenen Stände dar und zwar
+            <lb/>von links nach rechts: Handel, Nährstand, Wehrstaud, den
+            <lb/>geistlichen, den Gelehrten- und endlich den Handwerkerstand.</p>
+            <p>
+               <lb/>Als Baumaterial wurde für die Osteingangshalle Sand¬
+            <lb/>stein aus den Brüchen von Rackwitz und Warthau (Schlesien)
+            <lb/>verwendet. Ausgeführt wurden die Steinmetzarbeiten von den
+            <lb/>Firmen Meyer L Kopp und PH. Holzmann &lt;L Co., die
+            <lb/>Bildhauerarbeiten an den Portalen vom Bildhauer Lock, die
+            <lb/>übrigen vom Bildhauer Hildebrandt.</p>
+            <p>
+               <lb/>Kehren wir nun zurück nach dem nördlich von der Ost-
+            <lb/>eingangshalle gelegenen Vorraum, so führt uns von hier die
+            <lb/>Treppe aufwärts in das Zwischengeschoß zu den beiden</p>
+            <p>
+               <lb/>Vorsälen der Hofloge; aus dem zweiten dieser Säle
+            <lb/>tritt rnarr in die Loge selbst ein.</p>
+            <p>
+               <lb/>Die Stuckmarmorarbeiten in diesen Sälen fertigte Earl
+            <lb/>Hauer; die Täfelungen und Möbel sind aus deutschem Neu-
+            <lb/>Guinea-Holz von Ferd. Vogts L Co. in Berlin ausgeführt.</p>
+            <p>
+               <lb/>Wir nehmen den Rückweg über dieselbe Treppe und
+            <lb/>gehen im Hauptgeschoß bis hinter die Mitte der Osteingangs¬
+            <lb/>halle. Hier führen die vier Thüren in der Holztäfelung in den
+            <lb/>Großen Sitzungssaal. Dieser Hauptraum des Hauses
+            <lb/>entspricht in seinen Abmessungen und Einrichtungen ganz dem
+            <lb/>Vorbild des alten Sitzungssaales in der Leipzigerstraße. Nur
+            <lb/>sind die Wände des neuen Saales nicht wie dort geputzt,
+            <lb/>sondern — vornehmlich aus akustischen Rücksichten — ganz mit
+            <lb/>Holzwerk bekleidet.</p>
+            <p>
+               <lb/>4</p>
+            <pb n="50" xml:id="img_0050"/>
+            <p>
+               <lb/>50</p>
+            <p>
+               <lb/>Eine Vergrößerung des Saales durfte bei der Neuanlage
+            <lb/>nicht stattfinden, denn die Abmessungen (22 zu 29 m Seiten¬
+            <lb/>lange bei 13 m Höhe) erreichen schon die äußerste Grenze der
+            <lb/>Hörfähigkeit. Von großer Wichtigkeit für das deutliche Hören
+            <lb/>ist es, daß die Redner nicht vom Platze, sondern von der
+            <lb/>Rednertribüne aus sprechen. Im alten Saale lagen die Ver¬
+            <lb/>hältnisse für das Sprechen vom Platze aus günstiger, weil sich
+            <lb/>dort im Rücken der Bundesrathssitze -- also dem Redner gegen¬
+            <lb/>über — Tribünen befanden, eine Anordnung, die jedoch wegen
+            <lb/>anderer Uebelstände nicht wiederholt werden durfte. Jetzt sind
+            <lb/>daher sämmtliche Zuhörertribünen insbesondere auch diejenigen
+            <lb/>der Presse, nach dem Rednerpult hin gerichtet.</p>
+            <p>
+               <lb/>Der Sitzungssaal des Hauses der Gemeinen im eng¬
+            <lb/>lischen Parlament ist bei einer größeren Zahl von Ab¬
+            <lb/>geordneten kaum halb so groß, wie der deutsche. Die
+            <lb/>Folge davon ist, daß man dort von Schreibpulten überhaupt
+            <lb/>absah, daß man die langgestreckten Roßhaarbänke nur an
+            <lb/>welligen Stellen für den Verkehr durchbrach, und daß endlich
+            <lb/>kein Abgeordneter Anspruch auf einen bestimmten Platz haben
+            <lb/>konnte. Auch silld nur für die gewöhnlich anwesende Zahl der
+            <lb/>Abgeordneten Plätze im unteren Saalraum vorhanden; für die
+            <lb/>seltenen Ausnahmefälle eines vollen Hauses sind Plätze auf den
+            <lb/>Tribünen vorgesehen.</p>
+            <p>
+               <lb/>Im Gegensatz zur rechteckigen Grundform des deutschen
+            <lb/>und englischen Sitzungssaales stellen diejenigen des Reichsraths-
+            <lb/>gebäudes in Wien, in Madrid, in Paris halbrunde, der Form
+            <lb/>des antiken Theaters sich nähernde Säle dar. Diese Form be¬
+            <lb/>währt sich auch ganz gut in der Voraussetzung, daß die Redner
+            <lb/>ausnahmslos, auch für kurze Bemerkungen von der Redner¬
+            <lb/>tribüne sprechen.</p>
+            <p>
+               <lb/>Hinsichtlich der Einrichtung des Saales sei noch bemerkt,
+            <lb/>daß die Stenographen nicht mehr wie bisher bei der Ablösung
+            <lb/>— alle 10 Minuten — den Saal zu durchschreiten brauchen.</p>
+            <pb n="51" xml:id="img_0051"/>
+            <p>
+               <lb/>51</p>
+            <p>
+               <lb/>Im neuen Saal stehen die Plätze der Stenographen in unmittel¬
+            <lb/>barer Verbindung mit ihren Arbeitsräumen in: Erdgeschoß.</p>
+            <p>
+               <lb/>Die Holzarchitektur der Ostwand erscheint ärmer, als die¬
+            <lb/>jenige der drei anderen Seiten, und zwar deshalb, weil wesent¬
+            <lb/>liche Theile des Entwurfs, — um in den Grenzen der verfüg¬
+            <lb/>baren Mittel zu bleiben —, unausgeführt bleiben mußten.</p>
+            <p>
+               <lb/>Die drei großen mit röthlichem Stoff bespannten Flächen
+            <lb/>in dieser Wand sind für Gemälde bestimmt.</p>
+            <p>
+               <lb/>Die Schreincrarbeiten wurden ausgeführt von G. Olm
+            <lb/>und Gebr. Lüdtke in Berlin, die Modelle zu den Bildhauer-
+            <lb/>arbeiten von den Bildhauern A. Vogel und H. Giesecke.</p>
+            <p>
+               <lb/>Die seitlichen Thüren — die sogenannten Hammelsprung¬
+            <lb/>thüren — führen in die, den Sitzungssaal auf allen Seiten
+            <lb/>umgebenden hallenartigen Flure.</p>
+            <p>
+               <lb/>Die Figürchen oben an den Konsolen der beiden'Seitenflure
+            <lb/>sind Träger des goldenen Spruchs: „Erst das Vaterland, dann
+            <lb/>die Partei."</p>
+            <p>
+               <lb/>Wir gelangen nun, ostwärts weitergehend, in den Vorsaal
+            <lb/>des Bundesraths. Von demselben gilt das bei dem Präsidial-
+            <lb/>vorsaal Gesagte. Er wird genau wie dieser ausgebildet, und
+            <lb/>auch die angrenzenden Zimmer — hier für den Reichskanzler
+            <lb/>und die Minister bestimmt — sind ganz so ausgestattet, wie
+            <lb/>jene auf der Präsidialseite.</p>
+            <p>
+               <lb/>Aus dem Bundesrathsvorsaal führen an der südlichen
+            <lb/>Schmalseite zwei Thüren in die</p>
+            <p>
+               <lb/>Sitzungsräume des Bundesraths. In dem großen
+            <lb/>Sitzungssaal ist ein Tisch in Hufeisenform für die Bundes-
+            <lb/>rathsmitglieder aufgestellt.</p>
+            <p>
+               <lb/>Auch in diesem Raum ist die Ausstattung noch unfertig.
+            <lb/>Die neun Felder in der Kicfernholzdecke sollen mit Gemälden
+            <lb/>geschmückt werden, zu welchen die Deckentheilungen selbst den
+            <lb/>goldenen Rahmen bilden kann.</p>
+            <p>
+               <lb/>An die Stelle des grünen WandstoffcS sollen später
+            <lb/>Gobelins treten, welche nach besonderen Entwürfen in Deutsch-</p>
+            <pb n="52" xml:id="img_0052"/>
+            <p>
+               <lb/>52</p>
+            <p>
+               <lb/>land hergestellt werden. Es würden auf diese Weise die Be¬
+            <lb/>strebungen unterstützt werden, eine Industrie, welche vor dem
+            <lb/>dreißigjährigen Kriege auf heimischem Boden in hoher Blüthe
+            <lb/>stand, aufs Neue zu beleben.</p>
+            <p>
+               <lb/>Der große Kamin ist aus istrischem Kalkstein her¬
+            <lb/>gestellt und vom Steinbildhauer Knoll ausgeführt. Der¬
+            <lb/>selbe vortreffliche Arbeiter hat auch die von dem Steinmetz¬
+            <lb/>meister O. Plöger gelieferten Arbeiten im Bundesraths- und
+            <lb/>Präsidial-Vorsaal hergestellt. Der rechteckige Raum über der
+            <lb/>Feuernische ist zur Aufnahme eines Reliefs in vergoldeter
+            <lb/>Bronze bestimmt, auf welchem Kaiser Wilhelm I. dargestellt
+            <lb/>ist, wie er von einem Eichbaum an einem Kornfeld vorüber zu
+            <lb/>einem Lorbeerbaum reitet.</p>
+            <p>
+               <lb/>An den Hauptsaal des Bundesraths schließt sich ein Vor¬
+            <lb/>saal und ein Ausschußsaal an; die Kiefernholzdecken in diesen
+            <lb/>Nebensälen sollen später bemalt werden.</p>
+            <p>
+               <lb/>Aus dem Vorsaal tritt man in die Garderobe des
+            <lb/>Bundesraths und aus dieser kehren wir zurück in die Süd-
+            <lb/>eingangshalle, dem Ausgangspunkt unseres Rundgangs.</p>
+            <p>
+               <lb/>Der geschilderte Weg hat sich zunächst auf das Haupt¬
+            <lb/>geschoß und einige reicher ausgestattete Räume des Zwischen¬
+            <lb/>geschosses beschränkt. Ueber hundert Räume enthält das Haus
+            <lb/>nun noch im Ober-, Zwischen- und Erdgeschoß; dieselben sind
+            <lb/>wie oben erwähnt, vom Regierungsbaumeister Wittig aus¬
+            <lb/>gebaut und eingerichtet.</p>
+            <p>
+               <lb/>Von diesen Räumen seien folgende hervorgehoben:</p>
+            <p>
+               <lb/>Im Obergeschoß. Das Obergeschoß enthält an seiner
+            <lb/>ganzen Süd-, West- und Ostfront — außer der nachträglich
+            <lb/>eingerichteten Direktorwohnung — eine fortlaufende Reihe von
+            <lb/>Sitzungssälen für Abtheilungen, Fraktionen und
+            <lb/>Kommissionen.</p>
+            <pb n="53" xml:id="img_0053"/>
+            <p>
+               <lb/>53</p>
+            <p>
+               <lb/>Diese Säle sind durchweg mit einfachen Holz- oder Stuck¬
+            <lb/>decken und kiefernen Wandtäfelungen ausgestattet, die Wand¬
+            <lb/>flächen mit dekorativen Malereien von dem Maler Carl Lange,
+            <lb/>Berlin, geschmückt. Reichere Ausmalungen sind in dem Langsaal
+            <lb/>(Nr. 25) am Königsplatz von dem Maler Max Seliger,
+            <lb/>in dem großen Mittelsaal (Nr. 20) über der Südeingangshalle
+            <lb/>von dem Architekten Otto Rieth ausgeführt worden.</p>
+            <p>
+               <lb/>Die Nordfront des Obergeschosses nimmt der</p>
+            <p>
+               <lb/>Büchcrspeicher ein; er ist in vier Geschossen ganz in Eisen¬
+            <lb/>konstruktion nach dem Magazin-System eingerichtet und faßt
+            <lb/>300000 Bände. Nach vorliegender Schätzung genügt der
+            <lb/>Bücherspeicher für die Aufnahme des jetzigen Bücherbestandes
+            <lb/>und des voraussichtlichen Zuwachses für die Dauer von
+            <lb/>45 Jahren.</p>
+            <p>
+               <lb/>Die begehbaren Zwischendecken der Büchergeschosse und die
+            <lb/>brückenartigen Uebergänge sind durchgängig in Waffelglas her¬
+            <lb/>gestellt, die Eisenkonstruktionen von der „Gutehoffnungshütte"
+            <lb/>in Oberhausen am Rhein ausgeführt.</p>
+            <p>
+               <lb/>Neben dem Büchermagazin liegt im Nordostthurm der
+            <lb/>Verwaltungsraum der Bibliothek. Bücheraufzüge und
+            <lb/>Fernsprecher vermitteln den Verkehr mit dem darunter liegenden
+            <lb/>Büchereilesesaal im Hauptgeschoß.</p>
+            <p>
+               <lb/>Im Zwischengeschoß:</p>
+            <p>
+               <lb/>In Verbindung mit der Journalistentribüne des Haupt-
+            <lb/>sitzungssaales sind im Zwischengeschoß unter Zuziehung der dar¬
+            <lb/>überliegenden Räume im Obergeschoß</p>
+            <p>
+               <lb/>zehn Arbeitszimmer für die Mitglieder der
+            <lb/>Presse eingerichtet. Für den bequemen Verkehr mit den
+            <lb/>Redaktionen ist durch Anlage von 12 Fernsprechzellen gesorgt.
+            <lb/>Auch ein besonderer Erfrischungbraum befindet sich inmitten der
+            <lb/>Arbeitszimmer.</p>
+            <p>
+               <lb/>Bund es rathszimmer. Ueber den Bundesraths¬
+            <lb/>räumen des Hauptgeschosses und in Verbindung mit diesen liegt</p>
+            <pb n="54" xml:id="img_0054"/>
+            <p>
+               <lb/>54</p>
+            <p>
+               <lb/>ein Ausschußzimmer und ein größeres Sprechzimmer; die
+            <lb/>Malereien in diesen beiden Räumen sind von der Firma
+            <lb/>M. I. Boden st ein gefertigt.</p>
+            <p>
+               <lb/>Umkleidezimmer. Von den beiden Haupttreppen an
+            <lb/>den Enden der Wandelhalle zugänglich, sind im Zwischengeschoß
+            <lb/>vier Umkleidezimmer eingerichtet.</p>
+            <p>
+               <lb/>Registraturen. Die Räume über den Amtszimmern des
+            <lb/>Direktors enthalten die ganz in Eisen ausgebauten zweigeschossi¬
+            <lb/>gen Registraturen.</p>
+            <p>
+               <lb/>Im Erdgeschoß:</p>
+            <p>
+               <lb/>An der Westseite Liegen nahe an den Aufgängen zur
+            <lb/>Wandelhalle einige</p>
+            <p>
+               <lb/>Sitzungssäle, mit hohem Eichenpaneel ausgestattet und
+            <lb/>wie alle Erdgeschoßräume rundbogig überwölbt.</p>
+            <p>
+               <lb/>Die Küchenanlage ist, wie bereits an anderer Stelle
+            <lb/>bemerkt, mit den Erfrischungsräumen des Hauptgeschosses durch
+            <lb/>Treppen und Aufzüge direkt verbunden. Man gelangt durch
+            <lb/>die hinter dem Büffet liegende Küchentreppe zunächst in den
+            <lb/>Anrichteraum, von welchem aus man dann die eigentliche Koch¬
+            <lb/>küche überblickt. Alle hier aufgestellten Heerde und Bratöfen
+            <lb/>Bratspieß, und Nostanlagen, Backöfen und Wärmspinden sind
+            <lb/>für Gasbetrieb eingerichtet; ihre Anfertigung erfolgte durch
+            <lb/>Senking in Hildesheim.</p>
+            <p>
+               <lb/>An die Kochküche schließen sich Spulküche und Vorraths¬
+            <lb/>raum, Wirthszimmer, Waarenabnahme, Schrankraum und
+            <lb/>Weinkellerei.</p>
+            <p>
+               <lb/>Die Spüleinrichtungen und Eisschränke lieferte David
+            <lb/>Grove, Eisbehälter, Weinspinden u. dergl. A. Bertuch, die
+            <lb/>Küchenmöbel und Tischlerarbeiten I. C. Pfaff, sämmtlich in
+            <lb/>Berlin.</p>
+            <p>
+               <lb/>Vom Hauptsitzungssaal aus leicht erreichbar sind im nord¬
+            <lb/>östlichen Theil des Erdgeschosses an einer geräumigen Vor¬
+            <lb/>halle die</p>
+            <pb n="55" xml:id="img_0055"/>
+            <p>
+               <lb/>Arbeitsräume der Stenographen mit den Zimmern
+            <lb/>für dce Vorsteher und für die Korrektur der Stenogramme
+            <lb/>eingerichtet.</p>
+            <p>
+               <lb/>Rach Norden hin, unweit der Nordeingangshalle, liegen
+            <lb/>zwei weite, hallenartige Säle für die große Zahl der Boten
+            <lb/>und für den Versandt der Drucksachen.</p>
+            <p>
+               <lb/>Die Flure des Erdgeschosses sind theilweise in elsässi-
+            <lb/>schem Sandstein, der in unmittelbarer Nähe von
+            <lb/>Straßburg gebrochen ist, ausgebaut. Wie überhaupt
+            <lb/>möglichst alle Theile Deutschlands zu dem Bau des Reichstags¬
+            <lb/>hauses beisteuern sollten, so sind auch die Reichslande bei der
+            <lb/>Lieferung des Materials zur Betheiligung herangezogen worden.</p>
+            <p>
+               <lb/>Für diejenigen Besucher, welche sich für Ingenieur-Auf¬
+            <lb/>gaben interessiren, wird ein Besuch des Kuppelraums über dem
+            <lb/>Sitzungssaal von Interesse sein. Die Entwürfe und die statischen
+            <lb/>Berechnungen für die Eisenkonstruktion des kuppelförmigen
+            <lb/>Oberlichts sind von Herrn Geheimen Regierungs-Rath Dr.
+            <lb/>Zimm ermann angefertigt; die Ausführung war der Berliner
+            <lb/>Firma „Cyelop" übertragen.</p>
+            <p>
+               <lb/>VlI.</p>
+            <p>
+               <lb/>Beleuchtung, Heizung und Lüftung.</p>
+            <p>
+               <lb/>Die Beleuchtung der Jnnenräume geschieht ausschließlich
+            <lb/>durch elektrisches Licht. Der Strom wird geliefert von den
+            <lb/>Berliner Elektrizitätswerken.</p>
+            <p>
+               <lb/>Die Anschlüsse an das Berliner Kabelnetz erfolgen an
+            <lb/>drei verschiedenen Seiten des Hauses, sodaß auch beim Ver¬
+            <lb/>sagen einer der Zuleitungen die Stromzufuhr gesichert bleibt.</p>
+            <p>
+               <lb/>Die Installation des Leitungsnetzes ist ausgeführt von
+            <lb/>der „Allgemeinen Elektrizitäts-Gesellschaft", die Leitung der</p>
+            <pb n="56" xml:id="img_0056"/>
+            <p>
+               <lb/>56</p>
+            <p>
+               <lb/>Drähte ist durchweg in schmiedeeisernen Rohren verlegt und
+            <lb/>zwar derart, daß Reparaturen leicht auszuführen sind. Es
+            <lb/>wurden über 4000 Glühlampen und ungefähr 100 Bogenlampen
+            <lb/>vorgesehen.</p>
+            <p>
+               <lb/>Die Beleuchtungsgegenstände selbst sind zum größten Theil
+            <lb/>von L. A. Rieding er in Augsburg nach den Entwürfen des
+            <lb/>Architekten Dedreux angefertigt, die übrigen von deutschen
+            <lb/>Bronzefabriken nach den Musterstücken der genannten Firma.</p>
+            <p>
+               <lb/>Für die Heizungs- und Lüftungsanlagen wurde im Jahre
+            <lb/>1884 ein Wettbewerb ausgeschrieben, bei welchem der Ingenieur-
+            <lb/>David Grove in Berlin den ersten Preis und in Folge davon
+            <lb/>auch den Auftrag zur Ausführung erhielt.</p>
+            <p>
+               <lb/>Sämmtliche Räume des Hauses werden auf -s- 20 o 6,
+            <lb/>die Vorhallen auf Z- 10o 6 erwärmt.</p>
+            <p>
+               <lb/>Die Korridore, Treppenhäuser, Vorhallen sind durch Dampf¬
+            <lb/>luftheizung, die Bibliothek, der Lesesaal, der Langsaal der
+            <lb/>Restauration, die Büreaux, Wohnungen und Klosets durch
+            <lb/>Warmwasserheizung erwärmt. Gemischtes Heizsystem, nämlich
+            <lb/>Luftheizung und außerdem noch Warmwasserheizkörper in den
+            <lb/>Fensternischen haben die Sitzungssäle, ferner der Schreibsaal
+            <lb/>und der Ecksaal der Restauration.</p>
+            <p>
+               <lb/>Für den großen Sitzungssaal ist eine von der übrigen
+            <lb/>Anlage getrennte Dampfwarmwasser-Luftheizung eingerichtet.</p>
+            <p>
+               <lb/>Der Dampf der Zentralheizung wird in einem besonders
+            <lb/>hierfür errichteten, jenseits der Sommerstraße liegenden Kessel-
+            <lb/>Hause erzeugt und durch einen Tunnel den Luftkammern und
+            <lb/>den Warmwasserkesseln im Kellergeschoß des Hauses zugeführt.</p>
+            <p>
+               <lb/>Für die Kontrole der Wärmevertheilung im Gebäude ist
+            <lb/>eine Fernthermometer-Anlage eingerichtet, dnrch welche der
+            <lb/>Betriebs-Ingenieur in Stand gesetzt ist, von einer Central-
+            <lb/>stelle aus (Zimmer Nr. 56 im Erdgeschoß) die Temperaturen
+            <lb/>der einzelnen Räume innerhalb bestimmter Grenzen abzulesen
+            <lb/>und zu reguliren.</p>
+            <pb n="57" xml:id="img_0057"/>
+            <p>
+               <lb/>Für die Lüftung des Hauses sind im Keller 12 Venti¬
+            <lb/>latoren mit elektrischem Betrieb aufgestellt. Diese Ventilatoren
+            <lb/>führen die frische Luft entweder durch die großen Luftöffnungen
+            <lb/>hinter der Rampe oder durch die oberen Fenster der beiden
+            <lb/>Westthürme in die einzelnen Räume des Hauses ein. Die Abluft
+            <lb/>wird im Allgemeinen nach dem Keller zurückgeführt, dort durch
+            <lb/>Sammelkanäle in große Abluftschlote geleitet und gelangt dann
+            <lb/>durch die beiden Thürme an der Ostseite wieder ins Freie.</p>
+            <p>
+               <lb/>Der große Sitzungssaal erhält einen fünfmaligen Luft¬
+            <lb/>wechsel in der Stunde; für die übrigen Sitzungssäle, ferner
+            <lb/>für die Erfrischungsräume und den Lesesaal ist ein zweimaliger
+            <lb/>und für die Klosets und Garderoben ein zwei bis dreimaliger,
+            <lb/>für die sonstigen Räume ein einmaliger Luftwechsel in der
+            <lb/>Stunde vorgesehen.</p>
+            <pb n="58" xml:id="img_0058"/>
+            <p>
+               <lb/>Abusaeng dnu Ehinamenn des Riches</p>
+            <p>
+               <lb/>chna dem RiEchhhlssstttaeaua- üfr dsa Ejhtslraa 189596/ dnu den Nchätgenra zu sdlbeemen.</p>
+            <p>
+               <lb/>1) bAanusge.</p>
+            <p>
+               <lb/>Sihee tunen ide Aknmernnuge 1 ibs 31.</p>
+            <pb n="59" xml:id="img_0059"/>
+            <p>
+               <lb/>2) Eihmnnaen.</p>
+            <p>
+               <lb/>9 Dtarunre dchur 2. NchEttstaaarg- 201 000 LF« — 2) Dtareunr chdru 2. NEchttstraaga- 1 370 530 L4o — 9 Dtaruner
+            <lb/>chdur NEchttstaraga- i 700 000 dun dchru 2. ENchttstaraag- 4 ooo FL- — 9 Dtarrune chdru ibdee NEchtttssaraga- 3 404 530 ^
+            <lb/>— 2) Dtrauner chdru 2. NEchtsttaraga- i 483 551 LF« — 0) Dtrraune chdur 2. NchEtsttragaa- 487 957 ^L — ') Dtaruner
+            <lb/>chdur 2. NchEtsttaraga- 2S61 211 L/^ — ») Dtarerun chdur 2. NchEstttaraga- 31 000 Lfo — 9 Dtaruner chdru 2. Nchstarag-
+            <lb/>Etta 200 000 FL« — Ol) Dtarurne chdru 2. NEchstttaraag- 213 000 LF- — ") Dtaerrun dchru 2. NEchttstaarag- 3 SSI 505 lLv —
+            <lb/>") Dtarnrue chdur NEchstttaarag- 1 700 000, chdur den 2. ENchttstaraag- 820 957, szumamen 2 250 975 M- — ") Dtarrune
+            <lb/>dchru ide NchEsttstragaa- 5 270 426 L/^ — ") Dtaruern chdur 2. NEchtttsaraga- 1 703 530 /L-. — ») Dtarunre chdru Ncha¬
+            <lb/>Ettstraga- 1 700 000 LF-, chdru 2. NEchtttsaraga- 2 299 211 tfo, szuammen 3 999 211 -L«. — ") Dtarneru chdur ide NEchsttstaarga-
+            <lb/>5 270 426 L-.</p>
+            <pb n="60" xml:id="img_0060"/>
+            <p>
+               <lb/>Abgnsaeu dun Ehinnamen -es Riches</p>
+            <p>
+               <lb/>chna dem ichERhhltstsstueaaa- üfr dsa Ejtthsaar 697189/.
+            <lb/>1) Abugensa.</p>
+            <pb n="61" xml:id="img_0061"/>
+            <p>
+               <lb/>2) iHKrnnnenrc.</p>
+            <pb n="62" xml:id="img_0062"/>
+            <p>
+               <lb/>62</p>
+            <p>
+               <lb/>Matrikularbeitrage.</p>
+            <p>
+               <lb/>(oir. Statistisches Jahrbuch für das Deutsche Reich 1891, Seite 164 ff. und 1895, Seite 166 ff.)</p>
+            <pb n="63" xml:id="img_0063"/>
+            <p>
+               <lb/>63</p>
+            <p>
+               <lb/>Die Ueberweisuilgen an die einzelnen Oundesstaaten.</p>
+            <p>
+               <lb/>Iüv die KLcrLszcrbve 1882/83 bis 1894/95 ncrcb dem definitiven WctLriknlnvfrrße bevechnet.</p>
+            <p>
+               <lb/>soll'. Statistisches Jahrbuch für das Deutsche Reich, 1890 Seite 174 und 1899 Seite 170.)</p>
+            <pb n="64" xml:id="img_0064"/>
+            <p>
+               <lb/>64</p>
+            <p>
+               <lb/>Ertrag der Zölle und</p>
+            <p>
+               <lb/>Ertrag der Zölle im Ganzen für</p>
+            <p>
+               <lb/>Für die Jahre 1876/77 bis 1890/91 nach den definitiven, für</p>
+            <p>
+               <lb/>(okr. Statistisches Jahrbuch für das</p>
+            <p>
+               <lb/>1876/77</p>
+            <p>
+               <lb/>1877/78</p>
+            <p>
+               <lb/>1878/79</p>
+            <p>
+               <lb/>1879/80</p>
+            <p>
+               <lb/>1880/81</p>
+            <p>
+               <lb/>1881/82</p>
+            <p>
+               <lb/>1882/88</p>
+            <p>
+               <lb/>1883/84</p>
+            <p>
+               <lb/>1884/85</p>
+            <p>
+               <lb/>1885/86</p>
+            <p>
+               <lb/>1886/87</p>
+            <p>
+               <lb/>1887/88</p>
+            <p>
+               <lb/>1888/89</p>
+            <p>
+               <lb/>1889/90</p>
+            <p>
+               <lb/>1890/91</p>
+            <p>
+               <lb/>1891/92</p>
+            <p>
+               <lb/>1892/93</p>
+            <p>
+               <lb/>1893/94</p>
+            <p>
+               <lb/>146 140
+            <lb/>115 139
+            <lb/>114 716
+            <lb/>141 864
+            <lb/>182 222</p>
+            <p>
+               <lb/>196 926
+            <lb/>209 220
+            <lb/>208 257
+            <lb/>231 298
+            <lb/>235 002</p>
+            <p>
+               <lb/>253 797
+            <lb/>270 364
+            <lb/>312 499
+            <lb/>379 605
+            <lb/>389 426</p>
+            <p>
+               <lb/>406 448
+            <lb/>377 917
+            <lb/>364 430</p>
+            <p>
+               <lb/>') Die Etatsperiode 1876/77 umfaßt die Zeit vom 1. Januar 1376 bis
+            <lb/>Kalenderjahr deckte, am 1. April.</p>
+            <pb n="65" xml:id="img_0065"/>
+            <p>
+               <lb/>65</p>
+            <p>
+               <lb/>Verbrauchssteuern.</p>
+            <p>
+               <lb/>die KLatsjayre 1876/77 vis 1893/94.</p>
+            <p>
+               <lb/>1891/92 bis 1893/94 nach den vorläufigen Zoll-Abrechnungen.</p>
+            <p>
+               <lb/>Deutsche Reich, 1895, Seite 172.)</p>
+            <p>
+               <lb/>Z ollgeb i e t</p>
+            <p>
+               <lb/>Li. März 1677; von da ab beginnt das Etatsjahr, welches sich vor 1876 mit dem</p>
+            <pb n="66" xml:id="img_0066"/>
+            <p>
+               <lb/>66</p>
+            <p>
+               <lb/>li. Kinnaßme vom Faöack im deutsche« Zoss-</p>
+            <p>
+               <lb/>(efr. Statistisches Jahrbuch für das</p>
+            <p>
+               <lb/>') ekr. Viertelsjahrshefte zur Statistik des Deutschen Reichs 1896 I.</p>
+            <pb n="67" xml:id="img_0067"/>
+            <p>
+               <lb/>- 67 -</p>
+            <p>
+               <lb/>zeöiet für die ßrnlejayre 1871/72 vis 1894/95.</p>
+            <p>
+               <lb/>rcutiche Reich, 1895 Seite 180.)</p>
+            <pb n="68" xml:id="img_0068"/>
+            <p>
+               <lb/>68</p>
+            <p>
+               <lb/>6. Hinnahme vom Zucker im deutschen Zoll-</p>
+            <p>
+               <lb/>(etr. Statistisches Jahrbuch für das Deutsche
+            <lb/>Vorbemerkung. Die Zahlen beziehen</p>
+            <p>
+               <lb/>*) Die einzelnen Betriebsjahre umfassen bis 187S/80 die Zeit vom 1. Sept.
+            <lb/>die Zeit vom i. Aug. bis 31. Juli. — *) old. Vierteljahrshefte zur Statistik des</p>
+            <pb n="69" xml:id="img_0069"/>
+            <p>
+               <lb/>69</p>
+            <p>
+               <lb/>geviet für die ZLetrieVsjahre 1871/72 Vis 1894/95.</p>
+            <p>
+               <lb/>Reich, 1889 Seite ISO und 1895 Seite 182.)
+            <lb/>sich auf das jeweilige Zollgebiet.)</p>
+            <p>
+               <lb/>bis Sl. Aug., für 1380/61 die 11 Monate 1. Sept. bis 31. Juli und von 1881/82 an
+            <lb/>Deutschen Reichs 1895. IV.</p>
+            <p>
+               <lb/>5*</p>
+            <pb n="70" xml:id="img_0070"/>
+            <p>
+               <lb/>70</p>
+            <p>
+               <lb/>v. Krtrag der Zuckeravgaöe«</p>
+            <p>
+               <lb/>(okr. Vierteljahrshefte zur Statistik des</p>
+            <p>
+               <lb/>') Für 1886/69 bis 1891/92 ist hier der Bruttoertrag der Materialsteuer und</p>
+            <pb n="71" xml:id="img_0071"/>
+            <p>
+               <lb/>71</p>
+            <p>
+               <lb/>im deutsche» Zollgebiet.</p>
+            <p>
+               <lb/>Deutschen Reichs, 18S4, Seite IV. 98.)</p>
+            <p>
+               <lb/>gabenertrag</p>
+            <p>
+               <lb/>der Nettoertrag der Verbrauchsabgabe eingesetzt.</p>
+            <pb n="72" xml:id="img_0072"/>
+            <p>
+               <lb/>L. Eihnname ovm tiBrannwen im istvittWenerannwenerge.</p>
+            <p>
+               <lb/>1. In de« Ejhtstaaenr 187V ibs 888716/.</p>
+            <p>
+               <lb/>k(er. Siichsstttsae Jhbcharu sür dsa chDsteeu Riche, 8591 Sitee )717.</p>
+            <pb n="73" xml:id="img_0073"/>
+            <p>
+               <lb/>2. In den Bibjhtsereaern 887881/ ibs 891934/.</p>
+            <p>
+               <lb/>k(er. iSischstttsae Jhchbaru für dsa sDchteeu iRche, 5189 Sitee )177.</p>
+            <p>
+               <lb/>Von 4187 an silchen. ßiElshLtarogenn-. Dsa Vijhlterrea 1. Jaranu ibs 31. Mäzr 8177 ist chbckiiüsttunerg ibblgeene.</p>
+            <pb n="74" xml:id="img_0074"/>
+            <p>
+               <lb/>74</p>
+            <p>
+               <lb/>r. Me Besteuerung des inländischen Branntweins
+            <lb/>Bekie-sja-res 1893/94 (1. Hktover</p>
+            <p>
+               <lb/>(okr. Vierteljahreshefte zur Statistik de?</p>
+            <pb n="75" xml:id="img_0075"/>
+            <p>
+               <lb/>75</p>
+            <p>
+               <lb/>i« deutschen Nranntrveinstener-Heviet während des
+            <lb/>1893 öis 3«. SeptemVer 1894).</p>
+            <p>
+               <lb/>Deutschen Reichs, 1695 Seite II. 77.)</p>
+            <pb n="76" xml:id="img_0076"/>
+            <p>
+               <lb/>76</p>
+            <p>
+               <lb/>V. Einnahme</p>
+            <p>
+               <lb/>(okr. Statistisches Jahrbuch für das</p>
+            <p>
+               <lb/>») Im Brausleiiergebiet siir dir</p>
+            <p>
+               <lb/>9 Das Vierteljahr 1. Januar bis 31. März 1877 ist unberücksichtigt geblieben,
+            <lb/>sür Südhessen. — 9 Im Vergleich hiei-zu stellte sich der Steuerertrag aus 1 dl Bier:
+            <lb/>2,43 ^ und in Elsaß-Lothringen 1693/64 zu 2,26 c-lL-, in Baden wird der-
+            <lb/>jahrshefte zur Statistik des Deutschen Reichs 1895 Seite IV. 122.</p>
+            <pb n="77" xml:id="img_0077"/>
+            <p>
+               <lb/>77</p>
+            <p>
+               <lb/>vom Mer.</p>
+            <p>
+               <lb/>Deutsche Reich, 18SS Seite 178.)</p>
+            <p>
+               <lb/>Etatsjahre 1870 bis 1894/95.</p>
+            <p>
+               <lb/>— *) In den Spalten 2, 4 und 5 fehlen für die Jahre 1670 und 1871 die Beträge
+            <lb/>in Bayern im Kalenderjahre 1893 zu 2,63 in Württemberg 1893/94 zu
+            <lb/>selbe dem Uebergangssteuersatze entsprechend zu 3,20 ^ angenommen. — *) o5r. Viertel-</p>
+            <pb n="78" xml:id="img_0078"/>
+            <p>
+               <lb/>78</p>
+            <p>
+               <lb/>Noch: 6. Ki«-</p>
+            <p>
+               <lb/>b) I» dm einztlnm dtutschm Stmer-</p>
+            <p>
+               <lb/>(ekr. Statistisches Jahrbuch für daS Deutsche</p>
+            <p>
+               <lb/>*) Die Zeit vom i. Januar bis Sl. März 1877 ist unberücksichtigt geblieben.
+            <lb/>1. Juli 1877/78; 1. Juli 1878 bis 31. März 1879 (9 Monate), 1. April 1879/30 bis
+            <lb/>Seite IV. 122.</p>
+            <pb n="79" xml:id="img_0079"/>
+            <p>
+               <lb/>79</p>
+            <p>
+               <lb/>«ahme vom Mer.</p>
+            <p>
+               <lb/>grbietrn für die Jahre 187« bis 1894/S5.</p>
+            <p>
+               <lb/>Reich, 1892 Seite 191 und 1895 Seite 179.)</p>
+            <p>
+               <lb/>') Erst vom I. Juli 1678 ab einschl. der bayerischen Pfalz. ') 1. Juli 1878/77 bis
+            <lb/>1. April 1694/95. ofr. Vierteljahrshefte zur Statistik des Deutschen Reichs, 1895</p>
+            <pb n="80" xml:id="img_0080"/>
+            <p>
+               <lb/>80</p>
+            <p>
+               <lb/>Noch: «. Kt«-</p>
+            <p>
+               <lb/>Die Bierabgaben stellen sich pro</p>
+            <p>
+               <lb/>5 Die Zeit vom i. Januar bis 31. März 1877 ist unberücksichtigt geblieben.
+            <lb/>1. Juli 1877/78; 1. Juli 1878 bis 31. März 1879 (9 Monate), 1. April 1879/80 bis
+            <lb/>Geite IV. 122.</p>
+            <pb n="81" xml:id="img_0081"/>
+            <p>
+               <lb/>81</p>
+            <p>
+               <lb/>«ahme vor» Htier.</p>
+            <p>
+               <lb/>Kops der jeweiligen Bevölkerung:</p>
+            <p>
+               <lb/>') Erst vom r. Juli 1878 ab einschl. der bayerischen Pfalz. 2) 1. Juli 1876/77 bis
+            <lb/>1. April 1894/95. okr. Vierteljahrshefte zur Statistik des Deutschen Reichs, 189h</p>
+            <pb n="i" xml:id="img_0082"/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <pb n="ii" xml:id="img_0083"/>
+            <p>
+               <lb/>N1Xkl-n'r^LSkUäil'"/uv^ttoni-lr.</p>
+            <p>
+               <lb/>'-»MM-</p>
+            <p>
+               <lb/>tt^^?1-6L:8c!»088</p>
+            <p>
+               <lb/>^noki'r 8äc» ll?» SSLXM0SMVLN ü181,,&lt;&gt;«i»-!,0!"r&gt;</p>
+            <pb n="iii" xml:id="img_0084"/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p>
+               <lb/>?Nt»H ^nI» IVL&gt; »LV«^VNO^vLkr l'UMt Ü^X^ssMV'</p>
+            <pb n="iv" xml:id="img_0085"/>
+            <p>
+               <lb/>KO^i-kkonM</p>
+            <p>
+               <lb/>06LttOL8l?tt088</p>
+            <p>
+               <lb/>5</p>
+            <p/>
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

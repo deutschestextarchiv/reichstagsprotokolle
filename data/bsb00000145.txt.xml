@@ -1,0 +1,3646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Der deutsche Reichstag 1936. 3. Wahlperiode nach d. 30. Jan. 1933. Mit Zustimmg d. Herrn Reichstagspräsidenten hrsg. v. E[rnst] Kienast, Dir. beim Reichstag</title>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1222198746">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="https://orcid.org/0000-0003-4615-4753">
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/105315190X">
+                  <surname>Nolda</surname>
+                  <forename>Andreas</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="https://orcid.org/0000-0002-1096-3957">
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+               <orgName>Bayerische Staatsbibliothek</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Texttranskription
+                                durch OCR.</note>
+                  <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle
+                                Transkription (und Textauszeichnung) mittlerweile nicht mehr dem
+                                Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen
+                                muss.</note>
+                  <date type="importDTA">2021-09-29T19:51:48Z</date>
+               </resp>
+            </respStmt>
+            <respStmt corresp="#availability-textsource-1">
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                            Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Langfristige Bereitstellung der
+                                DTA-Ausgabe</note>
+                  <ref target="https://www.bbaw.de"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy
+                            of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische
+                            Akademie der Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-09-29T19:51:48Z</date>
+            <availability xml:id="availability-textsource-1">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0
+                                License.</p>
+               </licence>
+            </availability>
+            
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="M">Der Großdeutsche Reichstag. Berlin, 1939.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Der deutsche Reichstag 1936. 3. Wahlperiode nach d. 30. Jan. 1933. Mit Zustimmg d. Herrn Reichstagspräsidenten hrsg. v. E[rnst] Kienast, Dir. beim Reichstag</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name>V. Decker</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1939</date>
+                  
+               </publicationStmt>
+            </biblFull>
+            <recordingStmt>
+               <p>Protokollierte Verhandlungen des Deutschen Reichstags und seiner
+                            Vorläufer, die von Stenografinnen und Stenografen während der Sitzungen
+                            angefertigt und in der Folge der Öffentlichkeit als gedruckte
+                            Publikation zur Verfügung gestellt wurden.</p>
+            </recordingStmt>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bayerische Staatsbibliothek</repository>
+                  <idno>
+                     <idno type="shelfmark">BA/Z 36.609-1938,a</idno>
+                     <idno type="URLCatalogue">https://opacplus.bsb-muenchen.de/title/7114602</idno>
+                     <idno type="URN">urn:nbn:de:bvb:12-bsb00000145-8</idno>
+                     <idno type="URLIIIF">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00000145/manifest</idno>
+                     <idno type="URL" subtype="IIIFviewer">https://www.digitale-sammlungen.de/de/view/bsb00000145</idno>
+                     <idno type="URL" subtype="DFGviewer">https://daten.digitale-sammlungen.de/~db/bsb00000145/images/</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <typeDesc>
+                     <p>Fraktur</p>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Bogensignaturen: nicht übernommen; Druckfehler: ignoriert;
+                            fremdsprachliches Material: nicht gekennzeichnet;
+                            Geminations-/Abkürzungsstriche: wie Vorlage; Hervorhebungen (Antiqua,
+                            Sperrschrift, Kursive etc.): nicht ausgezeichnet; I/J in Fraktur: wie
+                            Vorlage; i/j in Fraktur: wie Vorlage; Kolumnentitel: nicht übernommen;
+                            Kustoden: nicht übernommen; langes s (ſ): als s transkribiert;
+                            Normalisierungen: keine; rundes r (&amp;#xa75b;): als r/et
+                            transkribiert; Seitenumbrüche markiert: ja; Silbentrennung: keine
+                            Angabe; u/v bzw. U/V: wie Vorlage; Vokale mit übergest. e: als ä/ö/ü
+                            transkribiert; Vollständigkeit: vollständig erfasst; Zeichensetzung: wie
+                            Vorlage; Zeilenumbrüche markiert: ja;</p>
+         </editorialDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">Neuhochdeutsch</language>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Politik</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Rede</classCode>
+            <classCode scheme="#zdl_dwds">gesprochen</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">reichstag</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb
+xml:id="img_0001"/>
+            <p>
+               <lb/>Oer</p>
+            <p>
+               <lb/>Großöeutsche</p>
+            <p>
+               <lb/>Reichstag</p>
+            <p>
+               <lb/>1938</p>
+            <p>
+               <lb/>Nachtrag</p>
+            <p>
+               <lb/>Herausgegeben von E.Mma^t,OirektorbeimReichstag
+            <lb/>Berlin, im Januar 1YZY</p>
+            <p>
+               <lb/>R.v.Decker's Verlag, G.Schenck, Berlin W1S</p>
+            <p>
+               <lb/>Lietzenburger Str. ZI, Fernruf: Y18231</p>
+            <pb
+xml:id="img_0002"/>
+            <p>
+               <lb/>Druck: Preußische Druckerei- und Verlags-A.-G., Berlin</p>
+            <pb
+xml:id="img_0003"/>
+            <p>
+               <lb/>Seite</p>
+            <p>
+               <lb/>Inhaltsverzeichnis</p>
+            <p>
+               <lb/>Wiedervereinigung der sudetendeutschen Gebiete mit dem</p>
+            <p>
+               <lb/>Deutschen Reich:</p>
+            <p>
+               <lb/>Das Münchener Abkommen vom 29. September 1938 ....15</p>
+            <p>
+               <lb/>Erlaß des Führers und Reichskanzlers über die Verwaltung
+            <lb/>der sudetendeutschen Gebiete vom 1. Oktober 19381....19</p>
+            <p>
+               <lb/>Gesetz über die Wiedervereinigung der sudetendeutschen Gebiete
+            <lb/>mit dem Reich vom 21. November 1938 1......... 11</p>
+            <p>
+               <lb/>Reichstagswahlen:</p>
+            <p>
+               <lb/>Erlaß des Führers und Reichskanzlers über Ergänzungswahlen
+            <lb/>zum Großdeutschen Reichstag in den sudetendeutschen Ge¬
+            <lb/>bieten vom 31. Oktober 1938 1.............. 12</p>
+            <p>
+               <lb/>Gesetz über die Ergänzungswahlen zum Großdeutschen Reichstag
+            <lb/>vom 11. November 1938 1................ 12</p>
+            <p>
+               <lb/>Reichswahlvorschlag für die Ergänzungswahlen zum Groß¬
+            <lb/>deutschen Reichstag mit Kennzeichnung der gewählten Ab¬
+            <lb/>geordneten 1......................14</p>
+            <p>
+               <lb/>Lebensbeschreibungen 1 der Reichstagsmitglieder aus den</p>
+            <p>
+               <lb/>Bildnisse1/ sudetendeutschen Gebieten 1.....17</p>
+            <p>
+               <lb/>Änderungen im Handbuch vom Juni 1938:</p>
+            <p>
+               <lb/>Berichtigungen1.....................43</p>
+            <p>
+               <lb/>Veränderungen im Mitgliederbestand1............45</p>
+            <p>
+               <lb/>Ansbeschreibungen &gt; neu eingetretenen Mitglieder . . 46</p>
+            <p>
+               <lb/>Liste der Reichstagsmitglieder nach dem Stand am 29. Januar
+            <lb/>1S3S1.........................53</p>
+            <p>
+               <lb/>Plan des Sitzungssaals im Krollgebäude1..........62</p>
+            <p>
+               <lb/>i*</p>
+            <p>
+               <lb/>3</p>
+            <pb
+xml:id="img_0004"/>
+            <pb
+xml:id="img_0005"/>
+            <p>
+               <lb/>Wieöervereinigung
+            <lb/>der sudetenöeutschen Gebiete
+            <lb/>mit dem Deutschen Neich</p>
+            <p>
+               <lb/>Das Münchener Abkommen</p>
+            <p>
+               <lb/>(RGBl. II 1938 S. 853)</p>
+            <p>
+               <lb/>Abkomme« zwischen Deutschland, dem Bereinigten
+            <lb/>Königreich, Frankreich und Italien,</p>
+            <p>
+               <lb/>getroffen in München, am 29. September 1938</p>
+            <p>
+               <lb/>Deutschland, das Vereinigte Königreich, Frankreich und Italien
+            <lb/>sind unter Berücksichtigung des Abkommens, das hinsichtlich der Ab¬
+            <lb/>tretung des sudetendeutschen Gebiets bereits grundsätzlich erzielt
+            <lb/>wurde, über folgende Bedingungen und Modalitäten dieser Abtretung
+            <lb/>und über die danach zu ergreifenden Maßnahmen übereingekommen
+            <lb/>und erklären sich durch dieses Abkommen einzeln verantwortlich für
+            <lb/>die zur Sicherung seiner Erfüllung notwendigen Schritte.</p>
+            <p>
+               <lb/>1.1Die Räumung beginnt am 1. Oktober.</p>
+            <p>
+               <lb/>2.1Das Vereinigte Königreich, Frankreich und Italien vereinbaren,
+            <lb/>daß die Räumung des Gebiets bis zum 10. Oktober vollzogen wird,
+            <lb/>und zwar ohne Zerstörung irgendwelcher bestehender Einrichtungen,
+            <lb/>und daß die Tschechoslowakische Regierung die Verantwortung dafür
+            <lb/>trägt, daß die Räumung ohne Beschädigung der bezeichneten Ein¬
+            <lb/>richtungen durchgeführt wird.</p>
+            <p>
+               <lb/>3.1Die Modalitäten der Räumung werden im einzelnen durch einen
+            <lb/>internationalen Ausschuß festgelegt, der sich aus Vertretern Deutsch¬
+            <lb/>lands, des Vereinigten Königreichs, Frankreichs, Italiens und der
+            <lb/>Tschechoslowakei zusammensetzt.</p>
+            <p>
+               <lb/>4.1Die etappenweise Besetzung des vorwiegend deutschen Gebiets
+            <lb/>durch deutsche Truppen beginnt am 1. Oktober. Die vier auf der</p>
+            <p>
+               <lb/>5</p>
+            <pb
+xml:id="img_0006"/>
+            <p>
+               <lb/>Münchener Abkommen</p>
+            <p>
+               <lb/>anliegenden Karte*) bezeichneten Gebietsabschnitte werden in folgen¬
+            <lb/>der Reihenfolge durch deutsche Truppen besetzt:</p>
+            <p>
+               <lb/>Der mit I bezeichnete Gebietsabschnitt am 1. und 2. Oktober,
+            <lb/>der mit II bezeichnete Gebietsabschnitt am 2. und 3. Oktober,
+            <lb/>der mit III bezeichnete Gebietsabschnitt am 3., 4. und 5. Oktober,
+            <lb/>der mit IV bezeichnete Gebietsabschnitt am 6. und 7. Oktober.</p>
+            <p>
+               <lb/>Das restliche Gebiet vorwiegend deutschen Charakters wird unver¬
+            <lb/>züglich von dem obenerwähnten internationalen Ausschuß festgestellt
+            <lb/>und bis zum 10. Oktober durch deutsche Truppen besetzt werden.</p>
+            <p>
+               <lb/>5.1Der im Paragraph 3 erwähnte internationale Ausschuß wird
+            <lb/>die Gebiete bestimmen, in denen eine Volksabstimmung stattfinden
+            <lb/>soll **). Diese Gebiete werden bis zum Abschluß der Volksabstimmung
+            <lb/>durch internationale Formationen besetzt werden. Der gleiche Aus¬
+            <lb/>schuß wird die Modalitäten festlegen, unter denen die Volks¬
+            <lb/>abstimmung durchgeführt werden soll, wobei die Modalitäten der
+            <lb/>Saar-Abstimmung als Grundlage zu betrachten sind. Der Ausschuß
+            <lb/>wird ebenfalls den Tag festsetzen, an dem die Volksabstimmung statt¬
+            <lb/>findet; dieser Tag darf jedoch nicht später als Ende November liegen.</p>
+            <p>
+               <lb/>6.1Die endgültige Festlegung der Grenzen wird durch den inter¬
+            <lb/>nationalen Ausschuß vorgenommen werden. Dieser Ausschuß ist
+            <lb/>berechtigt, den vier Mächten Deutschland, dem Vereinigten Königreich,
+            <lb/>Frankreich und Italien in bestimmten Ausnahmefällen geringfügige
+            <lb/>Abweichungen von der streng ethnographischen Bestimmung der ohne
+            <lb/>Volksabstimmung zu übertragenden Zonen zu empfehlen.</p>
+            <p>
+               <lb/>7.1Es wird ein Optionsrecht für den übertritt in die abgetretenen
+            <lb/>Gebiete und für den Austritt aus ihnen vorgesehen. Die Option
+            <lb/>muß innerhalb von 6 Monaten vom Zeitpunkt des Abschlusses dieses
+            <lb/>Abkommens an ausgeübt werden. Ein deutsch-tschechoslowakischer
+            <lb/>Ausschuß wird die Einzelheiten der Option bestimmen, Verfahren zur
+            <lb/>Erleichterung des Austausches der Bevölkerung erwägen und grund¬
+            <lb/>sätzliche Fragen klären, die sich aus diesem Austausch ergeben.</p>
+            <p>
+               <lb/>8.1Die Tschechoslowakische Regierung wird innerhalb einer Frist
+            <lb/>von 4 Wochen vom Tage des Abschlusses dieses Abkommens an alle
+            <lb/>Sudetendeutschen aus ihren militärischen und polizeilichen Verbänden
+            <lb/>entlassen, die diese Entlassung wünschen. Innerhalb derselben Frist
+            <lb/>wird die Tschechoslowakische Regierung sudetendeutsche Gefangene
+            <lb/>entlassen, die wegen politischer Delikte Freiheitsstrafen verbüßen.</p>
+            <p>
+               <lb/>München, den 29. September 1938.</p>
+            <p>
+               <lb/>Adolf Hitler
+            <lb/>Neville Chamber lain
+            <lb/>Ed Daladier
+            <lb/>Mussolini</p>
+            <p>
+               <lb/>*) Hier nicht mit abgedruckt.</p>
+            <p>
+               <lb/>**) Am 13. Oktober 1938 hat öer internationale Ausschuß beschlossen, auf eine
+            <lb/>Volksabstimmung zu verzichten.</p>
+            <p>
+               <lb/>6</p>
+            <pb
+xml:id="img_0007"/>
+            <p>
+               <lb/>Münchener Abkommen</p>
+            <p>
+               <lb/>Zusatz zu dem Abkommen</p>
+            <p>
+               <lb/>Seiner Majestät Regierung im Vereinigten Königreich und die
+            <lb/>Französische Regierung haben sich dem vorstehenden Abkommen ange¬
+            <lb/>schlossen auf der Grundlage, daß sie zu dem Angebot stehen, welches
+            <lb/>im Paragraph 6 der englisch-französischen Vorschläge vom 19. Sep¬
+            <lb/>tember enthalten ist, betreffend eine internationale Garantie der
+            <lb/>neuen Grenzen des Tschechoslowakischen Staates gegen einen
+            <lb/>unprovozierten Angriff.</p>
+            <p>
+               <lb/>Sobald die Frage der polnischen und ungarischen Minderheiten in
+            <lb/>der Tschechoslowakei geregelt ist, werden Deutschland und Italien
+            <lb/>ihrerseits der Tschechoslowakei eine Garantie geben.</p>
+            <p>
+               <lb/>München, den 29. September 1938.</p>
+            <p>
+               <lb/>Adolf Hitler
+            <lb/>Neville Chamber lain
+            <lb/>Mussolini
+            <lb/>Ed Daladier</p>
+            <p>
+               <lb/>Zusatzerklärung</p>
+            <p>
+               <lb/>Die vier anwesenden Regierungschefs sind darüber einig, daß der
+            <lb/>in dem heutigen Abkommen vorgesehene Ausschuß sich aus dem
+            <lb/>Staatssekretär des Auswärtigen Amts, den in Berlin beglaubigten
+            <lb/>Botschaftern Englands, Frankreichs und Italiens und einem von
+            <lb/>der Tschechoslowakischen Regierung zu ernennenden Mitglied
+            <lb/>zusammensetzt.</p>
+            <p>
+               <lb/>München, den 29. September 1938.</p>
+            <p>
+               <lb/>Adolf Hitler
+            <lb/>Neville Chamber lain
+            <lb/>Mussolini
+            <lb/>Ed Daladier</p>
+            <p>
+               <lb/>Zusatzerklärung</p>
+            <p>
+               <lb/>Alle Fragen, die sich aus der Gebietsübergabe ergeben, gelten als
+            <lb/>zur Zuständigkeit des internationalen Ausschusses gehörig.</p>
+            <p>
+               <lb/>München, den 29. September 1938.</p>
+            <p>
+               <lb/>Adolf Hitler
+            <lb/>Neville Chamber lain
+            <lb/>Mussolini
+            <lb/>Ed Daladier</p>
+            <p>
+               <lb/>Zusätzliche Erklärung</p>
+            <p>
+               <lb/>Die Regierungschefs der vier Mächte erklären, daß das Problem der
+            <lb/>polnischen und ungarischen Minderheiten in der Tschechoslowakei,</p>
+            <pb
+xml:id="img_0008"/>
+            <p>
+               <lb/>Münchener Abkommen</p>
+            <p>
+               <lb/>sofern es nicht innerhalb von 3 Monaten durch eine Vereinbarung
+            <lb/>unter den betreffenden Regierungen geregelt wird, den Gegenstand
+            <lb/>einer weiteren Zusammenkunft der hier anwesenden Regierungschefs
+            <lb/>der vier Mächte bilden wird.</p>
+            <p>
+               <lb/>München, den 29. September 1938.</p>
+            <p>
+               <lb/>Adolf Hitler
+            <lb/>Neville Chamberlain
+            <lb/>Mussolini
+            <lb/>Ed Daladier</p>
+            <p>
+               <lb/>8</p>
+            <pb
+xml:id="img_0009"/>
+            <p>
+               <lb/>Erlaß des Führers und
+            <lb/>Reichskanzlers über die Verwaltung
+            <lb/>der sudetendeutschen Gebiete</p>
+            <p>
+               <lb/>Vom 1. Oktober 1938</p>
+            <p>
+               <lb/>(RGBl. I S. 1331)</p>
+            <p>
+               <lb/>8 1</p>
+            <p>
+               <lb/>Mit der Besetzung der sudetendeutschen Gebiete durch deutsche
+            <lb/>Truppen übernimmt das Deutsche Reich die Verwaltung dieser
+            <lb/>Gebiete.</p>
+            <p>
+               <lb/>8 2</p>
+            <p>
+               <lb/>(1)1An die Spitze der Verwaltung dieser Gebiete tritt der „Reichs¬
+            <lb/>kommissar für die sudetendeutschen Gebiete", sobald und soweit ich
+            <lb/>den dem Oberbefehlshaber des Heeres erteilten Auftrag zur vor¬
+            <lb/>läufigen Ausübung der Verwaltung zurückziehe.</p>
+            <p>
+               <lb/>(2)1Dem Reichskommissar werden sämtliche Verwaltungszweige zu¬
+            <lb/>gewiesen. Der Reichsminister des Innern bestimmt im Einver¬
+            <lb/>nehmen mit dem zuständigen Reichsminister den Übergang einzelner
+            <lb/>Verwaltungszweige auf die bestehenden Reichssonderverwaltungen.</p>
+            <p>
+               <lb/>8 3</p>
+            <p>
+               <lb/>Der Reichskommissar untersteht mir unmittelbar. Er hat nach
+            <lb/>meinen allgemeinen Weisungen für den politischen Aufbau sowie
+            <lb/>nach den besonderen Weisungen der Reichsminister für den staat¬
+            <lb/>lichen, wirtschaftlichen und kulturellen Aufbau der sudetendeutschen
+            <lb/>Gebiete zu sorgen.</p>
+            <p>
+               <lb/>8 4</p>
+            <p>
+               <lb/>Der Reichskommissar ist befugt, den Dienststellen des Staates, der
+            <lb/>Gemeinden und der sonstigen Körperschaften des öffentlichen Rechts
+            <lb/>sowie im Rahmen allgemeiner Weisungen des Stellvertreters des
+            <lb/>Führers den Dienststellen der Sudelendeutschen Partei, ihren Gliede¬
+            <lb/>rungen und den ihr angeschlossenen Verbänden in den sudetendeutschen
+            <lb/>Gebieten Weisungen zu erteilen. Er übt die unmittelbare Aufsicht
+            <lb/>über die öffentlich-rechtlichen Körperschaften in den sudetendeutschen
+            <lb/>Gebieten aus.</p>
+            <p>
+               <lb/>9</p>
+            <pb
+xml:id="img_0010"/>
+            <p>
+               <lb/>Verwaltung der sudetendeutschen Gebiete</p>
+            <p>
+               <lb/>8 5</p>
+            <p>
+               <lb/>(1)1Das derzeit in den sudelendeutschen Gebieten geltende Recht
+            <lb/>bleibt bis auf weiteres in Kraft, soweit es nicht dem Sinne der
+            <lb/>Übernahme dieser Gebiete durch das Deutsche Reich widerspricht. Der
+            <lb/>Reichskommissar kann mit Zustimmung des zuständigen Reichs¬
+            <lb/>ministers und des Reichsministers des Innern durch Verordnung
+            <lb/>das bestehende Recht ändern.</p>
+            <p>
+               <lb/>(2)1Die Verordnungen werden im „Verordnungsblatt für die
+            <lb/>sudelendeutschen Gebiete" verkündet. Sie treten, soweit sie nichts
+            <lb/>anderes bestimmen, mit dem auf die Verkündung folgenden Tag in
+            <lb/>Kraft.</p>
+            <p>
+               <lb/>8 6</p>
+            <p>
+               <lb/>Zum Reichskommissar für die sudetendeutschen Gebiete bestelle ich
+            <lb/>den Führer der Sudetendeutschen Konrad Henlein.</p>
+            <p>
+               <lb/>8 7</p>
+            <p>
+               <lb/>Die Einführung des Reichsrechts in den sudetendeutschen Gebieten
+            <lb/>erfolgt durch mich oder durch den zuständigen Reichsminister im Ein¬
+            <lb/>vernehmen mit dem Reichsminister des Innern.</p>
+            <p>
+               <lb/>8 8</p>
+            <p>
+               <lb/>Zentralstelle für die Überleitung der sudetendeutschen Gebiete ist
+            <lb/>der Reichsminister des Innern.</p>
+            <p>
+               <lb/>8 9</p>
+            <p>
+               <lb/>Der Reichsminister des Innern erläßt die zur Durchführung und
+            <lb/>Ergänzung dieses Erlasses erforderlichen Rechts- und Verwaltungs¬
+            <lb/>vorschriften.</p>
+            <p>
+               <lb/>Berlin, den 1. Oktober 1938.</p>
+            <p>
+               <lb/>Der Führer und Reichskanzler
+            <lb/>Adolf Hitler</p>
+            <p>
+               <lb/>Der Reichsminister des Innern
+            <lb/>Frick</p>
+            <p>
+               <lb/>Der Reichsminister und Chef der Reichskanzlei
+            <lb/>vi-. Lammers</p>
+            <p>
+               <lb/>10</p>
+            <pb
+xml:id="img_0011"/>
+            <p>
+               <lb/>Gesetz über die Wiedervereinigung
+            <lb/>der suöetendeutschen Gebiete mit dem
+            <lb/>Deutschen Reich</p>
+            <p>
+               <lb/>Vom 21. November 1938</p>
+            <p>
+               <lb/>(RGBl.I S.1641)</p>
+            <p>
+               <lb/>Die Reichsregierung hat das folgende Gesetz beschlossen, das hier¬
+            <lb/>mit verkündet wird:</p>
+            <p>
+               <lb/>Artikel I</p>
+            <p>
+               <lb/>Die heimgekehrten sudetendeutschen Gebiete sind Bestandteil des
+            <lb/>Deutschen Reichs.</p>
+            <p>
+               <lb/>Artikel II</p>
+            <p>
+               <lb/>Durch die Wiedervereinigung sind die alteingesessenen Bewohner
+            <lb/>der sudetendeutschen Gebiete deutsche Staatsangehörige nach Maß¬
+            <lb/>gabe näherer Bestimmung.</p>
+            <p>
+               <lb/>Artikel III</p>
+            <p>
+               <lb/>Der Reichsminister des Innern wird ermächtigt, die zur Durch¬
+            <lb/>führung und Ergänzung dieses Gesetzes erforderlichen Rechts- und
+            <lb/>Verwaltungsvorschriften zu erlassen.</p>
+            <p>
+               <lb/>Artikel IV</p>
+            <p>
+               <lb/>Das Gesetz tritt mit Wirkung vom 21. November 1938 in Kraft.</p>
+            <p>
+               <lb/>anzuwendenden deutschen Gesetze und Vorschrif¬
+            <lb/>ten, der Verwaltung usw. vergleiche Reichsgesetz¬
+            <lb/>blätter 1938 Teil I Nr. 160 folgende.</p>
+            <p>
+               <lb/>11</p>
+            <pb
+xml:id="img_0012"/>
+            <p>
+               <lb/>Weichstagswahlen</p>
+            <p>
+               <lb/>Erlaß des Führers und Reichskanzlers
+            <lb/>über Ergänzungswahlen zum Groß¬
+            <lb/>deutschen Reichstag in den suöeten-
+            <lb/>deutschen Gebieten</p>
+            <p>
+               <lb/>vom 31. Oktober 1938</p>
+            <p>
+               <lb/>(RGBl. I S. 1567)</p>
+            <p>
+               <lb/>s 1</p>
+            <p>
+               <lb/>Um den sudelendeutschen Volksgenossen eine Vertretung im Groß--
+            <lb/>deutschen Reichstag zu eröffnen, ordne ich Ergänzungswahlen an.</p>
+            <p>
+               <lb/>s 2</p>
+            <p>
+               <lb/>Die Ergänzungswahlen finden am Sonntag, dem 4. Dezember
+            <lb/>1938, statt.</p>
+            <p>
+               <lb/>Berchtesgaden, den 31. Oktober 1938.</p>
+            <p>
+               <lb/>Der Führer und Reichskanzler
+            <lb/>Adolf Hitler</p>
+            <p>
+               <lb/>Der Reichsmini st er des Innern
+            <lb/>Frick</p>
+            <p>
+               <lb/>Gesetz über die Ergänzungswahlen
+            <lb/>zum Großdeutschen Reichstag</p>
+            <p>
+               <lb/>Vom 11. November 1938</p>
+            <p>
+               <lb/>(RGBl. I S. 157Y</p>
+            <p>
+               <lb/>Die Reichsregierung hat das folgende Gesetz beschlossen, das hier¬
+            <lb/>mit verkündet wird:</p>
+            <p>
+               <lb/>8 1</p>
+            <p>
+               <lb/>Für die am Sonntag, dem 4. Dezember 1938, in den sudeten¬
+            <lb/>deutschen Gebieten stattfindenden Ergänzungswahlen zum Großdeut-</p>
+            <p>
+               <lb/>12</p>
+            <pb
+xml:id="img_0013"/>
+            <p>
+               <lb/>Reichstagswahlen</p>
+            <p>
+               <lb/>scheu Reichstag gelten die allgemeinen Bestimmungen über Reichs¬
+            <lb/>lagswahlen, soweit nicht dieses Gesetz oder seine Ausführungsvor¬
+            <lb/>schriften etwas anderes bestimmen.</p>
+            <p>
+               <lb/>- 8 2</p>
+            <p>
+               <lb/>Wahlberechtigt zur Wahl der sudetendeutschen Abgeordneten sind
+            <lb/>die spätestens am 4. Dezember 1918 geborenen Männer und Frauen
+            <lb/>deutschen oder artverwandten Blutes, die durch die Heimkehr der
+            <lb/>sudetendeutschen Gebiete die deutsche Staatsangehörigkeit erwerben.</p>
+            <p>
+               <lb/>8 3</p>
+            <p>
+               <lb/>(1)1Der Reichslagswahl liegt ein Reichswahlvorschlag zugrunde, der
+            <lb/>vom Reichswahlleiter spätestens am achten Tage vor der Wahl im
+            <lb/>Deutschen Reichsanzeiger und Preußischen Staatsanzeiger und im
+            <lb/>Verordnungsblatt für die sudetendeutschen Gebiete veröffentlicht wird.</p>
+            <p>
+               <lb/>(2)1Auf den Reichswahlvorschlag werden so viel Sitze zugeteilt, als
+            <lb/>die Zahl 60 000 in der auf den Reichswahlvorschlag entfallenden
+            <lb/>Zahl von gültigen Stimmen enthalten ist. Ein Rest von 30 000 wird
+            <lb/>vollen 60 000 Stimmen gleichgeachtet.</p>
+            <p>
+               <lb/>8 4</p>
+            <p>
+               <lb/>Der Reichsminister des Innern trifft die näheren Bestimmungen
+            <lb/>zur Durchführung des Wahlverfahrens. Er kann Vorschriften zur
+            <lb/>Ergänzung des Gesetzes erlassen*).</p>
+            <p>
+               <lb/>Berchtesgaden, den 11. November 1938.</p>
+            <p>
+               <lb/>Der Führer und Reichskanzler
+            <lb/>Adolf Hitler</p>
+            <p>
+               <lb/>Der Reichsmini st er des Innern
+            <lb/>In Vertretung
+            <lb/>Pfundtner</p>
+            <p>
+               <lb/>*) Vgl. Verordnung vom 21. November 1938 (RGBl. I S. 1636).</p>
+            <p>
+               <lb/>13</p>
+            <pb
+xml:id="img_0014"/>
+            <p>
+               <lb/>Reichswahlvorschlag für die
+            <lb/>in den suöetendeutschen Gebieten
+            <lb/>am 4. Dezember 1938 stattgefunöenen
+            <lb/>Ergänzungswahlen
+            <lb/>zum Grotzöeutschen Reichstag</p>
+            <p>
+               <lb/>(Deutscher Reichsanzeiger und Preußischer Staatsanzeiger vom
+            <lb/>26. November 1938, Nr. 276)</p>
+            <p>
+               <lb/>Die Namen der gewählten Abgeordneten (vgl. Deutscher Reichs¬
+            <lb/>anzeiger und Preußischer Staatsanzeiger vom 7. Dezember 1938,</p>
+            <p>
+               <lb/>Nr. 285) sind durch Fettdruck hervorgehoben.</p>
+            <p>
+               <lb/>Hitler, Adolf, geb. 20. 4. 1889, Führer und Reichskanzler, Berlin W 8,
+            <lb/>Wilhelmstr. 78.</p>
+            <p>
+               <lb/>Henlein, Konrad, geb. 6. 5. 1898, Gauleiter, Reichenberg.</p>
+            <p>
+               <lb/>Frank, Karl Hermann, geb. 24. 1. 1898, stellv. Gauleiter, Buchhändler,
+            <lb/>Reichenberg.</p>
+            <p>
+               <lb/>Barwig, Josef, geb. 11. 10. 1909, Gauamtsleiter, Bauer, Zauchtel.</p>
+            <p>
+               <lb/>Bendak, Leo, geb. 10. 2. 1907, SA.-Führer, Rechnungsbeamter,
+            <lb/>Reichenberg.</p>
+            <p>
+               <lb/>Birke, Hubert Hermann, geb. 21. 1. 1892, Gauamtsleiter, Schrift¬
+            <lb/>leiter, Franzensdorf bei Reichenberg.</p>
+            <p>
+               <lb/>Bornemann, Felix, geb. 2. 3. 1894, Kreisbeauftragter, Buchhändler,
+            <lb/>Znaim.</p>
+            <p>
+               <lb/>Brandner, Willi, geb. 12. 8. 1909, tt-Führer, Turnlehrer, Reichenberg.</p>
+            <p>
+               <lb/>Bürger, Friedrich, geb. 20. 1. 1899, SA.-Standartenführer, Warnsdorf.</p>
+            <p>
+               <lb/>vr. David, Herbert, geb. 6. 5. 1900, Rechtsanwalt, Leitmeritz.</p>
+            <p>
+               <lb/>Dietl, Rudolf, geb. 17. 2. 1892, Fachlehrer, Reichenberg.</p>
+            <p>
+               <lb/>Dreßler, Wilhelm, geb. 9. 3. 1893, Kreisbeauftragter, Prokurist,
+            <lb/>Tiesenbach bei Gablonz.</p>
+            <p>
+               <lb/>Dr. Eichholz, Ludwig, geb. 16. 2. 1903, Mittelschulprofessor, Rupperts-
+            <lb/>dorf bei Reichenberg.</p>
+            <p>
+               <lb/>Eichhorn, Willi, geb. 29. 8. 1909, -Führer, Turnlehrer, Gablonz.</p>
+            <p>
+               <lb/>vr. Feitenhansl, Karl, geb. 30. 7. 1891, Gauamtsleiter, Arzt,
+            <lb/>Reichenberg.</p>
+            <p>
+               <lb/>14</p>
+            <pb
+xml:id="img_0015"/>
+            <p>
+               <lb/>Reichswahlvorschlag</p>
+            <p>
+               <lb/>Fischer, Willi, geb. 16. 8. 1906, ^-Führer, Kaufmann, Eger.</p>
+            <p>
+               <lb/>Flügel, Gustav, geb. 8. 7. 1909, Gauamtsleiter, kaufm. Beamter,
+            <lb/>Reichenberg.</p>
+            <p>
+               <lb/>Frank, Ludwig, geb. 21. 5. 1883, Parteirichter, Major a. D.,
+            <lb/>Marienbad.</p>
+            <p>
+               <lb/>Dr. Friedrich, Albin, geb. 27. 2. 1903, Gauamtsleiter (NSV.), Kauf¬
+            <lb/>mann, Teplitz-Reichenberg.</p>
+            <p>
+               <lb/>Hausmann, Anton, geb. 11. 6. 1899, Kreisbeauftragter, Hauptschrift¬
+            <lb/>leiter, Tetschen.</p>
+            <p>
+               <lb/>Hirte, Erich, geb. 17. 5. 1904, Kreisbeauftragter, Elektrotechniker,
+            <lb/>Zwickau.</p>
+            <p>
+               <lb/>Höller, Franz, geb. 10. 2. 1909, Gauamtsleiter, Schriftsteller,
+            <lb/>Reichenberg.</p>
+            <p>
+               <lb/>Honig, Julius, geb. 21. 7. 1902, Kreisbeauftragter, Zementwaren-
+            <lb/>erzeuger, Zwittau.</p>
+            <p>
+               <lb/>Hofhansel, Johann, geb. 16. 1. 1897, Kreisbeauftragter, Fleischer,
+            <lb/>Pilnikau bei Braunau.</p>
+            <p>
+               <lb/>Illing, Paul, geb. 9. 1. 1904, tt-Führer, Tischkowitz bei Lobositz.</p>
+            <p>
+               <lb/>Jaroschek, Walther, geb. 22. 2. 1903, Kreisbeauftragter, Kaufmann,
+            <lb/>Gräfenberg bei Freiwaldau.</p>
+            <p>
+               <lb/>Jobst, Adolf, geb. 10. 5. 1900, Gauamtsleiter, Kunstmaler, Böhmisch-
+            <lb/>Krummau.</p>
+            <p>
+               <lb/>Keil, Theo, geb. 15. 5. 1899, Hauptstellenleiter, Fachlehrer, Hirschberg-
+            <lb/>Reichenberg.</p>
+            <p>
+               <lb/>Dr. Klieber, Guido, geb. 12. 9. 1898, Bauer, Budau.</p>
+            <p>
+               <lb/>Knöchel, Gustav, geb. 17. 9. 1898, Kreisleiter, Architekt, Leipa
+            <lb/>a. d. Polzen.</p>
+            <p>
+               <lb/>Dr. Köllner, Fritz, geb. 5. 5. 1904, Treuhänder der Arbeit, Bank¬
+            <lb/>beamter, Reichenberg.</p>
+            <p>
+               <lb/>Kohla, Alfred, geb. 12. 2.1895, Kreisleiter, Bankbeamter, Schluckenau.</p>
+            <p>
+               <lb/>Dr. Kottek, Alfred, geb. 23. 3. 1906, Kreisleiter, Rechtsanwalt, Znaim.</p>
+            <p>
+               <lb/>Kraus, Josef, geb. 13. 8. 1903, Kreisbeauftragter, Kinoangestellter,
+            <lb/>Hohenelbe.</p>
+            <p>
+               <lb/>Dr. Krautzberger, Franz, geb. 23. 7. 1913, HJ.-Führer, Reichenberg.</p>
+            <p>
+               <lb/>Krezal, Friedl, geb. 26. 10. 1885, Oberrechnungsrat a. D., Reichenberg.</p>
+            <p>
+               <lb/>Dr. Kreitzl, Anton, geb. 14. 2. 1895, Rechtsanwalt, Bodenbach.</p>
+            <p>
+               <lb/>Künzel, Franz, geb. 3.3.1900, Gauamtsleiter, Ingenieur, Reichenberg.</p>
+            <p>
+               <lb/>Lammel, Richard, geb. 2. 2. 1899, Gauamtsleiter, Chemiker, Gablonz.</p>
+            <p>
+               <lb/>Lutz, Anton, geb. 2. 11. 1908, SA.-Führer, Turnlehrer, Teplitz-
+            <lb/>Schönau.</p>
+            <p>
+               <lb/>May, Franz, geb. 24. 1. 1903, SA.-Führer, Gärtner, Niedergrund
+            <lb/>bei Warnsdorf.</p>
+            <p>
+               <lb/>Dr. Meckel, Rudolf, geb. 20. 7. 1910, Gaustudentenführer, Fechtlehrer,
+            <lb/>Reichenberg, Vatterstr. 4.</p>
+            <p>
+               <lb/>15</p>
+            <pb
+xml:id="img_0016"/>
+            <p>
+               <lb/>Reichswahlvorschlag</p>
+            <p>
+               <lb/>Dr. Nase, Degenhard, geb. 22. 6. 1898, Bezirksleiter, Arzt, Groß
+            <lb/>Schönau.</p>
+            <p>
+               <lb/>Dr. Neuwirth, Hans, geb. 16. 5. 1901, Rechtsanwalt, Taßwitz bei
+            <lb/>Znaim.</p>
+            <p>
+               <lb/>Nitsch, Franz, geb. 18. 6. 1898, Bauer, Wolledorf, Bezirk Müglitz.</p>
+            <p>
+               <lb/>Obrlik, Gustav Adolf, geb. 6. 2. 1905, Gauamtsleiter, Mittelschul¬
+            <lb/>professor, Gablonz.</p>
+            <p>
+               <lb/>Peschka, Ernst, geb. 20. 6. 1900, Gauamtsleiter, Elektroingenieur,
+            <lb/>Reichenberg.</p>
+            <p>
+               <lb/>Dr. Peters, Gustav, geb. 20. 4. 1885, Schriftsteller, Schwarzthal bei
+            <lb/>Deutsch Beneschau.</p>
+            <p>
+               <lb/>Pfrogner, Anton, geb. 28. 9. 1886, Arbeitsdienstführer, Lagerhaus¬
+            <lb/>verwalter, Gablonz.</p>
+            <p>
+               <lb/>Porsche, Josef, geb. 20. 3. 1897, Kreisbeauftragter, Maschinenbauer,
+            <lb/>Reichenberg.</p>
+            <p>
+               <lb/>Dr. Preibsch, Hubert, geb. 2. 11. 1892, Arbeitsdienstführer, Bauern¬
+            <lb/>führer, Mährisch-Schönberg.</p>
+            <p>
+               <lb/>Raschka, Rudolf, geb. 12. 10. 1907, Gauamtsleiter, Landesbauern¬
+            <lb/>führer, Diplom-Ingenieur, Reichenberg.</p>
+            <p>
+               <lb/>Richter, Wolfgang, geb. 14. 6. 1901, Gauamtsleiter, Bau-Ingenieur,
+            <lb/>Reichenberg.</p>
+            <p>
+               <lb/>Dr. Rosche, Alfred, geb. 2. 8. 1884, Rechtsanwalt, Nixdorf.</p>
+            <p>
+               <lb/>Sandner, Anton, geb. 17. 8. 1906, SA.-Führer, Turnlehrer, Asch.</p>
+            <p>
+               <lb/>Sandner, Rudolf, geb. 27. 2. 1905, Gauamtsleiter, Schriftsteller, Eger.</p>
+            <p>
+               <lb/>Dr. Schicketanz, Rudolf, geb. 11. 9. 1900, Rechtsanwalt, Reichenberg.</p>
+            <p>
+               <lb/>Schiechel, Fritz, geb. 4. 3. 1909,141-Führer, Elektromechaniker,</p>
+            <p>
+               <lb/>Bodenbach.</p>
+            <p>
+               <lb/>Dr. Sebekovsky, Wilhelm, geb. 24. 6. 1906, Rechtsanwalt, Reichenberg.</p>
+            <p>
+               <lb/>Staffen, Rudolf, geb. 24. 5. 1898, Gauamtsleiter, Ingenieur, Chemi¬
+            <lb/>ker, Reichenberg.</p>
+            <p>
+               <lb/>Stiebitz, Franz, geb. 24. 7. 1899, Ingenieur, Bauer, Pistian.</p>
+            <p>
+               <lb/>Dr. Suchy, Josef, geb. 24. 9. 1905, GauamtÄeiter, Rechtswahrer,
+            <lb/>Eger-Reichenberg.</p>
+            <p>
+               <lb/>Dr. Viererbl, Karl, geb. 24. 7. 1903, Schriftleiter, 44-Untersturm¬
+            <lb/>führer, Berlin-Lichterfelde West, Margaretenstr. 16.</p>
+            <p>
+               <lb/>Wenzel, Rudolf, geb. 11.10.1904, Adjutant des Gauleiters, Ingenieur,
+            <lb/>Architekt, Reichenberg.</p>
+            <p>
+               <lb/>Winkler, Erwin, geb. 16. 11. 1903, Gauhauptstellenleiter, Statistiker,
+            <lb/>Reichenberg.</p>
+            <p>
+               <lb/>Wollner, Georg, geb. 15. 12. 1903, Schlosser, Kraftwagenführer.
+            <lb/>Karlsbad.</p>
+            <p>
+               <lb/>Dr. Zippelius, geb. 29. 8. 1901, Rechtsanwalt, Teplitz-Schönau.</p>
+            <p>
+               <lb/>16</p>
+            <pb
+xml:id="img_0017"/>
+            <p>
+               <lb/>Lebensbeschreibungen der Mitglieder
+            <lb/>des Grotzdeutschen Reichstags aus
+            <lb/>den sudetenöeutschen Gebieten</p>
+            <p>
+               <lb/>(Ergänzungswahl zürn Großdeutschen Reichstag
+            <lb/>am 4. Dezember 1938)</p>
+            <p>
+               <lb/>Die Zusätze hinter den Namen dienen zur Unterscheidung
+            <lb/>von Abgeordneten mit gleichem Namen.</p>
+            <p>
+               <lb/>Barwig, Josef; Gauamtsleiter, Kreisleiter, Bauer; Zauchtel,
+            <lb/>Kleinseite 20.</p>
+            <p>
+               <lb/>Geboren am 11. Oktober 1909 in Zauchtel; evangelisch A. B. Be¬
+            <lb/>suchte Volksschule in Zauchtel, Untermittelschule in Neutitschein, legte
+            <lb/>im Jahre 1929 an der höheren landwirtschaftl. Landesschule in
+            <lb/>Söhle-Neutitschein die Reifeprüfung ab. Hernach tätig auf dem
+            <lb/>väterlichen Bauernhöfe. 1930 bis 1932 beim Militär. Seit frühester
+            <lb/>Jugend führend in allen nationalen Verbänden seiner Heimat, Mit¬
+            <lb/>glied der DNSAP. und mit der Organisation der Bauernschaft im
+            <lb/>Wahlkr. M.-Ostrau beauftragt. Nach Auflösung der Partei von
+            <lb/>Konrad Henlein im September 1934 zum Bezirksleiter der Sudeten¬
+            <lb/>deutschen Heimatfront m Neutitschein und am 17. März 1935 zum
+            <lb/>Kreisleiter berufen. Nach dem Anschluß des Sudetenlandes an das
+            <lb/>Reich Kreisbeauftragter für den Aufbau des NSDAP.-Kreises
+            <lb/>Neutitschein, am 24. November 1938 von Konrad Henlein zum Gau¬
+            <lb/>inspekteur und am 6. Dezember zum kommissarischen Kreisleiter von
+            <lb/>Neutitschein ernannt.</p>
+            <p>
+               <lb/>Birke, Hubert Hermann; Gauobmann der DAF., Gauamtsleiter,
+            <lb/>Schriftsteller; Franzendorf 200 bei Reichenberg.</p>
+            <p>
+               <lb/>Geboren am 21. Januar 1892 in Hermsdorf bei Braunau, Su¬
+            <lb/>detengau; katholisch. Besuchte die Volksschule und mehrere Fach-</p>
+            <p>
+               <lb/>2 Der Großdeutsche Reichstag (Nachtrag)</p>
+            <p>
+               <lb/>17</p>
+            <pb
+xml:id="img_0018"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>kurse. War Fabrikarbeiter, Fabrikangestellter, freier Schriftsteller;
+            <lb/>im Weltkrieg von 1915 bis 1918 Reserveoffizier der Gebirgsartillerie;
+            <lb/>stand im Felde in Rumänien und Albanien. Seit 1919 Hauptschrift¬
+            <lb/>leiter von „Ostböhmens Deutscher Bote" und „Völkische Rundschau"
+            <lb/>in Braunau. Reichsredner der DNSAP. im Sudetengau. Seit
+            <lb/>Oktober 1933 Mitglied der SdP. (Mitglied Nr. 41); 1935 als Orts-
+            <lb/>abgeordneter der SdP. ins Parlament gewählt. 1936 und 1937
+            <lb/>Kreisleiter der SdP. in Ostböhmen. Seit 1937 Mitglied der Haupt¬
+            <lb/>leitung der SdP. und Leiter des Hauptamtes für Sozialpolitik.</p>
+            <p>
+               <lb/>Bornemann, Felix; Kreisleiter; Znaim (Niederdonau), Kernecker¬
+            <lb/>straße 12.</p>
+            <p>
+               <lb/>Geboren am 2. März 1894 in Znaim; evangelisch A. B. Besuchte
+            <lb/>Volksschule und Obergymnasium in Znaim, studierte an der Deut¬
+            <lb/>schen Technischen Hochschule in Brünn Maschinenbau und Elektro¬
+            <lb/>technik und später an der Deutschen Universität in Prag Rechts¬
+            <lb/>wissenschaft. Im Weltkrieg Leutnant d. R., Maschinengewehrzugs¬
+            <lb/>kommandant. 1918 bis 1924 Hauptschriftleiter des „Znaimer Tag-
+            <lb/>blatt" und der „Südmährischen Rundschau", seit dieser Zeit selb¬
+            <lb/>ständiger Buchhändler in Znaim. Verschiedene wichtige Ehrenämter
+            <lb/>in den völkischen Kampsverbänden, in kulturellen und wirtschaftlichen
+            <lb/>Körperschaften Südmährens. Seit Oktober 1918 Amtswalter der
+            <lb/>DNSAP., später der SdP., seit 1918 vielfache politische Strafen,
+            <lb/>mehrfache Einkerkerungen, im Jahr 1938 allein fünf Monate.</p>
+            <p>
+               <lb/>Brandner, Willi; -Oberführer, Gauführer NSRL., Turnlehrer;
+            <lb/>Reichenberg, Fichtestraße 2.</p>
+            <p>
+               <lb/>Geboren am 12. August 1909 in Schönbach b. Eger. Besuchte Volks-,
+            <lb/>Bürgerschule, gewerbliche Fortbildungsschule, Realschule. Geigen¬
+            <lb/>bauerberuf erlernt. Gesellen- und Meisterprüfung. Von Konrad
+            <lb/>Henlein zum Turnlehrer ausgebildet. Von 1933 bis 1938 die Turn¬
+            <lb/>schule in Asch geleitet. Mannschaftsführer -der völkischen Turn¬
+            <lb/>bewegung der Sudetendeutschen. Führer des freiwilligen deutschen
+            <lb/>Schutzdienstes der Sudetendeutschen von 1937 bis zur Befreiung.
+            <lb/>Gruppenführer der Freikorpsgruppe 3 Bayreuth, Oberführer des
+            <lb/>^-Abschnitt XXXVII, Gauführer des NSRL.</p>
+            <p>
+               <lb/>Bürger, Friedrich; SA.-Standartenführer, Adjutant des Gauleiters
+            <lb/>Henlein, früher Bauernschullehrer; Warnsdorf, Seifhennersdorfer
+            <lb/>Straße 2350.</p>
+            <p>
+               <lb/>Geboren am 20. Januar 1899 in Warnsdorf; Protestantisch. Be¬
+            <lb/>suchte Volks- und Bürgerschule, Fachschule für Textilindustrie. Nach</p>
+            <p>
+               <lb/>18</p>
+            <pb
+xml:id="img_0019"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>dem Kriege Turnlehrerausbildung, Kurse für Volkstumspflege und
+            <lb/>ländliche Wohlfahrtspflege. 1916 kriegsfreiwilliger Frontdienst an
+            <lb/>der italienischen und russischen Front, unverschuldet in russische
+            <lb/>Gefangenschaft, Flucht, silberne Tapferkeitsmedaille II. Kl. Entzieht
+            <lb/>sich tschechischem Militärdienst durch Eintritt in Freikorps Faupel,
+            <lb/>Görlitz. Teilnahme an Aktionen des Freikorps Frühjahr und
+            <lb/>Sommer 1919. Amnestie ermöglicht Rückkehr in die Heimat. Als
+            <lb/>Turnwart, Dietwart, Bauernschullehrer, Jungbauernführer und
+            <lb/>Schutzarbeiter tätig bis 1933, Herbst 1933 als Verbindungsmann von
+            <lb/>Konrad Henlein nach Berlin entsandt, bis 1938 Leiter der erst ge¬
+            <lb/>tarnten, dann offiziellen Kanzlei Konrad Henleins in Berlin, Be¬
+            <lb/>auftragter Konrad Henleins beim Verband der deutschen Volks¬
+            <lb/>gruppen in Europa, wiederholt mit wichtigen Auslandaufträgen
+            <lb/>betraut, seit 1935 Mitglied der Hauptleitung der SdP., September
+            <lb/>1938 Führer der Freikorpsgruppe Niederdonau, Oktober 1938 Er¬
+            <lb/>nennung zum SA.-Standartenführer, betraut mit Aufstellung der
+            <lb/>SA.-Brigade Nordmähren-Schlesien, Dezember 1938 als Adjutant
+            <lb/>zu Gauleiter Konrad Henlein berufen.</p>
+            <p>
+               <lb/>David, Herbert, Dr. jur.; Gaurechtsamtsleiter, Leiter des ober¬
+            <lb/>landesgerichtlichen Senats in Leitmeritz; Leitmeritz, Mareschgasse 11.</p>
+            <p>
+               <lb/>Geboren am 6. Mai 1900 in Jechnitz (Sudetenland); röm.-katholisch.
+            <lb/>Besuchte die Volksschule in Graslitz und das Gymnasium in Leitmeritz.
+            <lb/>Diente im österreichischen Gebirgsartillerieregiment Nr. 202 vom
+            <lb/>15. März 1918 bis 28. Oktober 1918. Studierte Rechtswissenschaften
+            <lb/>in Prag und Leipzig und promovierte im Jahre 1926. Rechtsanwalts-
+            <lb/>anwärter und seit Juni 1931 Rechtsanwalt in Leitmeritz. Ortsleiter
+            <lb/>der DNSAP. in Leitmeritz bis zur Parteiauflösung im Jahre 1933.
+            <lb/>Seit 1936 Leiter des Nechtsamts der SdP. und seit Februar 1937
+            <lb/>Mitglied des Führungsrates bzw. der Hauptleitung.</p>
+            <p>
+               <lb/>Diell, Rudolf; Bürgerschullehrer i. R.; Reichenberg, Franz-Clam-
+            <lb/>Gallas-Straße 2.</p>
+            <p>
+               <lb/>Geboren am 17. Februar 1892 in Einsiedl bei Marienbad; römisch-
+            <lb/>katholisch. Besuchte die Volksschule in Einsiedl bei Marienbad, das
+            <lb/>Gymnasium in Saaz und die Deutsche Lehrerbildungsanstalt in Prag.
+            <lb/>1911 als Volksschullehrer in Saaz angestellt. Zu Kriegsbeginn als
+            <lb/>Freiwilliger zum Schützenregiment Nr. 6 nach Eger eingerückt. Sep¬
+            <lb/>tember 1914 auf den serbischen Kriegsschauplatz abgegangen, nahm
+            <lb/>an den Kämpfen in den Karpaten, Galizien und an der italienischen
+            <lb/>Front, zuletzt als Leutnant der Reserve, teil. Geriet 1917 in italie¬
+            <lb/>nische Gefangenschaft. Legte nach dem Kriege die Fachprüfung für
+            <lb/>Bürgerschullehrer ab und war bis 1935 Bürgerschullehrer in Saaz.
+            <lb/>Wurde 1935 aus Politischen Gründen nach Dauba versetzt und später</p>
+            <p>
+               <lb/>19</p>
+            <pb
+xml:id="img_0020"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>pensioniert. Betätigte sich seit frühester Jugend im Deutschen Turn¬
+            <lb/>verband und anderen völkischen Verbänden. Wurde im Februar 1935
+            <lb/>Amtsleiter der Hauptstelle der SdP. in Eger und gehörte als Beauf¬
+            <lb/>tragter für die Frauenschaft der SdP. der Hauptleitung der
+            <lb/>Partei an.</p>
+            <p>
+               <lb/>Dretzler, Wilhelm; Kreisbeauftragter (Bezirksleiter), Prokurist;
+            <lb/>Tiefenbach a. d. Desse, Adolf-Hitler-Str. 474.</p>
+            <p>
+               <lb/>Geboren am 9. März 1893 in Tannwald; römisch-katholisch.
+            <lb/>Volks- und Bürgerschule, Berufs- und Sprachenkurse, Kaufmanns¬
+            <lb/>lehrling in der Porzellanfabrik Herrn. Scholz Nächst, Tiefenbach a. d.
+            <lb/>Desse, seit 1936 daselbst Prokurist, Turner seit der Schulzeit, Ober-
+            <lb/>turnwart im Turnverein O.-Tannwald, Obmann der deutschvölkischen
+            <lb/>Burschenschaft „Germania" 1908 (Abzeichen: Swastika-Hakenkreuz,
+            <lb/>darob schon von den österreichischen Behörden beargwohnt). 1914 zur
+            <lb/>Festungsartillerie in Przemysl (Galizien) gemustert, Unteroffizier,
+            <lb/>23. März 1915 durch den Fall der Festung Przemysl in russische Ge¬
+            <lb/>fangenschaft gefallen, daselbst durch 3 Jahre im russischen Postbüro
+            <lb/>tätig, nebenher Führer einer Turnriege und Mitglied des Lager-
+            <lb/>orchesters. — 1918 von den tschechischen Legionären zum Wachdienst
+            <lb/>ausgehoben und durch 8 Monate bis zur Heimkehr Dienst getan.
+            <lb/>Nach dem Kriege — 1920 — Wiedereintritt in die alte Firma, Über¬
+            <lb/>nahme des Turnvereins Ober-Tannwald, Organisator des großen
+            <lb/>Gauturnfestes. — 4. Oktober 1933 von Konrad Henlein zum Aufbau
+            <lb/>der SHF., später SdP. im Bezirke Tannwald berufen, seither Be¬
+            <lb/>zirksleiter bis November 1938, nun Kreisbeauftragter. — Mitglied
+            <lb/>der NSDAP, seit 1. Januar 1924, wegen Uberbürdung im Turn¬
+            <lb/>wesen ohne Amt. — 1935 in den böhmischen Landtag gewählt, dort
+            <lb/>unter Tumultszenen und tödlicher Bedrohung durch Tschechen und
+            <lb/>deutsche Marxisten letzter Sprecher überhaupt am 19. Mai 1938 durch
+            <lb/>meinen Exodus mit 25 SdP.-Kameraden. — Tags darauf Mobil¬
+            <lb/>machung der tschechischen Armee. Landtag damit für immer ge¬
+            <lb/>schlossen. Uber Weihnacht-Neujahr 1937/38 im Kreisgericht Reichen¬
+            <lb/>berg in Haft; vor der Befreiung mehrfach verfolgt und Geisel Nr. 1
+            <lb/>im Bezirk Tannwald. Für 1939 zum Kreisleiter des Kreises Gablonz
+            <lb/>a. D. vorgeschlagen.</p>
+            <p>
+               <lb/>Eichholz, Ludwig, Dr. M11.; Gauamtsleiter für Erzieher, Professor-
+            <lb/>Ruppersdorf Nr. 458 bei Reichenberg.</p>
+            <p>
+               <lb/>Geboren am 16. Februar 1903 in Leipa a. d. Polzen; evangelisch.
+            <lb/>Besuchte die Volksschule und das Gymnasium in Rumburg, studierte
+            <lb/>Philosophie, Germanistik und Slawistik in Prag, promovierte 1925
+            <lb/>zum Dr. pliil., provisorischer Professor 1925/26 in Mähr.-Neustadt,</p>
+            <p>
+               <lb/>20</p>
+            <pb
+xml:id="img_0021"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>1926/27 in Preßburg, 1927 bis 1929 aktiver Militärdienst, 1929 wieder
+            <lb/>provisorischer Professor in Schemnitz, 1929 bis 1931 definitiver Pro¬
+            <lb/>fessor in Elbogen, 1931 bis 1935 in Dux, seit dieser Zeit beurlaubt
+            <lb/>als Mitglied des Abgeordnetenhauses des Prager Parlamentes bis
+            <lb/>1. Oktober 1938, seit der Befreiung des Sudetenlandes Leiter der
+            <lb/>Unterabteilung I L beim Reichskommissar für die sudetendeutschen
+            <lb/>Gebiete, Gauwalter des NSLB.</p>
+            <p>
+               <lb/>FeiLenhansl, Karl, Dr. nisä.; Gauamtsleiter des Amtes für Volks¬
+            <lb/>gesundheit Reichenberg und Sachbearbeiter der Abteilung Gesund¬
+            <lb/>heitswesen im Reichskommissariat für die sudetendeutschen Gebiete;
+            <lb/>Reichenberg, Leipziger Platz Nr. 4/1.</p>
+            <p>
+               <lb/>Geboren am 30. Juli 1891 in Roßhaupt; römisch-katholisch. Be¬
+            <lb/>suchte die Volksschule, Hum. Gymnasium, studierte Medizin in Prag
+            <lb/>1910 bis 1914 und 1918 bis 1919. Promovierte am 22. Juli 1919 in
+            <lb/>Prag zum Dr. ineä. War Sekundararzt 1919 bis 1923 in Teplitz-
+            <lb/>Schönau, prakt. Arzt in Rumburg 1923 bis 1925, 1926 an der chirurgi¬
+            <lb/>schen Klinik Graz, 1927 bis 1928 Primararzt des Krankenhauses
+            <lb/>Rumburg, 1929 bis Ende 1933 Chefarzt der Krankenkasse daselbst,
+            <lb/>1934 bis 1938 prakt. Arzt in Rumburg. Kriegsteilnehmer 1914 bis
+            <lb/>1918.11937 neun Monate in Untersuchungshaft in Prag-Pankrac</p>
+            <p>
+               <lb/>wegen nationalsozialistischer Betätigung. Am 12. Juni 1938 gewählt
+            <lb/>zum Stadtrat in Rumburg, am 4. September 1938 als Hauptleiter
+            <lb/>des Amtes für Volksgesundheit der SdP. von Konrad Henlein be¬
+            <lb/>rufen. Mitglied der DNSAP. vom 29. März 1920 bis Zur Auf¬
+            <lb/>lösung 1933, seither Mitglied der SdP.</p>
+            <p>
+               <lb/>Frank (Marienbad), Ludwig; Landesgruppenführer des Reichsluft¬
+            <lb/>schutzbundes, Major des Generalstabes a. D.; Marienbad-Luft,
+            <lb/>Pilsener Str. 159.</p>
+            <p>
+               <lb/>Geboren am 24. Mai 1883 in Marienbad; römisch-katholisch. Volks¬
+            <lb/>schule, Untergymnasium, Kadettenschule. 1902 Kadettoffizierstellver-
+            <lb/>treter, 1903 Leutnant, 1909 Oberleutnant im 99. österreichischen-
+            <lb/>ungarischen Infanterieregiment, Kriegsschule in Wien, 1910 zugeteilt
+            <lb/>dem Generalstabe, 1913 Hauptmann im Generalstabskorps. 1914
+            <lb/>bis 1918 im Weltkriege an der Front in verschiedenen Verwendungen
+            <lb/>in Galizien, Rußland, Tirol, am Jsonzo und in Italien, zuletzt als
+            <lb/>Major des Generalstabskorps, 10. Mai 1918, und Divisionsgeneral¬
+            <lb/>stabschef der 12. österreichischen-ungarischen Infanteriedivision am
+            <lb/>Piave. Nach dem Zusammenbruch Reservist ohne Rang in der
+            <lb/>Tschecho-Slowakei, tätig im Aufbau deutscher Frontkämpferorgani¬
+            <lb/>sationen. 1934 Kreisleiter des Kreises VIII der SdP., 1935 ge¬
+            <lb/>wählt zum Senator der SdP. im tschechoslowakischen Parlament,
+            <lb/>Klubobmann der Senatoren der SdP.</p>
+            <p>
+               <lb/>21</p>
+            <pb
+xml:id="img_0022"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>Frank (Reichenberg), Karl Hermann; Stellvertretender Gauleiter
+            <lb/>und Stellvertreter des Reichskommissars für die sudetendeutschen
+            <lb/>Gebiete, Verlagsbuchhändler; Reichenberg, Kammerbergstr. 17.</p>
+            <p>
+               <lb/>Geboren am 24. Januar 1898 in Karlsbad; katholisch. Volksschule,
+            <lb/>humanistisches Gymnasium in Karlsbad, 4 Sem. jur. Fakultät in
+            <lb/>Prag, Abiturientenkurs Handelsakademie in Prag, Beamter bei den
+            <lb/>Eisenwerken in Witkowitz, 1919/20 Zeitfreiwilliger im schlesischen
+            <lb/>Grenzschutz, gewerkschaftlich führend im DHV. tätig, Gründer mehrerer
+            <lb/>DNSAP.-Ortsgruppen in Nord-Mähren und Schlesien, Beamter bei
+            <lb/>der Kohlen-Gewerkschaft Dux-Bodenbacher Eisenbahn, Karlsbad,
+            <lb/>1924/25 Verlagsgehilfe im Verlag Erich Matthes, Leipzig; 1926
+            <lb/>bis 1933 selbständiger Buchhändler in Elbogen bei Karlsbad, in der
+            <lb/>Zeit führend in der sudetendeutschen Turnbewegung tätig, ab
+            <lb/>1. Oktober 1933 erster Mitarbeiter Konrad Henleins in der Sudeten-
+            <lb/>deutschen Heimatfront. Hauptleitungsmitglied der Partei, vom
+            <lb/>19. Mai 1935 bis 1. Oktober 1938 Abgeordneter der SdP. im tschecho¬
+            <lb/>slowakischen Parlament, seit 1936 Stellvertreter Konrad Henleins und
+            <lb/>Leiter der politischen Zentralkanzlei der Bewegung in Prag. Vom
+            <lb/>17. September bis 10. Oktober 1938 Freikorpsführer im Sudeten-
+            <lb/>deutschen Freikorps. Ab 30. Oktober 1938 Stellvertretender Gauleiter
+            <lb/>des Gaues Sudetenland der NSDAP, und Stellvertreter des Reichs¬
+            <lb/>kommissars für die sudetendeutschen Gebiete.</p>
+            <p>
+               <lb/>Hausmann, Anton; Kreisleiter; Tetschen a. d. E., Gröschl-Straße 2.</p>
+            <p>
+               <lb/>Geboren am 11. Juni 1899 in Schönbach im Egerland; katholisch.
+            <lb/>Besuchte Volksschule in Schönbach und Gymnasium in Eger. 1917,
+            <lb/>als noch nicht 18jähriger, zur Kriegsdienstleistung eingerückt. Front¬
+            <lb/>dienst an der italienischen Front, Görz, in den sieben Gemeinden und
+            <lb/>im Grappagebiet. Im Oktober 1918 mehrfach ausgezeichnet, als
+            <lb/>Fähnrich in der Reserve abgerüstet. Jus-Studium an der Deutschen
+            <lb/>Universität in Prag. Seit 1921 Schriftleiter, seit 1938 Hauptschrift-
+            <lb/>leiter. In allen völkischen Verbänden, insbesondere im Deutschen
+            <lb/>Turnverband tätig. Von 1931 bis zur Auflösung der DNSAP. und
+            <lb/>Einstellung der DNP. erster Bürgermeisterstellvertreter der Stadt
+            <lb/>Tetschen. Im Oktober 1933 Beitritt zur Sudetendeutschen Heimat¬
+            <lb/>front Konrad Henleins, Amtswalter der SdP. Konrad Henleins,
+            <lb/>Bezirksleiter. Nach der Befreiung des Sudetengaues von Konrad
+            <lb/>Henlein zum Kreisleiter berufen.</p>
+            <p>
+               <lb/>Henlein, Konrad; Gauleiter und Reichskommissar, ^-Gruppen¬
+            <lb/>führer, Major d. R.; Reichenberg, Heinrich-Liebigstraße 26.</p>
+            <p>
+               <lb/>Geboren am 6. Mai 1898 in Maffersdorf bei Reichenberg; evan¬
+            <lb/>gelisch A. B. Volksschule, Handelsakademie in Gablonz a. N., ging</p>
+            <p>
+               <lb/>22</p>
+            <pb
+xml:id="img_0023"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>Mjährig im Frühjahr 1915 freiwillig ins Feld, kämpfte bei den
+            <lb/>Kaiserjägern, dann beim J.-R. 27 an der Südfront (Mte. Sief,
+            <lb/>Sieben Gemeinden, Asiago), geriet in italienische Gefangenschaft (auf
+            <lb/>der Insel Asinara bis August 1919), Bankbeamter in Gablonz a. N.,
+            <lb/>1925 hauptberuflich als Turnlehrer beim ältesten sudetendeutschen
+            <lb/>Turnverein in Asch, 1926 Gauturnwart des Egerlandes, 1931 mann¬
+            <lb/>schaftlicher Führer des Deutschen Turnverbandes, den er als völkische
+            <lb/>Kampf- und Erziehungsbewegung ausbaute. Am 1. Oktober 1933
+            <lb/>nach der Auflösung der DNSAP. und der Deutschen Nationalpartei
+            <lb/>Aufruf zur Sudetendeutschen Heimatfront, später Sudetendeutsche
+            <lb/>Partei, die bald das gesamte völkische Sudetendeutschtum in ihren
+            <lb/>Reihen faßt. Mai 1935 großer Wahlsieg, durch den die SdP. die
+            <lb/>stärkste Partei im tschechoslowakischen Parlamente wird. Auslands¬
+            <lb/>reisen, besonders nach England, welche die Dringlichkeit einer Lösung
+            <lb/>der sudetendeutschen Frage als europäisches Problem bestärken. Ein¬
+            <lb/>bringung der Volksschutzgesetze im Parlament. Wahl zum Präsidenten
+            <lb/>des Verbandes der Deutschen Volksgruppen in Europa, 1938 Ver¬
+            <lb/>kündung der 8 Karlsbader Punkte als Vorschlag zur Lösung des
+            <lb/>Nationalitätenproblems der Tschecho-Slowakei. Anfang September
+            <lb/>1938 auf Aufforderung Lord Runcimans Besuch beim Führer auf
+            <lb/>dem Obersalzberg. Gründung des Sudetendeutschen Freikorps. Nach
+            <lb/>dem Einmarsch der deutschen Truppen im Sudetenland Berufung
+            <lb/>zum Reichskommissar für die Sudetendentschen Gebiete und zum
+            <lb/>Gauleiter des Sudetengaues durch den Führer.</p>
+            <p>
+               <lb/>Honig, Julius; Kreisleiter; Zwittan (Schönhengstgau), Dammstraße
+            <lb/>Nr. 13.</p>
+            <p>
+               <lb/>Geboren am 21. Juli 1902 in Zwittan; katholisch. Besuchte die
+            <lb/>Volksschule und die Realschule in Zwittan. Mußte wegen des Todes
+            <lb/>zweier Brüder im Weltkriege vorzeitig das Studium unterbrechen
+            <lb/>und im väterlichen Betriebe, einer Zementwarenerzeugung, arbeiten.
+            <lb/>Praktizierte im Jahre 1922 in einem größeren Betonwerk in Cottbus.
+            <lb/>War seit den Anfängen der nationalsozialistischen Bewegung im
+            <lb/>Sudetenlande einer der ersten Mitkämpfer, erster Obmann der
+            <lb/>nationalsozialistischen Jugendgruppe in Zwittan. Bundesleitungs¬
+            <lb/>mitglied des Bundes der Deutschen und Gauschwimmwart des Deut¬
+            <lb/>schen Turnverbandes. Hat seit dem Jahre 1934 als Bezirksleiter der
+            <lb/>Sudetendeutschen Partei den Aufbau der Bewegung im Bezirke
+            <lb/>Zwittan durchgeführt. Wurde infolge seiner nationalen Betätigung
+            <lb/>des öfteren von den Tschechen in die Haft des Kreisgerichtes und des
+            <lb/>Konzentrationslagers genommen. Seit dem Frühjahr 1938 bis zur
+            <lb/>Abtretung des sudetendeutschen Gebietes Mitglied der Landesver¬
+            <lb/>tretung des Landes Mähren-Schlesien in Brünn. Nach der Über¬
+            <lb/>nahme der SdP. in die NSDAP. Beauftragter für den Kreisaufbau
+            <lb/>des Kreises M.-Trübau, zur Zeit Kreisleiter im gleichen Kreise.</p>
+            <p>
+               <lb/>23</p>
+            <pb
+xml:id="img_0024"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>Jaroschek, Walther; Kreisleiter, Kaufmann; Freiwaldau-Gräfen-
+            <lb/>berg, Kurhaus Silesia.</p>
+            <p>
+               <lb/>Geboren am 22. Februar 1903 in Freiwaldau; röm.-katholisch.
+            <lb/>Volksschule, Realgymnasium Freiwaldau, Handelsakademie mit
+            <lb/>Matura 1918 bis 1922 Olmütz, Speditionsbeamter in .Wien von
+            <lb/>1922 bis 1925. Ab 1925 Spediteur und Kaufmann in Freiwaldau-
+            <lb/>Gräfenberg und Kurhausleiter Gräfenberg. Von frühester Jugend
+            <lb/>im Deutschen Turnverband und in völkischen Jugendbewegungen. 1921
+            <lb/>Leiter des nationalen Jugendrings, Olmütz, 1925 Führungsämter in
+            <lb/>Turnverbandsgliederungen. 1934/35 Ortsleiter der SdP., ab 15. Ja¬
+            <lb/>nuar 1936 Bezirksleiter der SdP. Eine Reihe politischer Schutzgesetz¬
+            <lb/>prozesse, darunter 2V2 Monate Haft. Seit Oktober 1938 Beauftragter
+            <lb/>für den Aufbau der NSDAP., Kreis Freiwaldau.</p>
+            <p>
+               <lb/>Jobst, Adolf; Gauamtsleiter, Kunstmaler; Krummau a. d. Moldau,
+            <lb/>Flößberg 279.</p>
+            <p>
+               <lb/>Geboren am 10. Mai 1900 in Krummau a. d. Moldau, Böhmer¬
+            <lb/>wald; katholisch. Besuchte Volksschule und Bürgerschule, Gymnasium
+            <lb/>in Krummau. 1914 bis 1916 Hilfsarbeiter, 1916 bis 1918 Fotograf
+            <lb/>und als Maler tätig. 1918 von den Tschechen wegen Werbung für
+            <lb/>Freikorps verhaftet; Flucht nach Dalmatien, von dort nach Italien;
+            <lb/>Studien als Maler. Rückkehr in die Heimat, Restaurator für Süd¬
+            <lb/>böhmen. Studien in Deutschland und Frankreich. Seit 1934 politisch
+            <lb/>in der SdP. tätig. 1935 als Abgeordneter im tschecho-slowakischen
+            <lb/>Parlament und 1937 bis zur Auflösung als Kreisleiter des Kreises IX
+            <lb/>der SdP. tätig. Am 16. September 1938 Flucht vor den Tschechen,
+            <lb/>von da bis zur Befreiung der Heimat Führer des Sudetendeutschen
+            <lb/>Freikorps Gruppe II.</p>
+            <p>
+               <lb/>Klieber (Budau), Guido, Dipl. a§r., Dr. xwLI.; Bauer; Budau, zur
+            <lb/>Zeit Berlin NW 7, Reichsministerium des Innern, Dorotheenstr. 49.</p>
+            <p>
+               <lb/>Geboren am 12. September 1898 in Pomeisl, Bezirk Podersam;
+            <lb/>röm.-katholisch. Besuchte die Volksschule, das humanistische Gym¬
+            <lb/>nasium in Pilsen, als 17jähriger zum Heeresdienst eingezogen, nach
+            <lb/>zweimaliger Verschüttung in der 11. Jsonzoschlacht im Jahre 1918
+            <lb/>als kriegsdienstuntauglich aus dem Heeresdienste entlassen, studierte
+            <lb/>die Rechtswissenschaften an der Karl-Ferdinands-Universität in
+            <lb/>Prag (1918/19). Absolvierte das landwirtschaftliche Studium am
+            <lb/>Landwirtschaftlichen Institut der Universität Halle-Wittenberg in
+            <lb/>Halle a. d. S. (1919/22), promovierte zum Dr. pdLI. in Halle a. d. S.,
+            <lb/>1923 als Volontär und Versuchsleiter auf dem landwirtschaftlichen
+            <lb/>Versuchsgute Uhrineves bei Prag, 1924/26 Referent für Pflanzen¬
+            <lb/>schutz und Schädlingsbekämpfung beim „Verein für chemische und</p>
+            <p>
+               <lb/>24</p>
+            <pb
+xml:id="img_0025"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>metallurgische Produktion" in Aussig a. d. Elbe, 1926/33 Übernahme
+            <lb/>der Leitung des väterlichen landwirtschaftlichen Betriebes (Saatgut¬
+            <lb/>wirtschaft), Mai 1935 Wahl zum Abgeordneten der SdP. im Tschecho-
+            <lb/>Slowakischen Parlamente, Leiter der Jnterventionsstelle des gemein¬
+            <lb/>samen Klubs der Abgeordneten und Senatoren der SdP., Geschäfts¬
+            <lb/>führender Parlamentarier dieses gemeinsamen Klubs. September/
+            <lb/>Oktober 1938 Leiter der Nachrichtenabteilung beim Stabskommando
+            <lb/>des Sudetendeutschen Freikorps, ab 13. Oktober 1938 Beauftragter
+            <lb/>des Gauleiters und Reichskommissars Konrad Henlein in Berlin.</p>
+            <p>
+               <lb/>Köllner, Fritz, Dr. jur.; Gauorganisationsleiter des Gaues Sudeten-
+            <lb/>land, SA.-Brigadeführer, Bankbeamter; Reichenberg, Kammerberg¬
+            <lb/>straße 17.</p>
+            <p>
+               <lb/>Geboren am 5. Mai 1901 in Karlsbad; röm.-katholisch. Besuchte
+            <lb/>die Volks- und Untermittelschule in Karlsbad und legte eben dort
+            <lb/>die Reifeprüfung an der Handelsakademie ab. Als Ortsgruppen- und
+            <lb/>Kreisleiter im Sudetendeutschen Wandervogel führend in der Jugend¬
+            <lb/>bewegung tätig. 1924/25 aktive Dienstleistung im tschechisch-slowakischen
+            <lb/>Heer; bereits vorher und nachher tätig als Bankbeamter in Reichen¬
+            <lb/>berg und Prag; Vertrauensmann der Beamtenschaft und Mitglied
+            <lb/>des Zentralvorstandes des Bankbeamtenverbandes; Vorturner und
+            <lb/>Dietwart im deutschen Männerturnverein Prag; 1928 bis 1932 als
+            <lb/>Werkstudent an der Universität in Prag studiert und 1932 zum
+            <lb/>Doktor der Rechte promoviert; am 1. Oktober 1933 vom Gründer der
+            <lb/>„Sudetendeutschen Heimatfront" Konrad Henlein mit dem organisa¬
+            <lb/>torischen Aufbau beauftragt; seither Organisationsleiter der Heimat¬
+            <lb/>front, später der Sudetendeutschen Partei und seit 5. November 1938
+            <lb/>Gauorganisationsleiter des Gaues Sudetenland der NSDAP. Vom
+            <lb/>4. Januar 1934 bis 16. Februar 1934 in tschechischer Untersuchungs¬
+            <lb/>haft wegen Verdachts staatsfeindlicher Tätigkeit. Vom 19. Mai 1935
+            <lb/>bis zur Befreiung Abgeordneter der Sudetendeutschen Partei im
+            <lb/>tschecho-slowakischen Parlament. Nach Übertritt der Parteiführung
+            <lb/>auf Reichsgebiet September 1938 Führer der Gruppe Schlesien des
+            <lb/>Sudetendeutschen Freikorps Konrad Henlein. Am 1. Oktober 1938
+            <lb/>von Konrad Henlein mit dem Neuaufbau der Partei in den sudeten¬
+            <lb/>deutschen Gebieten beauftragt.</p>
+            <p>
+               <lb/>Kottek, Alfred, I)r. jur.; Kreisparteirichter, Landrat; Znaim
+            <lb/>(Niederdonau), Mackensengasse 9.</p>
+            <p>
+               <lb/>Geboren am 23. März 1906 in Znaim; röm.-katholisch. Besuchte
+            <lb/>die Volksschule und Oberrealschule in Znaim. Abitur 1923. Er¬
+            <lb/>gänzungsabitur in Latein 1924 am Gymnasium in Nikolsburg.
+            <lb/>Juristische Studien an der Deutschen Universität in Prag, dabei ein</p>
+            <p>
+               <lb/>25</p>
+            <pb
+xml:id="img_0026"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>Jahr Aufenthalt in Berlin zur politischen Schulung. Promotion zum
+            <lb/>Dr. jur. in Prag 1929. 18 Monate Dienst im tschecho-slowakischen
+            <lb/>Heer mit Absolvierung der Offiziersschule. Sodann Rechtsanwalts¬
+            <lb/>anwärter, Zuletzt in der mähr. Sprachinselstadt Jglau. Daselbst seit
+            <lb/>Ende 1934 Bezirksleiter der SdP., seit März 1935 Kreisleiter für
+            <lb/>den Wahlkreis X (Südmähren), seit Januar 1936 mit dem Sitze in
+            <lb/>Znaim, und zwar bis zur Aufgliederung des Wahlkreises X in drei
+            <lb/>NSDAP.-Kreise am 6. Dezember 1938. Seit Januar 1936 Anwalt
+            <lb/>in Znaim bis Ende 1938. Übernahme in den Staatsdienst.</p>
+            <p>
+               <lb/>Kraus (Hohenelbe), Josef; Kommissarischer Kreisleiter, Kino-
+            <lb/>Angestellter; Hohenelbe, Adolf-Hitler-Straße.</p>
+            <p>
+               <lb/>Geboren am 13. August 1903 in Hohenelbe; röm.-katholisch. Be¬
+            <lb/>suchte Volks- und Bürgerschule, erlernte Lichtspielvorführer, war
+            <lb/>beschäftigt in Hohenelbe, Gablonz, Eger und Prag. 1922 bis 1924
+            <lb/>Militärdienstzeit. Korporal. Mitbegründer der Sudetendeutschen
+            <lb/>Partei im Jahre 1933, Gründung von Ortsgruppen im Kreise
+            <lb/>Hohenelbe. Bezirksleiter der Sudetendeutschen Partei seit dem Jahre
+            <lb/>1935. Vizebürgermeister der Stadt Hohenelbe seit dem 12. Juni
+            <lb/>1938.</p>
+            <p>
+               <lb/>Krautzberger, Franz, vr. ror. pol.; HJ.-Führer des Gebietes
+            <lb/>Sudetenland; Reichenberg, Oberrosenthal, Röchlitzer Str. 415.</p>
+            <p>
+               <lb/>Geboren am 23. Juli 1913 in Karlsbad; katholisch. Besuchte
+            <lb/>Volksschule und Realgymnasium in Karlsbad, seit 1931 in der
+            <lb/>nationalsozialistischen Jugendarbeit tätig, studierte Staatswissen¬
+            <lb/>schaften in Prag und Wien, promovierte 1936 in Wien, wurde als
+            <lb/>Schulungsleiter an die Turnschule Asch berufen, führte am 8. Mai
+            <lb/>1938 den Zusammenschluß der sudetendeutschen Jugend in der
+            <lb/>„Sudetendeutschen Volksjugend" durch, wurde im Oktober 1938 mit
+            <lb/>der k. Führung des Gebietes Sudetenland der HI. betraut.</p>
+            <p>
+               <lb/>Krczal, Gottfried (Friedl); SA.-Sturmhauptführer, Oberrechnungs¬
+            <lb/>rat a. D.; Reichenberg, Komeniusstraße 2.</p>
+            <p>
+               <lb/>Geboren am 26. Oktober 1885 in Bergen, Bezirk Nikolsburg, Gau
+            <lb/>Niederdonau; altkatholisch. Besuchte die Volksschule in Bergen und
+            <lb/>die Ober-Realschule in Znaim, Gau Niederdonau. Ab 1. Dezember
+            <lb/>1903 bis 21. Dezember 1935 Beamter der Arbeiter-Unfallversiche¬
+            <lb/>rungsanstalt für Mähren und Schlesien, Sitz Brünn. Außerberuflich
+            <lb/>führend tätig in der völkischen Schutzarbeit und in der völkischen
+            <lb/>Turnbewegung; bekleidete folgende Ämter:1Obmannstellvertreter</p>
+            <p>
+               <lb/>im Gau Süd-Mähren des „Bundes der Deutschen", Obmann des</p>
+            <p>
+               <lb/>26</p>
+            <pb
+xml:id="img_0027"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>Turngaues Süd-Mähren und Obmannstellvertreter des Deutschen
+            <lb/>Turnverbandes, ausgezeichnet mit dessen höchsten Ehrenzeichen. Im
+            <lb/>Weltkriege Frontoffizier im südmährischen Infanterieregiment Nr. 99,
+            <lb/>Znaim. Ab Mai 1935 Senator der „Sudetendeutschen Partei" im
+            <lb/>tschecho-slowakischen Parlament, ab 1. Oktober 1936 Schatzmeister, ab
+            <lb/>1. Mai 1938 oberster Richter der SdP. Ab 23. September 1938 bis
+            <lb/>7. Oktober 1938 in Haft der tschechischen Polizei in Brünn.</p>
+            <p>
+               <lb/>Kreißt, Anton, Dr. jur.; Leiter des Gauamtes für Kommunalpolitik
+            <lb/>und Leiter der Abtlg. I des Amtes des Reichskommissars in Reichen¬
+            <lb/>berg; Bodenbach, Gabelsbergerstraße 1125.</p>
+            <p>
+               <lb/>Geboren am 11. Februar 1895 in Hochlibin bei Podersam; evan¬
+            <lb/>gelisch. Besuchte die Volksschule und das Ober-Realgymnasium in
+            <lb/>Tetschen, studierte Rechtswissenschaft in Prag und Innsbruck, Pro¬
+            <lb/>movierte 1921 in Innsbruck zum Dr. Lur. 1921 bis 1926 Rechts¬
+            <lb/>anwaltsanwärter und von 1926 bis 1. Oktober 1938 Rechtsanwalt
+            <lb/>in Bodenbach. Nach Eingliederung der sudetendeutschen Gebiete in
+            <lb/>das Amt des Reichskommissars berufen. 1915 bis 1918 Kriegsdienst-
+            <lb/>leistung als Offizier beim J.-R. 42.11919 Gründer des sudeten¬</p>
+            <p>
+               <lb/>deutschen nationalsozialistischen Studentenbundes in Prag und
+            <lb/>1. Vorsitzender. Gründer des sudetendeutschen nationalsozialistischen
+            <lb/>Iuristenbundes und Vorsitzender bis zur Auflösung im Herbst 1933.
+            <lb/>Verteidiger der sudetendeutschen nationalsozialistischen Abgeordneten
+            <lb/>und vieler anderer Nationalsozialisten. 1936 in den Führungsrat
+            <lb/>der SdP. berufen und zum Hauptleiter für Selbstverwaltung bestellt.</p>
+            <p>
+               <lb/>Künzel (Reichenberg), Franz: Gauamtsleiter, Diplom-Landwirt,
+            <lb/>Dipl.-Ing., Verbandsleiter des Verbandes der sudetenländischen
+            <lb/>landwirtschastl. Genossenschaften — Raiffeisen e. V.; Reichenberg,
+            <lb/>Heinrich-Liebig-Straße.</p>
+            <p>
+               <lb/>Geboren am 3. März 1900 in Oberrosenthal bei Reichenberg;
+            <lb/>römisch-katholisch. Besuchte Volksschule Katharinberg, Oberrealschule
+            <lb/>Reichenberg, Kriegsreifeprüfung 1918, 1918 Kriegsdienstleistung bei
+            <lb/>k. u. k. Jnf.-Regt. 42.11919 bis 1923 landwirtschaftliche Akademie</p>
+            <p>
+               <lb/>bzw. landwirtschaftliche Abteilung der deutschen technischen Hochschule
+            <lb/>zu Prag in Tetschen-Liebwerda besucht. 1924 bis 1930 Lehrer an
+            <lb/>der Deutschen Bauernschule zu Großullersdorf. 1930 bis 1935
+            <lb/>Revisor beim Zentralverband der deutschen landwirtschastl. Genossen¬
+            <lb/>schaften Mährens, Schlesiens und der Slowakei in Brünn, 1932 bis
+            <lb/>1933 Dozent am pädagogischen Seminar des Landwirtschaftsmini¬
+            <lb/>steriums in Prag, 1935 bis 1937 Leiter des Amtes für Agrarpolitik
+            <lb/>und Bauernfragen der SdP. in Prag, 1938 Leiter des Amtes für
+            <lb/>Volksorganisation, 1935 bis 1938 Mitglied der Hauptleitung bzw. des</p>
+            <p>
+               <lb/>27</p>
+            <pb
+xml:id="img_0028"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>Führungsrates und politischen Ausschusses der SdP., 1935 bis 1938
+            <lb/>Mitglied des Abgeordnetenhauses der tschechoslowakischen National¬
+            <lb/>versammlung in Prag, 1936 bis 1938 Mitglied des Sudetendeutschen
+            <lb/>Bauernrates. Derzeit Gauamtsleiter des Gaugrenzlandamtes, Gau¬
+            <lb/>beauftragter der Volksdeutschen Mittelstelle, Verbandsleiter der
+            <lb/>sudetenländischen landwirtschaftlichen Genossenschaften — Raiffeisen
+            <lb/>e. V.</p>
+            <p>
+               <lb/>Lammel, Richard; Gauamtsleiter, früher Chemiker; Gablonz a. d. N.,
+            <lb/>Reinowitzer Str. 35.</p>
+            <p>
+               <lb/>Geboren am 2. Februar 1899 in Grünwald bei Gablonz; römisch-
+            <lb/>katholisch. Besuchte Volksschule, Staatsunterrealgymnasium und
+            <lb/>höhere Staatsgewerbeschule, chem.-techn. Abteilung in Reichenberg.
+            <lb/>Unterbrach 1917 das Studium. 1917 bis 1918 Kriegsdienstleistung
+            <lb/>beim k. k. Kaiserschützenregiment Nr. II. 1919 bis 1920 Beendigung
+            <lb/>des Studiums. Ab 1920 Chemiker, später Betriebsleiter in einem
+            <lb/>chemischen Unternehmen. 1933, 1934 Organisationsleiter der SdP.,
+            <lb/>1935, 1936 wieder Chemiker und ehrenamtlich in der Hauptleitung
+            <lb/>der SdP. 1936 bis 1938 Personalchef und Stabsleiter der SdP.
+            <lb/>1938 Sudetendeutsches Freikorps, Gaupersonalamisleiter des Gaues
+            <lb/>Sudetenland.</p>
+            <p>
+               <lb/>May, Franz; SA.-Gruppensührer, Führer der SA.-Gruppe Su¬
+            <lb/>deten; Niedergrund 303 bei Warnsdorf.</p>
+            <p>
+               <lb/>Geboren am 24. Januar 1903 in Warnsdorf; katholisch. Besuchte
+            <lb/>Volks- und Bürgerschule in Niedergrund, lernte Gärtner, besuchte
+            <lb/>höhere Gartenbauschule in Eisgrub 1918 bis 1921. Gärtner in Thü¬
+            <lb/>ringen. Biologie-Studium an der Universität Halle-Wittenberg.
+            <lb/>Gründung einer eigenen Gärtnerei. — Politische und völkische Be¬
+            <lb/>tätigung in der Jugendorganisation und im Bund der Deutschen.
+            <lb/>Mitglied der DNSAP. 1933 sofort der Sudetendeutschen Partei bei-
+            <lb/>getreten, zum Beauftragten für Nordböhmen ernannt. Februar 1934
+            <lb/>zum Leiter des Wahlkreises Böhmisch-Leipa gewählt. 19. Mai 1935 in
+            <lb/>das tschechoslowakische Parlament gewählt. 19. September 1938 mit der
+            <lb/>Führung des Sudetendeutschen Freikorps Gruppe 2 beauftragt. Am
+            <lb/>15. Oktober 1938 vom Führer mit der Führung der SA.-Gruppe
+            <lb/>Sudeten beauftragt und zum Gruppenführer ernannt.</p>
+            <p>
+               <lb/>Oberlik, Gustav Adolf; komm. Kreisleiter, Professor, beurl. Leiter
+            <lb/>des Amtes für Leibesübungen; Gablonz a. N., Hauptstr. 7/II.</p>
+            <p>
+               <lb/>Geboren am 6. Februar 1905 in Mähr.-Kromau; römisch-katholisch.
+            <lb/>Besuchte Volksschule in Gablonz a. N., Staatsrealgymnasium,</p>
+            <p>
+               <lb/>28</p>
+            <pb
+xml:id="img_0029"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>Deutsche Universität in Prag und Leipzig, 1929 staatliche Lehramts¬
+            <lb/>prüfung in den Fachgruppen Turnen — Tschechisch für deutsche Mittel¬
+            <lb/>schulen, anschließend aktive Militärdienstzeit in der tschechisch-slowaki¬
+            <lb/>schen Armee, Unterleutnant der Kavallerie i. d. R., 6. Dragoner¬
+            <lb/>regiment in Brünn, Professor an der deutschen Handelsschule in
+            <lb/>Käsmark (Zipser Sprachinsel), 1931 als Leiter des Amtes für Leibes¬
+            <lb/>übungen nach Gablonz a. N. berufen. Bundesleiter des Bundes der
+            <lb/>Freischaren in Prag, 1933 Orts-, Bezirks- und Kreisleiter der SdP.,
+            <lb/>1935 Abgeordneter der SdP. im tschechisch- slowakischen Parlament.</p>
+            <p>
+               <lb/>Peschka, Ernst; Gauamtsleiter, Ingenieur; Reichenberg, Birken¬
+            <lb/>allee 1.</p>
+            <p>
+               <lb/>Geboren am 20. Juni 1900 in Mährisch-Trübau; römisch-katholisch.
+            <lb/>Besuchte Volks- und Bürgerschule, Gymnasium in Mähr. - Trübau,
+            <lb/>Abitur, deutsche technische Hochschule in Brünn, Elektrofach; 2. Staats¬
+            <lb/>prüfung, Diplom. Von 1923 bis 1926 Assistent an der Lehrkanzel für
+            <lb/>Wirtschaftswissenschaften der deutschen technischen Hochschule Brünn.
+            <lb/>1934 bis 1935 Referent für Wirtschaftsfragen in der Hauptleitung der
+            <lb/>Sudetendeutschen Heimatfront (SdP.). 1935 bis 1938 Leiter des
+            <lb/>Hauptamtes für Handwerk und Handel in der SdP. 1938 Bundes-
+            <lb/>führerstellvertreter des Bundes der Deutschen. Vom 19. Mai 1935
+            <lb/>Abgeordneter der SdP. im Prager Parlament. Gauhandwerkswalter
+            <lb/>der DAF., Gau Sudetenland. Beauftragter für Handwerk und Handel
+            <lb/>in der Gauleitung der NSDAP., Gau Sudetenland. Beauftragter
+            <lb/>Landeshandwerksmeister des Gaues Sudetenland seit Dezember 1938.</p>
+            <p>
+               <lb/>Pfrogner, Anton; Arbeitsgauführer, Hauptmann a. D.; Ga¬
+            <lb/>blonz a. N., Gebirgsstraße 48.</p>
+            <p>
+               <lb/>Geboren am 28. September 1886 in Klein-Chotieschau, Gemeinde
+            <lb/>Ullitz; katholisch. Volksschule, 5 Klassen Realschule, Kadettenschule
+            <lb/>Wien, 1907 Fähnrich beim Kaiserschützenregiment Bozen Nr. II,
+            <lb/>Zugskommandant, Bergführer, Skilehrer, Telegraphenoffizier, Pio¬
+            <lb/>nieroffizier, Adjutant, 1912 zum Gebirgs-Schützenregiment Klagen-
+            <lb/>furt Nr. 1,11914 Zugs- und Kompanie-Kommandant, verwundet</p>
+            <p>
+               <lb/>am 26. August 1914 (Knieschuß) in Ostgalizien bei Przemislanh,
+            <lb/>1915 Frühjahr Karpatenfront Kompanie- und Bataillonskom¬
+            <lb/>mandant. Sommer 1915 ital. Front (Flitscher Becken), 1916 in ital.
+            <lb/>Kriegsgefangenschaft, 1917 als Austauschinvalider zurück. Nachrichten¬
+            <lb/>offizier bei den Generalstabsabteilungen der 11. Armee und der
+            <lb/>Heeresgruppe Conrad v. Hölzendorf. 1918 entlassen (Kriegsauszeich¬
+            <lb/>nungen: Mil.-Verd.-Kreuz III. Klasse, Signum laudis (Silber),
+            <lb/>Signum laudis (Bronze), Karl Truppenkreuz, Verwundeten¬
+            <lb/>medaille), versucht Organisation des Widerstandes gegen die Tschechen,</p>
+            <p>
+               <lb/>29</p>
+            <pb
+xml:id="img_0030"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>1919 ins landw. Genossenschaftswesen, zuletzt Direktor der Lager¬
+            <lb/>hausgenossenschaft Mies und Präsident des Genossenschaftsbundes im
+            <lb/>Sudetenland, seit 1933 Mitarbeiter Konrad Henleins, Bauernführer,
+            <lb/>Hauptleiter für Agrarpolitik und Bauernfragen bis Herbst 1938, seit
+            <lb/>1935 Senator des tschecho-slowakischen Parlaments (Budgetausschuß,
+            <lb/>Außenpolitik). Frühjahr 1938 Organisierung des Sudetendeutschen
+            <lb/>Nährstandes, Herbst 1938 Stabschef des Sudetendeutschen Freikorps,
+            <lb/>Führer des Ausbaustabes des RAD. für den Sudetengau, dann
+            <lb/>Arbeitsgauführer.</p>
+            <p>
+               <lb/>Preibsch, Hubert, Dr. jur.; Arbeitsdienstführer; Mähr.-Schönberg,
+            <lb/>Adolf-Hitler-SLr. 3.</p>
+            <p>
+               <lb/>Geboren am 2. November 1892 in Johannesthal; katholisch. Be¬
+            <lb/>suchte die Volksschulen in Friedeberg, Hotzenplotz und Weidenau, die
+            <lb/>Gymnasien in Weidenau und Mähr.-Schönberg, studierte Rechts¬
+            <lb/>wissenschaft in Wien 1912 bis 1914 und nach dem Kriege in Inns¬
+            <lb/>bruck 1919, Promovierte in Innsbruck zum vr. jur. Gerichts¬
+            <lb/>praktikant in Mähr.-Schönberg 1919 bis 1920, Rechtsanwalts¬
+            <lb/>anwärter 1920 bis 1921. Ab Februar 1921 bis 1938 Banernsekretär
+            <lb/>der Organisation der deutschen Landwirte Mährens in Brünn. Am
+            <lb/>19. Mai 1935 zum Landesvertreter für Mähren-Schlesien gewählt
+            <lb/>und von Konrad Henlein als Landesausschußbeisitzer der Sudelen¬
+            <lb/>deutschen Partei berufen. — 1914 Kriegsfreiwilliger im k. u. k.
+            <lb/>Jnf.-Reg. Nr. 93, Felddienst als Zug- und Kompanieführer, Kar¬
+            <lb/>pathen, Alpen, 1918 Unterrichtsoffizier bei Jnf.-Reg. 119.</p>
+            <p>
+               <lb/>Raschka, Rudolf; Gauamtsleiter, Diplomlandwirt, Landesbauern¬
+            <lb/>führer; Rosenthal I bei Reichenberg, Schulgasse 296.</p>
+            <p>
+               <lb/>Geboren am 12. Oktober 1907 in Mähr.-Budwitz; evangelisch A. B.
+            <lb/>Volksschule und Gymnasium in Jglau, Hochschule für Bodenkultur
+            <lb/>in Wien, Adjunkt auf dem Gut Ält-Prerau bei Nikolsburg, Gau¬
+            <lb/>geschäftsführer der Organisation der deutschen Landwirte Mährens
+            <lb/>in Mähr.-Trübau, Leiter der deutschen Bauernschule in Groß-Ullers-
+            <lb/>dorf, Hauptamtsleiter der Sudetendeutschen Partei (Amt für Agrar¬
+            <lb/>politik und Bauernfragen), Hauptamtsleiter des Sudetendeutschen
+            <lb/>Nährstandes in Prag.</p>
+            <p>
+               <lb/>Richter (Reichenberg), Wolsgang; Gauamtsleiter, SA.-Standarten-
+            <lb/>führer, Dipl.-Jng.; Reichenberg, Felgenhauerstraße 9.</p>
+            <p>
+               <lb/>Geboren am 14. Juni 1901 in Röchlitz, Kreis Reichenberg; evan¬
+            <lb/>gelisch A. B. Besuchte die deutsche Staatsrealschule in Reichenberg,
+            <lb/>studierte an der Bauingenieur-Abteilung der deutschen technischen</p>
+            <p>
+               <lb/>30</p>
+            <pb
+xml:id="img_0031"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>Hochschule in Prag von 1919 bis 1924, anschließend daran V2 Jahr
+            <lb/>aktive Dienstzeit beim tschechosl. Pionier-Regiment 3 in Komorn.
+            <lb/>Ab 1925 berufstätig als Bauingenieur und seit 1931 als behördlich
+            <lb/>autorisierter Zivilingenieur für das Bauwesen. Im Mai 1935 als
+            <lb/>Mitglied der Sudetendeutschen Partei ins Prager Abgeordnetenhaus
+            <lb/>gewählt, stellvertretender Vorsitzender des Parlamentarischen Klubs
+            <lb/>der Abgeordneten der SdP. Hauptleiter der Sudetendeutschen Partei
+            <lb/>im Amt für Industrie und Wirtschaftsorganisation. Als Wirtschafts¬
+            <lb/>beauftragter seit September 1938 für die Angliederung der sudeten¬
+            <lb/>deutschen Wirtschaft an die Wirtschaft des Deutschen Reiches tätig.
+            <lb/>Derzeit Gauwirtschaftsberater und Leiter der Wirtschaftsabteilung
+            <lb/>des Reichskommissars in Reichenberg.</p>
+            <p>
+               <lb/>Rosche, Alfred, vr. zur.; Parteiamtswalter im Sudetengau,
+            <lb/>Rechtsanwalt; Nixdorf, Nr. 478; Z. Zt. Berlin IV 8, Wilhelmstr. 64
+            <lb/>(Verbindungsstab der NSDAP.).</p>
+            <p>
+               <lb/>Geboren am 2. August 1884 in Schluckenau/Sudetengau; katholisch.
+            <lb/>Neuntes Kind einer Kaufmannsfamilie, nach absolvierter Volks- und
+            <lb/>Bürgerschule und Gymnasium Studium der Rechtswissenschaft auf den
+            <lb/>Universitäten Graz und Prag 1906 bis 1911, im März 1911 Pro¬
+            <lb/>motion in Graz zum Dr. zur., 1911/12 Gerichtsjahr beim Oberlandes¬
+            <lb/>gericht und Landesgericht in Graz, 1912 bis 1914 Beginn der Rechts¬
+            <lb/>anwaltspraxis in Schluckenau, 1915 (Januar) bis zum Zusammen¬
+            <lb/>bruch 1918 im Weltkriege. Freiwillig zur Kriegsdienstleistung ge¬
+            <lb/>meldet, nach kurzer Ausbildung freiwillig an die Front. An derselben
+            <lb/>am Jsonzo, in Tirol und Italien, Serbien, Mazedonien und Albanien
+            <lb/>gestanden, u. a. fünf Jsonzoschlachten 1915/16 und die Tiroler Offen¬
+            <lb/>sive Mai 1916 mitgemacht. Im Juni 1916 in Italien am Lima
+            <lb/>Asareo sehr schwer durch Granate verwundet mit 13 monatiger Läh¬
+            <lb/>mung. Nach dieser Verwundung, wiewohl kriegsdienstuntauglich,
+            <lb/>abermals freiwillig an die Front gemeldet. Mehrfache Kriegsaus¬
+            <lb/>zeichnungen. Als Oberleutnant aus dem Kriege zurückgekehrt, an die
+            <lb/>Spitze der Heimkehrer der engeren Heimat gestellt, von den Tschechen
+            <lb/>wegen nationaler Unzuverlässigkeit zum Kanonier degradiert. Hier¬
+            <lb/>auf 1919/20 selbständiger Rechtsanwalt in Graz, ab 1920 in derselben
+            <lb/>Eigenschaft in Nixdorf/Sudetengau. Führend in den völkischen Schutz¬
+            <lb/>verbänden und dem deutschen Turnverbande tätig. 1926 bis 1938 bis
+            <lb/>zur Befreiung durch den Führer sudetendeutscher Abgeordneter im
+            <lb/>tschechoslowakischen Parlamente. 1928/29 Landesvertreter für Böhmen.
+            <lb/>Ab 1. Oktober 1933, seit dem Aufrufe Konrad Henleins, für und in
+            <lb/>der Sudetendeutschen Partei politisch tätig. Von Konrad Henlein in
+            <lb/>den Verhandlungen mit den maßgeblichen politischen tschechischen Fak¬
+            <lb/>toren mit besonderen Missionen betraut. Zuletzt von Konrad Hen¬
+            <lb/>lein in die von ihm eingesetzte Verhandlungsdelegation für die Ver-</p>
+            <p>
+               <lb/>31</p>
+            <pb
+xml:id="img_0032"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>Handlungen mit der tschechoslowakischen Regierung und Lord Run-
+            <lb/>ciman und seiner Mission entsendet. Bei dem politischen Umbrüche,
+            <lb/>wie alle Amtswalter der SdP., von den Tschechen politisch verfolgt,
+            <lb/>sofort zum Freikorps gemeldet, dortselbst Nachrichtenkommandant des
+            <lb/>Freikorps, Gruppe Dresden, und zur Hauptleitung der SdP., nachher
+            <lb/>Verbindungsmann des Reichskommissars Konrad Henlein zum Chef
+            <lb/>der Zivilverwaltung der Heeresgruppe des Generaloberst von Bock
+            <lb/>in Dresden, nach vorübergehender Tätigkeit im Gaupersonalamte der
+            <lb/>SdP. in Reichenberg, derzeit Mitglied der internationalen Schadens¬
+            <lb/>kommission zwischen dem Deutschen Reiche und der Tschechoslowakei
+            <lb/>und Beauftragter des Stillhaltekommissars für Organisationen in
+            <lb/>den sudelendeutschen Gebieten für Berlin und Prag. SA.-Sturm-
+            <lb/>bannführer.</p>
+            <p>
+               <lb/>Sandner (Asch), Anton; Leiter der sudetendeutschen Turnschule;
+            <lb/>Asch, vr. Eckener-Straße 2266.</p>
+            <p>
+               <lb/>Geboren am 17. August 1906 in Graslitz; römisch-katholisch. Volks¬
+            <lb/>schule, Realgymnasium in Graslitz, Matura 1925, Hochschule in
+            <lb/>Berlin und Prag. Hochschule für Leibesübungen in Berlin, dort¬
+            <lb/>selbst Prüfung als Diplom-Turn- und Sportlehrer 1930. Vier-
+            <lb/>semestriger akademischer Turn- und Sportlehrgang an der Friedrich-
+            <lb/>Wilhelm-Universität. Prüfung 1930. Sechssemestriger Turnlehrer¬
+            <lb/>bildungskurs an der Universität in Prag. Prüfung 1931. Seit 1932
+            <lb/>Lektor für Leibesübungen an der Universität und Deutschen tech¬
+            <lb/>nischen Hochschule in Prag. 1930 bis 1937 Leiter der körperlichen
+            <lb/>Erziehung der Hochschuljugend. Seit 1932 Lehrauftrag für die kör¬
+            <lb/>perliche Erziehung an der Deutschen pädagogischen Akademie in Prag.
+            <lb/>Seit 1937 Leiter der Turnschule, Sitz Asch. Seit 1928 am Aufbau
+            <lb/>der völkischen Turnbewegung im Sudentenland beteiligt, als Mit¬
+            <lb/>arbeiter des damaligen Verbandsturnwartes Konrad Henlein, als
+            <lb/>Jugendführer des Deutschen Turnverbandes, als Leiter der Turn¬
+            <lb/>schule. — Seit November 1938 Sportwart des Sudetengaues DRL.,
+            <lb/>Sportreferent der SA.-Gruppe Sudeten, Ausbildungsleiter der
+            <lb/>Partei (Sudetengau).</p>
+            <p>
+               <lb/>Sandner (Eger), Rudolf; Gauamtsleiter, SA.-Standartenführer;
+            <lb/>Eger, Gausbuhlstraße 18.</p>
+            <p>
+               <lb/>Geboren am 27. Februar 1905 in Karlsbad; römisch-katholisch.
+            <lb/>Volksschule, 5 Klassen Gymnasium, Gartenbau erlernt, später Ver¬
+            <lb/>tragsbeamter und Wohlfahrtspfleger, schließlich Journalist. Bei
+            <lb/>Gründung der Sudetendeutschen Partei 1. Oktober 1933 in deren
+            <lb/>Leitung berufen. Zunächst Pressearbeit, schließlich Hauptagitator.
+            <lb/>Seit Weihnachten 1933 Mitglied der Hauptleitung der SdP. Nach</p>
+            <p>
+               <lb/>32</p>
+            <pb
+xml:id="img_0033"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>dem Wahlsieg 1935 Vorsitzender der parlamentarischen Fraktion
+            <lb/>(Spitzenkandidat Wahlkreis Reichenberg im Abgeordnetenhaus). 1936
+            <lb/>bis 1938 Propagandachef der SdP.</p>
+            <p>
+               <lb/>Schicketanz (Reichenberg), Rudolf, Dr. jur.; Gauamtsleiter, Rechts¬
+            <lb/>anwalt; Reichenberg, Bergring 13.</p>
+            <p>
+               <lb/>Geboren am 11. September 1900 in Niemes, Kreis Leipa; römisch-
+            <lb/>katholisch. Besuchte die Volksschule in Niemes, das Gymnasium in
+            <lb/>Leipa, studierte Rechtswissenschaft in Prag 1918 bis 1922, promo¬
+            <lb/>vierte in Prag zum Dr. jur., Rechtsanwaltsanwärter in Niemes und
+            <lb/>Leipa bis 1927; hierauf bis 1938 Rechtsanwalt in Haida und sodann
+            <lb/>in Reichenberg. Sonderbeauftragter der SdP., Leiter der Kommission
+            <lb/>für Nationalitätenrechte in der SdP. und Mitglied der Verhand¬
+            <lb/>lungsdelegation der SdP. mit der tschecho-slowakischen Regierung.</p>
+            <p>
+               <lb/>Stiebitz, Franz; Bauer; Pistian 31, Post Czalositz.</p>
+            <p>
+               <lb/>Geboren am 24. Juli 1899 in Techobusitz, Kreis Leitmeritz; römisch-
+            <lb/>katholisch. Volksschule, Realschule (Reifezeugnis), März 1917 Ein¬
+            <lb/>jährig-Freiwilliger im schweren Feldartillerie-Regiment Nr. 26, Leit¬
+            <lb/>meritz. Reserveoffizierschule. 12 Monate Frontdienst, 1918 bis 1922
+            <lb/>landwirtschaftliche Akademie und landwirtschaftliche Abteilung der
+            <lb/>technischen Hochschule Tetschen-Liebwerda besucht. Diplomlandwirt und
+            <lb/>Jngenieurdiplom. 1935 Kreisbauernführer der SdP. 1936 Vorsitzender
+            <lb/>des sudetendeutschen Bauernrates, 1938 Vorsitzender der Geschäfts¬
+            <lb/>stelle der deutschen Land- und Forstwirtschaft in der Tschecho-Slowa-
+            <lb/>kei. Bataillonsführer im sudetendeutschen Freikorps, Landeshaupt¬
+            <lb/>abteilungsleiter II und Mitglied des Reichsbauernrates.</p>
+            <p>
+               <lb/>Viererbl, Karl, Dr. Ml.; Schriftleiter am „Völkischen Beob¬
+            <lb/>achter"; Berlin-Lichterfelde-West, Margaretenstraße 16.</p>
+            <p>
+               <lb/>Geboren am 24. Juli 1903 in Komotau, Sudetengau; gottgläubig.
+            <lb/>Volksschule, hum. Gymnasium in Komotau, studierte 1922 bis 1926
+            <lb/>an der Deutschen Universität in Prag Geschichte, Germanistik, Philo¬
+            <lb/>sophie und Geographie, promovierte 1926 zum Dr. Ml., anschließend
+            <lb/>Staatsexamina. 1927 bis 1930 Lehrer an der deutschen Privat¬
+            <lb/>mittelschule in Kladno, 1931 Schriftleiter beim „Saazer Anzeiger",
+            <lb/>dann bei der „Deutschösterreichischen Tageszeitung", ehem. Ostdeutsche
+            <lb/>Rundschau des Abg. K. H. Wolfs in Wien. Noch im gleichen Jahr
+            <lb/>Hauptschriftleiter des Zentralorgans der sudetendeutschen DNSAP.
+            <lb/>„Der Tag" und in dieser Eigenschaft Mitglied deren Reichsleitung.
+            <lb/>Nach Auflösung der Partei Übersiedlung nach Deutschland. Hier seit
+            <lb/>1. Januar 1934 Mitglied der außenpolitischen Schriftleitung des „Völ¬
+            <lb/>kischen Beobachters". Seit 1935 Dozent an der Hochschule für Politik.</p>
+            <p>
+               <lb/>33</p>
+            <pb
+xml:id="img_0034"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>Wenzel (Reichenberg), Rudolf; ^-Sturmbannführer, Persönlicher
+            <lb/>Referent des Reichskommissars Konrad Henlein, Dipl.-Jng., Archi¬
+            <lb/>tekt; Reichenberg, Kammerbergstraße 11.</p>
+            <p>
+               <lb/>Geboren am 11. Oktober 1904 in Karbitz, Sudetengau; katholisch.
+            <lb/>Volksschule, Staatsrealschule in Aussig, ein Jahr tschechische Bürger¬
+            <lb/>schule in Kroöehlanh, Deutsche Technische Hochschule in Prag, 1929
+            <lb/>freischaffender Architekt, ab 1935 Hauptleiter der Sudetendeutschen
+            <lb/>Partei, 1938 im Sudetendeutschen Freikorps.</p>
+            <p>
+               <lb/>Wollner, Georg; Kreisleiter, Schlosser; Karlsbad, Anzengruber-
+            <lb/>Straße, Villa „Ernst".</p>
+            <p>
+               <lb/>Geboren am 15. Dezember 1903 in Asch; protestantisch. Besuchte
+            <lb/>die Volks- und Bürgerschule und erlernte das Schlosserhandwerk.
+            <lb/>Nach der Auslehre zur weiteren Berufsausbildung in Deutschland
+            <lb/>und stand dann im Dienste der Firma Päsold in Meisten. Nach der
+            <lb/>Auflösung der DNSAP., deren Mitglied er war, meldete er sich am
+            <lb/>1. Oktober 1933 bei Konrad Henlein. Wurde als gründendes Mit¬
+            <lb/>glied der Ortsgruppe Fleissen der Sudetendeutschen Heimatfront zum
+            <lb/>Ortsleiter gewählt, 1934 zum Bezirksleiter für die Bezirke Eger und
+            <lb/>Wildstein. Als Vertreter der Arbeiterschaft zu Konrad Henlein berufen,
+            <lb/>hauptamtlich bis zur Befreiung in der SdP. tätig. Am 10. März 1935
+            <lb/>zum Kreisleiter des Egerland-Kreises mit einer Einwohnerschaft von
+            <lb/>520 000 gewählt und kam als Spitzenkandidat seines Kreises durch die
+            <lb/>Wahl am 19. Mai 1935 in das Prager Abgeordnetenhaus. Im Kampfe
+            <lb/>mit politischen Gegnern 1935 in Sternberg und 1937 in Eger leicht ver¬
+            <lb/>letzt, am 17. Februar 1938 in einer gegnerischen Versammlung von
+            <lb/>rückwärts niedergeschlagen und schwer verletzt. Im letzten Entschei¬
+            <lb/>dungskampfe führend in der Heimat beteiligt.</p>
+            <p>
+               <lb/>34</p>
+            <pb
+xml:id="img_0035"/>
+            <p>
+               <lb/>Bildnisse</p>
+            <p>
+               <lb/>der Mitglieder des Reichstags
+            <lb/>aus den suöetenöeutschen Gebieten</p>
+            <p>
+               <lb/>(Wahl am 4. Dezember 1938)</p>
+            <pb
+xml:id="img_0036"/>
+            <pb
+xml:id="img_0037"/>
+            <p>
+               <lb/>Bildnisse</p>
+            <p>
+               <lb/>Photo: G, Krenz-Jägerndorf</p>
+            <p>
+               <lb/>Barwig</p>
+            <p>
+               <lb/>Photo: M. Schuster-Asch</p>
+            <p>
+               <lb/>Brandner</p>
+            <p>
+               <lb/>Dietl</p>
+            <p>
+               <lb/>Photo' Czpharz-Znaim</p>
+            <p>
+               <lb/>Bornemann</p>
+            <p>
+               <lb/>Birke</p>
+            <p>
+               <lb/>Bürger</p>
+            <p>
+               <lb/>vr. David</p>
+            <p>
+               <lb/>Photo: I. Zcman-Tannwald</p>
+            <p>
+               <lb/>Dreßler</p>
+            <p>
+               <lb/>Dr. Eichholz</p>
+            <p>
+               <lb/>3»</p>
+            <p>
+               <lb/>37</p>
+            <pb
+xml:id="img_0038"/>
+            <p>
+               <lb/>Bildnisse</p>
+            <p>
+               <lb/>Photo: Laurer L Blechschmidt</p>
+            <p>
+               <lb/>Frank (Marienbad)</p>
+            <p>
+               <lb/>Dr. Feitenhansl</p>
+            <p>
+               <lb/>Hausmann</p>
+            <p>
+               <lb/>Henlein</p>
+            <p>
+               <lb/>Polyfoto</p>
+            <p>
+               <lb/>Zobst</p>
+            <p>
+               <lb/>Iaroschek</p>
+            <p>
+               <lb/>Photo: Rob. Röber-Magdeburg</p>
+            <p>
+               <lb/>Frank (Reichenberg)</p>
+            <p>
+               <lb/>Photo: Sandau-Beclin</p>
+            <p>
+               <lb/>vr. Klieber (Budau)</p>
+            <p>
+               <lb/>38</p>
+            <pb
+xml:id="img_0039"/>
+            <p>
+               <lb/>Bildnisse</p>
+            <p>
+               <lb/>Dr. Köllner</p>
+            <p>
+               <lb/>Photo: Karl Nathcr-Znaim</p>
+            <p>
+               <lb/>Di'. Kottek</p>
+            <p>
+               <lb/>Dr. Krauhberger</p>
+            <p>
+               <lb/>Krczal</p>
+            <p>
+               <lb/>Künzel (Reichenberg)</p>
+            <p>
+               <lb/>Lammet</p>
+            <p>
+               <lb/>Kraus (Hohenelbe)</p>
+            <p>
+               <lb/>Photo: Gürtlcr-Rumburg</p>
+            <p>
+               <lb/>May</p>
+            <p>
+               <lb/>3U</p>
+            <pb
+xml:id="img_0040"/>
+            <p>
+               <lb/>Bildnisse</p>
+            <p>
+               <lb/>Oberlik</p>
+            <p>
+               <lb/>Peschka</p>
+            <p>
+               <lb/>Dr. Preibsch</p>
+            <p>
+               <lb/>Raschka</p>
+            <p>
+               <lb/>Photo: Prenzel-Bcrlin</p>
+            <p>
+               <lb/>vr. Rosche</p>
+            <p>
+               <lb/>Photo: M, Schuster-Asch</p>
+            <p>
+               <lb/>Sandner (Asch)</p>
+            <p>
+               <lb/>Photohans Erdmann-Aussig</p>
+            <p>
+               <lb/>Richter (Reichenberg)</p>
+            <p>
+               <lb/>Sandner (Eger)</p>
+            <p>
+               <lb/>40</p>
+            <pb
+xml:id="img_0041"/>
+            <p>
+               <lb/>Bildnisse</p>
+            <p>
+               <lb/>Dr. Schicketanz
+            <lb/>(Reichenberg)</p>
+            <p>
+               <lb/>Dr. Viererbl</p>
+            <p>
+               <lb/>Stiebitz</p>
+            <p>
+               <lb/>Wenzel (Reichenberg)</p>
+            <p>
+               <lb/>Wollncr</p>
+            <p>
+               <lb/>41</p>
+            <pb
+xml:id="img_0042"/>
+            <pb
+xml:id="img_0043"/>
+            <p>
+               <lb/>Änderungen im Handbuch
+            <lb/>Der Großöeutsche Reichstag 1938,
+            <lb/>herausgegeben im Juni 1938</p>
+            <p>
+               <lb/>Berichtigungen</p>
+            <p>
+               <lb/>im Abschnitt Lebensbeschreibungen:</p>
+            <p>
+               <lb/>a)1Freiherr von Bardolff (Seite 152). In der 13. Zeile muß es
+            <lb/>heißen: Bataillons- und dann Regimentskommandant (usw.).</p>
+            <p>
+               <lb/>b)1Seite 182. Der Lebenslauf Daluege lautet wie folgt:</p>
+            <p>
+               <lb/>Daluege, Kurt; -Obergruppenführer, Chef der Ordnungspolizei
+            <lb/>beim Reichsführer und Chef der Deutschen Polizei im Reichs-
+            <lb/>ministerium des Innern; General der Polizei, Preußischer
+            <lb/>Staatsrat. Wahlkr. 3 (Berlin Ost).</p>
+            <p>
+               <lb/>Geboren am 15. September 1897 in Kreuzburg/O. S.; gott¬
+            <lb/>gläubig. Realgymnasium, Abiturium, Feldzugsteilnahme, von
+            <lb/>1916 bis 1918 bei einer Sturmdivision, West- und Ostfront, 1918
+            <lb/>schwer verwundet. Praktische Tätigkeit im Maschinenbau, 1923
+            <lb/>Staatsexamen als Dipl.-Jng., später technischer und kauf¬
+            <lb/>männischer Hilfsarbeiter im Landwirtschaftsministerium, Bau¬
+            <lb/>leiter im Hoch- und Tiefbau, von 1927 bis 1933 als Abteilungs¬
+            <lb/>leiter im Kommunaldienst Berlin tätig. Daluege gründet am
+            <lb/>22. März 1926 aus verschiedenen völkischen Verbänden und
+            <lb/>Formationen die SA. für Berlin und Norddeutschland; Führer
+            <lb/>der Berliner SA. und stellvertretender Gauleiter bis 1928, wird
+            <lb/>dann mit der Führung der Berliner und später der norddeutschen
+            <lb/>Schutzstaffeln beauftragt; ab 1932 Führer der -Gruppe Ost.
+            <lb/>In dieser Eigenschaft vom Führer wiederholt mit schwierigen
+            <lb/>politischen Aufgaben beauftragt. Mitglied des Preußischen Land¬
+            <lb/>tages 1932/1933; Berichterstatter des Polizeiuntersuchungsaus-
+            <lb/>schusses im Preußischen Landtag und Referent für Polizeifragen
+            <lb/>in der nationalsozialistischen Landtagsfraktion. Preußischer
+            <lb/>Staatsrat seit 1933. Befehlshaber der Polizei in Preußen,</p>
+            <p>
+               <lb/>4 Der Großdeutsche Reichstag (Nachtrag)</p>
+            <p>
+               <lb/>43</p>
+            <pb
+xml:id="img_0044"/>
+            <p>
+               <lb/>Berichtigungen</p>
+            <p>
+               <lb/>Befehlshaber der Landespolizei mit dem Range eines General¬
+            <lb/>leutnants der Landespolizei; 1936 vom Führer zum General der
+            <lb/>Polizei ernannt und unter dem Reichsführer tt und Chef der
+            <lb/>Deutschen Polizei mit der Führung der gesamten uniformierten
+            <lb/>Polizei des Reiches (Ordnungspolizei) beauftragt. — Mitglied
+            <lb/>des Reichstags seit der 9. Wahlperiode 1933.</p>
+            <p>
+               <lb/>e) vr. Leh (Seite 300). In der 6. Zeile muß es für „evangelisch"
+            <lb/>heißen: gottgläubig.</p>
+            <p>
+               <lb/>ä) Seite 354. Die 10. und 11. Zeile von oben müssen lauten:
+            <lb/>Reichelt, Willy; SA.-Standartenführer, Steuerinspektor; Ma¬
+            <lb/>rienberg (Sachsen), Scheffelstr. 3. Wahlkr. 28 (Dresden-Bautzen).</p>
+            <p>
+               <lb/>e) Seite 355. (Reiner sDarrnstadts). In der 3. Zeile von oben ist
+            <lb/>hinter „Gauleiter" anzufügen: e. h.</p>
+            <p>
+               <lb/>k) Simon (München) (Seile 408). In der 4. Zeile muß es für
+            <lb/>„katholisch" heißen: gottgläubig.</p>
+            <p>
+               <lb/>44</p>
+            <pb
+xml:id="img_0045"/>
+            <p>
+               <lb/>Änderungen im Mitgliederbestand,
+            <lb/>Seiten 144 folgende des Handbuchs
+            <lb/>vom Juni 1938</p>
+            <p>
+               <lb/>4*</p>
+            <p>
+               <lb/>45</p>
+            <pb
+xml:id="img_0046"/>
+            <p>
+               <lb/>Lebensbeschreibungen und Bildnisse
+            <lb/>der neu eingetretenen Mitglieder</p>
+            <p>
+               <lb/>(alphabetisch geordnet)</p>
+            <p>
+               <lb/>Bethke, Hermann; Gauamlsleiler, Vizepräsident am Oberpräsi¬
+            <lb/>dium; Königsberg (Pr), Schrötterstraße 70. Wahlkr. 1 (Ostpreußen).
+            <lb/>Am 15. Oktober 1938 für den ausgeschiedenen Abge¬
+            <lb/>ordneten von Walthausen eingetreten.</p>
+            <p>
+               <lb/>Geboren am 22. Januar 1900 in Strohsdorf, Kr. Pyritz (Pom¬
+            <lb/>mern); evangelisch. Sämtliche Vorfahren Bauern im Pyritzer
+            <lb/>Weizacker. Dorfschule, Humanistisches Gymnasium. Universitäten
+            <lb/>Tübingen, Berlin, Greifswald. 1922 Dr. zur. und Referendar.
+            <lb/>1925 Regierungsassessor. 1925 bis 1927 am Landratsamt Iserlohn.
+            <lb/>1927 bis 1932 an der Regierung in Königsberg (Pr). 1932 Präsident
+            <lb/>der Landwirtschaftskammer Ostpreußen. 1933 Vizepräsident am Ober¬
+            <lb/>präsidium. 1918/19 Soldat. 1921 Freikorpskämpfer in Oberschlesien.
+            <lb/>Ab 1929 Leiter der Gaurechtsstelle der NSDAP, in Ostpreußen.
+            <lb/>1932/33 Führer des ostpr. Arbeitsdienstes. Seit 1933 Gauamtsleiter
+            <lb/>ehrenhalber.</p>
+            <p>
+               <lb/>Engelbrecht, Otto; Reichshauptstellenleiter der NSDAP., Amts¬
+            <lb/>leiter bei der NSKOV.; München, Seefelder Str. 14. Wahlkr. S
+            <lb/>(Berlin Ost). Am 9. Dezember 1938 fürdenverstorbenen
+            <lb/>Abgeordneten Freiherr von Lindenfels einge¬
+            <lb/>treten.</p>
+            <p>
+               <lb/>Geboren am 7. Juni 1896 in Murnau; katholisch. Volksschule,
+            <lb/>Realschule, Handelshochschule, Kaufmann; Kriegsfreiwilliger und
+            <lb/>Kriegsverletzter. Mitglied der Thule-Gesellschaft im Jahre 1918/19.
+            <lb/>Nach dem Kriege im Freikorps Epp beim Einmarsch in München.
+            <lb/>1920 mit Freikorps Oberland im Ruhrgebiet. 1923 Mitglied der
+            <lb/>NSDAP., Teilnehmer am Marsch vom 9. November. 1926 Orts-</p>
+            <p>
+               <lb/>46</p>
+            <pb
+xml:id="img_0047"/>
+            <p>
+               <lb/>Lebensbeschreibungert</p>
+            <p>
+               <lb/>gruppenleiter der NSDAP., 1927 Bezirksleiter, 1930 Kreisleiter der
+            <lb/>NSDAP., 1931 Hauptangeklagter im Murnauer Saalschlacht-Pro-
+            <lb/>zeß, 1933 Organisationsleiter der NSKOV., ab 1936 Vertreter des
+            <lb/>Reichskriegsopferführers im Hauptamt für Kriegsopfer bei der
+            <lb/>Reichsleitung der NSDAP.</p>
+            <p>
+               <lb/>Freiherr Loeffelholz von Colberg, Kurt; Generalarbeitsführer und
+            <lb/>Inspekteur beim Reichsarbeitsführer, Major a. D.; Berlin-Grune-
+            <lb/>wald 1, Schinkelstraße 1—7. Wahlkr. 11 (Merseburg). Am 19. N o-
+            <lb/>vember 1938 für den verstorbenen Abgeordneten
+            <lb/>Stöhr (Schneidemühl) eingetreten.</p>
+            <p>
+               <lb/>Geboren am 27. September 1874 in Ansbach (Bayern); evangelisch.
+            <lb/>Volksschule; Human. Gymnasium zu Ansbach, Schwäbisch-Hall und
+            <lb/>Luitpold-Gymnasium zu München; Kriegsschule zu München;
+            <lb/>1906/09 Kriegsakademie Berlin; 1927/33 Studium der Medizin an
+            <lb/>der Universität München. — 1894 Offiziersaspirant im Jnf.-Leib-
+            <lb/>Regt. München; 1895 Portepee-Fähnrich; 1896 Leutnant; 1897 in
+            <lb/>das 20. Jnf.-Regt. versetzt; 1899 in das Jnf.-Regt. 81 nach Frank-
+            <lb/>furt a. M. versetzt; 1906 Oberleutnant; 1906 zur Kriegsakademie
+            <lb/>Berlin kommandiert; 1901/06 Batls.- u. Regts.-Adjutant; 1910/13
+            <lb/>Großer Generalstab; 1913 Hauptmann und Komp.-Chef im Füs.-
+            <lb/>Regt. Königin (Flensburg); im Kriege Komp.-Führer im Regiment;
+            <lb/>Ord.-Offizier beim Kreischef Dinant; zum stellv. Großen General¬
+            <lb/>stab Berlin; Batls.-Kommandeur in d. Res.-Jnf.-Brig. 84, 76, 31;
+            <lb/>im Oktober 1917 vor Arras schwer verwundet; Adjutant des General¬
+            <lb/>kommandos IX. Res.-Korps; 18. Dezember 1918 Abschied als Major.
+            <lb/>E. K. I. und II.; Meckl. I. und II.; Old. I. und II.; Hamb., Brem.,
+            <lb/>Lüb. Hanseatenkreuz; Hohenzollern-Ehrenkreuz; Verwundeten-Ab-
+            <lb/>zeichen. — Nach dem Kriege (1919) sogleich in die nationale Bewe¬
+            <lb/>gung eingetreten; 1920/23 Chef des Stabes der Großen Organisation
+            <lb/>des Obersten Hoffmann in Passau; am 9. November 1923 verwen¬
+            <lb/>dungsbereit in Niederbahern unter Adolf Hitler; 1924/27 im Ordens¬
+            <lb/>rat der Deutschen Ehrenlegion; ab 1924 für die NSDAP, in Bayern,
+            <lb/>vor allem Niederbahern, organisatorisch tätig; Redner in vielen Ver¬
+            <lb/>sammlungen, vor allem bei den Wahlkämpfen im ganzen Reich;
+            <lb/>schriftstellerische Tätigkeit beim „Völkischen Beobachter", dem „Hei¬
+            <lb/>matland", dem „Arminius"; 1929/30 1. Vorsitzender des Reichsver¬
+            <lb/>bandes Akadem. Kriegsteilnehmer; im Vorstand der Großdeutschen
+            <lb/>Studentenschaft (Langemarck-Verband). — Seit 1. April 1933 Führer
+            <lb/>im Arbeitsdienst; seit 1. November 1933 als Chef des Personalamtes
+            <lb/>der Reichsleitung des Arbeitsdienstes im Reichsarbeitsministerium;
+            <lb/>1935 als Reichsarbeitsdienst-Direktor in den RAD. überführt, im
+            <lb/>gleichen Jahr Generalarbeitsführer; 1. April 1937 Inspekteur für
+            <lb/>das gesamte Personalwesen des Reichsarbeitsdienstes.</p>
+            <p>
+               <lb/>47</p>
+            <pb
+xml:id="img_0048"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>Poxleitner, Georg; Kreisleiter, SA.-Sturmbannführer, Landes¬
+            <lb/>gruppenleiter; Berlin-Charlottenburg 9, Eschenallee 34. Wahlkr. 28
+            <lb/>(Dresden-Bautzen). Am 10. September 1938 für den ver¬
+            <lb/>storbenen Abgeordneten Burghardt (Dresden) ein¬
+            <lb/>getreten.</p>
+            <p>
+               <lb/>Geboren am 31. Juli 1898 in Freyung v. W.; gottgläubig. Be¬
+            <lb/>suchte die Volkshauptschule zu Freyung v. W., dann das Gymnasium
+            <lb/>zu Passau (1910 bis 1919), hierauf das Lehrerseminar zu Straubing
+            <lb/>(1920). 1924 Lehrerstaatsexamen, 1925 Hilfslehrer in Neureichenau,
+            <lb/>1926 Lehrer in Klafferstraß, von 1931 bis 1933 Lehrer in Perlesreut,
+            <lb/>ab 1. Juni 1933 nach Passau berufen, 1933 zum Hauptlehrer be¬
+            <lb/>fördert. 1929 bis 1931 Gemeinderatsmitglied der NSDAP, der Ge¬
+            <lb/>meinde Klafferstraß, 15. April bis 1. Juni 1933 Bürgermeister der
+            <lb/>Marktgemeinde Perlesreut und Bezirkstagsmilglied im Bezirk Wolf¬
+            <lb/>stein und ab Mai 1933 Kreistagsmitglied von Niederbahern/Ober-
+            <lb/>pfalz. Ab November 1933 bis 1. Juli 1936 Bezirkstagsmitglied und
+            <lb/>komm. Bürgermeister von Vilshofen. — Von 1916 bis 1918 Front¬
+            <lb/>soldat. Verwundeten-Abzeichen, E. K. II., Frontkreuz. 1919 Frei¬
+            <lb/>korps Passau (Epp), 1920 Landaufgebot Straubing. 1932 wegen
+            <lb/>SA.-Appell zu 3 Monaten Gefängnis verurteilt. In der NSDAP,
+            <lb/>tätig seit 1921 als SA.-Führer, Ortsgruppenleiter, Redner, 1926 bis
+            <lb/>1937 Kreisleiter. 1935 NSV.-Gaubeauftragter und Gauschulungs¬
+            <lb/>beauftragter Gau Bahr. Ostmark. 1936 bis 1937 Landesgruppenleiter
+            <lb/>BDO. und Bezirksobmann der NSV. Träger des Goldenen Ehren¬
+            <lb/>zeichens und des Gau-Ehrenzeichens Gau Bahr. Ostmark. — Mitglied
+            <lb/>des Reichstags während der 9. Wahlperiode 1933 und der 3. Wahl¬
+            <lb/>periode 1936.</p>
+            <p>
+               <lb/>Rauter, Hanns; ii-Oberführer; Berlin-Charlottenburg, Rüstern¬
+            <lb/>allee 18/1. — Österreich. Am 27. Oktober 1938 für den ver¬
+            <lb/>storbenen Abgeordneten Krauß (Wien) eingetreten.</p>
+            <p>
+               <lb/>Geboren am 4. Februar 1895 in Klagenfurt, Kärnten; gottgläubig.
+            <lb/>Volksschule, Oberrealschule, Abitur, 10 Semester Technische Hoch¬
+            <lb/>schule Graz. Als Kriegsfreiwilliger zum Kärntner-Gebirgsschützen-
+            <lb/>Regiment Nr. 1 eingerückt. Als Zugskommandant und Fähnrich der
+            <lb/>Reserve am 29. Oktober 1915 am Rhombon (Flitscher-Becken) schwer
+            <lb/>verwundet (35 o/o Kriegsinvalide). Dezember 1916 bis Februar 1918
+            <lb/>Adjutant des Kreiskommandos in Djakowa (Neu-Montenegro). Mai
+            <lb/>1918 bis Oktober 1918 Kompanieführer beim Feldregiment an der
+            <lb/>Piave. Oktober 1918 bis November 1918 Nachrichtenoffizier beim
+            <lb/>Armeegruppenkommando Albanien; verschiedene Kriegsauszeich¬
+            <lb/>nungen, darunter Silberne Tapferkeitsmed. I. Klasse; als Ober¬
+            <lb/>leutnant der Reserve nach dem Zusammenbruch heimgekehrt. Novem-</p>
+            <p>
+               <lb/>48</p>
+            <pb
+xml:id="img_0049"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>ber 1918 bis März 1919 Kompanieführer der Legion in Graz; am</p>
+            <p>
+               <lb/>12.1September 1919 Führer bei blutigen Kämpfen gegen Kommu¬
+            <lb/>nisten in Graz; Kärntner Freiheilskampf: Kompanieführer des Steir.
+            <lb/>Freikorps (Kärntner Kreuz für Tapferkeit); Winter 1919/20: Führer
+            <lb/>des Grazer freiwilligen Studentenarbeitsdienstes (Kohlenförderung
+            <lb/>in den weststeir. Kohlenrevieren). Bei der Kärntner Volksabstim¬
+            <lb/>mung 1920 Führer der beiden Studenten-Legionen Graz und Leoben,
+            <lb/>die als Abstimmungstruppe eingesetzt wurden; Mai 1921 Oberschle-
+            <lb/>fischer Abwehrkampf (Führer einer steir. Legion in Oberschlesien beim
+            <lb/>Freikorps Oberland, Schlesischer Adler); Burgenlandbesetzung: Führer
+            <lb/>eines österr. Freikorps; Obmann der Studentenkammer beider Hoch¬
+            <lb/>schulen in Graz. Führer des Studentenbatl. Graz durch 3 Jahre.
+            <lb/>Gründungsmitglied des Steirischen Heimatschutzes (1921), Stabs¬
+            <lb/>führer des nationalrevolutionären Heimatschutzes (1921 bis 1933).
+            <lb/>1928 zweiter Bundesstabsleiter der österr. Heimatwehrverbände;
+            <lb/>1930 erster Bundesstabsleiter der österr. Heimatwehrverbände;</p>
+            <p>
+               <lb/>13.1September 1931 als erster Bundesstabsleiter verhaftet anläßlich
+            <lb/>des Pfrimer-Putsches, Haft, Hochverratsanklage; führende Tätigkeit
+            <lb/>bei Loslösung der nationalen Heimatschutzverbände von der Starhem-
+            <lb/>berg-Heimwehr. November 1931 mit Landesinspekteur Habicht
+            <lb/>Kampfgemeinschaft zwischen NSDAP.-Osterreich und Steir. Heimat¬
+            <lb/>schutz durchgeführt. 1. Mai 1933 Überführung des Steir. Heimat¬
+            <lb/>schutzes in die NSDAP.; 1933 in die Landesleitung München der
+            <lb/>NSDAP, abkommandiert; vom 9. November 1933 bis September
+            <lb/>1934 Führer des Kampfringes der Deutsch-Österreicher im Reich;
+            <lb/>September 1933 von der Shstemregierung in Österreich ausgebürgert
+            <lb/>und steckbrieflich gesucht. Vom 4. August 1934 bis August 1938
+            <lb/>Stabsführer und Vertreter des Leiters des NSDAP.-Flüchtlings-
+            <lb/>hilfswerkes, Berlin. Als SA.-Führer vom Reichsführer am
+            <lb/>20. Februar 1936 als tt-Oberführer übernommen. Seit 20. Oktober
+            <lb/>1938 Stabsführer beim tt-Oberabschnitt Südost, Breslau.</p>
+            <p>
+               <lb/>Schund (Karlsruhe), Adolf; Gaupropagandaleiter, Leiter des
+            <lb/>Reichspropagandaamtes Baden; Karlsruhe, Karl-Hoffmann-Str. 8.
+            <lb/>Wahlkr. 32 (Baden). Am 12. Dezember 1938 für den aus¬
+            <lb/>geschiedenen Abgeordneten Dr. vr. Hackelsberger
+            <lb/>eingetreten.</p>
+            <p>
+               <lb/>Geboren am 1. Januar 1905 in Giengen a. Brenz, Württemberg; gott¬
+            <lb/>gläubig. Besuchte Volksschule, dann Oberrealschule bis zur mittleren
+            <lb/>Reife, dann kaufmännische Berufsausbildung, seit 1931 Schriftleiter,
+            <lb/>ab März bis August 1933 Hauptschriftleiter am Gauorgan der
+            <lb/>NSDAP. Baden „Der Führer", dann Pressereferent am Reichs¬
+            <lb/>propagandaamt Baden, ab Oktober 1934 Leiter dieses Amtes und
+            <lb/>Gaupropagandaleiter der NSDAP. Mitglied der Partei seit 1923,</p>
+            <pb
+xml:id="img_0050"/>
+            <p>
+               <lb/>Lebensbeschreibungen</p>
+            <p>
+               <lb/>Goldenes Reichsehrenzeichen. November 1930 zum Stadtrat der
+            <lb/>NSDAP, in Baden-Baden gewählt.</p>
+            <p>
+               <lb/>Solbrig, Max; Stellv. Gauleiter, SA.-Brigadeführer; Kassel,
+            <lb/>Keudellstraße 4. Wahlkr. 19 (Hessen-Nassau). Am 10. Septem¬
+            <lb/>ber 1938 für den verstorbenen Abgeordneten
+            <lb/>Schmidt Berlin) eingetreten.</p>
+            <p>
+               <lb/>Geboren am 15. Oktober 1889 in Gutenstein, Bez.-Amt Meßkirch;
+            <lb/>gottgläubig. Volksschule. Realgymnasium zu Chemnitz. Studium
+            <lb/>In England. Später Offizier. Feldzug 1914 bis 1918 an der West¬
+            <lb/>front. Nach dem Kriege kaufmännischer Angestellter in der Indu¬
+            <lb/>strie, zuletzt Prokurist. Anfang 1932 wegen Zugehörigkeit zu SA.
+            <lb/>And NSDAP, entlassen. Seit Mai 1933 hauptamtlicher SA.-Führer,
+            <lb/>zuletzt Stabsführer der SA.-Gruppe Berlin-Brandenburg. Seit
+            <lb/>4. Februar 1938 stellv. Gauleiter im Gau Kurhessen.</p>
+            <pb
+xml:id="img_0051"/>
+            <p>
+               <lb/>Bildnisse</p>
+            <p>
+               <lb/>Photoinnung-Berlin</p>
+            <p>
+               <lb/>Poxleitner</p>
+            <p>
+               <lb/>Rauter</p>
+            <p>
+               <lb/>Solbrig</p>
+            <p>
+               <lb/>Photo-Weber-München</p>
+            <p>
+               <lb/>Frhr. Loeffelholz
+            <lb/>von Colberg</p>
+            <p>
+               <lb/>Photo: W. Bauer-Karlsruhe</p>
+            <p>
+               <lb/>Schmid (Karlsruhe)</p>
+            <p>
+               <lb/>51</p>
+            <pb
+xml:id="img_0052"/>
+            <pb
+xml:id="img_0053"/>
+            <p>
+               <lb/>Verzeichnis öer Mitglieder
+            <lb/>des Großöeutschen Reichstags</p>
+            <p>
+               <lb/>(855 Abgeordnete)</p>
+            <p>
+               <lb/>-- Stand am 20. Januar 1939 --</p>
+            <p>
+               <lb/>Nationalsozialistische Deutsche Arbeiterpartei</p>
+            <p>
+               <lb/>845 Mitglieder, 10 Gäste *</p>
+            <p>
+               <lb/>Führer der Fraktion: Dr. Frick
+            <lb/>Geschäftsführer der Fraktion: Dr. Fabricius
+            <lb/>Stellvertretender Geschäftsführer der Fraktion:
+            <lb/>Dr. Fischer (Berlin)</p>
+            <p>
+               <lb/>5 Der Großdeutsche Reichstag (Nachtrag)</p>
+            <p>
+               <lb/>53</p>
+            <pb
+xml:id="img_0054"/>
+            <p>
+               <lb/>Mitgliederverzeichnis</p>
+            <p>
+               <lb/>Bormann (München)
+            <lb/>Born</p>
+            <p>
+               <lb/>Bornemann</p>
+            <p>
+               <lb/>Boschmann</p>
+            <p>
+               <lb/>Bouhler</p>
+            <p>
+               <lb/>Bracht</p>
+            <p>
+               <lb/>Brandner</p>
+            <p>
+               <lb/>Braß</p>
+            <p>
+               <lb/>Dr. Braun</p>
+            <p>
+               <lb/>Bredow</p>
+            <p>
+               <lb/>Breitenthaler</p>
+            <p>
+               <lb/>Breymann</p>
+            <p>
+               <lb/>Brockhausen</p>
+            <p>
+               <lb/>Bruckmann</p>
+            <p>
+               <lb/>Brückner (Berlin)</p>
+            <p>
+               <lb/>Brückner (Glogau)</p>
+            <p>
+               <lb/>Brusch</p>
+            <p>
+               <lb/>Buch</p>
+            <p>
+               <lb/>Büchner</p>
+            <p>
+               <lb/>Büchner</p>
+            <p>
+               <lb/>Bürckel</p>
+            <p>
+               <lb/>Bürger</p>
+            <p>
+               <lb/>Bunge</p>
+            <p>
+               <lb/>Dr. Burkhardt
+            <lb/>Busch</p>
+            <p>
+               <lb/>Dr. Buttmann</p>
+            <p>
+               <lb/>Camphausen</p>
+            <p>
+               <lb/>Christandl</p>
+            <p>
+               <lb/>Christoph</p>
+            <p>
+               <lb/>Claß*</p>
+            <p>
+               <lb/>Claussen</p>
+            <p>
+               <lb/>Herzog von Coburg
+            <lb/>von Corswant
+            <lb/>Croneiß
+            <lb/>Czarnowski</p>
+            <p>
+               <lb/>Dahlem</p>
+            <p>
+               <lb/>Daitz</p>
+            <p>
+               <lb/>Daluege</p>
+            <p>
+               <lb/>Damson</p>
+            <p>
+               <lb/>Dargel</p>
+            <p>
+               <lb/>Darre</p>
+            <p>
+               <lb/>Däuser</p>
+            <p>
+               <lb/>Dr. David</p>
+            <p>
+               <lb/>Dr. Decker</p>
+            <p>
+               <lb/>Dedeke</p>
+            <p>
+               <lb/>Deininger</p>
+            <p>
+               <lb/>Dempel</p>
+            <p>
+               <lb/>Dern</p>
+            <p>
+               <lb/>Dieckelmann</p>
+            <p>
+               <lb/>Diehl</p>
+            <p>
+               <lb/>Diehm</p>
+            <p>
+               <lb/>Diesenreiter</p>
+            <p>
+               <lb/>Diestelkamp</p>
+            <p>
+               <lb/>Dietl</p>
+            <p>
+               <lb/>Dr. Dietrich (Berlin)
+            <lb/>Dietrich (Coburg)</p>
+            <p>
+               <lb/>Dietrich (München)</p>
+            <p>
+               <lb/>Dippel</p>
+            <p>
+               <lb/>Doerr</p>
+            <p>
+               <lb/>Drauz</p>
+            <p>
+               <lb/>Drechsel</p>
+            <p>
+               <lb/>Dreher</p>
+            <p>
+               <lb/>Dreier (Bückeburg)</p>
+            <p>
+               <lb/>Drescher</p>
+            <p>
+               <lb/>Dreßler</p>
+            <p>
+               <lb/>Dreyer (Birkenfeld)</p>
+            <p>
+               <lb/>Drusche!</p>
+            <p>
+               <lb/>Dürrfeld</p>
+            <p>
+               <lb/>Duschön</p>
+            <p>
+               <lb/>Freiherr von Eberstein</p>
+            <p>
+               <lb/>Eckart</p>
+            <p>
+               <lb/>Eggeling</p>
+            <p>
+               <lb/>Dr. Eichholz</p>
+            <p>
+               <lb/>Eicke</p>
+            <p>
+               <lb/>Eigruber</p>
+            <p>
+               <lb/>Eisenkolb</p>
+            <p>
+               <lb/>Freiherr von Eltz-Rübenach
+            <lb/>Engel</p>
+            <p>
+               <lb/>Engelbrecht
+            <lb/>Engler-Füßlin
+            <lb/>Engler (Lauban)</p>
+            <p>
+               <lb/>Ritter von Epp</p>
+            <p>
+               <lb/>Erbersdobler</p>
+            <p>
+               <lb/>Ernst</p>
+            <p>
+               <lb/>Esel</p>
+            <p>
+               <lb/>Esser ,</p>
+            <p>
+               <lb/>Etterich</p>
+            <p>
+               <lb/>Dr. Dr. Everling *</p>
+            <p>
+               <lb/>Dr. Fabricius
+            <lb/>Fäthe
+            <lb/>Farny *</p>
+            <p>
+               <lb/>Faßbach</p>
+            <p>
+               <lb/>Feick</p>
+            <p>
+               <lb/>Dr. Feitenhansl
+            <lb/>Fiedler (Halle)</p>
+            <p>
+               <lb/>Fiedler (Zerbst)</p>
+            <p>
+               <lb/>Fiehler</p>
+            <p>
+               <lb/>Musch</p>
+            <p>
+               <lb/>54</p>
+            <pb
+xml:id="img_0055"/>
+            <p>
+               <lb/>Mitgliederverzeichnis</p>
+            <p>
+               <lb/>S5</p>
+            <pb
+xml:id="img_0056"/>
+            <p>
+               <lb/>Mitgliederverzeichnis</p>
+            <p>
+               <lb/>Helfrich</p>
+            <p>
+               <lb/>Gras von Helldorff</p>
+            <p>
+               <lb/>Dr. Hellmuth</p>
+            <p>
+               <lb/>Dr. von Helms</p>
+            <p>
+               <lb/>Henlein</p>
+            <p>
+               <lb/>Hennicke</p>
+            <p>
+               <lb/>Henningsen</p>
+            <p>
+               <lb/>Henze</p>
+            <p>
+               <lb/>Hergenröder</p>
+            <p>
+               <lb/>Heringlake</p>
+            <p>
+               <lb/>Herwig</p>
+            <p>
+               <lb/>Herzog</p>
+            <p>
+               <lb/>Heß</p>
+            <p>
+               <lb/>vr. Heuber</p>
+            <p>
+               <lb/>Heydrich</p>
+            <p>
+               <lb/>Heyse</p>
+            <p>
+               <lb/>Hiedler</p>
+            <p>
+               <lb/>Hierl</p>
+            <p>
+               <lb/>Hildebrandt (Schwerin)</p>
+            <p>
+               <lb/>Hildebrandt (Wiesbaden)</p>
+            <p>
+               <lb/>Hilgenfeldt</p>
+            <p>
+               <lb/>Himmler</p>
+            <p>
+               <lb/>Hinkel</p>
+            <p>
+               <lb/>Hinkler</p>
+            <p>
+               <lb/>Hintze</p>
+            <p>
+               <lb/>Hitler</p>
+            <p>
+               <lb/>Kitzler</p>
+            <p>
+               <lb/>vr. Hocheisen</p>
+            <p>
+               <lb/>Holzel</p>
+            <p>
+               <lb/>Honig</p>
+            <p>
+               <lb/>Hoevel</p>
+            <p>
+               <lb/>Hofer</p>
+            <p>
+               <lb/>Hosfmann (Essen)</p>
+            <p>
+               <lb/>Hofmann (Leipzig)</p>
+            <p>
+               <lb/>Hofmann (München)</p>
+            <p>
+               <lb/>Hogrefe</p>
+            <p>
+               <lb/>Hohoff</p>
+            <p>
+               <lb/>Holthoff</p>
+            <p>
+               <lb/>Holz</p>
+            <p>
+               <lb/>Hönisch</p>
+            <p>
+               <lb/>Horn</p>
+            <p>
+               <lb/>Horst</p>
+            <p>
+               <lb/>Huber (Ibach)</p>
+            <p>
+               <lb/>Huber (Reutlingen)</p>
+            <p>
+               <lb/>Hudl</p>
+            <p>
+               <lb/>Huebenett
+            <lb/>Dr. Hueber
+            <lb/>Hühnlein
+            <lb/>Hütgens
+            <lb/>Dr. Hugenberg*
+            <lb/>von Humann</p>
+            <p>
+               <lb/>Dr. Hunke</p>
+            <p>
+               <lb/>Jlbertz</p>
+            <p>
+               <lb/>Jrrgang</p>
+            <p>
+               <lb/>Jttameier</p>
+            <p>
+               <lb/>Jackstien
+            <lb/>Jäger (Köln)</p>
+            <p>
+               <lb/>vr. Jäger (Weißenkirchen)</p>
+            <p>
+               <lb/>Jaenke (Liegnitz)</p>
+            <p>
+               <lb/>von Jagow</p>
+            <p>
+               <lb/>Janowsky</p>
+            <p>
+               <lb/>Jaroschek</p>
+            <p>
+               <lb/>Jeckeln</p>
+            <p>
+               <lb/>Jenke (Breslau)</p>
+            <p>
+               <lb/>Jenzen</p>
+            <p>
+               <lb/>Jobst</p>
+            <p>
+               <lb/>Joel</p>
+            <p>
+               <lb/>Johlitz</p>
+            <p>
+               <lb/>John</p>
+            <p>
+               <lb/>Jonas</p>
+            <p>
+               <lb/>&gt; Jordan (Auerbach)</p>
+            <p>
+               <lb/>Jordan (Halle)</p>
+            <p>
+               <lb/>Jüttner
+            <lb/>Jung (Berlin)</p>
+            <p>
+               <lb/>! vr. Jung (München)
+            <lb/>j vr. Jury</p>
+            <p>
+               <lb/>Kackstein</p>
+            <p>
+               <lb/>Kalcher</p>
+            <p>
+               <lb/>Dr. Kaltenbrunner
+            <lb/>Kammerhofer
+            <lb/>Kampmann
+            <lb/>Freiherr von Kanne
+            <lb/>Kannengießer
+            <lb/>Karbach
+            <lb/>Karwahne
+            <lb/>Kasche ^</p>
+            <p>
+               <lb/>Kattwinkel</p>
+            <p>
+               <lb/>Dr. Katz</p>
+            <p>
+               <lb/>Kaufmann</p>
+            <p>
+               <lb/>Kaul</p>
+            <p>
+               <lb/>Kemper</p>
+            <p>
+               <lb/>Keppler</p>
+            <p>
+               <lb/>Kernmaier</p>
+            <p>
+               <lb/>Kerrl</p>
+            <p>
+               <lb/>Kiefer</p>
+            <p>
+               <lb/>Kiehn</p>
+            <p>
+               <lb/>Freiherr von Killinger</p>
+            <p>
+               <lb/>Klagges</p>
+            <p>
+               <lb/>Klausner</p>
+            <p>
+               <lb/>56</p>
+            <pb
+xml:id="img_0057"/>
+            <p>
+               <lb/>Mitgliederverzeichnis</p>
+            <p>
+               <lb/>Kleemann</p>
+            <p>
+               <lb/>Klein</p>
+            <p>
+               <lb/>Dr. Klieber (Budau)</p>
+            <p>
+               <lb/>Klieber (Liegnitz)</p>
+            <p>
+               <lb/>Klostermann</p>
+            <p>
+               <lb/>Knaup</p>
+            <p>
+               <lb/>Knaus</p>
+            <p>
+               <lb/>Knickmann</p>
+            <p>
+               <lb/>Knop</p>
+            <p>
+               <lb/>Kob</p>
+            <p>
+               <lb/>Koch</p>
+            <p>
+               <lb/>Köhler</p>
+            <p>
+               <lb/>Dr. Köllner</p>
+            <p>
+               <lb/>König</p>
+            <p>
+               <lb/>von Koerber</p>
+            <p>
+               <lb/>Körner (Berlin)</p>
+            <p>
+               <lb/>Körner (Sachsen)</p>
+            <p>
+               <lb/>Kohlmeyer</p>
+            <p>
+               <lb/>Dr. Kolb (Amberg)</p>
+            <p>
+               <lb/>Kolb (Bayreuth)</p>
+            <p>
+               <lb/>Koppe</p>
+            <p>
+               <lb/>Kopprasch</p>
+            <p>
+               <lb/>Kost</p>
+            <p>
+               <lb/>Dr. Kottek</p>
+            <p>
+               <lb/>von Kozierowski</p>
+            <p>
+               <lb/>Kraft</p>
+            <p>
+               <lb/>Kramer</p>
+            <p>
+               <lb/>Dr. Kraneck</p>
+            <p>
+               <lb/>Kraus (Hohenelbe)</p>
+            <p>
+               <lb/>Kraus (Pasing)</p>
+            <p>
+               <lb/>Krause</p>
+            <p>
+               <lb/>Kraut</p>
+            <p>
+               <lb/>Dr. Krautzberger</p>
+            <p>
+               <lb/>Krawielitzki</p>
+            <p>
+               <lb/>Krczal</p>
+            <p>
+               <lb/>Krebs</p>
+            <p>
+               <lb/>Dr. Kreißl</p>
+            <p>
+               <lb/>Kretzschmann</p>
+            <p>
+               <lb/>Krichbaum</p>
+            <p>
+               <lb/>Kriebel</p>
+            <p>
+               <lb/>Kropp</p>
+            <p>
+               <lb/>Krüger (Crossen)</p>
+            <p>
+               <lb/>Krüger (Frankfurt)</p>
+            <p>
+               <lb/>Kube</p>
+            <p>
+               <lb/>Kühle</p>
+            <p>
+               <lb/>Kühtz</p>
+            <p>
+               <lb/>Künzel (Reichenberg)
+            <lb/>Künzel (Stettin)
+            <lb/>Kuhnt</p>
+            <p>
+               <lb/>Kummerfeldt</p>
+            <p>
+               <lb/>Kunz</p>
+            <p>
+               <lb/>Kunze
+            <lb/>von Kursell
+            <lb/>Kutschera</p>
+            <p>
+               <lb/>Lammel</p>
+            <p>
+               <lb/>Lampe</p>
+            <p>
+               <lb/>Land</p>
+            <p>
+               <lb/>Langoth</p>
+            <p>
+               <lb/>Dr. Lapper</p>
+            <p>
+               <lb/>Lauterbacher</p>
+            <p>
+               <lb/>Lehmann (Köln)</p>
+            <p>
+               <lb/>Lehmann (Magdeburg)</p>
+            <p>
+               <lb/>Lenk
+            <lb/>Leopold
+            <lb/>Dr. Ley</p>
+            <p>
+               <lb/>Liebet (Berlin)</p>
+            <p>
+               <lb/>Liebel (Nürnberg)</p>
+            <p>
+               <lb/>Linder</p>
+            <p>
+               <lb/>Litzmann</p>
+            <p>
+               <lb/>Loch</p>
+            <p>
+               <lb/>Freiherr Loeffelholz von Colberg</p>
+            <p>
+               <lb/>Loewer</p>
+            <p>
+               <lb/>Lohse</p>
+            <p>
+               <lb/>Lommel</p>
+            <p>
+               <lb/>Lorenz</p>
+            <p>
+               <lb/>zur Loye</p>
+            <p>
+               <lb/>Luckner</p>
+            <p>
+               <lb/>Ludin</p>
+            <p>
+               <lb/>Ludwig</p>
+            <p>
+               <lb/>Lüdtke</p>
+            <p>
+               <lb/>Dr. Lüer</p>
+            <p>
+               <lb/>Lütt</p>
+            <p>
+               <lb/>Lukesch</p>
+            <p>
+               <lb/>Lutze</p>
+            <p>
+               <lb/>Luyken</p>
+            <p>
+               <lb/>Magunia
+            <lb/>Maier (Ulm)</p>
+            <p>
+               <lb/>Mälzer</p>
+            <p>
+               <lb/>Manderbach</p>
+            <p>
+               <lb/>Mann</p>
+            <p>
+               <lb/>Manthey</p>
+            <p>
+               <lb/>Marrenbach (Berlin)</p>
+            <p>
+               <lb/>Marrenbach (Köln)</p>
+            <p>
+               <lb/>Marschier</p>
+            <p>
+               <lb/>Martin</p>
+            <p>
+               <lb/>Martins</p>
+            <p>
+               <lb/>Marx</p>
+            <p>
+               <lb/>Matthiessen</p>
+            <p>
+               <lb/>Maurice</p>
+            <p>
+               <lb/>57</p>
+            <pb
+xml:id="img_0058"/>
+            <p>
+               <lb/>Mitgliederverzeichms</p>
+            <p>
+               <lb/>May</p>
+            <p>
+               <lb/>Mazuw</p>
+            <p>
+               <lb/>Dr. Megerle</p>
+            <p>
+               <lb/>Meinberg</p>
+            <p>
+               <lb/>Meister</p>
+            <p>
+               <lb/>Merk</p>
+            <p>
+               <lb/>Merz</p>
+            <p>
+               <lb/>vr. Metzner</p>
+            <p>
+               <lb/>Meyer (Hamburg)</p>
+            <p>
+               <lb/>vr. Meyer (Münster)</p>
+            <p>
+               <lb/>Meyer-Quade</p>
+            <p>
+               <lb/>Meyszner</p>
+            <p>
+               <lb/>Michaelis</p>
+            <p>
+               <lb/>Mikula</p>
+            <p>
+               <lb/>Minnameyer</p>
+            <p>
+               <lb/>Mitterbauer</p>
+            <p>
+               <lb/>Moder</p>
+            <p>
+               <lb/>Mohr</p>
+            <p>
+               <lb/>Moosbauer</p>
+            <p>
+               <lb/>Müller (Berlin)</p>
+            <p>
+               <lb/>Müller (Dresden)</p>
+            <p>
+               <lb/>Müller (Hagen)</p>
+            <p>
+               <lb/>vr. Müller (Kronach)</p>
+            <p>
+               <lb/>Müller (Magdeburg)</p>
+            <p>
+               <lb/>Müller (Trier)</p>
+            <p>
+               <lb/>Münchmeyer</p>
+            <p>
+               <lb/>Mündler</p>
+            <p>
+               <lb/>Münster</p>
+            <p>
+               <lb/>Murr</p>
+            <p>
+               <lb/>Mutschmann</p>
+            <p>
+               <lb/>Mutz</p>
+            <p>
+               <lb/>Naumann</p>
+            <p>
+               <lb/>Nebelung</p>
+            <p>
+               <lb/>Neef</p>
+            <p>
+               <lb/>vr. Neubert
+            <lb/>Neul</p>
+            <p>
+               <lb/>Nieder-Westermann</p>
+            <p>
+               <lb/>Niem</p>
+            <p>
+               <lb/>Nietfeld-Beckmann
+            <lb/>Nietmann
+            <lb/>Nipp old
+            <lb/>Nötzelmann</p>
+            <p>
+               <lb/>Oberhaidacher</p>
+            <p>
+               <lb/>Oberlindober</p>
+            <p>
+               <lb/>Oberlik</p>
+            <p>
+               <lb/>Oexle</p>
+            <p>
+               <lb/>Offermann</p>
+            <p>
+               <lb/>Ohling</p>
+            <p>
+               <lb/>Oldach</p>
+            <p>
+               <lb/>Opdenhoff</p>
+            <p>
+               <lb/>Oppermann (Hannover)
+            <lb/>Oppermann (Königsberg)</p>
+            <p>
+               <lb/>Ortlepp</p>
+            <p>
+               <lb/>Owe</p>
+            <p>
+               <lb/>Pahlings</p>
+            <p>
+               <lb/>Paltinat</p>
+            <p>
+               <lb/>von Papen</p>
+            <p>
+               <lb/>Papenbroock</p>
+            <p>
+               <lb/>Paschold</p>
+            <p>
+               <lb/>Peitsch</p>
+            <p>
+               <lb/>Penner</p>
+            <p>
+               <lb/>Penzhorn</p>
+            <p>
+               <lb/>Peper</p>
+            <p>
+               <lb/>Peppmüller</p>
+            <p>
+               <lb/>vr. Peschke</p>
+            <p>
+               <lb/>Peschka</p>
+            <p>
+               <lb/>Peterseil</p>
+            <p>
+               <lb/>Petersen</p>
+            <p>
+               <lb/>Petzold</p>
+            <p>
+               <lb/>Peuckert</p>
+            <p>
+               <lb/>vr. Pfaff</p>
+            <p>
+               <lb/>von Pfeffer</p>
+            <p>
+               <lb/>Pflaumer</p>
+            <p>
+               <lb/>Pflomm</p>
+            <p>
+               <lb/>vr. Psrimer</p>
+            <p>
+               <lb/>Pfrogner</p>
+            <p>
+               <lb/>Pillmayer</p>
+            <p>
+               <lb/>Pirker</p>
+            <p>
+               <lb/>Plankensteiner</p>
+            <p>
+               <lb/>Plattner</p>
+            <p>
+               <lb/>Plorin</p>
+            <p>
+               <lb/>Pösl</p>
+            <p>
+               <lb/>Ponndorf
+            <lb/>Popp (Frankfurt)</p>
+            <p>
+               <lb/>Popp ^Stettin)</p>
+            <p>
+               <lb/>vr. Portschy</p>
+            <p>
+               <lb/>Poxleitner</p>
+            <p>
+               <lb/>vr. Preibsch</p>
+            <p>
+               <lb/>Preist</p>
+            <p>
+               <lb/>Preißler</p>
+            <p>
+               <lb/>Preuß</p>
+            <p>
+               <lb/>Prinz von Preußen
+            <lb/>Proksch
+            <lb/>Prützmann
+            <lb/>Puth</p>
+            <p>
+               <lb/>Quad flieg</p>
+            <p>
+               <lb/>Graf von Ouadt zu Wykradt u.
+            <lb/>Jsny</p>
+            <p>
+               <lb/>58</p>
+            <pb
+xml:id="img_0059"/>
+            <p>
+               <lb/>Mitglie-erverzeichnis</p>
+            <p>
+               <lb/>Rabe
+            <lb/>Raber
+            <lb/>Dr. Raecke</p>
+            <p>
+               <lb/>Dr. Rainer (Salzburg)</p>
+            <p>
+               <lb/>Rakobrandt</p>
+            <p>
+               <lb/>Rappell</p>
+            <p>
+               <lb/>Raschka</p>
+            <p>
+               <lb/>Rau</p>
+            <p>
+               <lb/>Rauter</p>
+            <p>
+               <lb/>Reckewerlh</p>
+            <p>
+               <lb/>Reckmann</p>
+            <p>
+               <lb/>Recknagel</p>
+            <p>
+               <lb/>Redieß</p>
+            <p>
+               <lb/>Freiherr von Reibnitz
+            <lb/>Reichelt</p>
+            <p>
+               <lb/>Reiner (Darmstadt)</p>
+            <p>
+               <lb/>Reinhard (Spandau)</p>
+            <p>
+               <lb/>Reinhardt (Berlin)</p>
+            <p>
+               <lb/>Reinhardt (Kittelsthal)</p>
+            <p>
+               <lb/>Reinhart (Würzburg)</p>
+            <p>
+               <lb/>Reinke</p>
+            <p>
+               <lb/>Reinthaller</p>
+            <p>
+               <lb/>Reiter</p>
+            <p>
+               <lb/>Rembe</p>
+            <p>
+               <lb/>Dr. von Renteln</p>
+            <p>
+               <lb/>Rentmeister</p>
+            <p>
+               <lb/>Reschny</p>
+            <p>
+               <lb/>Graf zu Reventlow
+            <lb/>von Rheden
+            <lb/>von Ribbentrop
+            <lb/>Richter (Frankfurt)
+            <lb/>Richter (Reichenberg)
+            <lb/>Richter (Wien)</p>
+            <p>
+               <lb/>Riecke</p>
+            <p>
+               <lb/>Riemenschneider</p>
+            <p>
+               <lb/>Riggauer</p>
+            <p>
+               <lb/>Ringshausen</p>
+            <p>
+               <lb/>Ritter</p>
+            <p>
+               <lb/>Rodenbücher</p>
+            <p>
+               <lb/>Röhn</p>
+            <p>
+               <lb/>Rührig</p>
+            <p>
+               <lb/>Rösener</p>
+            <p>
+               <lb/>Rover</p>
+            <p>
+               <lb/>Dr. Rosche</p>
+            <p>
+               <lb/>Rosenberg</p>
+            <p>
+               <lb/>Roth (Baden)</p>
+            <p>
+               <lb/>Roth (Liedolsheim)</p>
+            <p>
+               <lb/>Dr. Roth (Mannheim)
+            <lb/>Ruberg</p>
+            <p>
+               <lb/>Ruckdeschel (Bayreuth)
+            <lb/>Ruckdeschel (Potsdam)</p>
+            <p>
+               <lb/>Rühle</p>
+            <p>
+               <lb/>Dr. Ruppin
+            <lb/>Rust</p>
+            <p>
+               <lb/>Dr. von Sammern-Frankenegg
+            <lb/>Sandner (Asch)</p>
+            <p>
+               <lb/>Sandner (Eger)</p>
+            <p>
+               <lb/>Sauckel</p>
+            <p>
+               <lb/>Sauer</p>
+            <p>
+               <lb/>Saupert</p>
+            <p>
+               <lb/>Schaaf</p>
+            <p>
+               <lb/>Schach</p>
+            <p>
+               <lb/>Schädler</p>
+            <p>
+               <lb/>Schäfer-Hansen</p>
+            <p>
+               <lb/>Schalter</p>
+            <p>
+               <lb/>Schaper</p>
+            <p>
+               <lb/>Scharizer</p>
+            <p>
+               <lb/>Schattenfroh</p>
+            <p>
+               <lb/>Schatz</p>
+            <p>
+               <lb/>Schaub</p>
+            <p>
+               <lb/>Dr. Scheel</p>
+            <p>
+               <lb/>Scheibner</p>
+            <p>
+               <lb/>Schepmann</p>
+            <p>
+               <lb/>Scheriau</p>
+            <p>
+               <lb/>Schickedanz (Berlin)</p>
+            <p>
+               <lb/>Dr. Schicketanz (Reichenberg)</p>
+            <p>
+               <lb/>Schiffmann</p>
+            <p>
+               <lb/>von Schirach</p>
+            <p>
+               <lb/>Schirmer</p>
+            <p>
+               <lb/>Schleich</p>
+            <p>
+               <lb/>Schlemmer</p>
+            <p>
+               <lb/>Schleßmann</p>
+            <p>
+               <lb/>Dr. Schlumprecht</p>
+            <p>
+               <lb/>Schmalz</p>
+            <p>
+               <lb/>Schmauser</p>
+            <p>
+               <lb/>Schmeer</p>
+            <p>
+               <lb/>Schmelcher</p>
+            <p>
+               <lb/>Schmelt</p>
+            <p>
+               <lb/>Schmid (Karlsruhe)
+            <lb/>Schmidhofer
+            <lb/>Schmidt-Bodenstedt
+            <lb/>Schmidt (Bottrop)</p>
+            <p>
+               <lb/>Schmidt (Kassel)</p>
+            <p>
+               <lb/>Dr. Schmidt (Köln)</p>
+            <p>
+               <lb/>Schmidt (Münster)</p>
+            <p>
+               <lb/>Schmidt (Nauheim)</p>
+            <p>
+               <lb/>Schmidt (Stuttgart)</p>
+            <p>
+               <lb/>Schmitt (Staudernheim)
+            <lb/>Schmitt (Trier)</p>
+            <p>
+               <lb/>Dr. Schmitz*</p>
+            <p>
+               <lb/>Schmückte</p>
+            <p>
+               <lb/>59</p>
+            <pb
+xml:id="img_0060"/>
+            <p>
+               <lb/>Mitgliederverzeichnis</p>
+            <p>
+               <lb/>Dr. Schnee
+            <lb/>Schneider (Eckersdorf)
+            <lb/>Schneider (München)
+            <lb/>Schoene
+            <lb/>Schönwälder
+            <lb/>Scholze
+            <lb/>Schormann
+            <lb/>Schräder</p>
+            <p>
+               <lb/>Schramm (Breslau)
+            <lb/>Schramm (Halstenbek)
+            <lb/>Schramme
+            <lb/>Schröder (Lübeck)
+            <lb/>Schroeder (Hamburg)
+            <lb/>Schroer</p>
+            <p>
+               <lb/>Schubert (Glatz)</p>
+            <p>
+               <lb/>Schubert (Saarlautern)</p>
+            <p>
+               <lb/>Schuberth (Franken)</p>
+            <p>
+               <lb/>Schüle</p>
+            <p>
+               <lb/>'Schüler</p>
+            <p>
+               <lb/>Schürmann</p>
+            <p>
+               <lb/>Schug</p>
+            <p>
+               <lb/>Schuhmann (Berlin)</p>
+            <p>
+               <lb/>Graf von der Schulenburg
+            <lb/>Schultz (Essen)</p>
+            <p>
+               <lb/>Schultz (Spandau)</p>
+            <p>
+               <lb/>Dr. Schultze (München)</p>
+            <p>
+               <lb/>Dr. Schultze-Naumburg
+            <lb/>Schulz (Pommern)</p>
+            <p>
+               <lb/>Schulz (Stuttgart)
+            <lb/>Schumann (Elberfeld)
+            <lb/>Schuppel
+            <lb/>Schwarz (Berlin)</p>
+            <p>
+               <lb/>Schwarz (Düsseldorf)</p>
+            <p>
+               <lb/>Schwarz (Memmingen)</p>
+            <p>
+               <lb/>Schwarz (München)</p>
+            <p>
+               <lb/>Schwede-Coburg</p>
+            <p>
+               <lb/>Schweter</p>
+            <p>
+               <lb/>Schwinn</p>
+            <p>
+               <lb/>Schwitzgebel</p>
+            <p>
+               <lb/>Seemann</p>
+            <p>
+               <lb/>Seibold</p>
+            <p>
+               <lb/>Seidel (Hessen)</p>
+            <p>
+               <lb/>Seidler</p>
+            <p>
+               <lb/>Seifert</p>
+            <p>
+               <lb/>Seipel</p>
+            <p>
+               <lb/>Seldte</p>
+            <p>
+               <lb/>Selzner</p>
+            <p>
+               <lb/>Seydel (Köln)</p>
+            <p>
+               <lb/>Dr. Seyß-Jnquart</p>
+            <p>
+               <lb/>Sieber</p>
+            <p>
+               <lb/>Siebert</p>
+            <p>
+               <lb/>60</p>
+            <p>
+               <lb/>Sieh</p>
+            <p>
+               <lb/>Siekmeier
+            <lb/>Simon (Koblenz)</p>
+            <p>
+               <lb/>Simon (Merseburg)</p>
+            <p>
+               <lb/>Simon (München)</p>
+            <p>
+               <lb/>Simon (Stettin)</p>
+            <p>
+               <lb/>Skoda</p>
+            <p>
+               <lb/>Soest</p>
+            <p>
+               <lb/>Solbrig</p>
+            <p>
+               <lb/>Späing</p>
+            <p>
+               <lb/>Dr. Spahn</p>
+            <p>
+               <lb/>Spangemacher</p>
+            <p>
+               <lb/>Spangenberg</p>
+            <p>
+               <lb/>Sperber</p>
+            <p>
+               <lb/>Spickschen</p>
+            <p>
+               <lb/>Sporrenberg</p>
+            <p>
+               <lb/>Sprenger</p>
+            <p>
+               <lb/>Dr.-Jng. Springorum</p>
+            <p>
+               <lb/>Dr. Ritter von Srbik</p>
+            <p>
+               <lb/>Stadler</p>
+            <p>
+               <lb/>Dr. Ständer</p>
+            <p>
+               <lb/>Dr. Stang</p>
+            <p>
+               <lb/>Stangier</p>
+            <p>
+               <lb/>Dr. Freiherr von Stauffenberg*
+            <lb/>Dr. Dr. von Stauß*</p>
+            <p>
+               <lb/>Stegemann</p>
+            <p>
+               <lb/>Stehle</p>
+            <p>
+               <lb/>Stein</p>
+            <p>
+               <lb/>Steinecke</p>
+            <p>
+               <lb/>Dr.-Jng. Stellrecht</p>
+            <p>
+               <lb/>Stiebitz</p>
+            <p>
+               <lb/>Stiehr</p>
+            <p>
+               <lb/>Stöhr</p>
+            <p>
+               <lb/>Stollberg</p>
+            <p>
+               <lb/>Strang</p>
+            <p>
+               <lb/>Straßmayr</p>
+            <p>
+               <lb/>Straßweg</p>
+            <p>
+               <lb/>Straubinger</p>
+            <p>
+               <lb/>Streicher</p>
+            <p>
+               <lb/>Struve</p>
+            <p>
+               <lb/>Studentkowski</p>
+            <p>
+               <lb/>Stürtz</p>
+            <p>
+               <lb/>Sundermann
+            <lb/>von Sybel</p>
+            <p>
+               <lb/>Dr. Teipel
+            <lb/>Telschow
+            <lb/>Terboven
+            <lb/>Tesche</p>
+            <p>
+               <lb/>Theissenberger
+            <lb/>Thiele (Bremen)</p>
+            <pb
+xml:id="img_0061"/>
+            <p>
+               <lb/>Mitgliederverzeichnis</p>
+            <p>
+               <lb/>Thiele (Hessen)</p>
+            <p>
+               <lb/>Dr. Thyssen</p>
+            <p>
+               <lb/>Tiebel</p>
+            <p>
+               <lb/>Tittmann</p>
+            <p>
+               <lb/>Traeg</p>
+            <p>
+               <lb/>Triebet</p>
+            <p>
+               <lb/>Trippler</p>
+            <p>
+               <lb/>Trübenbach</p>
+            <p>
+               <lb/>von Tschammer und Osten
+            <lb/>Türk</p>
+            <p>
+               <lb/>Nber</p>
+            <p>
+               <lb/>Uebelhoer</p>
+            <p>
+               <lb/>Dr. Uiberreither</p>
+            <p>
+               <lb/>Ullmer</p>
+            <p>
+               <lb/>von Ulrich</p>
+            <p>
+               <lb/>Ummen</p>
+            <p>
+               <lb/>Unger (Essen)</p>
+            <p>
+               <lb/>Unger (Schwerin)</p>
+            <p>
+               <lb/>Unterstab</p>
+            <p>
+               <lb/>Urban</p>
+            <p>
+               <lb/>Urstöger</p>
+            <p>
+               <lb/>Dr. Usadel</p>
+            <p>
+               <lb/>Utz</p>
+            <p>
+               <lb/>Better (Hagen)</p>
+            <p>
+               <lb/>Vetter (Wanfried)</p>
+            <p>
+               <lb/>Vielstich</p>
+            <p>
+               <lb/>Dr. Viererbl</p>
+            <p>
+               <lb/>Dr.-Jng. Bögler *</p>
+            <p>
+               <lb/>Vogel</p>
+            <p>
+               <lb/>Vogelfang</p>
+            <p>
+               <lb/>Vogt</p>
+            <p>
+               <lb/>Volm</p>
+            <p>
+               <lb/>Voß</p>
+            <p>
+               <lb/>Dr. Wacker</p>
+            <p>
+               <lb/>Wächter</p>
+            <p>
+               <lb/>Wächtler</p>
+            <p>
+               <lb/>Wagener (Hannover)</p>
+            <p>
+               <lb/>Wagner (Baden)</p>
+            <p>
+               <lb/>Wagner (Bayern)</p>
+            <p>
+               <lb/>Wagner (Bochum)
+            <lb/>vr. Wagner (Darmstadt)</p>
+            <p>
+               <lb/>Dr. Wagner (München)</p>
+            <p>
+               <lb/>Wahl</p>
+            <p>
+               <lb/>Erbprinz zu Waldeck und Pyrmont
+            <lb/>Walter (Dresden)</p>
+            <p>
+               <lb/>Walter (Düsseldorf)</p>
+            <p>
+               <lb/>Freiherr von Wangenheim</p>
+            <p>
+               <lb/>Weber (München)</p>
+            <p>
+               <lb/>Weber (Neunkirchen)</p>
+            <p>
+               <lb/>Wedderwille</p>
+            <p>
+               <lb/>Wege</p>
+            <p>
+               <lb/>Wegener</p>
+            <p>
+               <lb/>Wehmeier</p>
+            <p>
+               <lb/>Wehner</p>
+            <p>
+               <lb/>Weinreich</p>
+            <p>
+               <lb/>Weinrich</p>
+            <p>
+               <lb/>Weis (Großenhain)</p>
+            <p>
+               <lb/>Weisflog</p>
+            <p>
+               <lb/>Weiß (Berlin)</p>
+            <p>
+               <lb/>Weiß (München)
+            <lb/>Weitzel
+            <lb/>Weiter
+            <lb/>Wendt</p>
+            <p>
+               <lb/>Wenzel (Reichenberg)</p>
+            <p>
+               <lb/>Wenzl (München)</p>
+            <p>
+               <lb/>Werkowitsch</p>
+            <p>
+               <lb/>Werner</p>
+            <p>
+               <lb/>Wettengel</p>
+            <p>
+               <lb/>Wetzet</p>
+            <p>
+               <lb/>Wiebel</p>
+            <p>
+               <lb/>Wiedemann</p>
+            <p>
+               <lb/>Wiese</p>
+            <p>
+               <lb/>Wigand</p>
+            <p>
+               <lb/>Wilkens</p>
+            <p>
+               <lb/>Willikens</p>
+            <p>
+               <lb/>vr. Winkelnkemper</p>
+            <p>
+               <lb/>Winter</p>
+            <p>
+               <lb/>Wintersteiger</p>
+            <p>
+               <lb/>Wipper</p>
+            <p>
+               <lb/>Wockatz</p>
+            <p>
+               <lb/>Wohlleben</p>
+            <p>
+               <lb/>Wolfs</p>
+            <p>
+               <lb/>Wolkersdörfer</p>
+            <p>
+               <lb/>Wollenberg</p>
+            <p>
+               <lb/>Wollner</p>
+            <p>
+               <lb/>Woweries</p>
+            <p>
+               <lb/>von Woyrsch</p>
+            <p>
+               <lb/>Wülfing</p>
+            <p>
+               <lb/>Wünning</p>
+            <p>
+               <lb/>Wurzbacher</p>
+            <p>
+               <lb/>Wysocki</p>
+            <p>
+               <lb/>Zahneisen</p>
+            <p>
+               <lb/>Zenner</p>
+            <p>
+               <lb/>Ziegler</p>
+            <p>
+               <lb/>Zschake-Papsdorf</p>
+            <p>
+               <lb/>6 Der Großdeutsche Reichstag (Nachtrag)</p>
+            <p>
+               <lb/>61</p>
+            <pb
+xml:id="img_0062"/>
+            <p/>
+            <p/>
+            <p>
+               <lb/>^Lb^Tjbbsji^^</p>
+            <p/>
+            <p>
+               <lb/>l^I^MM&gt;57^575^7Sj;?7j;?kj;/^;Mkg7^^I</p>
+            <p>
+               <lb/>^27^26b25^N^^E^527E2öEdE8^577^576?575l57^</p>
+            <p/>
+            <p>
+               <lb/>!^oD^7</p>
+            <p>
+               <lb/>-—-&gt;—^/^D/4.7 ^</p>
+            <p>
+               <lb/>—, ^1^1 j ^11^ i ",1^</p>
+            <p>
+               <lb/>IrTödMmMWwM</p>
+            <p>
+               <lb/>"I1-^11--</p>
+            <p>
+               <lb/>7—^1s"^l" &gt;1&gt; , ^^</p>
+            <p>
+               <lb/>s^^7&gt;1S8llS,!,S°&gt;,S1^;isi^^^^</p>
+            <p>
+               <lb/>7NvibIl ^1^ m?0M</p>
+            <p>
+               <lb/>UVA-, !bö!66^87E8lZd!SO/^/T^</p>
+            <p/>
+            <pb
+xml:id="img_0063"/>
+         </div>
+      </body>
+   </text>
+</TEI>
