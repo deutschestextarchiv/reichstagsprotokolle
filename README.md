@@ -25,3 +25,6 @@
   ## URL
   - Deutsches Textarchiv: https://deutschestextarchiv.de/reichstag/
   - Bayerischen Staatsbibliothek: https://www.reichstagsprotokolle.de/projekt.html
+ 
+  ## Suche
+  - https://kaskade.dwds.de/dstar/reichstag/
