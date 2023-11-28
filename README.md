@@ -1,4 +1,4 @@
-# reichstagsprotokolle
+# Reichstagsprotokolle
 
 Das Reichstagsprotokoll-Korpus umfasst die publizierten Protokolle,
   Stenographischen Berichte, Anlagen sowie Handbücher des Deutschen
