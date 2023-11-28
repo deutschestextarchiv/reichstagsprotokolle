@@ -11,3 +11,5 @@ Das Reichstagsprotokoll-Korpus umfasst die publizierten Protokolle,
   DTA-Basisformat wurde vom Arbeitsbereich „Historische Korpora“ des
   Zentrums für digitale Lexikographie der deutschen Sprache (ZDL)
   vorgenommen. Ein Korrektur von OCR-Fehlern wurde nicht durchgeführt.
+
+  Deutschestextarchiv: https://deutschestextarchiv.de/reichstag/
