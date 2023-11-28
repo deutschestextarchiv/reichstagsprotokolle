@@ -13,5 +13,5 @@ Das Reichstagsprotokoll-Korpus umfasst die publizierten Protokolle,
   vorgenommen. Ein Korrektur von OCR-Fehlern wurde nicht durchgeführt.
 
   ## URL
-  Deutsches Textarchiv: https://deutschestextarchiv.de/reichstag/
-  Bayerischen Staatsbibliothek: https://www.reichstagsprotokolle.de/projekt.html
+  - Deutsches Textarchiv: https://deutschestextarchiv.de/reichstag/
+  - Bayerischen Staatsbibliothek: https://www.reichstagsprotokolle.de/projekt.html
