@@ -1,6 +1,6 @@
 # Reichstagsprotokolle
 
-Das Reichstagsprotokoll-Korpus umfasst die publizierten Protokolle,
+- Das Reichstagsprotokoll-Korpus umfasst die publizierten Protokolle,
   Stenographischen Berichte, Anlagen sowie Handbücher des Deutschen
   Reichstages und seiner Vorläufer von 1867–1942. 
 
@@ -10,7 +10,17 @@ Das Reichstagsprotokoll-Korpus umfasst die publizierten Protokolle,
   durchgeführt. Die Kuration, Konvertierung sowie Bereitstellung im
   DTA-Basisformat wurde vom Arbeitsbereich „Historische Korpora“ des
   Zentrums für digitale Lexikographie der deutschen Sprache (ZDL)
-  vorgenommen. Ein Korrektur von OCR-Fehlern wurde nicht durchgeführt.
+  vorgenommen. Ein Korrektur von OCR-Fehlern wurde nicht vorgenommen.
+
+
+- The Reichstag-Protokoll corpus includes the published minutes,
+  stenographic reports, annexes and manuals of the German Reichstag and its
+  Reichstag and its predecessors from 1867-1942. 
+
+  The image digitization and OCR was carried out by the Bavarian State Library as part of a DFG project from 1997 to 2009.
+  The curation, conversion and provision in the DTA basic format was carried out by the "Historical Corpora" department of the
+  Center for Digital Lexicography of the German Language (ZDL). OCR errors were not corrected.
+  
 
   ## URL
   - Deutsches Textarchiv: https://deutschestextarchiv.de/reichstag/
