@@ -21,10 +21,13 @@
   The curation, conversion and provision in the DTA basic format was carried out by the "Historical Corpora" department of the
   Center for Digital Lexicography of the German Language (ZDL). OCR errors were not corrected.
   
+  ## DOI
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10214326.svg)](https://doi.org/10.5281/zenodo.10214326)
 
   ## URL
   - Deutsches Textarchiv: https://deutschestextarchiv.de/reichstag/
   - Bayerischen Staatsbibliothek: https://www.reichstagsprotokolle.de/projekt.html
+  
  
   ## Suche
   - https://kaskade.dwds.de/dstar/reichstag/
