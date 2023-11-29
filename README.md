@@ -14,8 +14,7 @@
 
 
 - The Reichstag-Protokoll corpus includes the published minutes,
-  stenographic reports, annexes and manuals of the German Reichstag and its
-  Reichstag and its predecessors from 1867-1942. 
+  stenographic reports, annexes and manuals of the German Reichstag and its predecessors from 1867-1942. 
 
   The image digitization and OCR was carried out by the Bavarian State Library as part of a DFG project from 1997 to 2009.
   The curation, conversion and provision in the DTA basic format was carried out by the "Historical Corpora" department of the
