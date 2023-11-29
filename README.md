@@ -26,7 +26,10 @@
   ## URL
   - Deutsches Textarchiv: https://deutschestextarchiv.de/reichstag/
   - Bayerischen Staatsbibliothek: https://www.reichstagsprotokolle.de/projekt.html
+  - zenodo: https://zenodo.org/records/10214326
+
+  ## Lizenz
+  - CC BY-SA 4.0
   
- 
   ## Suche
   - https://kaskade.dwds.de/dstar/reichstag/
