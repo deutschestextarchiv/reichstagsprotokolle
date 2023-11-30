@@ -1,0 +1,38 @@
+{
+    "creators": [
+        {
+            "affiliation": "Berlin-Brandenburg Academy of Sciences and Humanities",
+            "name": "Boenig, Matthias",
+            "orcid": "0000-0003-4615-4753"
+        },
+        {
+            "affiliation": "Berlin-Brandenburg Academy of Sciences and Humanities",
+            "name": "Haaf, Susanne",
+            "orcid": "0000-0002-4809-219X"
+        },
+        {
+            "affiliation": "Berlin-Brandenburg Academy of Sciences and Humanities",
+            "name": "Nolda, Andreas",
+            "orcid": "0000-0003-4532-8256"
+        },
+        {
+            "affiliation": "Berlin-Brandenburg Academy of Sciences and Humanities",
+            "name": "Wiegand, Frank",
+            "orcid": "0000-0002-1096-3957"
+        }
+    ],
+    "title": "Reichstagsprotokoll-Korpus",
+    "description": "<p>The Reichstag-Protokoll corpus includes the published minutes, stenographic reports, annexes and manuals of the German Reichstag and its predecessors from 1867-1942.</p><p>The image digitization and OCR was carried out by the Bavarian State Library as part of a DFG project from 1997 to 2009. The curation, conversion and provision in the DTA basic format was carried out by the \"Historical Corpora\" department of the Center for Digital Lexicography of the German Language (ZDL). OCR errors were not corrected.",
+    "keywords": [
+        "DTA",
+        "ZDL",
+        "German Text Archive",
+        "Digital Curation"
+    ],
+    "license": {
+        "id": "cc-by-sa-4.0"
+    },
+    "upload_type": "dataset",
+    "access_right": "open"
+    
+}
