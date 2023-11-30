@@ -27,7 +27,9 @@
   ## URL
   - Deutsches Textarchiv: https://deutschestextarchiv.de/reichstag/
   - Bayerischen Staatsbibliothek: https://www.reichstagsprotokolle.de/projekt.html
-  - zenodo: https://zenodo.org/records/10214326
+  - zenodo:
+    - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10225467.svg)](https://doi.org/10.5281/zenodo.10225467)
+    - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10214326.svg)](https://doi.org/10.5281/zenodo.10214326)
 
   ## Lizenz
   - CC BY-SA 4.0
