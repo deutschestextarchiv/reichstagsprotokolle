@@ -21,7 +21,8 @@
   Center for Digital Lexicography of the German Language (ZDL). OCR errors were not corrected.
   
   ## DOI
-  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10214326.svg)](https://doi.org/10.5281/zenodo.10214326)
+  v1.0.2: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10225467.svg)](https://doi.org/10.5281/zenodo.10225467)
+  v1.0.1: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10214326.svg)](https://doi.org/10.5281/zenodo.10214326)
 
   ## URL
   - Deutsches Textarchiv: https://deutschestextarchiv.de/reichstag/
