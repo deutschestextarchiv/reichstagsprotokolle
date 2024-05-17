@@ -5,7 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Verhandlungen des Reichstages</title>
+            <title type="main">Verhandlungen des Reichstags</title>
+            <title type="sub">4. Wahlperiode 1939</title>
             <editor corresp="#DTACorpusPublisher">
                <persName ref="http://d-nb.info/gnd/1222198746">
                   <surname>Haaf</surname>
@@ -80,17 +81,18 @@
             
          </publicationStmt>
          <sourceDesc>
-            <bibl type="M">Verhandlungen des Reichstages. Berlin, 1939.</bibl>
+            <bibl type="M">Verhandlungen des Reichstags. Berlin, 1942.</bibl>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main">Verhandlungen des Reichstages</title>
+                  <title level="m" type="main">Verhandlungen des Reichstags</title>
+                  <title level="m" type="sub">4. Wahlperiode 1939</title>
                </titleStmt>
                <publicationStmt>
                   <publisher>
                      <name>Verl. d. Buchdr. d. Norddt. Allg. Zeitung</name>
                   </publisher>
                   <pubPlace>Berlin</pubPlace>
-                  <date type="publication">1939</date>
+                  <date type="publication">1942</date>
                   
                </publicationStmt>
             </biblFull>
@@ -161,11 +163,11 @@
             <p>
                <lb/>Reichstags</p>
             <p>
-               <lb/>4? Wahlperiode 1939</p>
+               <lb/>4. Wahlperiode 1939</p>
             <p>
-               <lb/>Band 46V</p>
+               <lb/>Band 460</p>
             <p>
-               <lb/>Stenographische Berichte 1939.-1942.
+               <lb/>Stenographische Berichte 1939.–1942.
             <lb/>Anlagen zu den Stenographischen Berichten</p>
             <p>
                <lb/>1.-8. Sitzung.</p>
